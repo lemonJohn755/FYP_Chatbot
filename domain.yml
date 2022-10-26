@@ -1,0 +1,78 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+- greet:
+    use_entities: true
+- deny:
+    use_entities: true
+- request_names:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- action_get_weather:
+    use_entities: true
+- city_weather:
+    use_entities: true
+
+entities:
+  - location
+slots: 
+  location:
+    type: text
+    initial_value: "香港"
+    mappings:
+      - type: from_entity
+        entity: location 
+        action: action_get_weather
+
+
+responses:
+  utter_greet:
+  - text: 嗨，你好吗?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: '这是某些使你嗨起来的东西:'
+  utter_did_that_help:
+  - text: 这对你有帮助吗?
+  utter_happy:
+  - text: 好极了，继续!
+  utter_goodbye:
+  - text: 再见
+  utter_iamabot:
+  - text: 我是个机器人，由Rasa框架提供支持.
+  utter_ask_first_name:
+  - text: 你贵姓?
+  utter_ask_last_name:
+  - text: 你的名字?
+  utter_ask_name_spelled_correctly:
+  - buttons:
+    - payload: /affirm
+      title: 是
+    - payload: /deny
+      title: 否
+    text:  姓  拼写对了吗?
+  utter_submit:
+  - text: 好的，谢谢！
+  utter_slots_values:
+  - text: 我记住你了!
+
+actions:
+  - utter_greet
+  - utter_slots_values
+  - utter_submit
+  - action_get_weather
+e2e_actions: []

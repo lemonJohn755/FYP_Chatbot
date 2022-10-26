@@ -1,0 +1,75 @@
+version: "2.0"
+nlu:
+
+- intent: greet
+  examples: |
+    - 你好
+    - 上午好
+    - 中午好
+    - 嗨
+
+- intent: goodbye
+  examples: |
+    - 再见
+    - 回头见
+    - 晚安
+
+- intent: affirm
+  examples: |
+    - 是的
+    - 有
+    - 当然
+    - 听上去不错
+
+- intent: deny
+  examples: |
+    - 不
+    - 不要
+    - 没有
+    - 没有
+    - 我不喜欢
+
+- intent: mood_great
+  examples: |
+    - 太好了
+    - 感觉不错
+    - 非常好
+    - 開心
+
+- intent: mood_unhappy
+  examples: |
+    - 不开心
+    - 感到沮丧
+    - 不高兴
+    - 不太好
+
+- intent: bot_challenge
+  examples: |
+    - 你是个机器人吗?
+    - 你是人类吗?
+    - 我是在和机器人讲话吗?
+    - 我是在和人类讲话吗?
+
+- intent: weather
+  examples: |
+    - 天氣如何
+    - 今天天氣如何
+    - 現在天氣是?
+    - 請問氣溫是?
+    - 我想知道天氣如何?
+
+- intent: city_weather
+  examples: |
+    - 告訴我[上海](location)天氣如何
+    - [紐約](location)天氣
+    - [香港](location)天氣
+    - [倫敦](location)今日天氣
+    - [新加坡](location)今日天氣
+  
+- intent: city_list
+  examples: |
+    - 香港(location)
+    - 上海(location)
+    - 新加坡(location)
+    - 倫敦(location)
+    - 紐約(location)
