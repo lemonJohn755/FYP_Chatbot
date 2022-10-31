@@ -1,0 +1,37 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "你好 請問如何幫助你?"
+
+  utter_cheer_up:
+  - text: "希望呢張圖片氹到你開心:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "咁樣幫唔幫到你?"
+
+  utter_happy:
+  - text: "好 加油!"
+
+  utter_goodbye:
+  - text: "再見 謝謝 :)"
+
+  utter_iamabot:
+  - text: "我係一個由 Rasa 驅動嘅聊天機械人"
+
+  utter_list_functions:
+  - text: "想要啲咩功能?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
