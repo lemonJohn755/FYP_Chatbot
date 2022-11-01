@@ -1,6 +1,11 @@
 version: "3.0"
 
 rules:
+- rule: say greeting to start to conversation
+  steps:
+  - intent: greet
+  - action: utter_list_functions
+
 
 - rule: Say goodbye anytime the user says goodbye
   steps:
