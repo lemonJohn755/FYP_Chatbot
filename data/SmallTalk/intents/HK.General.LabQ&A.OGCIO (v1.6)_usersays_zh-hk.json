@@ -1,0 +1,92 @@
+[
+  {
+    "id": "9a8a823c-7d9e-4bb8-92db-da1a7ef95e15",
+    "data": [
+      {
+        "text": "資訊科技總監",
+        "meta": "@General_OGCIO",
+        "alias": "general_ogcio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e2003480-2de1-469d-afea-c75d8d9944bb",
+    "data": [
+      {
+        "text": "科技總監辦公室",
+        "meta": "@General_OGCIO",
+        "alias": "general_ogcio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f2308a22-2234-4733-8a79-8020f086fa92",
+    "data": [
+      {
+        "text": "政府資訊科技總監辦公室",
+        "meta": "@General_OGCIO",
+        "alias": "general_ogcio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ec92cca4-8548-414c-b7fc-0a0a598ba30c",
+    "data": [
+      {
+        "text": "科技辦公室",
+        "meta": "@General_OGCIO",
+        "alias": "general_ogcio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b7654870-ec89-4dbd-bf23-940e0ecf1b0b",
+    "data": [
+      {
+        "text": "OGCIO",
+        "meta": "@General_OGCIO",
+        "alias": "general_ogcio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "135f16d9-e36a-40ec-87fb-a4e85417730b",
+    "data": [
+      {
+        "text": "Office of the Government Chief Information Officer",
+        "meta": "@General_OGCIO",
+        "alias": "general_ogcio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

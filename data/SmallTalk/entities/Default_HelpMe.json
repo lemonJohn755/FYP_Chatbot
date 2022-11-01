@@ -1,0 +1,9 @@
+{
+  "id": "d3c57e11-4a77-474d-b1ff-3faba42388e5",
+  "name": "Default_HelpMe",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

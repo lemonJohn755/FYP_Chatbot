@@ -1,0 +1,245 @@
+[
+  {
+    "id": "d31317c7-2796-43a5-a072-a4c7c345713c",
+    "data": [
+      {
+        "text": "你好",
+        "userDefined": false
+      },
+      {
+        "text": "蠢",
+        "meta": "@Emotion_Stupid",
+        "alias": "emotion_stupid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "45b2077b-6a73-42cb-8970-c629221b784e",
+    "data": [
+      {
+        "text": "無鬼用",
+        "meta": "@Emotion_Stupid",
+        "alias": "emotion_stupid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "de33a0ef-7813-4e68-84dc-534ad8ae800a",
+    "data": [
+      {
+        "text": "垃圾",
+        "meta": "@Emotion_Stupid",
+        "alias": "emotion_stupid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "265eedd3-df0f-420e-ae9a-e6baeaef3037",
+    "data": [
+      {
+        "text": "你好",
+        "userDefined": false
+      },
+      {
+        "text": "廢",
+        "meta": "@Emotion_Stupid",
+        "alias": "emotion_stupid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2c23680c-c5e5-4295-a0af-7ce9a5315682",
+    "data": [
+      {
+        "text": "你好傻",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4d922c8e-0707-46ed-a293-a3dcbc4464d3",
+    "data": [
+      {
+        "text": "你好",
+        "userDefined": false
+      },
+      {
+        "text": "憨居",
+        "meta": "@Emotion_Stupid",
+        "alias": "emotion_stupid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e581001e-9886-4860-9281-286614aa685e",
+    "data": [
+      {
+        "text": "你咁",
+        "userDefined": false
+      },
+      {
+        "text": "蠢",
+        "meta": "@Emotion_Stupid",
+        "alias": "emotion_stupid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2f5d3dd0-0446-43b1-896e-ce61ba4571eb",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "傻傻",
+        "meta": "@Emotion_Stupid",
+        "alias": "emotion_stupid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "73b298e6-f7ab-4c38-967e-b2b030216d15",
+    "data": [
+      {
+        "text": "蠢才",
+        "meta": "@Emotion_Stupid",
+        "alias": "emotion_stupid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2112f9c1-b32e-44a5-9b45-9668bec4d290",
+    "data": [
+      {
+        "text": "憨居",
+        "meta": "@Emotion_Stupid",
+        "alias": "emotion_stupid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7b8581ef-10e6-4a76-9b70-dd6de2dc4b8f",
+    "data": [
+      {
+        "text": "笨蛋",
+        "meta": "@Emotion_Stupid",
+        "alias": "emotion_stupid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "00c9ddf8-0539-4f37-b150-ed6efcc0ab18",
+    "data": [
+      {
+        "text": "蠢蛋",
+        "meta": "@Emotion_Stupid",
+        "alias": "emotion_stupid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f3099282-4eac-481f-8e26-56baef071f13",
+    "data": [
+      {
+        "text": "憨居仔",
+        "meta": "@Emotion_Stupid",
+        "alias": "emotion_stupid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "97e7c0e5-ceeb-4c91-913b-63d6e88c00cd",
+    "data": [
+      {
+        "text": "傻仔",
+        "meta": "@Emotion_Stupid",
+        "alias": "emotion_stupid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7da93eca-7bfa-4baa-9bb3-06a8490bcc00",
+    "data": [
+      {
+        "text": "粗口",
+        "meta": "@Banned_FoulLanguage",
+        "alias": "Banned_FoulLanguage",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

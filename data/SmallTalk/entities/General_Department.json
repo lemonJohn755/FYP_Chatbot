@@ -1,0 +1,9 @@
+{
+  "id": "12f108fd-2173-443a-88b3-a0d665af1ee3",
+  "name": "General_Department",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

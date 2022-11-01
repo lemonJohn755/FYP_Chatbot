@@ -1,0 +1,9 @@
+{
+  "id": "4f834c9e-dbc9-4db8-bd82-a0e760ef3b39",
+  "name": "General_Email",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

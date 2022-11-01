@@ -1,0 +1,9 @@
+{
+  "id": "3e783e58-3f19-470f-8e0d-ec132664153e",
+  "name": "General_Area",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

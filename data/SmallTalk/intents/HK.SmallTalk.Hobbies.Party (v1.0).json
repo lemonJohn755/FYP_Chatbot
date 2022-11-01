@@ -1,0 +1,84 @@
+{
+  "id": "95b4b055-6a5c-4f69-94c3-342035a6b0bb",
+  "name": "HK.SmallTalk.Hobbies.Party (v1.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c9cbc66f-9b6a-49c1-b848-3a19e26c6ad9",
+          "name": "General_letsparty",
+          "required": false,
+          "dataType": "@General_letsparty",
+          "value": "$General_letsparty",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "45e8e5a8-f684-4c1d-a2ea-bcd0c275c28e",
+          "name": "General_Party",
+          "required": false,
+          "dataType": "@General_Party",
+          "value": "$General_Party",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "小博唔講喱啲，不如傾過第二樣啦！"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "小博不说这些，不如谈过别的吧！"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I don\u0027t want to talk about this, it\u0027s better to talk about other things!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

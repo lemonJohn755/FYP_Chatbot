@@ -1,0 +1,9 @@
+{
+  "id": "b5530b4c-abfe-4c60-bdcf-e8c585729d8a",
+  "name": "General_MarineDept",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ad5b1066-c20f-4511-9de3-ade8189a9524",
+  "name": "SmartLAB_iAMSmart",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

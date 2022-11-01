@@ -1,0 +1,9 @@
+{
+  "id": "24856e94-a87a-4c1b-8927-5db93d54a693",
+  "name": "General_Tel",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

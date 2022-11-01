@@ -1,0 +1,9 @@
+{
+  "id": "0adf8ff6-6bfe-4ba7-a485-ef1c3b817aee",
+  "name": "General_OGCIO",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

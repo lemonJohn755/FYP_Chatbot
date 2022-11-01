@@ -1,0 +1,61 @@
+{
+  "id": "73eb44da-940b-4815-b5f8-8b4c0fd71f40",
+  "name": "HK.SmallTalk.Festival.CNewYear (v1.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Happy New Year! I wish you all the best!",
+            "Happy New Year! I wish you a great success!",
+            "Happy New Year! I wish your dreams come true!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "新春发财！万事如意！",
+            "新年快乐！祝你新一年事事如意！",
+            "祝你新年进步！心想事成！"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "新春大吉！ 萬事如意！",
+            "新年快樂！ 祝你新一年事事如意！",
+            "祝你新年進步！心想事成！"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

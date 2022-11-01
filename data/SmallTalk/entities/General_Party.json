@@ -1,0 +1,9 @@
+{
+  "id": "eb28426d-bc37-4b0a-adbd-a32746c9fbde",
+  "name": "General_Party",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

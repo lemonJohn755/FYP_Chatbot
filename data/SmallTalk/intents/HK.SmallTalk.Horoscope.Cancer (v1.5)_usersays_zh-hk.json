@@ -1,0 +1,74 @@
+[
+  {
+    "id": "5c5571fc-5479-44e1-a466-e1ec72b240c6",
+    "data": [
+      {
+        "text": "巨蟹座",
+        "meta": "@General_Cancer",
+        "alias": "General_Cancer",
+        "userDefined": true
+      },
+      {
+        "text": "生日",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "18e5826c-476e-465d-9382-87c7c27523ec",
+    "data": [
+      {
+        "text": "巨蟹",
+        "meta": "@General_Cancer",
+        "alias": "General_Cancer",
+        "userDefined": true
+      },
+      {
+        "text": "配咩星座",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "27733bb7-7952-4c8a-9a14-3a2c8e856db3",
+    "data": [
+      {
+        "text": "cancer",
+        "meta": "@General_Cancer",
+        "alias": "General_Cancer",
+        "userDefined": true
+      },
+      {
+        "text": " character",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "119248ae-1073-446f-9005-545d5c4598e3",
+    "data": [
+      {
+        "text": "巨蟹座",
+        "meta": "@General_Cancer",
+        "alias": "General_Cancer",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

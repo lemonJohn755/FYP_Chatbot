@@ -1,0 +1,70 @@
+{
+  "id": "34519a99-a512-406f-a4f3-89846a127445",
+  "name": "HK.Default.Greeting.SayHi (v2.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9e77a7d2-05e1-4672-a90e-36d2789cbd5b",
+          "name": "default_sayhi",
+          "required": false,
+          "dataType": "@Default_SayHi",
+          "value": "$default_sayhi",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "大家好, 歡迎大家黎到智慧政府創新實驗室。E\u003dblinkingsmileeyes"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome Ladies and Gentlemen, welcome to Smart Government Innovation Lab. E\u003dblinkingsmileeyes"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "大家好, 欢迎大家來到智慧政府创新实验室。E\u003dblinkingsmileeyes"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

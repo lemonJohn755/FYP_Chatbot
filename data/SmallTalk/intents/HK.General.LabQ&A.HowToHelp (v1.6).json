@@ -1,0 +1,126 @@
+{
+  "id": "c8dd4455-9eb6-4242-b11c-3ebba1ca404a",
+  "name": "HK.General.LabQ\u0026A.HowToHelp (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b6918f14-ff62-422c-9557-c7983c733be2",
+          "name": "general_department",
+          "required": false,
+          "dataType": "@General_Department",
+          "value": "$general_department",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7373b4bc-b924-48f6-a799-e6da6f607fa2",
+          "name": "smartlab_name",
+          "required": false,
+          "dataType": "@SmartLAB_Name",
+          "value": "$smartlab_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "80aa0fd5-9ec9-4c9e-a9b5-3e1a6e6b197b",
+          "name": "general_help",
+          "required": false,
+          "dataType": "@General_Help",
+          "value": "$general_help",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "51c291b9-0102-4296-975c-c5af17e6471a",
+          "name": "general_benefit",
+          "required": false,
+          "dataType": "@General_Benefit",
+          "value": "$general_benefit",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "fb8da079-0463-4167-bba4-e00291363716",
+          "name": "general_smes",
+          "required": false,
+          "dataType": "@General_SMEs",
+          "value": "$general_smes",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Start-ups or SMEs may not understand the needs of the department and may not have much experience in providing public services. The Innovation Lab can serve as a bridge between the two parties and helps the industry better understand the business needs of the department through matching solutions. E\u003dhappy"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "初创企业或中小企未必了解部门的需要，未必有咁多支援公共服务的经验，创新实验室可以作为双方的桥梁，透过配对解决方案，帮助业界更深入了解部门的业务需求。 E\u003dhappy"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "初創企業或中小企未必了解部門嘅需要，未必有咁多支援公共服務嘅經驗，創新實驗室可以作為雙方嘅橋樑，透過配對解決方案，幫助業界更深入了解部門嘅業務需求。 E\u003dhappy"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

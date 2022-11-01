@@ -1,0 +1,118 @@
+[
+  {
+    "id": "bb584075-1784-4eaa-8b13-3bb607f92d7b",
+    "data": [
+      {
+        "text": "有咩 ",
+        "userDefined": false
+      },
+      {
+        "text": "news",
+        "meta": "@General_News",
+        "alias": "General_News",
+        "userDefined": true
+      },
+      {
+        "text": " update 今日?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c15ddfaa-2bf0-4227-9abd-16d2e7d4faa0",
+    "data": [
+      {
+        "text": "交通",
+        "userDefined": false
+      },
+      {
+        "text": "新聞",
+        "meta": "@General_News",
+        "alias": "General_News",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8ec65164-a27b-4fa4-9d35-fa754057e941",
+    "data": [
+      {
+        "text": "頭條",
+        "userDefined": false
+      },
+      {
+        "text": "新聞",
+        "meta": "@General_News",
+        "alias": "General_News",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "63811f15-dfe0-459b-8ff8-faa3a02e9ec0",
+    "data": [
+      {
+        "text": "今日有咩",
+        "userDefined": false
+      },
+      {
+        "text": "新聞",
+        "meta": "@General_News",
+        "alias": "General_News",
+        "userDefined": true
+      },
+      {
+        "text": "？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5e48a947-14db-4823-98a0-5b77c49c78b6",
+    "data": [
+      {
+        "text": "話我知最新",
+        "userDefined": false
+      },
+      {
+        "text": "新聞",
+        "meta": "@General_News",
+        "alias": "General_News",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e739cafc-8fc9-45ea-9b07-cfb079cd02f5",
+    "data": [
+      {
+        "text": "今日有咩世界大事發生？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

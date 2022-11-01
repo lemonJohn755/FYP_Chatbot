@@ -1,0 +1,9 @@
+{
+  "id": "3dc3c27b-f4ca-4897-849c-f2f1a91b87aa",
+  "name": "Banned_FoulLangauge",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

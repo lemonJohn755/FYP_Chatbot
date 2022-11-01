@@ -1,0 +1,71 @@
+[
+  {
+    "id": "0fa8b9c2-6dd6-4d07-94bd-b1c428efd8f6",
+    "data": [
+      {
+        "text": "做嗮",
+        "userDefined": false
+      },
+      {
+        "text": "功課",
+        "meta": "@General_Homework",
+        "alias": "General_Homework",
+        "userDefined": true
+      },
+      {
+        "text": "未",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "fa448e0f-0b4b-4339-944e-ea51126b099c",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "讀書",
+        "meta": "@General_Homework",
+        "alias": "General_Homework",
+        "userDefined": true
+      },
+      {
+        "text": "讀成點？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4ac422be-8ddc-4249-8a18-b9a6cf81b726",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "考第幾",
+        "meta": "@General_Homework",
+        "alias": "General_Homework",
+        "userDefined": true
+      },
+      {
+        "text": "？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

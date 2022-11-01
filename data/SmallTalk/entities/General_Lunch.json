@@ -1,0 +1,9 @@
+{
+  "id": "d69e0953-dbc6-434a-b1f7-99ae34684992",
+  "name": "General_Lunch",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

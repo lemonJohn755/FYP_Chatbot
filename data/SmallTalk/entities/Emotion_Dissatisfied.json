@@ -1,0 +1,9 @@
+{
+  "id": "f12f0d35-0dad-4b05-b098-f8e9465d2283",
+  "name": "Emotion_Dissatisfied",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

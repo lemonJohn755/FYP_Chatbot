@@ -29,4 +29,7 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-
+# - story: list function
+#   steps:
+#   - intent: greet
+#   - action: 

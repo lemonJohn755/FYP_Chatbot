@@ -1,0 +1,93 @@
+[
+  {
+    "id": "b86396a1-1be5-4ce5-83ac-05eb8f3fdf5e",
+    "data": [
+      {
+        "text": "雙魚座",
+        "meta": "@General_Pisces",
+        "alias": "General_Pisces",
+        "userDefined": false
+      },
+      {
+        "text": "生日",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "009fd867-37d4-4145-a3d7-98b2773ce068",
+    "data": [
+      {
+        "text": "雙魚座",
+        "meta": "@General_Pisces",
+        "alias": "General_Pisces",
+        "userDefined": false
+      },
+      {
+        "text": "性格",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "1c4912f4-fddd-461a-a916-98bf2bf14fd2",
+    "data": [
+      {
+        "text": "雙魚座",
+        "meta": "@General_Pisces",
+        "alias": "General_Pisces",
+        "userDefined": true
+      },
+      {
+        "text": "係點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "aba19edb-acdb-4b16-a39c-ba918bdcd4d9",
+    "data": [
+      {
+        "text": "雙魚座",
+        "meta": "@General_Pisces",
+        "alias": "General_Pisces",
+        "userDefined": false
+      },
+      {
+        "text": "份人",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "414c8da9-6e33-49b0-8a36-56d2aa0b5c58",
+    "data": [
+      {
+        "text": "雙魚座",
+        "meta": "@General_Pisces",
+        "alias": "General_Pisces",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

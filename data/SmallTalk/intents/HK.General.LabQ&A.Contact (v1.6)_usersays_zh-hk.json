@@ -1,0 +1,254 @@
+[
+  {
+    "id": "715260bd-6e51-47ad-9d02-cd5db2dfbb3f",
+    "data": [
+      {
+        "text": "中小企",
+        "meta": "@General_SMEs",
+        "alias": "general_smes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "46c79daf-9cf1-4423-afd4-d2da9d4a73fb",
+    "data": [
+      {
+        "text": "搵",
+        "meta": "@General_Connect",
+        "alias": "general_connect",
+        "userDefined": true
+      },
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "efc58166-edd0-44b9-b452-bcd24efcca32",
+    "data": [
+      {
+        "text": "初創企業",
+        "meta": "@General_SMEs",
+        "alias": "general_smes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "75661070-0841-47fe-85ad-08a7dc646092",
+    "data": [
+      {
+        "text": "接觸",
+        "meta": "@General_Connect",
+        "alias": "general_connect",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ec3783ce-bf9d-4d7e-b72b-4b443cd1b148",
+    "data": [
+      {
+        "text": "聯絡",
+        "meta": "@General_Connect",
+        "alias": "general_connect",
+        "userDefined": false
+      },
+      {
+        "text": "本地",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9917351f-a488-463f-8e60-1e8b9caa9727",
+    "data": [
+      {
+        "text": "尋找",
+        "meta": "@General_Connect",
+        "alias": "general_connect",
+        "userDefined": false
+      },
+      {
+        "text": "創科",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "初創企業",
+        "meta": "@General_SMEs",
+        "alias": "general_smes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "740153ca-704a-4aa5-8a25-e5dc661c0fb9",
+    "data": [
+      {
+        "text": "接觸",
+        "meta": "@General_Connect",
+        "alias": "general_connect",
+        "userDefined": false
+      },
+      {
+        "text": "中小企",
+        "meta": "@General_SMEs",
+        "alias": "general_smes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b6c9ecf4-bb49-46a7-bca9-8cbb3f58ac20",
+    "data": [
+      {
+        "text": "聯絡",
+        "meta": "@General_Connect",
+        "alias": "general_connect",
+        "userDefined": false
+      },
+      {
+        "text": "本地",
+        "userDefined": false
+      },
+      {
+        "text": "創科",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "中小企",
+        "meta": "@General_SMEs",
+        "alias": "general_smes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "03e74b65-fccc-4299-a85c-5f60f48ed1a1",
+    "data": [
+      {
+        "text": "尋找",
+        "meta": "@General_Connect",
+        "alias": "general_connect",
+        "userDefined": false
+      },
+      {
+        "text": "本地",
+        "userDefined": false
+      },
+      {
+        "text": "中小企",
+        "meta": "@General_SMEs",
+        "alias": "general_smes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "248be19e-1b7c-4b94-8bd6-22d2d658f99c",
+    "data": [
+      {
+        "text": "接觸",
+        "meta": "@General_Connect",
+        "alias": "general_connect",
+        "userDefined": false
+      },
+      {
+        "text": "本地",
+        "userDefined": false
+      },
+      {
+        "text": "初創企業",
+        "meta": "@General_SMEs",
+        "alias": "general_smes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "cf0abced-88e9-4294-aeaf-9f78f96aaaef",
+    "data": [
+      {
+        "text": "聯繫",
+        "meta": "@General_Connect",
+        "alias": "general_connect",
+        "userDefined": false
+      },
+      {
+        "text": "本地",
+        "userDefined": false
+      },
+      {
+        "text": "創科",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "初創企業",
+        "meta": "@General_SMEs",
+        "alias": "general_smes",
+        "userDefined": false
+      },
+      {
+        "text": "及",
+        "userDefined": false
+      },
+      {
+        "text": "中小企",
+        "meta": "@General_SMEs",
+        "alias": "general_smes",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "id": "a363e913-8a99-4a0f-8bfc-8bd9d64ca598",
+  "name": "HK.Action.Emotion.Normal (v2.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "dcbebd04-9e32-48f8-808b-5c6c24615cfa",
+          "name": "emotion_normal",
+          "required": false,
+          "dataType": "@Emotion_Normal",
+          "value": "$emotion_normal",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a3e3cb79-dc77-47d7-b591-c4e38ce9e22e",
+          "name": "emotion_mood",
+          "required": false,
+          "dataType": "@Emotion_Mood",
+          "value": "$emotion_mood",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "There are many new showcases in Smart Lab, and many innovative technologies that are implemented. You may be very happy after visiting our lab! E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "创新实验室这里很多新展品，采用了很多创新科技。你参观完可能会很高兴！E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "Smart Lab 呢度好多新展品，運用左好多創新技術。你睇完可能會覺得好開心！E\u003dnormal"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

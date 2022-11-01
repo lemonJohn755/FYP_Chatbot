@@ -1,0 +1,9 @@
+{
+  "id": "8bd6bd49-f2e3-4a72-ac0a-01052fe2e1f5",
+  "name": "General_News",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

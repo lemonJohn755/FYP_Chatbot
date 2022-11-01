@@ -1,0 +1,9 @@
+{
+  "id": "e23ac59f-b6b5-488d-9c80-a3a652ccf942",
+  "name": "General_Cancer",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

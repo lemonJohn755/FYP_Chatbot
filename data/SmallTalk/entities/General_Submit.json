@@ -1,0 +1,9 @@
+{
+  "id": "404ad7da-6abe-4fef-a42d-8d0b140b24da",
+  "name": "General_Submit",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

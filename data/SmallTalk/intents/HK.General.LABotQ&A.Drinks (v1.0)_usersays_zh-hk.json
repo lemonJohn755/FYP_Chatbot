@@ -1,0 +1,41 @@
+[
+  {
+    "id": "2803fea6-11a6-4249-9b0f-76beed7a331f",
+    "data": [
+      {
+        "text": "你鍾意飲",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "cfa314f9-3f55-40b1-9453-f96f11f18583",
+    "data": [
+      {
+        "text": "我口渴",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "788eecb3-d1d0-4a81-a1ac-f7b0f15c098f",
+    "data": [
+      {
+        "text": "我頸渴",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

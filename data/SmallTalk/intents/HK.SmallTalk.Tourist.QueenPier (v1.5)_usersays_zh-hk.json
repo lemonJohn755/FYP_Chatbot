@@ -1,0 +1,93 @@
+[
+  {
+    "id": "7f342a55-50de-4937-ac0a-41bb15dc39b2",
+    "data": [
+      {
+        "text": "皇后碼頭",
+        "meta": "@General_QueenPier",
+        "alias": "General_QueenPier",
+        "userDefined": true
+      },
+      {
+        "text": "歷史",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8cb96877-61cf-405f-874b-d0cf201a3333",
+    "data": [
+      {
+        "text": "皇后碼頭",
+        "meta": "@General_QueenPier",
+        "alias": "General_QueenPier",
+        "userDefined": true
+      },
+      {
+        "text": "係度?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8e953c0f-c903-4a6b-b92a-6c4781506d8e",
+    "data": [
+      {
+        "text": "皇后碼頭",
+        "meta": "@General_QueenPier",
+        "alias": "General_QueenPier",
+        "userDefined": true
+      },
+      {
+        "text": "無左",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0b0f4d2e-3b7d-47f9-997a-b8b41010d030",
+    "data": [
+      {
+        "text": "皇后碼頭",
+        "meta": "@General_QueenPier",
+        "alias": "General_QueenPier",
+        "userDefined": true
+      },
+      {
+        "text": "清拆",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "d49133a3-0036-43f3-8f6a-e44ff4306c05",
+    "data": [
+      {
+        "text": "皇后碼頭",
+        "meta": "@General_QueenPier",
+        "alias": "General_QueenPier",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

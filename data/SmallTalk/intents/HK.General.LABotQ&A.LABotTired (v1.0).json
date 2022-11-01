@@ -1,0 +1,70 @@
+{
+  "id": "589909ff-f9f7-4f01-b62e-fb719a313ba7",
+  "name": "HK.General.LABotQ\u0026A.LABotTired (v1.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e7710828-8fe6-4510-b139-65f66aa67e2d",
+          "name": "General_LABotTired",
+          "required": false,
+          "dataType": "@General_LABotTired",
+          "value": "$General_LABotTired",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "LABot is a new-generation robot, I won\u0027t be tired, I am always energetic! Haha!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "小拼是新世代机械人，不会累，长期都很精神！哈哈！"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "小博係新世代機械人，唔識攰，長期都好精神！哈哈！"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

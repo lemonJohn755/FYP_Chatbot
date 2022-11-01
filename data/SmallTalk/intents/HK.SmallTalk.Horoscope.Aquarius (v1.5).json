@@ -1,0 +1,76 @@
+{
+  "id": "9f692cd7-41c9-446f-935b-69bf40956c15",
+  "name": "HK.SmallTalk.Horoscope.Aquarius (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5d5ddf38-3e08-42ee-a57e-aced0f24fcd6",
+          "name": "General_Aquarius",
+          "required": false,
+          "dataType": "@General_Aquarius",
+          "value": "$General_Aquarius",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The birth date of Aquarius is from January 20 to February 18.",
+            "Aquarius people are good at reorganizing their spiritual life, pioneers of new ideas, and relatively modest.",
+            "The lucky colors of Aquarius are bronze, blue, and yellow, and the lucky stones are purple crystals."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "水瓶座出生日期是从1月20日至2月18日。",
+            "水瓶座的人善於重新组织自己的精神生活，是新思想的开拓者，比较谦虚。",
+            "水瓶座的幸运色系古铜色、蓝色、黄色，幸运石头是紫色水晶。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "水瓶座出生日期係由1月20日至2月18日。",
+            "水瓶座嘅人善於重新組織自己嘅精神生活，係新思想嘅開拓者，比較謙虛。",
+            "水瓶座嘅幸運色係古銅色、藍色、黃色，幸運石係紫水晶。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

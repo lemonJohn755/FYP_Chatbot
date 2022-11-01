@@ -1,0 +1,9 @@
+{
+  "id": "ca11db0f-f86b-4875-a722-65fe29f615ed",
+  "name": "General_Facilities",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

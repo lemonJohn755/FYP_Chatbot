@@ -1,0 +1,511 @@
+[
+  {
+    "id": "12939691-e859-49dc-b6e5-3f95cd1842ce",
+    "data": [
+      {
+        "text": "部門",
+        "meta": "@General_Department",
+        "alias": "general_department",
+        "userDefined": false
+      },
+      {
+        "text": "需要",
+        "meta": "@General_Need",
+        "alias": "general_need",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "d3d5c22e-12e5-4aee-bc92-4a37f3edd2f9",
+    "data": [
+      {
+        "text": "部門",
+        "meta": "@General_Department",
+        "alias": "general_department",
+        "userDefined": false
+      },
+      {
+        "text": "要",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "48e2c072-ed37-439a-ad25-aef10545cdd9",
+    "data": [
+      {
+        "text": "部門",
+        "meta": "@General_Department",
+        "alias": "general_department",
+        "userDefined": false
+      },
+      {
+        "text": "需求",
+        "meta": "@General_Need",
+        "alias": "general_need",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "fc463881-6f65-4208-a94f-49e5a798b67c",
+    "data": [
+      {
+        "text": "搵",
+        "meta": "@General_Connect",
+        "alias": "general_connect",
+        "userDefined": false
+      },
+      {
+        "text": "建議方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "18b4e3b8-93d6-4084-9837-80114bc123a2",
+    "data": [
+      {
+        "text": "啱洗",
+        "userDefined": false
+      },
+      {
+        "text": "建議方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "875c201c-0ff0-478d-8bc1-b2a085958afe",
+    "data": [
+      {
+        "text": "合適",
+        "userDefined": false
+      },
+      {
+        "text": "建議方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "55c005a3-2dca-4e5c-8583-2017f54472e6",
+    "data": [
+      {
+        "text": "睇",
+        "userDefined": false
+      },
+      {
+        "text": "建議",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5a183356-0aae-4e4a-bde0-aca3c9b30565",
+    "data": [
+      {
+        "text": "企業",
+        "meta": "@General_SMEs",
+        "alias": "General_SMEs",
+        "userDefined": true
+      },
+      {
+        "text": "建議方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "cdb91ac1-25ab-47c4-b737-58a9d60ff36e",
+    "data": [
+      {
+        "text": "企業",
+        "meta": "@General_SMEs",
+        "alias": "General_SMEs",
+        "userDefined": true
+      },
+      {
+        "text": "建議",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c1619bb0-fac1-4bb3-a4b8-7f071089accd",
+    "data": [
+      {
+        "text": "部門",
+        "meta": "@General_Department",
+        "alias": "general_department",
+        "userDefined": false
+      },
+      {
+        "text": "交",
+        "meta": "@General_Submit",
+        "alias": "general_submit",
+        "userDefined": false
+      },
+      {
+        "text": "服務",
+        "userDefined": false
+      },
+      {
+        "text": "需求",
+        "meta": "@General_Need",
+        "alias": "general_need",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5614f975-8a53-48d7-95ce-3c2b7fefc9b1",
+    "data": [
+      {
+        "text": "部門",
+        "meta": "@General_Department",
+        "alias": "general_department",
+        "userDefined": false
+      },
+      {
+        "text": "提交",
+        "meta": "@General_Submit",
+        "alias": "general_submit",
+        "userDefined": false
+      },
+      {
+        "text": "服務",
+        "userDefined": false
+      },
+      {
+        "text": "需求",
+        "meta": "@General_Need",
+        "alias": "general_need",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "82a07fdb-314b-4b92-bf0b-ec2a5abd8ce3",
+    "data": [
+      {
+        "text": "所有",
+        "userDefined": false
+      },
+      {
+        "text": "部門",
+        "meta": "@General_Department",
+        "alias": "general_department",
+        "userDefined": false
+      },
+      {
+        "text": "提交",
+        "meta": "@General_Submit",
+        "alias": "general_submit",
+        "userDefined": false
+      },
+      {
+        "text": "服務",
+        "userDefined": false
+      },
+      {
+        "text": "需求",
+        "meta": "@General_Need",
+        "alias": "general_need",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "aae3f3ec-05fa-4ad0-8c6d-c26f405c9093",
+    "data": [
+      {
+        "text": "任何",
+        "userDefined": false
+      },
+      {
+        "text": "部門",
+        "meta": "@General_Department",
+        "alias": "general_department",
+        "userDefined": false
+      },
+      {
+        "text": "交",
+        "meta": "@General_Submit",
+        "alias": "general_submit",
+        "userDefined": false
+      },
+      {
+        "text": "服務",
+        "userDefined": false
+      },
+      {
+        "text": "需求",
+        "meta": "@General_Need",
+        "alias": "general_need",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "d1ca7874-1abf-4ea0-a6a5-d21de98780a9",
+    "data": [
+      {
+        "text": "所有",
+        "userDefined": false
+      },
+      {
+        "text": "部門",
+        "meta": "@General_Department",
+        "alias": "general_department",
+        "userDefined": false
+      },
+      {
+        "text": "提交",
+        "meta": "@General_Submit",
+        "alias": "general_submit",
+        "userDefined": false
+      },
+      {
+        "text": "service ",
+        "userDefined": false
+      },
+      {
+        "text": "need",
+        "meta": "@General_Need",
+        "alias": "general_need",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "58ac057e-b22f-4b68-8225-ba000e0df6fc",
+    "data": [
+      {
+        "text": "任何",
+        "userDefined": false
+      },
+      {
+        "text": "部門",
+        "meta": "@General_Department",
+        "alias": "general_department",
+        "userDefined": false
+      },
+      {
+        "text": "交",
+        "meta": "@General_Submit",
+        "alias": "general_submit",
+        "userDefined": false
+      },
+      {
+        "text": "service ",
+        "userDefined": false
+      },
+      {
+        "text": "need",
+        "meta": "@General_Need",
+        "alias": "general_need",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "527bedd7-daa4-4e3d-9f77-3e643ad7c245",
+    "data": [
+      {
+        "text": "交",
+        "meta": "@General_Submit",
+        "alias": "general_submit",
+        "userDefined": false
+      },
+      {
+        "text": "solution",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "782b5a4e-2796-4ff2-b369-1e2d6abf9ebf",
+    "data": [
+      {
+        "text": "提交",
+        "meta": "@General_Submit",
+        "alias": "general_submit",
+        "userDefined": false
+      },
+      {
+        "text": "solution",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ec1e5f9b-2c92-4b11-b526-138b988f38ad",
+    "data": [
+      {
+        "text": "交",
+        "meta": "@General_Submit",
+        "alias": "general_submit",
+        "userDefined": false
+      },
+      {
+        "text": "建議方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a8239b15-1e26-42b6-b5c4-72cadae2ae0a",
+    "data": [
+      {
+        "text": "提交",
+        "meta": "@General_Submit",
+        "alias": "general_submit",
+        "userDefined": false
+      },
+      {
+        "text": "建議方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "03590282-a859-4edf-b134-a4d3dd182e6e",
+    "data": [
+      {
+        "text": "提供",
+        "meta": "@General_Submit",
+        "alias": "general_submit",
+        "userDefined": false
+      },
+      {
+        "text": "方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "192fbd4f-3c4d-4e1f-860b-5f990a737488",
+    "data": [
+      {
+        "text": "提供",
+        "meta": "@General_Submit",
+        "alias": "general_submit",
+        "userDefined": false
+      },
+      {
+        "text": "政府",
+        "meta": "@General_Department",
+        "alias": "general_department",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

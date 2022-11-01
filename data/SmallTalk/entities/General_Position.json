@@ -1,0 +1,9 @@
+{
+  "id": "e0ba7127-1240-41a8-aa25-8ec095016c1b",
+  "name": "General_Position",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

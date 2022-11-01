@@ -1,0 +1,9 @@
+{
+  "id": "86f2424d-8368-47d4-a05f-923f5e7c6094",
+  "name": "SmartLAB_Charging",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

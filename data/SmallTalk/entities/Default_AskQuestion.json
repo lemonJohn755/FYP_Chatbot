@@ -1,0 +1,9 @@
+{
+  "id": "d47d934b-b040-48fe-981e-08f80bf6b468",
+  "name": "Default_AskQuestion",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

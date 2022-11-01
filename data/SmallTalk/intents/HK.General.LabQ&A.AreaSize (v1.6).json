@@ -1,0 +1,84 @@
+{
+  "id": "5e85d1c9-f317-4c80-8c49-d10ecc16b887",
+  "name": "HK.General.LabQ\u0026A.AreaSize (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2e82bf67-1f81-49f5-802e-13be13c8de92",
+          "name": "general_area",
+          "required": false,
+          "dataType": "@General_Area",
+          "value": "$general_area",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "88f2004d-a986-4a7b-a4d6-8890f9346247",
+          "name": "smartlab_name",
+          "required": false,
+          "dataType": "@SmartLAB_Name",
+          "value": "$smartlab_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "創新實驗室佔地約為2千平方尺，可以容納到好多人。 E\u003dconfident"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The innovation laboratory covers an area of ​​approximately 2,000 square meters and it can accommodate many people. E\u003dconfident"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "创新实验室占地约为2千平方米尺，可以容纳很多人。E\u003dconfident"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

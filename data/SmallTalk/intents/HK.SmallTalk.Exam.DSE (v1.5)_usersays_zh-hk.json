@@ -1,0 +1,41 @@
+[
+  {
+    "id": "1d7cbdc3-06df-4e15-bc60-51089fddbdc8",
+    "data": [
+      {
+        "text": "考試好難",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "527bed1d-89a0-448c-8b89-c6a4e50a16d2",
+    "data": [
+      {
+        "text": "DSE",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e56e60bd-fdbd-44af-bf14-3114816923e2",
+    "data": [
+      {
+        "text": "唔想考試",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "id": "925adaf4-7adb-49e7-9c6b-7c445d831003",
+  "name": "HK.SmallTalk.Horoscope.Libra (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "964f6baa-a5ba-4b22-8353-315f2d297e1b",
+          "name": "General_Libra",
+          "required": false,
+          "dataType": "@General_Libra",
+          "value": "$General_Libra",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "天秤座出生日期是从9月23日至10月23日。",
+            "天秤座为人盛情，优雅，善於表达，适应能力强，比较客观。",
+            "天秤座的幸运色系深蓝色和红色，幸运花是球斯菊和紫色了兰。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Libra\u0027s birth date is from September 23 to October 23.",
+            "Libra is a kind, elegant, expressive, adaptable and objective person.",
+            "The lucky colors of Libra are dark blue and red, and the lucky flowers are chrysanthemum and purple orchid."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "天秤座出生日期係由9月23日至10月23日。",
+            "天秤座為人熱情，優雅，善於表達，適應能力強，比較客觀。",
+            "天秤座嘅幸運色係深藍色同紅色，幸運花係波斯菊同紫羅蘭。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

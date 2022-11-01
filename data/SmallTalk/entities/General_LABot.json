@@ -1,0 +1,9 @@
+{
+  "id": "44b6fcc5-ced4-4ad0-99d6-bbb64b2fc515",
+  "name": "General_LABot",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

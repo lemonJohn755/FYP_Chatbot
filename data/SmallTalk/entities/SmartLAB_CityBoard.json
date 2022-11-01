@@ -1,0 +1,9 @@
+{
+  "id": "20b5cb07-376a-47de-b5fa-ea2465c6192d",
+  "name": "SmartLAB_CityBoard",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

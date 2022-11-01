@@ -1,0 +1,76 @@
+{
+  "id": "cdf5e794-7a5f-41af-bde4-a1e489f50c09",
+  "name": "HK.SmallTalk.Horoscope.Gemini (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "953e9db9-4326-4159-ad8f-6a57cf132510",
+          "name": "General_Gemini",
+          "required": false,
+          "dataType": "@General_Gemini",
+          "value": "$General_Gemini",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Gemini\u0027s birth date is from May 21 to June 21.",
+            "Geminis have fickle thinking, unrestrained and unfettered, strangely minded, quick and active.",
+            "The lucky colors of Gemini are yellow and orange, and lucky day is Tuesday."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "双子座出生日期是从5月21日至6月21日。",
+            "双子座的人思维善变，无拘没有束，很奇怪心还，机敏而且很动。",
+            "双子座的幸运色系黄色和橙色，幸运日是星期二。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "雙子座出生日期係由5月21日至6月21日。",
+            "雙子座嘅人思維善變，無拘無束，好奇心重，機敏而且好動。",
+            "雙子座嘅幸運色係黃色同橙色，幸運日係星期二。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

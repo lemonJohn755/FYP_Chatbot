@@ -1,0 +1,9 @@
+{
+  "id": "22a4b0de-16f3-4edb-8cee-d4226b1ff4f9",
+  "name": "Default_SayHi",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,50 @@
+{
+  "id": "12d183f0-7a4d-46ec-a844-392dd1ebd292",
+  "name": "HK.Scene.Intro.ThermalImage (v1.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "344ea1fe-7291-4f67-afc8-579752a9c30e",
+          "name": "SmartLAB_Thermal",
+          "required": false,
+          "dataType": "@SmartLAB_Thermal",
+          "value": "$SmartLAB_Thermal",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "熱成像技術區展示左點樣應用熱成像技術係預設範圍內進行人數統計同活動偵測。結合人工智能，熱成像技術可以係唔涉及私隱嘅情況下辨識作出人數統計同偵測其活動。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

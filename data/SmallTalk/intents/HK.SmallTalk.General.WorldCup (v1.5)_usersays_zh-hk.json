@@ -1,0 +1,51 @@
+[
+  {
+    "id": "4462a43c-3ce0-4a0e-9d28-0a0a8c3c9c55",
+    "data": [
+      {
+        "text": "我鍾意睇",
+        "userDefined": false
+      },
+      {
+        "text": "世界盃",
+        "meta": "@General_worldcup",
+        "alias": "General_worldcup",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "fc06b154-4d3d-4787-bc7e-a1d56a47bf53",
+    "data": [
+      {
+        "text": "大力神盃",
+        "meta": "@General_worldcup",
+        "alias": "General_worldcup",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5cb83e5d-acd9-44d4-ab55-99f2e645fd99",
+    "data": [
+      {
+        "text": "世界盃",
+        "meta": "@General_worldcup",
+        "alias": "General_worldcup",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

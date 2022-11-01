@@ -1,0 +1,150 @@
+[
+  {
+    "id": "209eb124-ff7c-40d4-a77c-44f94158e531",
+    "data": [
+      {
+        "text": "下年",
+        "meta": "@General_predict",
+        "alias": "General_predict",
+        "userDefined": true
+      },
+      {
+        "text": "會點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "80d86a9d-920f-4ced-a410-4e3d1672f53e",
+    "data": [
+      {
+        "text": "世界末日",
+        "meta": "@General_predict",
+        "alias": "General_predict",
+        "userDefined": true
+      },
+      {
+        "text": "幾時",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c6b30b50-4654-4d30-8241-b28004863e28",
+    "data": [
+      {
+        "text": "你知唔知",
+        "userDefined": false
+      },
+      {
+        "text": "聼日會發生咩事",
+        "meta": "@General_predict",
+        "alias": "General_predict",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "eafe7938-32da-45ad-a0f6-37a7f93116c3",
+    "data": [
+      {
+        "text": "你睇唔",
+        "userDefined": false
+      },
+      {
+        "text": "睇到我未來",
+        "meta": "@General_predict",
+        "alias": "General_predict",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4091f013-56b8-41fc-bb14-f2b3b6a57d82",
+    "data": [
+      {
+        "text": "預測",
+        "meta": "@General_predict",
+        "alias": "General_predict",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7b971763-c252-4c19-b74a-16dc2b68f4ea",
+    "data": [
+      {
+        "text": "你",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "有冇",
+        "userDefined": false
+      },
+      {
+        "text": "預測",
+        "meta": "@General_predict",
+        "alias": "General_predict",
+        "userDefined": true
+      },
+      {
+        "text": "功能",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0894b0f4-0e3a-4ee4-813f-400c64fe4c28",
+    "data": [
+      {
+        "text": "幫",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "我",
+        "userDefined": false
+      },
+      {
+        "text": "預測",
+        "meta": "@General_predict",
+        "alias": "General_predict",
+        "userDefined": true
+      },
+      {
+        "text": "下",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

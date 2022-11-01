@@ -1,0 +1,84 @@
+{
+  "id": "1502b352-f7f4-4ce0-aeb4-8e75d85703ec",
+  "name": "HK.General.LabQ\u0026A.SmartLABInnoPortal (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "daa94c10-ae65-4cbf-9c60-6d31e7048622",
+          "name": "general_emsd",
+          "required": false,
+          "dataType": "@General_EMSD",
+          "value": "$general_emsd",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b31312d0-98bf-43b7-a041-a78f47b2c59a",
+          "name": "smartlab_name",
+          "required": false,
+          "dataType": "@SmartLAB_Name",
+          "value": "$smartlab_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "創新實驗室嘅工作係協助部門發掘同應用適合佢哋業務嘅創新資訊科技方案同產品。而機電工程署嘅創新科技協作平台， InnoPortal，則為政府部門應用機電相關嘅需求作出配對。 E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The job of the Innovation Lab is to assist departments in discovering and applying innovative information technology solutions and products suitable for their business. InnoPortal, the innovative technology collaboration platform of the Electrical and Mechanical Services Department, has compiled matching requirements for government departments to apply electrical and mechanical requirements. E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "创新实验室的工作是协助部门发掘和应用适合他们业务的创新资讯科技方案和产品。而机电工程署的创新科技协作平台，InnoPortal，则为政府部门应用机电相关的需求编出配对。 E\u003dnormal"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

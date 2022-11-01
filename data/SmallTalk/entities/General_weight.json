@@ -1,0 +1,9 @@
+{
+  "id": "4acde1c9-6fb0-4f31-bc0a-66866ce8902f",
+  "name": "General_weight",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

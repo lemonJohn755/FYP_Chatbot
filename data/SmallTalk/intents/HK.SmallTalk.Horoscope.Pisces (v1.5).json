@@ -1,0 +1,76 @@
+{
+  "id": "5d1b13aa-b3dd-4a4b-947e-18c583adb728",
+  "name": "HK.SmallTalk.Horoscope.Pisces (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "30fc6da9-eab3-4583-a475-c937a80213c9",
+          "name": "General_Pisces",
+          "required": false,
+          "dataType": "@General_Pisces",
+          "value": "$General_Pisces",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The birth date of Pisces is from February 19 to March 20.",
+            "Pisces is a romantic and fanciful person who is full of passion for life and is approachable.",
+            "The lucky colors of Pisces are bank gray, sea blue and aqua green, and the lucky stones are purple crystals."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "双鱼座出生日期是从2月19日至3月20日。",
+            "双鱼座是浪漫而富於幻想的人，对生活充满热看，平易近的人。",
+            "双鱼座的幸运色系银行灰色、海蓝色和水绿色的，幸运石头是紫色水晶。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "雙魚座出生日期係由2月19日至3月20日。",
+            "雙魚座係浪漫而富於幻想嘅人，對生活充滿熱望，平易近人。",
+            "雙魚座嘅幸運色係銀灰色、海藍色同水綠色，幸運石係紫水晶。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

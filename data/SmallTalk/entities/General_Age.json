@@ -1,0 +1,9 @@
+{
+  "id": "ed4513b3-6ea0-4e37-8411-4e05e177a74f",
+  "name": "General_Age",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

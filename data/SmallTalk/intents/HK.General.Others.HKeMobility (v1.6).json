@@ -1,0 +1,70 @@
+{
+  "id": "ab3695c4-e3f9-4a9b-a7f9-8fd18462985d",
+  "name": "HK.General.Others.HKeMobility (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4888c1e3-c6ea-43e5-91aa-0d6aee6584a3",
+          "name": "general_hkemobility",
+          "required": false,
+          "dataType": "@General_HKeMobility",
+          "value": "$general_hkemobility",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Transport Department has integrated \"Hong Kong e-Mobility\", \"Hong Kong e-Mobility\" and \"Transport Express\" into a one-stop transportation mobile application called \"Hong Kong e-Mobility\"; through an optimized user interface, citizens can improve It is convenient and quick to find routes, travel time and transportation costs for different ways of traveling, and obtain traffic news in time to choose the most suitable transportation arrangement. E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "运输署已把「香港乘车易」、「香港行车易」和「交通快讯」集成一个名为「香港出行易」的一站式交通运输流动应用程序；通过优化了的用户界面，市民能更方便快捷寻找不同出走方式的路线、行程时间和交通费用，并及时获取交通消息，从而选择最合适的交通安排。 E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "運輸署已將「香港乘車易」、「香港行車易」及「交通快訊」整合成一個名為「香港出行易」的一站式交通運輸流動應用程式；透過優化了的用戶介面，市民可更方便快捷搜尋不同出行方式的路線、行程時間及交通費用，並獲取即時交通消息，從而選擇最合適的出行安排 。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

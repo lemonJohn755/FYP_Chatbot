@@ -1,0 +1,9 @@
+{
+  "id": "08c74aa7-92a7-48c6-9f99-c374a9815464",
+  "name": "SmartLAB_LampPost",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

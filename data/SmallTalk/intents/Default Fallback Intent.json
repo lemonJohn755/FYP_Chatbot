@@ -1,0 +1,61 @@
+{
+  "id": "6029b93e-ce48-4f2e-be2f-040b9d62c9e7",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "小博仲喺度學習緊，唔係好明白你講咩，敬請見諒。",
+            "唔係好明你講咩，我仲喺度學習緊，我希望你諒解。",
+            "對唔住，我仲喺度學習緊，唔係好明白你講咩。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I am still learning, I am not sure what you are talking about, sorry for any inconvenience.",
+            "Sorry, I do not understand what you are talking about. I am still in the learning phase.",
+            "I apologize for not being able to understand your problem. I hope you don\u0027t mind."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "小博正在学习中，不太明白你说什么，敬请见谅。",
+            "不太明白你说什么，小博正在学习中，希望你諒解。",
+            "對不起，我正在学习中，不太明白你说什么。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

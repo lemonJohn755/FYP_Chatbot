@@ -1,0 +1,9 @@
+{
+  "id": "9df9298c-7b1e-451b-af79-6758671d4156",
+  "name": "SmartLAB_DeliveryRobot",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

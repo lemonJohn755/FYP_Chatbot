@@ -1,0 +1,50 @@
+{
+  "id": "379f9645-0219-4cdf-b76f-2b4d4d847b91",
+  "name": "HK.Scene.Intro.DashBoard (v1.2)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "cbd12fd4-4f69-4adb-926d-9d3645ce0375",
+          "name": "SmartLAB_CityBoard",
+          "required": false,
+          "dataType": "@SmartLAB_CityBoard",
+          "value": "$SmartLAB_CityBoard",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "城市儀表板用互動嘅圖表同數碼地圖顯示「資料一線通」同民生相關嘅開放數據，例如交通，天氣同空氣質素，公共設施等。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

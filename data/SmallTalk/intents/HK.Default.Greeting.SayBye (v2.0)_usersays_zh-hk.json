@@ -1,0 +1,455 @@
+[
+  {
+    "id": "4ec0dfa2-fad7-4f30-98cd-83ce5e8499ff",
+    "data": [
+      {
+        "text": "Byebye",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6e6a202b-c2ca-40a4-9dad-34fd23d09d69",
+    "data": [
+      {
+        "text": "Byebye",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "小博",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6fc6566e-ef12-434f-846a-c8ffd9978404",
+    "data": [
+      {
+        "text": "Have a nice day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "53791651-93b6-4c28-b7c2-10c2a8f471aa",
+    "data": [
+      {
+        "text": "拜拜",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "69efb4c8-7171-4870-99dc-3f76d2001900",
+    "data": [
+      {
+        "text": "再見",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "dd4c5cca-6770-43d2-a51f-d6332846c2ba",
+    "data": [
+      {
+        "text": "再見",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      },
+      {
+        "text": "小博",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c348a3c9-a581-4376-804d-3f6684eecb02",
+    "data": [
+      {
+        "text": "小博",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "再見",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ec681110-690a-41e6-8091-7615867c88e8",
+    "data": [
+      {
+        "text": "下次見",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f608317f-377b-4a0a-aa86-972de50917b5",
+    "data": [
+      {
+        "text": "走先",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6cb6a299-92a9-43b1-af50-5ef8ebd17977",
+    "data": [
+      {
+        "text": "下",
+        "userDefined": false
+      },
+      {
+        "text": "次",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "再傾",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5f927bfb-cb5f-42eb-956f-4fa5a13dd821",
+    "data": [
+      {
+        "text": "Have a nice weekend",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5547b06d-54fa-43c4-91b8-ec9c3604cf5f",
+    "data": [
+      {
+        "text": "睇完啦",
+        "userDefined": false
+      },
+      {
+        "text": "拜拜",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "20ee9cfc-44be-4f57-aec5-3eb2a7be262e",
+    "data": [
+      {
+        "text": "講聲",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "拜拜",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4c4014d1-89cb-4e83-8707-97ea7f227a30",
+    "data": [
+      {
+        "text": "唔該",
+        "meta": "@Default_ThankYou",
+        "alias": "Default_ThankYou",
+        "userDefined": true
+      },
+      {
+        "text": "拜拜",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8aafd8d0-a4b1-4691-a2b7-364a078978f7",
+    "data": [
+      {
+        "text": "走啦",
+        "userDefined": false
+      },
+      {
+        "text": "拜拜",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ae25c131-98a0-40bd-8491-802384e16d83",
+    "data": [
+      {
+        "text": "唔該曬",
+        "meta": "@Default_ThankYou",
+        "alias": "Default_ThankYou",
+        "userDefined": true
+      },
+      {
+        "text": "啊",
+        "userDefined": false
+      },
+      {
+        "text": "拜拜",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c3624e69-71b1-4251-ba63-5e1d5a9ed106",
+    "data": [
+      {
+        "text": "唔該曬",
+        "meta": "@Default_ThankYou",
+        "alias": "Default_ThankYou",
+        "userDefined": true
+      },
+      {
+        "text": "呀",
+        "userDefined": false
+      },
+      {
+        "text": "拜拜",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "150c98b1-06b1-416f-a251-01da28273de6",
+    "data": [
+      {
+        "text": "多謝",
+        "meta": "@Default_ThankYou",
+        "alias": "Default_ThankYou",
+        "userDefined": true
+      },
+      {
+        "text": "曬",
+        "userDefined": false
+      },
+      {
+        "text": "拜拜",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ec863e70-8c11-4f0d-90c5-8ed3574e5abe",
+    "data": [
+      {
+        "text": "多謝",
+        "meta": "@Default_ThankYou",
+        "alias": "Default_ThankYou",
+        "userDefined": true
+      },
+      {
+        "text": "你嘅幫忙",
+        "userDefined": false
+      },
+      {
+        "text": "拜拜",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "83ebaaa9-4bb9-4b6b-8f74-b7f6353e47bf",
+    "data": [
+      {
+        "text": "多謝",
+        "meta": "@Default_ThankYou",
+        "alias": "Default_ThankYou",
+        "userDefined": true
+      },
+      {
+        "text": "你幫忙",
+        "userDefined": false
+      },
+      {
+        "text": "拜拜",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "d5293f44-84ea-4692-84c0-b8ac888049d4",
+    "data": [
+      {
+        "text": "多謝",
+        "meta": "@Default_ThankYou",
+        "alias": "Default_ThankYou",
+        "userDefined": true
+      },
+      {
+        "text": "拜拜",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2e6819ed-edb6-485f-b3ca-1e4fe4c54358",
+    "data": [
+      {
+        "text": "同大家講聲",
+        "userDefined": false
+      },
+      {
+        "text": "拜拜",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3d2881ef-a222-4423-ba05-a5b2a9ca999b",
+    "data": [
+      {
+        "text": "唔該",
+        "meta": "@Default_ThankYou",
+        "alias": "Default_ThankYou",
+        "userDefined": true
+      },
+      {
+        "text": "曬",
+        "userDefined": false
+      },
+      {
+        "text": "拜拜",
+        "meta": "@Default_SayBye",
+        "alias": "default_saybye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "defe5a18-6d9e-4d1b-8cf2-49c52693aebe",
+  "name": "General_Service",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

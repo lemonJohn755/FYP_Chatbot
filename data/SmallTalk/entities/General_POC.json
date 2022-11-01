@@ -1,0 +1,9 @@
+{
+  "id": "06a12fcd-0007-4697-ae3e-ab1e0fd8c343",
+  "name": "General_POC",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

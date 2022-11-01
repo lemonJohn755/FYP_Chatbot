@@ -1,0 +1,61 @@
+{
+  "id": "5eb8e6bb-f4b0-460c-99ac-eb7982be425e",
+  "name": "HK.SmallTalk.Celebrity.Doraemon (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Doraemon is a comic work created by Japanese manga artist Hiroshi Fujimoto and his grandson Suya. There are many series.",
+            "Doraemon is a robot cat from the future, friendly and willing to help others. Every time Nobita is in trouble, he will use the magic equipment to help him.",
+            "I also like Doraemon, it\u0027s super cute, I also want to have a Doraemon, haha."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "多啦A夢係日本漫畫家藤本弘同安孫子素雅共同創作嘅漫畫作品，有好多系列嘅。",
+            "多啦A夢係一隻來自未來嘅機器機械貓，心哋好，樂於助人，每次大雄有難，都會攞d法寶來幫佢。",
+            "我都好鍾意多啦A夢呀，超級可愛，我都想有一個多啦A夢，哈哈。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "多啦A梦是日本漫画家藤本弘和好孙子素雅参与和创作的漫画作品，有很多系列的。",
+            "多啦A梦是一只来自未来的机器机械猫，心地好，乐於助人，每次大雄有难，也会拿法宝来帮他。",
+            "我也很喜欢多啦A梦呀，超级可爱，我还想有一个多啦A梦，哈哈。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

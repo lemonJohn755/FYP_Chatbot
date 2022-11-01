@@ -1,0 +1,36 @@
+[
+  {
+    "id": "8d289f30-c3ca-4ab4-830c-13c19c15a953",
+    "data": [
+      {
+        "text": "奧運",
+        "meta": "@General_olympic",
+        "alias": "general_olympic",
+        "userDefined": true
+      },
+      {
+        "text": "幾時",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "68698b05-ed69-41ed-8c65-e5cce0285778",
+    "data": [
+      {
+        "text": "奧運會",
+        "meta": "@General_olympic",
+        "alias": "general_olympic",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

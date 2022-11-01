@@ -1,0 +1,9 @@
+{
+  "id": "96e23491-cf11-482e-955b-c6495f7b49bb",
+  "name": "General_Weakness",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

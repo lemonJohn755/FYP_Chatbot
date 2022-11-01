@@ -1,0 +1,9 @@
+{
+  "id": "e10662d8-0402-4cac-895d-7b39eeefcc89",
+  "name": "General_DateTime",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

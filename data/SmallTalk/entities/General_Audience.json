@@ -1,0 +1,9 @@
+{
+  "id": "a0d92aaf-ec25-426b-9e9b-8820c73404ab",
+  "name": "General_Audience",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

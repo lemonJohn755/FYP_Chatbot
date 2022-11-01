@@ -1,0 +1,337 @@
+[
+  {
+    "id": "b53ff49b-a61c-41c0-b23d-45337ad9935c",
+    "data": [
+      {
+        "text": "你嘅",
+        "userDefined": false
+      },
+      {
+        "text": "電量",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "166c1844-c341-4999-92c1-96554fa9b9f3",
+    "data": [
+      {
+        "text": "電流",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "11c351b6-bf2e-4f0a-b863-061ad8eaa924",
+    "data": [
+      {
+        "text": "而家",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "電流",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f8e7cabc-5f84-4f27-babc-bd3ceec55d89",
+    "data": [
+      {
+        "text": "而家",
+        "userDefined": false
+      },
+      {
+        "text": "電量",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "de543a1a-cbdb-4a03-a836-e06487c5f44d",
+    "data": [
+      {
+        "text": "電量",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": false
+      },
+      {
+        "text": "係咩",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "376d1693-f24c-4d1b-94d3-fdb81acb4722",
+    "data": [
+      {
+        "text": "電量",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "63b14b1d-562f-4c55-8c21-5c047d32ddbf",
+    "data": [
+      {
+        "text": "現在",
+        "userDefined": false
+      },
+      {
+        "text": "電量",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f84cb9df-ba51-467e-bf86-66e9c15b4692",
+    "data": [
+      {
+        "text": "現時",
+        "userDefined": false
+      },
+      {
+        "text": "電量",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "894c5e2e-1ffa-45e9-9cd8-c024910b65e0",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "叉電",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "74994d03-3dc0-4cb7-bc1e-c1a22c11cc9e",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "電量",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4a24c7a7-e897-48f8-9f65-56a5e54a4280",
+    "data": [
+      {
+        "text": "你使",
+        "userDefined": false
+      },
+      {
+        "text": "叉電",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5bee8ad7-d497-46a8-9fec-6d79ed41b197",
+    "data": [
+      {
+        "text": "你要",
+        "userDefined": false
+      },
+      {
+        "text": "叉電",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e2804ecc-c659-4f73-bb1c-bd3808b0ff56",
+    "data": [
+      {
+        "text": "你要",
+        "userDefined": false
+      },
+      {
+        "text": "叉電",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": false
+      },
+      {
+        "text": "嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3fd78e69-79ed-4d01-88d6-822b0c4cf7b7",
+    "data": [
+      {
+        "text": "你夠鐘",
+        "userDefined": false
+      },
+      {
+        "text": "叉電",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "73263744-cb14-476d-8af2-a65f637b17b5",
+    "data": [
+      {
+        "text": "你有無",
+        "userDefined": false
+      },
+      {
+        "text": "電",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "169de2cc-3376-4ce3-8fc1-8efa577d9d81",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "電",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7943971b-2924-407f-bd1b-e8900d3fe93a",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "充電",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f76189f9-095c-4c6f-8f6f-ad215591a4e7",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "充電時間",
+        "meta": "@General_Charging",
+        "alias": "general_charging",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

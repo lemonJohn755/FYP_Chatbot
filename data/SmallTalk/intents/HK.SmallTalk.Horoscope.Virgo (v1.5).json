@@ -1,0 +1,76 @@
+{
+  "id": "a3278dcc-72cd-4fa6-b341-18c9bf02d575",
+  "name": "HK.SmallTalk.Horoscope.Virgo (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2ab4e105-f3fd-4f48-ba07-d368aaf42a15",
+          "name": "General_Virgo",
+          "required": false,
+          "dataType": "@General_Virgo",
+          "value": "$General_Virgo",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Virgo\u0027s birth date is from August 23 to September 22.",
+            "Virgo is born with good points, so he won\u0027t lose weight because of a d.",
+            "The lucky color of Virgo is gray and beige, and the lucky stone is purple topaz."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "处女座出生日期是从8月23日至9月22天。",
+            "处女座是天生的优点就环志开，不会因为一些东西就一蹶不振。",
+            "处女座的幸运色系灰色和米颜色，幸运石头是紫色黄晶。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "處女座出生日期係由8月23日至9月22日。",
+            "處女座天生嘅優點就係放得開，唔會因為一些嘢就一蹶不振。",
+            "處女座嘅幸運色係灰色同米色，幸運石係紫黃晶"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

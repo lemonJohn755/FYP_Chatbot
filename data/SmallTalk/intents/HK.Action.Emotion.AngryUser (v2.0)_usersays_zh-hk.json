@@ -1,0 +1,109 @@
+[
+  {
+    "id": "2df9806e-5c65-4a27-a1d2-46a1992f86ce",
+    "data": [
+      {
+        "text": "angry",
+        "meta": "@Emotion_Angry",
+        "alias": "emotion_angry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ef99f6c7-d962-498c-beb6-3f565b4bc482",
+    "data": [
+      {
+        "text": "激死我",
+        "meta": "@Emotion_Angry",
+        "alias": "emotion_angry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6372b2eb-0e80-430c-86c2-bbaeb404f00e",
+    "data": [
+      {
+        "text": "生氣",
+        "meta": "@Emotion_Angry",
+        "alias": "emotion_angry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "72ca8889-d9b4-41fd-ade6-cdb624026b46",
+    "data": [
+      {
+        "text": "我好",
+        "userDefined": false
+      },
+      {
+        "text": "嬲",
+        "meta": "@Emotion_Angry",
+        "alias": "emotion_angry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4019b999-2edb-4d50-b654-0b5e90dbcd0f",
+    "data": [
+      {
+        "text": "嬲",
+        "meta": "@Emotion_Angry",
+        "alias": "emotion_angry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "fcd2c5c7-18f1-4c7f-85dd-8fae1030a4b6",
+    "data": [
+      {
+        "text": "憤怒",
+        "meta": "@Emotion_Angry",
+        "alias": "emotion_angry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "48e95ac8-4973-4ff3-b71d-64d13f482963",
+    "data": [
+      {
+        "text": "我要爆",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

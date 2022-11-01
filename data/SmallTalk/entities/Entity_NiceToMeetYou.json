@@ -1,0 +1,9 @@
+{
+  "id": "9889dab7-53e2-4d08-baf4-68153d3c6048",
+  "name": "Entity_NiceToMeetYou",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": "1ce8bf85-288b-4140-bd20-85e79ad7250f",
+  "name": "General_Transport",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

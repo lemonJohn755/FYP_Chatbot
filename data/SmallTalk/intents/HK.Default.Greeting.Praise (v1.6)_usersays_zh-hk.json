@@ -1,0 +1,137 @@
+[
+  {
+    "id": "8f167b8d-c4b4-402d-abc1-e5e397695fbd",
+    "data": [
+      {
+        "text": "helpful",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a79687aa-495a-42c3-b4e1-965d978ee8f7",
+    "data": [
+      {
+        "text": "great",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7693e193-adc4-4aec-8005-d85c853a9ab5",
+    "data": [
+      {
+        "text": "very good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "66554b2b-3ae7-4b36-8b6b-71ae5a6812c6",
+    "data": [
+      {
+        "text": "神回覆",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2ba4ae99-acb9-4e6d-9f37-4cd01ffcf343",
+    "data": [
+      {
+        "text": "勁喎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a6cad862-bccc-46c7-b784-1be40a2881aa",
+    "data": [
+      {
+        "text": "勁揪",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7dfa2276-218c-4b73-b3b8-bd73427da268",
+    "data": [
+      {
+        "text": "俾個like你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "77c6e669-a9d3-408f-a857-0cd29d1d0ab4",
+    "data": [
+      {
+        "text": "俾個",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "讚你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "62283b52-c854-44d2-ac28-f7d983aba531",
+    "data": [
+      {
+        "text": "真答到",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "dfafb44d-eb29-424f-9e02-0ddc6479f10e",
+    "data": [
+      {
+        "text": "幫到手",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

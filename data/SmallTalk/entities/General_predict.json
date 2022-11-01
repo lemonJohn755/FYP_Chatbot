@@ -1,0 +1,9 @@
+{
+  "id": "bdea5b64-f9bb-44fb-a04b-73f20d36074b",
+  "name": "General_predict",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

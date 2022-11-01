@@ -1,0 +1,93 @@
+[
+  {
+    "id": "e77b2d69-ae31-447d-b1b7-5c1d3e6852f8",
+    "data": [
+      {
+        "text": "白羊座",
+        "meta": "@General_Aries",
+        "alias": "General_Aries",
+        "userDefined": true
+      },
+      {
+        "text": "生日",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a3fe8913-2b2c-4e39-940b-388f7436b033",
+    "data": [
+      {
+        "text": "白羊座",
+        "meta": "@General_Aries",
+        "alias": "General_Aries",
+        "userDefined": true
+      },
+      {
+        "text": "性格",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c4899d79-dcf3-4eda-82aa-f5edb8b4dfc5",
+    "data": [
+      {
+        "text": "白羊座",
+        "meta": "@General_Aries",
+        "alias": "General_Aries",
+        "userDefined": true
+      },
+      {
+        "text": "份人",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8860fe0a-0181-4041-8414-b082f2985016",
+    "data": [
+      {
+        "text": "白羊座",
+        "meta": "@General_Aries",
+        "alias": "General_Aries",
+        "userDefined": true
+      },
+      {
+        "text": "係點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "846ee37c-365d-4dfc-80a6-98dd92671ff1",
+    "data": [
+      {
+        "text": "白羊座",
+        "meta": "@General_Aries",
+        "alias": "General_Aries",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

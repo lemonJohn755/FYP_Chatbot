@@ -1,0 +1,9 @@
+{
+  "id": "18e1a1f2-559c-4011-9a63-ac068dcb41ae",
+  "name": "General_ShakeHand",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

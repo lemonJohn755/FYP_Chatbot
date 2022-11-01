@@ -1,0 +1,9 @@
+{
+  "id": "69e036c4-d180-40f9-8b96-71d97e96696d",
+  "name": "General_books",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

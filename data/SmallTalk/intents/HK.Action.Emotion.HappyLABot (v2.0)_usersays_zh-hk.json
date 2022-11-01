@@ -1,0 +1,116 @@
+[
+  {
+    "id": "dc8b08b5-7334-41fd-9715-2a0fc858a931",
+    "data": [
+      {
+        "text": "你開唔",
+        "userDefined": false
+      },
+      {
+        "text": "開心",
+        "meta": "@Emotion_Happy",
+        "alias": "emotion_happy",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7b60e3b7-f461-4844-80b2-ce2f039889cb",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "開心",
+        "meta": "@Emotion_Happy",
+        "alias": "emotion_happy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "85ea1e85-8b0e-4ef4-bd01-a2eebeaa67db",
+    "data": [
+      {
+        "text": "你都幾",
+        "userDefined": false
+      },
+      {
+        "text": "搞笑",
+        "meta": "@Emotion_Happy",
+        "alias": "emotion_happy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "765cde24-5c08-40ae-b07f-e6cd7fc4558e",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "搞笑",
+        "meta": "@Emotion_Happy",
+        "alias": "emotion_happy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3950fd09-e15e-4caf-8a6f-5689e4ce108e",
+    "data": [
+      {
+        "text": "你都幾",
+        "userDefined": false
+      },
+      {
+        "text": "得意",
+        "meta": "@Emotion_Happy",
+        "alias": "emotion_happy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2d8665a8-8eb3-4399-9911-d76e3ee09017",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "得意",
+        "meta": "@Emotion_Happy",
+        "alias": "emotion_happy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

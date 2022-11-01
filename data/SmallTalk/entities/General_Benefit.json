@@ -1,0 +1,9 @@
+{
+  "id": "4c949aa7-f9e8-4a5c-8c0e-98a56ab6ed6b",
+  "name": "General_Benefit",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

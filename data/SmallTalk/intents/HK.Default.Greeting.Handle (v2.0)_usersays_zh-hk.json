@@ -1,0 +1,330 @@
+[
+  {
+    "id": "c325c6e0-4868-4fe4-a6b5-f865cb52c9b2",
+    "data": [
+      {
+        "text": "請教",
+        "meta": "@Default_AskQuestion",
+        "alias": "Default_AskQuestion",
+        "userDefined": false
+      },
+      {
+        "text": "個",
+        "userDefined": false
+      },
+      {
+        "text": "問題",
+        "meta": "@Default_AskQuestion",
+        "alias": "Default_AskQuestion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4f79f519-1ab7-4067-86af-ec850afa7ede",
+    "data": [
+      {
+        "text": "想",
+        "userDefined": false
+      },
+      {
+        "text": "問問",
+        "meta": "@Default_AskQuestion",
+        "alias": "Default_AskQuestion",
+        "userDefined": false
+      },
+      {
+        "text": "你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "da9a63fa-34b7-4d1e-9934-6624babcfdd0",
+    "data": [
+      {
+        "text": "你好",
+        "meta": "@Default_Hello",
+        "alias": "Default_Hello",
+        "userDefined": false
+      },
+      {
+        "text": "，好高興認識你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "17163198-ac03-4c2c-8ac4-eb7858a6f3e2",
+    "data": [
+      {
+        "text": "你好",
+        "meta": "@Default_Hello",
+        "alias": "Default_Hello",
+        "userDefined": false
+      },
+      {
+        "text": "小博",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e0cb4e67-1f3c-42dc-88cc-6b32feeb7aad",
+    "data": [
+      {
+        "text": "Let\u0027s",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " begin",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "557786af-bf79-4980-b908-87ea3cf97431",
+    "data": [
+      {
+        "text": "開始",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7d092ae0-65b0-48e0-9fa9-c0718ffa9166",
+    "data": [
+      {
+        "text": "Start",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "23101566-4cb0-49ef-a54c-0ce55a643c08",
+    "data": [
+      {
+        "text": "哈",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "囉",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8233e2ec-6cb9-4d0a-bb00-647c929f0331",
+    "data": [
+      {
+        "text": "我想",
+        "userDefined": false
+      },
+      {
+        "text": "問",
+        "meta": "@Default_AskQuestion",
+        "alias": "Default_AskQuestion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6c1a5c08-8740-4025-b23b-2a748bf771e9",
+    "data": [
+      {
+        "text": "幫幫",
+        "meta": "@Default_HelpMe",
+        "alias": "Default_HelpMe",
+        "userDefined": true
+      },
+      {
+        "text": "我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f236843e-0c6b-49cf-9a5a-a166bdc9ef0b",
+    "data": [
+      {
+        "text": "問你",
+        "userDefined": false
+      },
+      {
+        "text": "問題",
+        "meta": "@Default_AskQuestion",
+        "alias": "Default_AskQuestion",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a617175d-ea30-4ef5-ab92-f99f120c3c0c",
+    "data": [
+      {
+        "text": "問",
+        "meta": "@Default_AskQuestion",
+        "alias": "Default_AskQuestion",
+        "userDefined": true
+      },
+      {
+        "text": "你嘢",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "fcfcb48f-fd0c-4f3f-a355-46253222dcc8",
+    "data": [
+      {
+        "text": "問問",
+        "meta": "@Default_AskQuestion",
+        "alias": "Default_AskQuestion",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "10025321-6c45-4bc4-ad53-1f0de2906bdd",
+    "data": [
+      {
+        "text": "問",
+        "meta": "@Default_AskQuestion",
+        "alias": "Default_AskQuestion",
+        "userDefined": true
+      },
+      {
+        "text": "一下",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "845ee279-a5d8-4442-996e-05c8c9241d6c",
+    "data": [
+      {
+        "text": "Hello",
+        "meta": "@Default_Hello",
+        "alias": "Default_Hello",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "86afa7d5-b953-4c36-85b7-13f4b28da4aa",
+    "data": [
+      {
+        "text": "你好",
+        "meta": "@Default_Hello",
+        "alias": "Default_Hello",
+        "userDefined": true
+      },
+      {
+        "text": "嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3992fb23-c6f9-4e82-94b7-1191bb50d6e2",
+    "data": [
+      {
+        "text": "你好",
+        "meta": "@Default_Hello",
+        "alias": "Default_Hello",
+        "userDefined": true
+      },
+      {
+        "text": "喔",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "74683cdb-544e-45f3-b94c-736797aee759",
+    "data": [
+      {
+        "text": "你好",
+        "meta": "@Default_Hello",
+        "alias": "Default_Hello",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

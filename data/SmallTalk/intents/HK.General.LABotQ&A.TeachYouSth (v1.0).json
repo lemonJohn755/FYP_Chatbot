@@ -1,0 +1,70 @@
+{
+  "id": "560b9df3-ebe0-4ccd-adc0-35852c2e2b3c",
+  "name": "HK.General.LABotQ\u0026A.TeachYouSth (v1.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "99638a1c-f406-4f4e-ac24-4dc1d126405a",
+          "name": "General_teachyousth",
+          "required": false,
+          "dataType": "@General_teachyousth",
+          "value": "$General_teachyousth",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "好呀，不過小博要由專業機械人老師教我先學得識。你對小博有咩意見，可以同我啲同事講，等佢哋幫我安排上堂學返。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, but I have to be taught by a professional robot teacher. If you have any comments on me, you can talk to my colleagues and ask them to help me arrange tutorial classes."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "好吧，不过小博要由专业机械人老师教我才学得懂。如果你对小博有什么意见，你可以和我的同事说，让他们帮我安排上课。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "06ab8228-bc8c-4f84-bb16-571e9344202f",
+    "data": [
+      {
+        "text": "你眼唔",
+        "userDefined": false
+      },
+      {
+        "text": "眼瞓",
+        "meta": "@General_LABotTired",
+        "alias": "General_LABotTired",
+        "userDefined": true
+      },
+      {
+        "text": "？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e844db63-3a6c-4c63-99de-a1ebe6e0e731",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "眼瞓",
+        "meta": "@General_LABotTired",
+        "alias": "General_LABotTired",
+        "userDefined": true
+      },
+      {
+        "text": "嗎？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "60fc2199-1441-4906-bbe8-270c55d5c64d",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "攰",
+        "meta": "@General_LABotTired",
+        "alias": "General_LABotTired",
+        "userDefined": true
+      },
+      {
+        "text": "唔攰？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9425e541-c9ed-4361-aa42-5de095145d54",
+    "data": [
+      {
+        "text": "你好似好",
+        "userDefined": false
+      },
+      {
+        "text": "攰",
+        "meta": "@General_LABotTired",
+        "alias": "General_LABotTired",
+        "userDefined": true
+      },
+      {
+        "text": "喎！",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7e287b5e-c1fc-4849-af66-76bcf48a1f54",
+    "data": [
+      {
+        "text": "你做咩係咁「中」",
+        "userDefined": false
+      },
+      {
+        "text": "眼瞓",
+        "meta": "@General_LABotTired",
+        "alias": "General_LABotTired",
+        "userDefined": true
+      },
+      {
+        "text": "？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "38beecbf-3d5c-40ae-93af-781526387a5d",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "隻眼\"dup\"晒落嚟",
+        "meta": "@General_LABotTired",
+        "alias": "General_LABotTired",
+        "userDefined": true
+      },
+      {
+        "text": "啦",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

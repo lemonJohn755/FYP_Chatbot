@@ -11,7 +11,7 @@ intents:
 
 responses:
   utter_greet:
-  - text: "你好 請問如何幫助你?"
+  - text: "你好 請問有咩幫到你?"
 
   utter_cheer_up:
   - text: "希望呢張圖片氹到你開心:"

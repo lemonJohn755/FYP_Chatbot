@@ -1,0 +1,70 @@
+{
+  "id": "16647477-13ca-4bf6-a2ec-2adee7c0cac7",
+  "name": "HK.Default.Scene.Location (v2.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f4887256-338b-465b-b888-9b1012bbb174",
+          "name": "Default_Location",
+          "required": false,
+          "dataType": "@Default_Location",
+          "value": "$Default_Location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "We are now in the Smart Government Innovation LAB. I can take you to different showcases. E\u003dhappy"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "我们现在在创新科技实验室，我可以带你去不同的景点。E\u003dhappy"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "我地依家喺創新科技實驗室，我可以帶你去唔同景點。E\u003dhappy"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

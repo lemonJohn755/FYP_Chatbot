@@ -1,0 +1,154 @@
+[
+  {
+    "id": "3e21768a-cde5-40ac-a7fb-3fc2d6348f05",
+    "data": [
+      {
+        "text": "同大家",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "打聲招呼",
+        "meta": "@Default_SayHi",
+        "alias": "default_sayhi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "07e0043b-0f36-4fc3-92c9-e48a3e8064c2",
+    "data": [
+      {
+        "text": "揮手",
+        "meta": "@Default_SayHi",
+        "alias": "default_sayhi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "cc4a3eab-61b8-437c-ab00-b24f65957fef",
+    "data": [
+      {
+        "text": "同大家揮",
+        "userDefined": false
+      },
+      {
+        "text": "揮手",
+        "meta": "@Default_SayHi",
+        "alias": "default_sayhi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2582ef2e-c0a0-4e3d-855f-e7bba32e1185",
+    "data": [
+      {
+        "text": "同大家",
+        "userDefined": false
+      },
+      {
+        "text": "Say個Hello",
+        "meta": "@Default_SayHi",
+        "alias": "default_sayhi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c7a0bb30-8410-4d4e-b9c1-aef2d786b892",
+    "data": [
+      {
+        "text": "同大家",
+        "userDefined": false
+      },
+      {
+        "text": "講Hello",
+        "meta": "@Default_SayHi",
+        "alias": "default_sayhi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ad498268-62af-49e1-887b-dc444222b860",
+    "data": [
+      {
+        "text": "Say個Hello",
+        "meta": "@Default_SayHi",
+        "alias": "default_sayhi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6c9644a7-b5bc-4a97-a1d9-654ba3371ad4",
+    "data": [
+      {
+        "text": "Say個Hi",
+        "meta": "@Default_SayHi",
+        "alias": "default_sayhi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "94e9c99e-3e5a-4e66-8ab8-ef29188b98bd",
+    "data": [
+      {
+        "text": "打招呼",
+        "meta": "@Default_SayHi",
+        "alias": "default_sayhi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9d2a08f0-1e53-47bc-b8ee-c88f30e0d90c",
+    "data": [
+      {
+        "text": "打聲招呼",
+        "meta": "@Default_SayHi",
+        "alias": "default_sayhi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

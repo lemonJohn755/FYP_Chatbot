@@ -1,0 +1,9 @@
+{
+  "id": "671d6e83-ab9d-4bad-a01f-5fbff1ea5329",
+  "name": "SmartLAB_BlockChain",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

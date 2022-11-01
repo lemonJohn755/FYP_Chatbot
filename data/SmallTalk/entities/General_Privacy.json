@@ -1,0 +1,9 @@
+{
+  "id": "9a653d6e-42fc-420a-b298-74c3fe3a03c3",
+  "name": "General_Privacy",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

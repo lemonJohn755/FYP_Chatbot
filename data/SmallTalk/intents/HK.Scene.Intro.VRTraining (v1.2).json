@@ -1,0 +1,70 @@
+{
+  "id": "a059e727-4bf9-4d5e-ba5e-47b106cf4e1b",
+  "name": "HK.Scene.Intro.VRTraining (v1.2)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0f172914-cd0f-4db4-adf2-6c6c0d298fbe",
+          "name": "SmartLAB_VR",
+          "required": false,
+          "dataType": "@SmartLAB_VR",
+          "value": "$SmartLAB_VR",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "虚拟实境培训的展示区展示了怎样使用虚拟实境技术进行海港旅客登船桥维修的培训，等学员留在室内环境，亦可以好像身处海港旅客登船桥，熟悉维修同操作时的真实情况。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "VR training showroom displays how to use VR technology to commit training for the maintenance of SPBBs of harbour tourists. This technology simulates the environment on SPBBs even in indoor areas to help trainees familiarise themselves with the actual operation procedures and circumstances."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "虛擬實境培訓嘅展示區展示左點樣使用虛擬實境技術進行海港旅客登船橋維修嘅培訓，等學員留係室內環境，亦可以好似身處海港旅客登船橋，熟悉維修同操作時嘅真實情況。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

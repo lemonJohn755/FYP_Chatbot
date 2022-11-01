@@ -1,0 +1,9 @@
+{
+  "id": "9bce77e9-1bd2-496b-a1f8-dd6eafb1a72f",
+  "name": "General_Objectives",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

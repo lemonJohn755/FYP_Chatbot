@@ -1,0 +1,395 @@
+[
+  {
+    "id": "59b4c3da-f3fe-40d9-9089-d89559955355",
+    "data": [
+      {
+        "text": "poc",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f7dc8757-d38b-4edd-b66f-d2c77c5398e8",
+    "data": [
+      {
+        "text": "點解要做",
+        "userDefined": false
+      },
+      {
+        "text": "poc",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "43f1f7b5-1e53-454e-84b7-5dbb81a3da1b",
+    "data": [
+      {
+        "text": "解決方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      },
+      {
+        "text": "測試",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a22786b0-361d-42bf-97fa-5909fe420121",
+    "data": [
+      {
+        "text": "概念證",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      },
+      {
+        "text": "有",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "906a35c4-b0fb-41a5-bea3-9567d3eb1c1b",
+    "data": [
+      {
+        "text": "概念驗證",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      },
+      {
+        "text": "有",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6f6e7f5d-b4fc-428a-ae35-bd0bc8c032bc",
+    "data": [
+      {
+        "text": "點解要",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "做",
+        "userDefined": false
+      },
+      {
+        "text": "概念驗證",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "74a81f75-e5d0-408d-a0b5-9db7205b325e",
+    "data": [
+      {
+        "text": "概念驗證",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      },
+      {
+        "text": "原因",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "fadac6b4-4184-42e5-adb1-e6a6c1dc49c8",
+    "data": [
+      {
+        "text": "概念驗證",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      },
+      {
+        "text": "用途",
+        "meta": "@General_Usage",
+        "alias": "general_usage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f5dc4fee-8eba-4064-a402-ee35fe7d8156",
+    "data": [
+      {
+        "text": "概念驗證",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      },
+      {
+        "text": "用處",
+        "meta": "@General_Usage",
+        "alias": "general_usage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "1396f472-022d-4a76-9f74-5551088cbe94",
+    "data": [
+      {
+        "text": "創新實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "揀合適的",
+        "userDefined": false
+      },
+      {
+        "text": "方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c00b10aa-a24a-4b81-851a-0e98ae214add",
+    "data": [
+      {
+        "text": "方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      },
+      {
+        "text": "進行",
+        "userDefined": false
+      },
+      {
+        "text": "測試",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "df4128d6-5b8c-4ebe-bdd6-4fe6f0a511ce",
+    "data": [
+      {
+        "text": "測試",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      },
+      {
+        "text": "solution",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "eec93c38-918a-4524-99b1-29efd5a59d0c",
+    "data": [
+      {
+        "text": "測試",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      },
+      {
+        "text": "產品",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ca0ba7fd-97cb-49d9-a0ba-a7069dd66de6",
+    "data": [
+      {
+        "text": "測試",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      },
+      {
+        "text": "產品",
+        "userDefined": false
+      },
+      {
+        "text": "solution",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4590bd20-b978-412f-b984-101330583d78",
+    "data": [
+      {
+        "text": "測試",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      },
+      {
+        "text": "預期",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3f2bf7e6-1b9d-4b60-9ada-53c539991ba3",
+    "data": [
+      {
+        "text": "測試",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      },
+      {
+        "text": "技術",
+        "userDefined": false
+      },
+      {
+        "text": "方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f40e3723-7491-4dbc-a8ef-6867d5402e71",
+    "data": [
+      {
+        "text": "測試",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      },
+      {
+        "text": "技術",
+        "userDefined": false
+      },
+      {
+        "text": "方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      },
+      {
+        "text": "好處",
+        "meta": "@General_Benefit",
+        "alias": "general_benefit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ee8cba01-044f-43de-bb85-af51a0a52462",
+    "data": [
+      {
+        "text": "測試",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      },
+      {
+        "text": "預期",
+        "userDefined": false
+      },
+      {
+        "text": "目標",
+        "meta": "@General_Objectives",
+        "alias": "general_objectives",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

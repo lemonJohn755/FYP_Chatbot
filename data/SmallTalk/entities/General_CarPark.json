@@ -1,0 +1,9 @@
+{
+  "id": "1f4fa165-1a6f-4855-9eea-2dac2af6aea6",
+  "name": "General_CarPark",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

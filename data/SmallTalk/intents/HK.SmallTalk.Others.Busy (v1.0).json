@@ -1,0 +1,84 @@
+{
+  "id": "5f024816-b100-4fa1-8b1d-e02575eeba52",
+  "name": "HK.SmallTalk.Others.Busy (v1.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c9e91bb2-ec2c-4dc5-8660-f94f3de59b21",
+          "name": "General_Busy",
+          "required": false,
+          "dataType": "@General_Busy",
+          "value": "$General_Busy",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "40ca5ba1-2bef-41f1-a760-4544e4bd234b",
+          "name": "General_scold",
+          "required": false,
+          "dataType": "@General_scold",
+          "value": "$General_scold",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Work is always busy! As long as you work hard, you can meet the requirements! Let\u0027s work hard together!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "别伤心。小博都会被人骂，但只要努力工作，达到要求就好了！我们一起加油！"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "唔好唔開心啦。小博都會俾人鬧，但只要努力工作，達到要求就好喇！我哋一齊加油！"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

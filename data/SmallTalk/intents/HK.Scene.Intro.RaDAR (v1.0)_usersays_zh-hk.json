@@ -1,0 +1,339 @@
+[
+  {
+    "id": "de903f06-87df-4078-a2a7-c985451c1be1",
+    "data": [
+      {
+        "text": "咩係",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": "rader",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c4c0f5c1-60a9-4c5a-83ff-4d3c1ed29b70",
+    "data": [
+      {
+        "text": "raider",
+        "alias": "smartlab_radar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "d94f7bc0-5c55-43ce-8211-5ba0b1e6f3dc",
+    "data": [
+      {
+        "text": "咩嘢係",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "waiter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b451d4e8-8af4-4779-a40c-b9b8194e126f",
+    "data": [
+      {
+        "text": "乜嘢係later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f2d8095e-70f4-46da-aa26-084603d6e7e5",
+    "data": [
+      {
+        "text": "咩嘢係",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "trader",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "82411e28-92d0-41b1-a24e-57811d13cd23",
+    "data": [
+      {
+        "text": "雷達技術",
+        "meta": "@SmartLAB_Radar",
+        "alias": "SmartLAB_Radar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "27637aac-a396-4ceb-94be-6a1851490030",
+    "data": [
+      {
+        "text": "雷達",
+        "meta": "@SmartLAB_Radar",
+        "alias": "SmartLAB_Radar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7aaf9c85-7f7f-4930-a3d8-79b78f18fbfb",
+    "data": [
+      {
+        "text": "介紹下",
+        "userDefined": false
+      },
+      {
+        "text": "雷達",
+        "meta": "@SmartLAB_Radar",
+        "alias": "SmartLAB_Radar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4d315c83-fc97-457b-ae28-247d3f7c5b56",
+    "data": [
+      {
+        "text": "簡介",
+        "userDefined": false
+      },
+      {
+        "text": "雷達",
+        "meta": "@SmartLAB_Radar",
+        "alias": "SmartLAB_Radar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "bd191da6-444d-4ba2-ab42-c383d1089dab",
+    "data": [
+      {
+        "text": "推介",
+        "userDefined": false
+      },
+      {
+        "text": "雷達",
+        "meta": "@SmartLAB_Radar",
+        "alias": "SmartLAB_Radar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "97bb4f7f-5eec-49a0-9198-e7605fc54c3c",
+    "data": [
+      {
+        "text": "雷達",
+        "meta": "@SmartLAB_Radar",
+        "alias": "SmartLAB_Radar",
+        "userDefined": false
+      },
+      {
+        "text": "咩黎嫁",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "305c95c2-5e3a-4669-baed-912c7b2aa620",
+    "data": [
+      {
+        "text": "講下",
+        "userDefined": false
+      },
+      {
+        "text": "雷達",
+        "meta": "@SmartLAB_Radar",
+        "alias": "SmartLAB_Radar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a56e3452-9200-4698-a619-c1cd4a91ce2b",
+    "data": [
+      {
+        "text": "可唔可以講下",
+        "userDefined": false
+      },
+      {
+        "text": "雷達",
+        "meta": "@SmartLAB_Radar",
+        "alias": "SmartLAB_Radar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "20b6048d-75c8-4992-8045-d0beabc500c9",
+    "data": [
+      {
+        "text": "雷達",
+        "meta": "@SmartLAB_Radar",
+        "alias": "SmartLAB_Radar",
+        "userDefined": false
+      },
+      {
+        "text": "咩黎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "d864cf9e-001c-467f-b2bb-3b923c175170",
+    "data": [
+      {
+        "text": "咩係",
+        "userDefined": false
+      },
+      {
+        "text": "雷達",
+        "meta": "@SmartLAB_Radar",
+        "alias": "SmartLAB_Radar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8c89760c-fa59-470d-a1a7-a4d960a12f55",
+    "data": [
+      {
+        "text": "雷達",
+        "meta": "@SmartLAB_Radar",
+        "alias": "SmartLAB_Radar",
+        "userDefined": false
+      },
+      {
+        "text": "乜黎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b5fca584-d79e-47ee-891c-481083833fbf",
+    "data": [
+      {
+        "text": "雷達",
+        "meta": "@SmartLAB_Radar",
+        "alias": "SmartLAB_Radar",
+        "userDefined": false
+      },
+      {
+        "text": "乜黎嫁",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "11232e16-e85b-4c8d-a8da-653cd9810c62",
+    "data": [
+      {
+        "text": "乜嘢",
+        "userDefined": false
+      },
+      {
+        "text": "雷達",
+        "meta": "@SmartLAB_Radar",
+        "alias": "SmartLAB_Radar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "10a33877-b37f-4daa-afca-9c99e75c526c",
+    "data": [
+      {
+        "text": "Radar",
+        "meta": "@SmartLAB_Radar",
+        "alias": "SmartLAB_Radar",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "8b70adcd-54dd-4d7a-b451-8d8f2fb71de6",
+  "name": "SmartLAB_Cave",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

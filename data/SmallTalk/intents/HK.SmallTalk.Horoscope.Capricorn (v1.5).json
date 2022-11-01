@@ -1,0 +1,76 @@
+{
+  "id": "1a994825-b6d9-4522-8011-dc2198e18e5b",
+  "name": "HK.SmallTalk.Horoscope.Capricorn (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2ccc13b2-1203-4cc3-b3f4-c3942babdfe5",
+          "name": "General_Capricorn",
+          "required": false,
+          "dataType": "@General_Capricorn",
+          "value": "$General_Capricorn",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The birth date of Capricorn is from December 22nd to January 19th.",
+            "Capricorns have a practical outlook on life, are rich in thoughts, like to think, and work honestly.",
+            "The lucky color of Capricorn is brown, and the lucky stone is onyx."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "摩羯座出生日期是从12月22天至1月19天。",
+            "摩羯座有实际的人生观，思想丰富，喜欢思考，工作老实。",
+            "摩羯座的幸运色系咖啡色，幸运石头是缟玛瑙。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "摩羯座出生日期係由12月22日至1月19日。",
+            "摩羯座有實際嘅人生觀，思想豐富，鍾意思考，做嘢腳踏實地。",
+            "摩羯座嘅幸運色係咖啡色，幸運石係縞瑪瑙。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

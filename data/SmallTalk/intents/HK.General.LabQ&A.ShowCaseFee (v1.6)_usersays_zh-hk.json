@@ -1,0 +1,202 @@
+[
+  {
+    "id": "5d876f57-f82c-4fd4-8e6a-05b81371b6ca",
+    "data": [
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "展示",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      },
+      {
+        "text": "建議方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      },
+      {
+        "text": "收",
+        "userDefined": false
+      },
+      {
+        "text": "錢",
+        "meta": "@General_Fee",
+        "alias": "general_fee",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c6765cfe-83e1-4bd9-8261-e351482724a5",
+    "data": [
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": true
+      },
+      {
+        "text": "展示",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": true
+      },
+      {
+        "text": "方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": true
+      },
+      {
+        "text": "費用",
+        "meta": "@General_Fee",
+        "alias": "general_fee",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7017b2c0-9759-41b0-a3d3-222db7dd5b34",
+    "data": [
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "展示",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      },
+      {
+        "text": "建議方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      },
+      {
+        "text": "畀",
+        "userDefined": false
+      },
+      {
+        "text": "錢",
+        "meta": "@General_Fee",
+        "alias": "general_fee",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "32e5dbe3-d809-4205-bb80-725a797927c0",
+    "data": [
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "展示",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      },
+      {
+        "text": "方案",
+        "meta": "@General_Solution",
+        "alias": "general_solution",
+        "userDefined": false
+      },
+      {
+        "text": "收費",
+        "meta": "@General_Fee",
+        "alias": "general_fee",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ecda8110-2152-4f40-a387-20190ca92a1c",
+    "data": [
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "展示",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      },
+      {
+        "text": "展品",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      },
+      {
+        "text": "收費",
+        "meta": "@General_Fee",
+        "alias": "general_fee",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "dca00f5a-189c-4ea7-b431-8f44a546346c",
+    "data": [
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": true
+      },
+      {
+        "text": "展示",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": true
+      },
+      {
+        "text": "費用",
+        "meta": "@General_Fee",
+        "alias": "general_fee",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

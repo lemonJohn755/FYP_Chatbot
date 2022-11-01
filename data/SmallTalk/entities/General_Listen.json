@@ -1,0 +1,9 @@
+{
+  "id": "13917b53-53dd-42c7-a348-3571bd709929",
+  "name": "General_Listen",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

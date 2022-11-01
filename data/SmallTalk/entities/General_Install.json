@@ -1,0 +1,9 @@
+{
+  "id": "33ee5156-748d-47d2-a626-3832f610f70b",
+  "name": "General_Install",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,73 @@
+{
+  "id": "a102fa7c-4a14-4c42-a682-dcd2b2df9163",
+  "name": "HK.SmallTalk.LABotQ\u0026A.IlikeYou (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "14706b55-8895-4b4e-956d-4bcf0e26d82d",
+          "name": "General_IlikeYou",
+          "required": false,
+          "dataType": "@General_IlikeYou",
+          "value": "$General_IlikeYou",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I like you too.",
+            "People are a bit shy when you say that, and I blush."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "我也喜欢你。",
+            "你这么说人家有点害羞，我脸都红了。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "我都好鍾意你。",
+            "人哋有啲怕醜你咁講，我面紅啦。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

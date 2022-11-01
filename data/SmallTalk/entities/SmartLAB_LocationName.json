@@ -1,0 +1,9 @@
+{
+  "id": "8e3679d9-983f-436e-9fe8-1f397d5885b9",
+  "name": "SmartLAB_LocationName",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

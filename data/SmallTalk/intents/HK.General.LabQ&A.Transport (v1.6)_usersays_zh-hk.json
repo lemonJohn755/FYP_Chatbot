@@ -1,0 +1,154 @@
+[
+  {
+    "id": "1fc125b4-614f-49b4-9164-88bc856bf341",
+    "data": [
+      {
+        "text": "交通",
+        "meta": "@General_Transport",
+        "alias": "general_transport",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4371e8a5-8c9f-4143-8184-088765983eee",
+    "data": [
+      {
+        "text": "搭車",
+        "meta": "@General_Transport",
+        "alias": "general_transport",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3f4c3de3-a16c-4c86-9678-2fb0e16b4389",
+    "data": [
+      {
+        "text": "點",
+        "userDefined": false
+      },
+      {
+        "text": "搭車",
+        "meta": "@General_Transport",
+        "alias": "general_transport",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f6f8d757-32e3-44ed-abf6-780127238a18",
+    "data": [
+      {
+        "text": "車",
+        "meta": "@General_Transport",
+        "alias": "general_transport",
+        "userDefined": false
+      },
+      {
+        "text": "搭",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8996e39b-3ec5-4902-8723-34ff391555d7",
+    "data": [
+      {
+        "text": "搭咩",
+        "userDefined": false
+      },
+      {
+        "text": "車",
+        "meta": "@General_Transport",
+        "alias": "general_transport",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "44d82651-8ea5-4adb-b982-d2e3254db655",
+    "data": [
+      {
+        "text": "點樣走",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a889d8bc-f2a6-47c3-b129-e69926861275",
+    "data": [
+      {
+        "text": "點樣",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "離開",
+        "meta": "@General_Transport",
+        "alias": "general_transport",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "426a4d0a-eede-4a7b-b211-15cfb4d17410",
+    "data": [
+      {
+        "text": "點走",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2a4682c0-c591-40ba-bd2e-26078217cd6c",
+    "data": [
+      {
+        "text": "點",
+        "userDefined": false
+      },
+      {
+        "text": "離開",
+        "meta": "@General_Transport",
+        "alias": "general_transport",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

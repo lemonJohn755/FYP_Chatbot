@@ -1,0 +1,9 @@
+{
+  "id": "0e74f81c-1131-48e2-871f-026649b65ffb",
+  "name": "General_IQ",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

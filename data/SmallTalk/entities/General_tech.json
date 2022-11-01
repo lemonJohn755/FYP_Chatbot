@@ -1,0 +1,9 @@
+{
+  "id": "d19f988e-1ccc-4e9f-89bb-24186d1c493d",
+  "name": "General_tech",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

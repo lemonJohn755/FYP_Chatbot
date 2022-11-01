@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2d5aa375-019a-4620-8116-893e955fb824",
+    "data": [
+      {
+        "text": "小紅帽",
+        "meta": "@General_Redhood",
+        "alias": "General_Redhood",
+        "userDefined": false
+      },
+      {
+        "text": "故事",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "dc895907-017a-4397-891b-dd7fbcb4cfc8",
+    "data": [
+      {
+        "text": "小紅帽",
+        "meta": "@General_Redhood",
+        "alias": "General_Redhood",
+        "userDefined": true
+      },
+      {
+        "text": "講咩",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2647b64c-6eb6-4b4d-a5ed-a53e45ef5bc6",
+    "data": [
+      {
+        "text": "小紅帽",
+        "meta": "@General_Redhood",
+        "alias": "General_Redhood",
+        "userDefined": true
+      },
+      {
+        "text": "故仔",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5bc5f771-e9b4-4109-9818-cd4510c4dbac",
+    "data": [
+      {
+        "text": "小紅帽",
+        "meta": "@General_Redhood",
+        "alias": "General_Redhood",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

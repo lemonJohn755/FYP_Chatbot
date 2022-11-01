@@ -1,0 +1,76 @@
+{
+  "id": "c8fb2c5f-65d1-43c2-b6a4-87f43c845997",
+  "name": "HK.Action.Motion.Guiding (v2.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "13366faf-5da2-4833-bea7-343d455ff335",
+          "name": "default_guiding",
+          "required": false,
+          "dataType": "@Default_Guiding",
+          "value": "$default_guiding",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please say \"Take me to\" and add where you want to go, for example: Take me to the Tree Monitoring System. E\u003dnormal",
+            "Please say \"take me to\" and add where you want to go, for example: take me to the thermal imaging. E\u003dnormal",
+            "Please say \"Take me to\" and add where you want to go, for example: Take me to blockchain. E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "请说出“带我去”并加上你想去的地方，例如：带我到树木摇动监测控制台。E\u003dnormal",
+            "请说出“带我去”并加上你想去的地方，例如：带我去热成像技术区。E\u003dnormal",
+            "请说出“带我去”并加上你想去的地方，例如：带我去区块链技术。E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "請講出「帶我去」並加上你想去嘅地點，例如: 帶我去樹木搖動監測控制台。E\u003dnormal",
+            "請講出「帶我去」並加上你想去嘅地點，例如: 帶我去熱成像技術區。E\u003dnormal",
+            "請講出「帶我去」並加上你想去嘅地點，例如: 帶我去區塊鏈技術。E\u003dnormal"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

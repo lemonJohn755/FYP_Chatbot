@@ -1,0 +1,221 @@
+[
+  {
+    "id": "685dfffe-91d0-47b3-977b-c341344143d3",
+    "data": [
+      {
+        "text": "同人",
+        "userDefined": false
+      },
+      {
+        "text": "握手",
+        "meta": "@Motion_ShakeHand",
+        "alias": "motion_shakehand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3ba5caed-6b89-4dfb-902a-8f5270c0d0cb",
+    "data": [
+      {
+        "text": "吖個手",
+        "meta": "@Motion_ShakeHand",
+        "alias": "motion_shakehand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b7bd5458-bd97-4bb9-9806-68d6e73e65d5",
+    "data": [
+      {
+        "text": "呃個手",
+        "meta": "@Motion_ShakeHand",
+        "alias": "motion_shakehand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3e847c1f-cf9b-4d7e-a39d-44e152408ef5",
+    "data": [
+      {
+        "text": "握個手",
+        "meta": "@Motion_ShakeHand",
+        "alias": "motion_shakehand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "70ea96d4-4dda-4f38-a813-23085058af01",
+    "data": [
+      {
+        "text": "吖手",
+        "meta": "@Motion_ShakeHand",
+        "alias": "motion_shakehand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "078adf4c-ed9a-4db0-bfe7-5c07b8d09d45",
+    "data": [
+      {
+        "text": "呃手",
+        "meta": "@Motion_ShakeHand",
+        "alias": "motion_shakehand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2a020397-5adf-4f4e-b6b2-b1dc91920106",
+    "data": [
+      {
+        "text": "握手",
+        "meta": "@Motion_ShakeHand",
+        "alias": "motion_shakehand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2710b65a-a471-4118-ab2e-f4c4d715e89a",
+    "data": [
+      {
+        "text": "握",
+        "userDefined": false
+      },
+      {
+        "text": "握手",
+        "meta": "@Motion_ShakeHand",
+        "alias": "motion_shakehand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e2433b72-a016-4197-a0fd-edf051280d02",
+    "data": [
+      {
+        "text": "握吓手",
+        "meta": "@Motion_ShakeHand",
+        "alias": "motion_shakehand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "68e0dfe1-0064-4936-b3dd-74cffcfbe4b7",
+    "data": [
+      {
+        "text": "同我",
+        "userDefined": false
+      },
+      {
+        "text": "握吓手",
+        "meta": "@Motion_ShakeHand",
+        "alias": "motion_shakehand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e8a1ac73-d984-4d0b-8fdb-21c10ed98871",
+    "data": [
+      {
+        "text": "同你",
+        "userDefined": false
+      },
+      {
+        "text": "握吓手",
+        "meta": "@Motion_ShakeHand",
+        "alias": "motion_shakehand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "26a07207-ed0e-4a3f-9d70-b2842f9c6ac7",
+    "data": [
+      {
+        "text": "同我",
+        "userDefined": false
+      },
+      {
+        "text": "握手",
+        "meta": "@Motion_ShakeHand",
+        "alias": "motion_shakehand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0aebf2e4-a669-40d8-9e80-244dcf3e5561",
+    "data": [
+      {
+        "text": "同你",
+        "userDefined": false
+      },
+      {
+        "text": "握手",
+        "meta": "@Motion_ShakeHand",
+        "alias": "motion_shakehand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

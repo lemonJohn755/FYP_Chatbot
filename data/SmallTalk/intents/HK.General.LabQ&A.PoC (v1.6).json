@@ -1,0 +1,157 @@
+{
+  "id": "3378f3a6-1e00-4e19-9d23-ca8ecd591b94",
+  "name": "HK.General.LabQ\u0026A.PoC (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5f162dd3-ad4d-4876-94e9-fd72688d9031",
+          "name": "general_poc",
+          "required": false,
+          "dataType": "@General_POC",
+          "value": "$general_poc",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0988706e-d9f8-4d63-b7b5-717026a48e22",
+          "name": "general_objectives",
+          "required": false,
+          "dataType": "@General_Objectives",
+          "value": "$general_objectives",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9226c9d7-3032-42c1-a2f4-5ccaed7fb59b",
+          "name": "general_solution",
+          "required": false,
+          "dataType": "@General_Solution",
+          "value": "$general_solution",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "44549389-02e6-407c-9157-2548dd5b519e",
+          "name": "general_benefit",
+          "required": false,
+          "dataType": "@General_Benefit",
+          "value": "$general_benefit",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7f6d2d9b-6346-41c6-aaa9-f5bfed34ef9a",
+          "name": "smartlab_name",
+          "required": false,
+          "dataType": "@SmartLAB_Name",
+          "value": "$smartlab_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "da67a55e-826a-49b8-8e7c-22114ced0c04",
+          "name": "general_usage",
+          "required": false,
+          "dataType": "@General_Usage",
+          "value": "$general_usage",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1f5acd00-3123-47fb-b63c-3008cf62be53",
+          "name": "general_need",
+          "required": false,
+          "dataType": "@General_Need",
+          "value": "$general_need",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The innovation laboratory will understand the needs of the department, and suggest related technical solutions for concept verification and technical testing. Through proof of concept and technical testing, it is possible to understand more clearly whether the plan can meet the service needs of the department, and to facilitate the benefits and limitations, so as to formulate appropriate procurement strategies and arrangements more effectively. E\u003dnodding",
+            "Through testing or verification technology, the department can understand the feasibility of the relevant plan, so as to  formulate the requirements of the appropriate procurement plan more effectively, and formulate the appropriate procurement documents according to the relevant procurement procedures. E\u003dnodding"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "创新实验室会了解部门的需求，建议相关的技术方案进行概念验证和技术测试，这样就可以更清楚了解方案是否能切合部一份的服务需求，它的效益和局限，从而更有效制定合适的采购策略和应用的安排。 E\u003dnodding",
+            "通过测试或验证技术，部门可以了解到相关方案的可行性，从而更有效地制定采购合适方案的要求，并按相关采购程式拟定合适的采购文件，进行采购。 E\u003dnodding"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "創新實驗室會了解部門的需求，建議相關的技術方案進行概念驗證同技術測試，咁樣就可以更清楚了解方案是否能切合部份嘅服務需求，其效益及局限，從而更有效制定合適嘅採購策略同應用嘅安排。 E\u003dnodding",
+            "通過測試或驗證技術，部門可以了解到相關方案嘅可行性，從而更有效咁制定採購合適方案嘅要求，並按相關採購程序擬定合適嘅採購文件，進行採購。 E\u003dnodding"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

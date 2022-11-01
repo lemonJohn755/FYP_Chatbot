@@ -1,0 +1,9 @@
+{
+  "id": "a4bd025d-d3c9-4ff8-b09f-2bd927246cf5",
+  "name": "General_Interaction",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

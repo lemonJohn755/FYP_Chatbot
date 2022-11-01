@@ -1,0 +1,73 @@
+{
+  "id": "ce987da2-d32a-43bd-bcd5-d0789e12a977",
+  "name": "HK.Action.Emotion.BoredUser (v2.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "72c3e182-81d3-42b4-a26e-0a67f3d4d079",
+          "name": "emotion_bored",
+          "required": false,
+          "dataType": "@Emotion_Bored",
+          "value": "$emotion_bored",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "你覺得悶呀？不如周圍行下！參觀創新實驗室！E\u003dnormal",
+            "不如同我傾吓計啦！E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Are you bored? It\u0027s better to walk around! Visit the Innovation Lab! E\u003dnormal",
+            "Would you mind chatting with me? E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "你觉得无聊吗？不如到处参观一下创新实验室！E\u003dnormal",
+            "不如跟我聊天吧！E\u003dnormal"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

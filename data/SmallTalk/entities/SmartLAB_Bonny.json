@@ -1,0 +1,9 @@
+{
+  "id": "b4ca2ab3-e114-4f19-9040-8bb1988d4c08",
+  "name": "SmartLAB_Bonny",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

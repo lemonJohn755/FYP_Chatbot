@@ -1,0 +1,84 @@
+{
+  "id": "1f76582d-f3a1-414e-a512-e9a7d1acab74",
+  "name": "HK.General.Website.Info (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6902e866-0a97-4e99-b06a-96069a3c3276",
+          "name": "general_url",
+          "required": false,
+          "dataType": "@General_URL",
+          "value": "$general_url",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "db47e87c-8840-4318-be68-4dfe2eb4e141",
+          "name": "smartlab_name",
+          "required": false,
+          "dataType": "@SmartLAB_Name",
+          "value": "$smartlab_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The website of Innovation Lab is www.smartlab.gov.hk .The website of the Innovation Lab will list Smart Lab’s focus activities, the latest information, service requirements and innovative technology solutions. Government departments can submit business need requirements through the website, and enterprises can suggest solutions through the website. E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "创新实验室的网址是www.smartlab.gov.hk. 创新实验室的网站会列出Smart Lab的焦点活动、最新资讯、服务需求和的创新科技的方案。政府部门可以通过网站提出服务需求，而企业就可以通过网站建议解决的方案。 E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "創新實驗室嘅網站係www.smartlab.gov.hk. 創新實驗室嘅網站會列出Smart Lab嘅焦點活動、最新資訊、服務需求同一啲創新科技嘅方案。政府部門可以透過網站提出服務需求，而企業就可以透過網站建議解決嘅方案。 E\u003dnormal"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

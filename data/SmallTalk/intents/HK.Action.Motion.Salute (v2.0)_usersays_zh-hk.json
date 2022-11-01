@@ -1,0 +1,106 @@
+[
+  {
+    "id": "a1e4505a-ba9c-41f7-bc07-ca17c8a82185",
+    "data": [
+      {
+        "text": "同大家",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "敬禮",
+        "meta": "@Motion_Salute",
+        "alias": "motion_salute",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "32073960-0e80-4b3b-86d4-f5a814deb23c",
+    "data": [
+      {
+        "text": "同我",
+        "userDefined": false
+      },
+      {
+        "text": "敬禮",
+        "meta": "@Motion_Salute",
+        "alias": "motion_salute",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0789551c-6f8f-4e3a-bdb3-b40df8fe4bee",
+    "data": [
+      {
+        "text": "Salute",
+        "meta": "@Motion_Salute",
+        "alias": "motion_salute",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "58312aa5-14ef-4ad6-b757-4b017369052f",
+    "data": [
+      {
+        "text": "敬禮",
+        "meta": "@Motion_Salute",
+        "alias": "motion_salute",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f4b819e3-2e62-468a-94cc-a4c2832354c5",
+    "data": [
+      {
+        "text": "敬個禮",
+        "meta": "@Motion_Salute",
+        "alias": "motion_salute",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "19f281ee-e456-4fb8-9783-2c33489c3d6f",
+    "data": [
+      {
+        "text": "敬一",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "敬禮",
+        "meta": "@Motion_Salute",
+        "alias": "motion_salute",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "9113c7c7-8469-4506-a6a9-083f019ce08f",
+    "data": [
+      {
+        "text": "掌聲",
+        "meta": "@Motion_ClapHand",
+        "alias": "motion_claphand",
+        "userDefined": false
+      },
+      {
+        "text": "鼓勵",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "29fda3c0-99ea-42a3-9692-1fca813613e7",
+    "data": [
+      {
+        "text": "同我",
+        "userDefined": false
+      },
+      {
+        "text": "拍手",
+        "meta": "@Motion_ClapHand",
+        "alias": "motion_claphand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "57344f50-f0ff-4880-a5fa-fbd133fdd081",
+    "data": [
+      {
+        "text": "拍個手",
+        "meta": "@Motion_ClapHand",
+        "alias": "motion_claphand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3c7a3252-af0b-4e6a-8381-7d1b9f212c53",
+    "data": [
+      {
+        "text": "拍手",
+        "meta": "@Motion_ClapHand",
+        "alias": "motion_claphand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f730b253-3e8b-49aa-9b99-7a623acfa8fe",
+    "data": [
+      {
+        "text": "拍掌",
+        "meta": "@Motion_ClapHand",
+        "alias": "motion_claphand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "81edeca0-dc8f-42dd-8239-445bce824476",
+    "data": [
+      {
+        "text": "鼓掌",
+        "meta": "@Motion_ClapHand",
+        "alias": "motion_claphand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

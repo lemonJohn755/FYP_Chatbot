@@ -1,0 +1,70 @@
+{
+  "id": "a69b0656-8a50-4676-80ab-7239824943bd",
+  "name": "HK.SmallTalk.Hobbies.Gaming (v1.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d02a59f2-b634-4752-ba2c-ca255d82075e",
+          "name": "General_gaming",
+          "required": false,
+          "dataType": "@General_gaming",
+          "value": "$General_gaming",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "我覺得打機太浪費時間。我寧願利用工餘時間進修同做啲自己鍾意嘅嘢。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "我觉得打游戏太浪费时间。我宁愿利用工余时间进修和做自己喜欢的东西。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I think playing games is a waste of time. I would rather use my spare time to study and do the things I like."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

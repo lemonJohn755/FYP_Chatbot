@@ -1,0 +1,9 @@
+{
+  "id": "4b9cfc54-5102-4d4d-bc7c-04bc5d4c741d",
+  "name": "General_Contact",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

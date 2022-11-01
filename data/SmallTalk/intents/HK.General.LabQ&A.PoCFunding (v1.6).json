@@ -1,0 +1,84 @@
+{
+  "id": "c4aab34e-64f7-46ab-be1a-f5c32917b418",
+  "name": "HK.General.LabQ\u0026A.PoCFunding (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "868aa278-d0ea-43d5-b397-f051c7464da4",
+          "name": "general_poc",
+          "required": false,
+          "dataType": "@General_POC",
+          "value": "$general_poc",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "46933208-e03e-422c-b088-71e521bf27ad",
+          "name": "general_fee",
+          "required": false,
+          "dataType": "@General_Fee",
+          "value": "$general_fee",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "一般情況下，概念驗證都係由技術供應商免費提供。創新實驗室亦會提供支援。 E\u003dnodding"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "一般情况下，概念验证都是从技术供货商免费提供。创新实验室也会提供支持。 E\u003dnodding"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "In general, proofs of concept are provided free of charge from technology vendors. The innovation laboratory will also provide support. E\u003dnodding"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

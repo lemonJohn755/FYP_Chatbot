@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ecac280d-e311-4445-be46-a272b2fd3cb7",
+    "data": [
+      {
+        "text": "天蠍座",
+        "meta": "@General_Scorpio",
+        "alias": "General_Scorpio",
+        "userDefined": false
+      },
+      {
+        "text": "性格",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f2a005b0-5140-4715-8706-4f0e786849ac",
+    "data": [
+      {
+        "text": "天蠍座",
+        "meta": "@General_Scorpio",
+        "alias": "General_Scorpio",
+        "userDefined": false
+      },
+      {
+        "text": "係點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "167b7aeb-5455-4fe2-a843-751bc7c2e729",
+    "data": [
+      {
+        "text": "天蠍座",
+        "meta": "@General_Scorpio",
+        "alias": "General_Scorpio",
+        "userDefined": false
+      },
+      {
+        "text": "份人",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0d9c02dd-29d0-4cf4-972a-aaf42be9968a",
+    "data": [
+      {
+        "text": "天蠍座",
+        "meta": "@General_Scorpio",
+        "alias": "General_Scorpio",
+        "userDefined": false
+      },
+      {
+        "text": "生日",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a6ffc11c-dc34-407a-b34c-5a419cfa75b6",
+    "data": [
+      {
+        "text": "天蠍座",
+        "meta": "@General_Scorpio",
+        "alias": "General_Scorpio",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "5a311452-4ba9-4b02-acee-b50ceff88227",
+  "name": "General_Leg",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "id": "4bc34e9c-be10-44e7-8e02-1f71a03e7dc1",
+    "data": [
+      {
+        "text": "boring",
+        "meta": "@Emotion_Bored",
+        "alias": "emotion_bored",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9d14b84b-2dcf-474d-8df1-ca6392f81473",
+    "data": [
+      {
+        "text": "bored",
+        "meta": "@Emotion_Bored",
+        "alias": "emotion_bored",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "cc216b7a-7766-4aa9-a2a5-b76d9f4360c9",
+    "data": [
+      {
+        "text": "好無聊",
+        "meta": "@Emotion_Bored",
+        "alias": "emotion_bored",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8bb36c79-3b47-4103-88f8-63bb325991c4",
+    "data": [
+      {
+        "text": "我",
+        "userDefined": false
+      },
+      {
+        "text": "好悶",
+        "meta": "@Emotion_Bored",
+        "alias": "emotion_bored",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "bd5e08ef-d6c8-4d1c-8149-2c87480ef042",
+    "data": [
+      {
+        "text": "好鬼",
+        "userDefined": false
+      },
+      {
+        "text": "悶",
+        "meta": "@Emotion_Bored",
+        "alias": "emotion_bored",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "48031894-3939-4c54-a007-33615c87a062",
+    "data": [
+      {
+        "text": "好悶",
+        "meta": "@Emotion_Bored",
+        "alias": "emotion_bored",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "15422d14-cfd8-425e-91b7-a97e2660594b",
+    "data": [
+      {
+        "text": "悶悶",
+        "meta": "@Emotion_Bored",
+        "alias": "emotion_bored",
+        "userDefined": true
+      },
+      {
+        "text": "不樂",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0b9c6937-cfbe-4211-8753-6162f3e13c46",
+    "data": [
+      {
+        "text": "悶",
+        "meta": "@Emotion_Bored",
+        "alias": "emotion_bored",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8bdb4a61-2e2e-467a-b380-c529ac4bf24f",
+    "data": [
+      {
+        "text": "我唔想做",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

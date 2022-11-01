@@ -1,0 +1,75 @@
+{
+  "id": "ca6442eb-72f1-4732-a9fc-702cabf2cac3",
+  "name": "HK.SmallTalk.LABotQ\u0026A.LABotAnnoy (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e5a89ce3-959b-47ac-9397-2e14f5fbfee4",
+          "name": "General_LABotAnnoy",
+          "required": false,
+          "dataType": "@General_LABotAnnoy",
+          "value": "$General_LABotAnnoy",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "不要觉得很烦，开心点。",
+            "太多的烦恼会很容易变老的。",
+            "跟我聊天，你就会开心很多。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Don\u0027t feel annoyed, be happy.",
+            "Talk to me and you will be much happier."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "唔好煩啦，開心d。",
+            "太多煩惱會好容易老㗎。",
+            "搵我傾下，你就會開心好多。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

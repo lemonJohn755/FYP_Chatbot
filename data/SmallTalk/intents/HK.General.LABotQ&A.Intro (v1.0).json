@@ -1,0 +1,73 @@
+{
+  "id": "9660aafd-51e6-46bb-b789-46f9f41fb19b",
+  "name": "HK.General.LABotQ\u0026A.Intro (v1.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1852639b-d17f-4dc2-b0a9-e7f71a7878c6",
+          "name": "General_Intro",
+          "required": false,
+          "dataType": "@General_Intro",
+          "value": "$General_Intro",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "My name is LABot and I am the receptionist of SmartLab, you are welcome here.",
+            "Welcome. My name is  LABot and I am the receptionist of the Innovation Lab."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "我叫小博，是SmartLab的接待员，欢迎你来这里",
+            "我叫小博，是创新实验室的接待员，欢迎你来这里"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "我叫小博,  係SmartLab嘅接待大使, 歡迎你嚟到呢度！",
+            "我叫小博,  係創新實驗室嘅接待大使, 歡迎你嚟到呢度！"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "c9a02f46-139f-415f-a3c4-6069a6a25746",
+  "name": "General_Ga",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

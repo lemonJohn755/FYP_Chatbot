@@ -1,0 +1,58 @@
+{
+  "id": "2d3e8c1b-caeb-4aa5-b85a-728e9d205789",
+  "name": "HK.SmallTalk.Festival.EstDay (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The anniversary of the establishment of the Hong Kong Special Administrative Region is July 1, which is also the day when Hong Kong returns to China.",
+            "The anniversary of the establishment of the Hong Kong Special Administrative Region is a public holiday in Hong Kong, and it celebrates Hong Kong returns to China."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "香港特别行政区成立纪念日是7月1日，也是香港回归的日子。",
+            "香港特别行政区成立纪念日是香港的公众假期，香港回归，大家放假。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "香港特別行政區成立紀念日係7月1號，亦都係香港回歸嘅日子。",
+            "香港特別行政區成立紀念日係香港嘅公眾假期，香港回歸，大家放假。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

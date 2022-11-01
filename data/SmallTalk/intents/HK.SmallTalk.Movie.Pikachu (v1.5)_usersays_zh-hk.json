@@ -1,0 +1,104 @@
+[
+  {
+    "id": "2ccead01-bb5e-44f9-a4b2-317760cb1838",
+    "data": [
+      {
+        "text": "睇",
+        "userDefined": false
+      },
+      {
+        "text": "寵物小精靈",
+        "meta": "@General_Pikachu",
+        "alias": "General_Pikachu",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "df892fc7-b7b8-4e2c-a30d-c2b1fa229ecd",
+    "data": [
+      {
+        "text": "識得",
+        "userDefined": false
+      },
+      {
+        "text": "比卡超",
+        "meta": "@General_Pikachu",
+        "alias": "General_Pikachu",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "55a35930-1234-482f-909b-3d71d188532a",
+    "data": [
+      {
+        "text": "比卡超",
+        "meta": "@General_Pikachu",
+        "alias": "General_Pikachu",
+        "userDefined": true
+      },
+      {
+        "text": "得意",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6fd8540b-4ae5-4ed4-ba4a-8e3ebd091c45",
+    "data": [
+      {
+        "text": "寵物小精靈",
+        "meta": "@General_Pikachu",
+        "alias": "General_Pikachu",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9d2cff6a-9cc2-4eab-84b7-8dfee46dbbec",
+    "data": [
+      {
+        "text": "皮卡超",
+        "meta": "@General_Pikachu",
+        "alias": "General_Pikachu",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "74869a3c-7b37-4148-ae98-1c54fc5cb5a1",
+    "data": [
+      {
+        "text": "比卡超",
+        "meta": "@General_Pikachu",
+        "alias": "General_Pikachu",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

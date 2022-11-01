@@ -1,0 +1,70 @@
+{
+  "id": "6460c8b0-3a73-4f21-aba0-256d382f7111",
+  "name": "HK.General.LabQ\u0026A.OGCIO (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "34a4e7eb-27c9-40c6-a543-86fa6991f18c",
+          "name": "general_ogcio",
+          "required": false,
+          "dataType": "@General_OGCIO",
+          "value": "$general_ogcio",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The head of the Office of the Government Chief Information Officer is the Government Chief Information Officer. Not only does the Chief provide information technology services and support within the government, but the Chief is also responsible for formulating information technology strategies, plans and measures to help strengthen Hong Kong\u0027s position as a leading digital city in Asia. E\u003dblinkingsmileeyes"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "政府资讯技术总监办公室首长为政府资讯技术总监。除了在政府的内部提供资讯技术服务和支持之外，政府资讯科技总监办公室负责制定资讯科技策略、计划和措施，以协助巩固香港作为亚洲领先数码城市的地位。 E\u003dblinkingsmileeyes"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "政府資訊科技總監辦公室首長為政府資訊科技總監。 除左係政府內部提供資訊科技服務同支援之外，政府資訊科技總監辦公室負責制定資訊科技策略、計劃同措施，以協助鞏固香港作為亞洲領先數碼城市嘅地位。 E\u003dblinkingsmileeyes"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

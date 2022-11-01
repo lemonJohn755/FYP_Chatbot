@@ -1,0 +1,9 @@
+{
+  "id": "04bdc40e-a402-42c2-ba3e-e52fc2f8ecf4",
+  "name": "General_Trip",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

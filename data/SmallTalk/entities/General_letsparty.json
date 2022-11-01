@@ -1,0 +1,9 @@
+{
+  "id": "077a62be-2f9d-4975-8664-d9fb3178cf3c",
+  "name": "General_letsparty",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

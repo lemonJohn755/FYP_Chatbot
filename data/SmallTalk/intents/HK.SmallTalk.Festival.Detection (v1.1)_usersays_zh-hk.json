@@ -1,0 +1,41 @@
+[
+  {
+    "id": "c648d7c0-0982-4dd1-9525-265bd0bbe75c",
+    "data": [
+      {
+        "text": "今日日子",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "bfc8ad40-dc9d-4a7b-ba46-be7e41992f28",
+    "data": [
+      {
+        "text": "聽日日子",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f1019ded-ad9b-49e3-a486-bc06b24e22d6",
+    "data": [
+      {
+        "text": "下星期日子",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

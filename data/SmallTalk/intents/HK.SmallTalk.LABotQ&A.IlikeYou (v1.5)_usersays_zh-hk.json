@@ -1,0 +1,93 @@
+[
+  {
+    "id": "aa7f5844-7e93-43c8-8930-066b69c150fe",
+    "data": [
+      {
+        "text": "like you",
+        "meta": "@General_IlikeYou",
+        "alias": "General_IlikeYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a519ca6e-b4fe-4b08-b751-37fa864556a9",
+    "data": [
+      {
+        "text": "你好",
+        "userDefined": false
+      },
+      {
+        "text": "得意",
+        "meta": "@General_IlikeYou",
+        "alias": "General_IlikeYou",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ea0aa328-d49f-4a4d-ae19-020f0130a0ae",
+    "data": [
+      {
+        "text": "點解你咁",
+        "userDefined": false
+      },
+      {
+        "text": "可愛",
+        "meta": "@General_IlikeYou",
+        "alias": "General_IlikeYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2294a4af-4af8-46c3-956d-ffafce88f7d7",
+    "data": [
+      {
+        "text": "我",
+        "userDefined": false
+      },
+      {
+        "text": "鍾意你",
+        "meta": "@General_IlikeYou",
+        "alias": "General_IlikeYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a594ebb5-3f06-4f45-805b-c6b9e7a6c5bb",
+    "data": [
+      {
+        "text": "我好",
+        "userDefined": false
+      },
+      {
+        "text": "鍾意你",
+        "meta": "@General_IlikeYou",
+        "alias": "General_IlikeYou",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

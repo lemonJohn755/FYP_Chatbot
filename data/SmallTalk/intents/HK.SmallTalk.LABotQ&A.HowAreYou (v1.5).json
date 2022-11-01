@@ -1,0 +1,79 @@
+{
+  "id": "42a3ac19-2602-46e4-8737-12472868d43b",
+  "name": "HK.SmallTalk.LABotQ\u0026A.HowAreYou (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "53f6ab89-a5b5-4b66-805f-36dc33321498",
+          "name": "General_HowAreYou",
+          "required": false,
+          "dataType": "@General_HowAreYou",
+          "value": "$General_HowAreYou",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "我很好。",
+            "一切都很顺利。",
+            "每天都很高兴。",
+            "我很好，希望你天天都这么好，哈哈。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "我好好啊。",
+            "一切都幾順利。",
+            "日日都好開心。",
+            "幾好，希望日日都咁好，哈哈。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I\u0027m fine",
+            "Everything is going smooth.",
+            "I am happy every day.",
+            "I\u0027m fine, I hope you are the same every day, haha."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

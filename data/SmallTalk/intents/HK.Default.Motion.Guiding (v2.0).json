@@ -1,0 +1,76 @@
+{
+  "id": "37f3a5fe-3b28-41f8-a7e6-2cd31ad748a6",
+  "name": "HK.Default.Motion.Guiding (v2.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9cf3876d-a79f-4982-a2c7-04ebf429b043",
+          "name": "default_guiding",
+          "required": false,
+          "dataType": "@Default_Guiding",
+          "value": "$default_guiding",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "請講出「帶我去」並加上你想去嘅地點, 例如: 帶我去樹木搖動監測控制台。E\u003dconfident",
+            "請講出「帶我去」並加上你想去嘅地點, 例如: 帶我去熱成像技術區。E\u003dconfident",
+            "請講出「帶我去」並加上你想去嘅地點, 例如: 帶我去區塊鏈技術。E\u003dconfident"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "请说出“带我去”并加上你想去的地方，例如：带我到树木摇动监测控制台。E\u003dconfident",
+            "请说出“带我去”并加上你想去的地方，例如：带我去热成像技术区。E\u003dconfident",
+            "请说出“带我去”并加上你想去的地方，例如：带我去区块链技术。E\u003dconfident"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please say \"take me to\" and then add the showcase name, for example \"take me to the tree monitoring console\". E\u003dconfident",
+            "Please say \"take me to\" and then add the showcase name, for example \"take me to the thermal\". E\u003dconfident",
+            "Please say \"take me to\" and then add the showcase name, for example \"take me to the blockchain\". E\u003dconfident"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

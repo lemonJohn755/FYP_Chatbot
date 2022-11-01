@@ -1,0 +1,188 @@
+[
+  {
+    "id": "b2251466-b188-495c-b61b-d386acb31777",
+    "data": [
+      {
+        "text": "非政府",
+        "meta": "@General_SMEs",
+        "alias": "general_smes",
+        "userDefined": false
+      },
+      {
+        "text": "機構同企業",
+        "userDefined": false
+      },
+      {
+        "text": "配對",
+        "meta": "@General_Matching",
+        "alias": "general_matching",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "bcbf8768-ae87-44bc-9e97-94dfeca45369",
+    "data": [
+      {
+        "text": "公營機構",
+        "meta": "@General_Department",
+        "alias": "general_department",
+        "userDefined": false
+      },
+      {
+        "text": "或",
+        "userDefined": false
+      },
+      {
+        "text": "非政府",
+        "meta": "@General_SMEs",
+        "alias": "general_smes",
+        "userDefined": false
+      },
+      {
+        "text": "機構同",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "28c0d84a-5e33-4d48-8b9b-484ac43815f0",
+    "data": [
+      {
+        "text": "公營企業",
+        "meta": "@General_Department",
+        "alias": "general_department",
+        "userDefined": true
+      },
+      {
+        "text": "進行",
+        "userDefined": false
+      },
+      {
+        "text": "配對",
+        "meta": "@General_Matching",
+        "alias": "general_matching",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "d51d32b1-b3da-4d41-b23b-41a062e51cf1",
+    "data": [
+      {
+        "text": "非政府",
+        "meta": "@General_SMEs",
+        "alias": "general_smes",
+        "userDefined": false
+      },
+      {
+        "text": "機構同企業進行",
+        "userDefined": false
+      },
+      {
+        "text": "配對",
+        "meta": "@General_Matching",
+        "alias": "general_matching",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "52d51491-0e56-474b-9ca4-5d1931e453a5",
+    "data": [
+      {
+        "text": "NGO",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "057f52ad-eeda-4de8-a2aa-a63e0e9e84e2",
+    "data": [
+      {
+        "text": "非政府",
+        "meta": "@General_SMEs",
+        "alias": "general_smes",
+        "userDefined": false
+      },
+      {
+        "text": "機構",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "688384ea-3918-4e36-a1ed-e0b82103adb3",
+    "data": [
+      {
+        "text": "非政府",
+        "meta": "@General_SMEs",
+        "alias": "general_smes",
+        "userDefined": false
+      },
+      {
+        "text": "機構",
+        "userDefined": false
+      },
+      {
+        "text": "配對",
+        "meta": "@General_Matching",
+        "alias": "general_matching",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c254daf4-9152-439a-ba9c-b47333d9a983",
+    "data": [
+      {
+        "text": "公營機構",
+        "meta": "@General_Department",
+        "alias": "general_department",
+        "userDefined": false
+      },
+      {
+        "text": "進行",
+        "userDefined": false
+      },
+      {
+        "text": "配對",
+        "meta": "@General_Matching",
+        "alias": "general_matching",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

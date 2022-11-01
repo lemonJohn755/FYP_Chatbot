@@ -1,0 +1,9 @@
+{
+  "id": "435bd09d-aa2a-4f72-a621-1d680212247e",
+  "name": "General_Devices",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,61 @@
+{
+  "id": "714ce30d-5dbe-455d-a755-c257754b6ef5",
+  "name": "HK.General.LABotQ\u0026A.Age (v1.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "我仲好後生㗎咋，依家先啱啱出嚟實習。",
+            "一睇就知我青春啦！嘻嘻",
+            "年齡係小博嘅秘密"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "我还是很年轻而已，现在才刚出来实习。",
+            "一看就知道我是很青春吧！嘻嘻",
+            "年龄是小博的秘密"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I\u0027m still very young, and I just came out for an internship now.",
+            "You can see that I am very young! Haha",
+            "Age is a LABot\u0027s secret"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,140 @@
+{
+  "id": "cf880aa5-1789-4c1d-baa4-7c2fa6b42141",
+  "name": "HK.General.LabQ\u0026A.Meeting (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2d7ec5e4-4510-44a1-b16a-c8ede7771b74",
+          "name": "general_understand",
+          "required": false,
+          "dataType": "@General_Understand",
+          "value": "$general_understand",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b8124aa7-4e23-4b2c-b6d7-f6b882695f69",
+          "name": "general_solution",
+          "required": false,
+          "dataType": "@General_Solution",
+          "value": "$general_solution",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b5d053f9-fd95-45fc-b5b2-f9a5e2dadb58",
+          "name": "general_meet",
+          "required": false,
+          "dataType": "@General_Meet",
+          "value": "$general_meet",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ded4ead0-18a1-4c5b-9a4f-0eb14b58febc",
+          "name": "general_department",
+          "required": false,
+          "dataType": "@General_Department",
+          "value": "$general_department",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "aff1a514-aef7-4ea3-8640-176a37053633",
+          "name": "general_need",
+          "required": false,
+          "dataType": "@General_Need",
+          "value": "$general_need",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "30a88ca0-8717-44af-9577-c7f003be9a65",
+          "name": "general_smes",
+          "required": false,
+          "dataType": "@General_SMEs",
+          "value": "$general_smes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Innovative Technology Lab holds technical forums regularly. Companies can introduce their solutions in the forum. At the same time, the department can also understand the technologies provided by the market and understand if any solutions can help with their needs.E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "创新科技实验室会定期举办技术论坛。企业可以通过论坛介绍自己的方案。同时，部门也可以了解市场提供的技术，了解有什么方案能得帮上忙。E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "創新科技實驗室會定期舉辦技術論壇。企業可以透過論壇介紹自己的方案。同時，部門亦可以了解市場提供嘅技術，了解有咩方案可以幫到手。E\u003dnormal"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

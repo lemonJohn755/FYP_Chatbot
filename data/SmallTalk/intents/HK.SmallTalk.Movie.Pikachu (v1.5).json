@@ -1,0 +1,76 @@
+{
+  "id": "71b01524-4d4c-4b2a-b731-6ceca5c53e51",
+  "name": "HK.SmallTalk.Movie.Pikachu (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6eae3fc9-ba77-46cc-a607-e9be086880fc",
+          "name": "General_Pikachu",
+          "required": false,
+          "dataType": "@General_Pikachu",
+          "value": "$General_Pikachu",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Pokémon is a Japanese anime and it is very beautiful.",
+            "Pokémon is wonderful, I like to watch it very much, and Pikachu is super cute.",
+            "Ash Ketchum and Pikachu are my favorite character, haha."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "神奇宝贝是一部日本动画片来的，很好看。",
+            "神奇宝贝很精彩，我很喜欢看，比卡丘超级可爱。",
+            "小智和比卡丘是我最喜欢的搭档，哈哈。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "寵物小精靈係一部日本動畫片來嘅，好好睇。",
+            "寵物小精靈好精彩，我好鐘意睇，比卡丘超級可愛。",
+            "小智同比卡丘係我最喜歡嘅搭檔，哈哈。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

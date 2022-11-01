@@ -1,0 +1,76 @@
+{
+  "id": "b1607bf0-19bb-46d1-9360-5ae0855b4caf",
+  "name": "HK.SmallTalk.Movie.RedHood (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "be682679-a236-4c2e-bca4-9f571256198d",
+          "name": "General_Redhood",
+          "required": false,
+          "dataType": "@General_Redhood",
+          "value": "$General_Redhood",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "小红帽是童话故事的人物。",
+            "小红帽很好看。",
+            "小红帽的名字是因为他带穿件小红色帽子，所以叫这个名字，哈哈。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Little Red Riding Hood is a character in a fairy tale.",
+            "Little Red Riding Hood is pretty.",
+            "Little Red Riding Hood was named because he wears a little red hat, so he is called this name, haha."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "小紅帽係童話故事嘅人物。",
+            "小紅帽好好睇呀。",
+            "小紅帽嘅名係因為佢帶著件小紅帽，所以叫哩個名，哈哈哈。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,129 @@
+[
+  {
+    "id": "0f79f354-2363-4803-998b-0c0529449de8",
+    "data": [
+      {
+        "text": "我",
+        "userDefined": false
+      },
+      {
+        "text": "身心俱疲",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "399e0574-0a1b-4355-a807-06ed437b072f",
+    "data": [
+      {
+        "text": "我成",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "個人散曬",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "bebdf40c-6ed1-45a2-969f-740dd5b8bdb1",
+    "data": [
+      {
+        "text": "我無曬力",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "770077b7-6cdf-40e0-b3e7-72bb6acbaf19",
+    "data": [
+      {
+        "text": "我好眼瞓",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f58dac35-6af3-4074-9edd-4779719dfd11",
+    "data": [
+      {
+        "text": "尋晚無瞓",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "41c619e8-62a3-41ed-974b-bc447151f18d",
+    "data": [
+      {
+        "text": "尋晚眼光光望天光",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "74c1b92c-fa74-4780-8333-b7ff58ba27e3",
+    "data": [
+      {
+        "text": "我失眠",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4c10ada0-c6d8-41ff-87a1-e6a6cb985bfb",
+    "data": [
+      {
+        "text": "我攰到嘔",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3fcd6910-593b-495e-9560-5929e7343ef5",
+    "data": [
+      {
+        "text": "我對眼就嚟跌落嚟",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

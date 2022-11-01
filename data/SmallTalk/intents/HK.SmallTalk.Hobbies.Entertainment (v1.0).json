@@ -1,0 +1,70 @@
+{
+  "id": "3f6816e7-dcc6-4f48-9132-c4c1eaf5c23f",
+  "name": "HK.SmallTalk.Hobbies.Entertainment (v1.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fa4781ab-3bdc-4632-8fc2-de580d0a5670",
+          "name": "General_entertainment",
+          "required": false,
+          "dataType": "@General_entertainment",
+          "value": "$General_entertainment",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "现在疫情没有过，不要到处乱跑了！去做一做运动好了！"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Since the pandemic has not passed yet, don\u0027t go anywhere! Do some exercise!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "宜家疫情未過，唔好周圍走啦！去做下運動好啦！"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

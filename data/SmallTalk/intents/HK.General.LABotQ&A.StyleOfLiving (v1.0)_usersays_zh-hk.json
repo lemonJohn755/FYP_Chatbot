@@ -1,0 +1,177 @@
+[
+  {
+    "id": "437ff6ef-c728-41d3-b701-83010d33fbda",
+    "data": [
+      {
+        "text": "較幾點鬧鐘",
+        "meta": "@General_styleofliving",
+        "alias": "General_styleofliving",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0b6a25e0-5063-4c04-8d3d-5b680a4ee546",
+    "data": [
+      {
+        "text": "咩時候",
+        "userDefined": false
+      },
+      {
+        "text": "起身",
+        "meta": "@General_styleofliving",
+        "alias": "General_styleofliving",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9ed855af-9e6f-4347-a2fc-7aa6ef00d762",
+    "data": [
+      {
+        "text": "作息",
+        "meta": "@General_styleofliving",
+        "alias": "General_styleofliving",
+        "userDefined": true
+      },
+      {
+        "text": "時間",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f08f6c3c-2bf8-45ed-8cfe-1083a013ddce",
+    "data": [
+      {
+        "text": "幾點",
+        "userDefined": false
+      },
+      {
+        "text": "開工",
+        "meta": "@General_styleofliving",
+        "alias": "General_styleofliving",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2f58d04e-101b-42bc-b65c-9fc0014bc796",
+    "data": [
+      {
+        "text": "開工",
+        "meta": "@General_styleofliving",
+        "alias": "General_styleofliving",
+        "userDefined": true
+      },
+      {
+        "text": "時間",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0703849f-a5ff-48f1-a74b-28e29df140a6",
+    "data": [
+      {
+        "text": "起身",
+        "meta": "@General_styleofliving",
+        "alias": "General_styleofliving",
+        "userDefined": true
+      },
+      {
+        "text": "時間",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "eeac49b1-d31c-4d69-8d49-878724a4d145",
+    "data": [
+      {
+        "text": "幾點",
+        "userDefined": false
+      },
+      {
+        "text": "返工",
+        "meta": "@General_styleofliving",
+        "alias": "General_styleofliving",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e7bf2f38-799d-4c92-a182-ce477cbce55a",
+    "data": [
+      {
+        "text": "幾點",
+        "userDefined": false
+      },
+      {
+        "text": "起身",
+        "meta": "@General_styleofliving",
+        "alias": "General_styleofliving",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "dcb3cdd6-467e-4c59-953d-7c62687c8046",
+    "data": [
+      {
+        "text": "你平時幾點",
+        "userDefined": false
+      },
+      {
+        "text": "起身",
+        "meta": "@General_styleofliving",
+        "alias": "General_styleofliving",
+        "userDefined": true
+      },
+      {
+        "text": "㗎？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

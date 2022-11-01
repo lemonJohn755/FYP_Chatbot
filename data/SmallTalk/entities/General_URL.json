@@ -1,0 +1,9 @@
+{
+  "id": "e286ba75-4a8b-469b-ab52-cc8db003698d",
+  "name": "General_URL",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

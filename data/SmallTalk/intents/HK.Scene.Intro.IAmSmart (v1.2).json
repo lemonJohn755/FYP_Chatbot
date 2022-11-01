@@ -1,0 +1,70 @@
+{
+  "id": "9a58f83b-3b02-48f0-bc45-8e699b3ffcf9",
+  "name": "HK.Scene.Intro.IAmSmart (v1.2)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c0e33224-87d5-4034-afdf-63df077a2d44",
+          "name": "smartlab_iamsmart",
+          "required": false,
+          "dataType": "@SmartLAB_iAMSmart",
+          "value": "$smartlab_iamsmart",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "智方便, I am Smart, 将于二零二零年第四季开始向所有香港市民提供。参观者可以体验简便、安全稳妥及创新的「智方便」登记程序，并了解如何使用此单一数码个人身分验证，与政府及商业机构进行网上交易。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "IAM SMART will start to provide services to all Hong Kong residents from the fourth quarter of 2020. Visitors will be able to experience a simple, secure and innovative iAM Smart registration process and learn how to use this single digital personal identification to conduct online transactions with government and commercial organisations."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "智方便, i\u0027m Smart, 將於二零二零年第四季開始向所有香港市民提供。參觀者可以體驗簡便、安全穩妥同創新嘅「智方便」登記程序，並了解如何使用此單一數碼個人身分驗證，同政府同商業機構進行網上交易。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

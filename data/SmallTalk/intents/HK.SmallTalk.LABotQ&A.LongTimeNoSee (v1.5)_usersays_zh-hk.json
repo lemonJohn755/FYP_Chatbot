@@ -1,0 +1,55 @@
+[
+  {
+    "id": "60722c2a-68cc-43ea-ba4d-a32ca8603441",
+    "data": [
+      {
+        "text": "又見到你",
+        "meta": "@General_LongTimeNoSee",
+        "alias": "General_LongTimeNoSee",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "51a1ed3a-4d3f-4f1d-8436-b3851d4e9379",
+    "data": [
+      {
+        "text": "好似",
+        "userDefined": false
+      },
+      {
+        "text": "見過",
+        "meta": "@General_LongTimeNoSee",
+        "alias": "General_LongTimeNoSee",
+        "userDefined": true
+      },
+      {
+        "text": "你",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b8eea26c-4c7d-4e44-b1dd-a2dc24b71cf0",
+    "data": [
+      {
+        "text": "好耐冇見",
+        "meta": "@General_LongTimeNoSee",
+        "alias": "General_LongTimeNoSee",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

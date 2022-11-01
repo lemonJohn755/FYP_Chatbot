@@ -1,0 +1,81 @@
+[
+  {
+    "id": "f96ae0d3-afd0-4006-99fb-a80f9e17410d",
+    "data": [
+      {
+        "text": "我",
+        "userDefined": false
+      },
+      {
+        "text": "唔知點去第度",
+        "meta": "@General_Lost",
+        "alias": "General_Lost",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a4451b6a-031e-4ba3-9d3c-3cbc28934690",
+    "data": [
+      {
+        "text": "認唔到路",
+        "meta": "@General_Lost",
+        "alias": "General_Lost",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "bd910f0f-b0be-4658-8e15-2294eeb5cb72",
+    "data": [
+      {
+        "text": "唔知自己喺邊",
+        "meta": "@General_Lost",
+        "alias": "General_Lost",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "10732ac9-d71b-4c61-b681-823b31e9d8b8",
+    "data": [
+      {
+        "text": "唔知喺邊",
+        "meta": "@General_Lost",
+        "alias": "General_Lost",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "518c1288-2eb9-4f01-b97a-f1c84dd9a564",
+    "data": [
+      {
+        "text": "我蕩失路",
+        "meta": "@General_Lost",
+        "alias": "General_Lost",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

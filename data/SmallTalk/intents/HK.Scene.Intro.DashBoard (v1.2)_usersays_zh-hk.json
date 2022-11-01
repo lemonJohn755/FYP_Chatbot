@@ -1,0 +1,258 @@
+[
+  {
+    "id": "ef8d5f16-84e5-4527-90b3-69ac46093847",
+    "data": [
+      {
+        "text": "Dashboard",
+        "meta": "@SmartLAB_CityBoard",
+        "alias": "SmartLAB_CityBoard",
+        "userDefined": false
+      },
+      {
+        "text": "咩黎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b990a6ef-2956-4936-8044-3862ce3430b8",
+    "data": [
+      {
+        "text": "咩係",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "Dashboard",
+        "meta": "@SmartLAB_CityBoard",
+        "alias": "SmartLAB_CityBoard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "54a08fb1-5491-4c40-ba99-4d152774ed7a",
+    "data": [
+      {
+        "text": "Dashboard",
+        "meta": "@SmartLAB_CityBoard",
+        "alias": "SmartLAB_CityBoard",
+        "userDefined": false
+      },
+      {
+        "text": "乜黎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "98110046-271c-4580-8a6f-a22fb4dcb895",
+    "data": [
+      {
+        "text": "Dashboard",
+        "meta": "@SmartLAB_CityBoard",
+        "alias": "SmartLAB_CityBoard",
+        "userDefined": false
+      },
+      {
+        "text": "乜黎嫁",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "333c3b78-30ba-415b-8d80-98fb0c00ea60",
+    "data": [
+      {
+        "text": "乜嘢",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "Dashboard",
+        "meta": "@SmartLAB_CityBoard",
+        "alias": "SmartLAB_CityBoard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ce6db4a8-b0f2-44ab-9b00-4036205b87ae",
+    "data": [
+      {
+        "text": "介紹下",
+        "userDefined": false
+      },
+      {
+        "text": "Dashboard",
+        "meta": "@SmartLAB_CityBoard",
+        "alias": "SmartLAB_CityBoard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ea1deefe-9437-4851-ab81-edfe0f1cdee8",
+    "data": [
+      {
+        "text": "簡介",
+        "userDefined": false
+      },
+      {
+        "text": "Dashboard",
+        "meta": "@SmartLAB_CityBoard",
+        "alias": "SmartLAB_CityBoard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9108b052-3a01-4440-8ef1-87edeceac316",
+    "data": [
+      {
+        "text": "推介",
+        "userDefined": false
+      },
+      {
+        "text": "Dashboard",
+        "meta": "@SmartLAB_CityBoard",
+        "alias": "SmartLAB_CityBoard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "00a32bfa-1bd8-4890-85b4-9137d8cd09e4",
+    "data": [
+      {
+        "text": "Dashboard",
+        "meta": "@SmartLAB_CityBoard",
+        "alias": "SmartLAB_CityBoard",
+        "userDefined": false
+      },
+      {
+        "text": "咩黎嫁",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5fae7404-e7c1-4261-a7b7-f6da111c4d59",
+    "data": [
+      {
+        "text": "可唔可以講下",
+        "userDefined": false
+      },
+      {
+        "text": "Dashboard",
+        "meta": "@SmartLAB_CityBoard",
+        "alias": "SmartLAB_CityBoard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "27a77e15-79c7-499c-b832-c2aeed58a31a",
+    "data": [
+      {
+        "text": "講下",
+        "userDefined": false
+      },
+      {
+        "text": "Dashboard",
+        "meta": "@SmartLAB_CityBoard",
+        "alias": "SmartLAB_CityBoard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "af633a38-e3e3-42be-8463-f549198c5b80",
+    "data": [
+      {
+        "text": "城市儀表板",
+        "meta": "@SmartLAB_CityBoard",
+        "alias": "SmartLAB_CityBoard",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a84d782a-362f-426d-94f6-71261252809b",
+    "data": [
+      {
+        "text": "City",
+        "meta": "@SmartLAB_CityBoard",
+        "alias": "SmartLAB_CityBoard",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3a478480-1466-4289-a711-4d44f0e25acf",
+    "data": [
+      {
+        "text": "Dashboard",
+        "meta": "@SmartLAB_CityBoard",
+        "alias": "SmartLAB_CityBoard",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

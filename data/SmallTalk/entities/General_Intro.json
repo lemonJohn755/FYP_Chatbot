@@ -1,0 +1,9 @@
+{
+  "id": "ce485836-7ec7-43c5-9f31-ca94a0a5b4df",
+  "name": "General_Intro",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

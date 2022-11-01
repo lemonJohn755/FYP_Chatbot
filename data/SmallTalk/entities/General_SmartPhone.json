@@ -1,0 +1,9 @@
+{
+  "id": "679e7fab-dc56-49ab-b4fd-c24feba301a3",
+  "name": "General_SmartPhone",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

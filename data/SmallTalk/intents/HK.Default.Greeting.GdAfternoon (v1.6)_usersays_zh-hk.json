@@ -1,0 +1,138 @@
+[
+  {
+    "id": "837f19a4-f562-413b-bd2c-45054b55cd26",
+    "data": [
+      {
+        "text": "Good afternoon",
+        "meta": "@Greeting_GdAfternoon",
+        "alias": "greeting_gdafternoon",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "小博",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6e85a0c3-2e16-4448-8f3c-42a126b23867",
+    "data": [
+      {
+        "text": "Good afternoon",
+        "meta": "@Greeting_GdAfternoon",
+        "alias": "greeting_gdafternoon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "79acd59c-33d6-4c78-bb14-7c87c3285cbf",
+    "data": [
+      {
+        "text": "小博",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      },
+      {
+        "text": "Good afternoon",
+        "meta": "@Greeting_GdAfternoon",
+        "alias": "greeting_gdafternoon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3621f1be-3468-4e91-8c44-495e675510dd",
+    "data": [
+      {
+        "text": "午安",
+        "meta": "@Greeting_GdAfternoon",
+        "alias": "greeting_gdafternoon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5f25fc19-c95d-4d90-8139-62c36e982e2f",
+    "data": [
+      {
+        "text": "午安",
+        "meta": "@Greeting_GdAfternoon",
+        "alias": "greeting_gdafternoon",
+        "userDefined": false
+      },
+      {
+        "text": "小博",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "330869d0-b6ba-4d51-97e4-441397981ce9",
+    "data": [
+      {
+        "text": "現在",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "下午",
+        "meta": "@Greeting_GdAfternoon",
+        "alias": "greeting_gdafternoon",
+        "userDefined": false
+      },
+      {
+        "text": "了",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9d7f2cc2-eafc-454b-92e4-5701c6080a7c",
+    "data": [
+      {
+        "text": "下午好",
+        "meta": "@Greeting_GdAfternoon",
+        "alias": "greeting_gdafternoon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

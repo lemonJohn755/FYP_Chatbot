@@ -1,0 +1,9 @@
+{
+  "id": "3abc124a-92b7-426e-9300-20e54f10b86b",
+  "name": "General_Difference",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

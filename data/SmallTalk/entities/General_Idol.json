@@ -1,0 +1,9 @@
+{
+  "id": "e285be57-1d9f-43c8-bc0c-0670f0c29877",
+  "name": "General_Idol",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

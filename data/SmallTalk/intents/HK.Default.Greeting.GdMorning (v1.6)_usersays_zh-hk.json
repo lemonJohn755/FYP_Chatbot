@@ -1,0 +1,204 @@
+[
+  {
+    "id": "fcd12827-2981-4b13-8011-91237c4f7ccb",
+    "data": [
+      {
+        "text": "小博",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Good morning",
+        "meta": "@Greeting_GdMorning",
+        "alias": "greeting_gdmorning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c0e69d47-800e-40ff-9445-8dbe6e7eb32c",
+    "data": [
+      {
+        "text": "Morning",
+        "meta": "@Greeting_GdMorning",
+        "alias": "greeting_gdmorning",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "小博",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "338e9945-391c-4a49-9631-07cdede1759d",
+    "data": [
+      {
+        "text": "Good morning",
+        "meta": "@Greeting_GdMorning",
+        "alias": "greeting_gdmorning",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "小博",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "394c2656-4ef6-469b-a56e-0eb4a507b4e0",
+    "data": [
+      {
+        "text": "早安",
+        "meta": "@Greeting_GdMorning",
+        "alias": "greeting_gdmorning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4eeffa35-625d-4eda-8b71-3079d281b504",
+    "data": [
+      {
+        "text": "早晨",
+        "meta": "@Greeting_GdMorning",
+        "alias": "greeting_gdmorning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6fcff208-7187-4c71-8691-f2f0ee650736",
+    "data": [
+      {
+        "text": "早晨",
+        "meta": "@Greeting_GdMorning",
+        "alias": "greeting_gdmorning",
+        "userDefined": false
+      },
+      {
+        "text": "小博",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2b020f49-bcff-40ca-b661-1a54c9e1ff72",
+    "data": [
+      {
+        "text": "小博",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      },
+      {
+        "text": "早晨",
+        "meta": "@Greeting_GdMorning",
+        "alias": "greeting_gdmorning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "eb199759-cdcb-4f01-8631-1fbe14fec95d",
+    "data": [
+      {
+        "text": "小博",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      },
+      {
+        "text": "早",
+        "meta": "@Greeting_GdMorning",
+        "alias": "greeting_gdmorning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ad6ace5d-dad7-42e8-b44e-c89f9bb29059",
+    "data": [
+      {
+        "text": "早上好",
+        "meta": "@Greeting_GdMorning",
+        "alias": "greeting_gdmorning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8207a221-3271-4b42-9e63-f8a176d7dc15",
+    "data": [
+      {
+        "text": "早",
+        "meta": "@Greeting_GdMorning",
+        "alias": "greeting_gdmorning",
+        "userDefined": false
+      },
+      {
+        "text": "呀",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "b3277603-e506-438b-b2eb-73a80ee08e90",
+    "data": [
+      {
+        "text": "獅子座",
+        "meta": "@General_Leo",
+        "alias": "General_Leo",
+        "userDefined": true
+      },
+      {
+        "text": "同咩星座唔夾",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "81592a5d-e05c-4bfb-9d81-9f80994be2d9",
+    "data": [
+      {
+        "text": "獅子座",
+        "meta": "@General_Leo",
+        "alias": "General_Leo",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

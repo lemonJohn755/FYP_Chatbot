@@ -1,0 +1,59 @@
+[
+  {
+    "id": "930df467-6e3d-45a4-b9b1-4e56dc40202d",
+    "data": [
+      {
+        "text": "機械人",
+        "meta": "@General_Robot",
+        "alias": "General_Robot",
+        "userDefined": true
+      },
+      {
+        "text": "傾計",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6ae95736-83b0-44dc-b0ee-0bcf3b380c2b",
+    "data": [
+      {
+        "text": "你係",
+        "userDefined": false
+      },
+      {
+        "text": "機械人",
+        "meta": "@General_Robot",
+        "alias": "General_Robot",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "08d81cd0-b2cf-4406-8055-71521ae3e719",
+    "data": [
+      {
+        "text": "機械人",
+        "meta": "@General_Robot",
+        "alias": "General_Robot",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

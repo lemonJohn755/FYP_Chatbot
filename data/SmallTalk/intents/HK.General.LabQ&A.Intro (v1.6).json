@@ -1,0 +1,98 @@
+{
+  "id": "770e03eb-7863-4424-9aaf-e1100871ef55",
+  "name": "HK.General.LabQ\u0026A.Intro (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "dc976e59-b879-400d-9f88-b8113e151909",
+          "name": "smartlab_name",
+          "required": false,
+          "dataType": "@SmartLAB_Name",
+          "value": "$smartlab_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "924ce92d-75a1-4fdd-8477-384fe3e445c3",
+          "name": "general_function",
+          "required": false,
+          "dataType": "@General_Function",
+          "value": "$general_function",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "28e9141c-fca7-4812-bdf5-8d08409e9641",
+          "name": "general_department",
+          "required": false,
+          "dataType": "@General_Department",
+          "value": "$general_department",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Smart laboratory\u0027s duties includes promoting departments to introduce information technology faster to optimize public services, and also encouraging peers to submit application plans and product suggestions against public services. This will create more business opportunities for local start-ups and SMEs. E\u003dconfident"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "创新实验室工作包括促进部门更快引进信息技术用以优化公共服务，也鼓励同行就不和公共服务提交应用方案和产品建议。借此此为本地初创和中小企业创造更多商机。 E\u003dconfident"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "創新實驗室工作包括促進部門更快引入資訊科技應用以優化公共服務，亦鼓勵業界就不同公共服務提交應用方案同產品建議。藉此為本地初創同中小企業創造更多商機。 E\u003dconfident"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

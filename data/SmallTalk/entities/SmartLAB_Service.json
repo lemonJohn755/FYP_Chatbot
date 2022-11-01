@@ -1,0 +1,9 @@
+{
+  "id": "891c78ad-745b-4c66-ac18-5bdc3573d5ad",
+  "name": "SmartLAB_Service",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

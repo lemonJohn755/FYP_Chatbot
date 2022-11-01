@@ -1,0 +1,101 @@
+[
+  {
+    "id": "2e5c1352-2cc9-48e8-a43e-2b244e179862",
+    "data": [
+      {
+        "text": "labot要唔要",
+        "userDefined": false
+      },
+      {
+        "text": "行山",
+        "meta": "@General_entertainment",
+        "alias": "General_entertainment",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9072e49c-562a-4a9e-a20b-a9357ce34041",
+    "data": [
+      {
+        "text": "唔想再留屋企",
+        "meta": "@General_entertainment",
+        "alias": "General_entertainment",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "229d1f37-fb3d-47ba-bf53-689ad2752c96",
+    "data": [
+      {
+        "text": "我想去",
+        "userDefined": false
+      },
+      {
+        "text": "玩",
+        "meta": "@General_entertainment",
+        "alias": "General_entertainment",
+        "userDefined": true
+      },
+      {
+        "text": "呀",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6dc48e2d-4191-478f-b5ed-5d83e2e53c88",
+    "data": [
+      {
+        "text": "帶我去",
+        "userDefined": false
+      },
+      {
+        "text": "玩",
+        "meta": "@General_entertainment",
+        "alias": "General_entertainment",
+        "userDefined": true
+      },
+      {
+        "text": "呀",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a0cf5d87-500a-4c38-95a7-a21b204cd252",
+    "data": [
+      {
+        "text": "好悶呀，一齊去",
+        "userDefined": false
+      },
+      {
+        "text": "玩",
+        "meta": "@General_entertainment",
+        "alias": "General_entertainment",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "id": "3d63f535-4666-4ec7-aa7c-588085d86d40",
+  "name": "HK.SmallTalk.Others.Meal (v1.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b3693d3b-21af-46ab-afec-d01426e14ea4",
+          "name": "General_Breakfast",
+          "required": false,
+          "dataType": "@General_Breakfast",
+          "value": "$General_Breakfast",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "56a6930e-2edf-41e2-9b6c-f9efd51a542d",
+          "name": "General_Dinner",
+          "required": false,
+          "dataType": "@General_Dinner",
+          "value": "$General_Dinner",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "cc3aaaf1-d1bb-4a06-9e26-5be5607f8f83",
+          "name": "General_Lunch",
+          "required": false,
+          "dataType": "@General_Lunch",
+          "value": "$General_Lunch",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "小博係機械人，唔駛食野嫁！"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "小博是机器人，不用吃东西的！"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

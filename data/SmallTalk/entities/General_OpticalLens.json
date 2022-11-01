@@ -1,0 +1,9 @@
+{
+  "id": "e735b68e-b954-4018-9664-bc74c2a52da6",
+  "name": "General_OpticalLens",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

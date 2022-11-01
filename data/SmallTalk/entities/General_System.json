@@ -1,0 +1,9 @@
+{
+  "id": "e485027b-a97a-4287-b8ac-d4677c78afa6",
+  "name": "General_System",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

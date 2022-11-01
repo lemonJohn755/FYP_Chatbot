@@ -1,0 +1,84 @@
+{
+  "id": "cddc3308-949d-4796-a2f2-077714e285eb",
+  "name": "HK.General.Forum.Future (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1b6071bc-cdd6-496f-9104-37e9fd285754",
+          "name": "smartlab_forum",
+          "required": false,
+          "dataType": "@SmartLAB_Forum",
+          "value": "$smartlab_forum",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b2dfbc74-f57b-4836-8f72-964c4b4b051c",
+          "name": "general_next",
+          "required": false,
+          "dataType": "@General_Next",
+          "value": "$general_next",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "下一場技術論壇已經籌備緊，詳情請留意創新實驗室網站smartlab.gov.hk。 E\u003dhappy"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The next technical forum is under preparation. For details, please visit the website of Innovation Lab smartlab.gov.hk. E\u003dhappy"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "下一场技术论坛已在筹备中，详情请注意创新实验室网站smartlab.gov.hk。 E\u003dhappy"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

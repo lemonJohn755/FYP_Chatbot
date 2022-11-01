@@ -1,0 +1,93 @@
+{
+  "id": "bdb5b383-363d-4e98-898f-913d49f5376a",
+  "name": "HK.Default.Greeting.Gdnight (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "78404116-c44e-4869-bc90-69b029544013",
+          "name": "greeting_gdnight",
+          "required": false,
+          "dataType": "@Greeting_GdNight",
+          "value": "$greeting_gdnight",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "796f30be-aa11-4002-90d5-b99cea8f4898",
+          "name": "smartlab_labot",
+          "required": false,
+          "dataType": "@SmartLAB_LABot",
+          "value": "$smartlab_labot",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "晚安 E\u003dhappy",
+            "good night E\u003dhappy",
+            "Have a good rest E\u003dhappy",
+            "Have a sweet dream E\u003dhappy",
+            "Good night! 唔打擾你啦 E\u003dhappy",
+            "再見 E\u003dhappy"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Good night! E\u003dhappy",
+            "Have a good rest! E\u003dhappy",
+            "Sweet dream! E\u003dhappy",
+            "Good night! See you! E\u003dhappy"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "晚安！E\u003dhappy",
+            "晚安！不打扰你了！E\u003dhappy"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

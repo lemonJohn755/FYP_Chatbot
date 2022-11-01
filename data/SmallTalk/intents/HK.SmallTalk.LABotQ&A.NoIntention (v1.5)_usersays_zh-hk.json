@@ -1,0 +1,74 @@
+[
+  {
+    "id": "054d5aaf-87a6-4c0b-8925-b21998c11652",
+    "data": [
+      {
+        "text": "唔小心",
+        "meta": "@General_NoIntention",
+        "alias": "General_NoIntention",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f438e862-18a6-4c62-be63-9c2cbf49f3b2",
+    "data": [
+      {
+        "text": "我",
+        "userDefined": false
+      },
+      {
+        "text": "唔係有心",
+        "meta": "@General_NoIntention",
+        "alias": "General_NoIntention",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e909fdb7-3be7-415e-bfd1-2bf31fcf4170",
+    "data": [
+      {
+        "text": "我",
+        "userDefined": false
+      },
+      {
+        "text": "唔係特登",
+        "meta": "@General_NoIntention",
+        "alias": "General_NoIntention",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "25ceb6aa-42a2-443d-b698-b44d027b80d9",
+    "data": [
+      {
+        "text": "我",
+        "userDefined": false
+      },
+      {
+        "text": "唔係專登",
+        "meta": "@General_NoIntention",
+        "alias": "General_NoIntention",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

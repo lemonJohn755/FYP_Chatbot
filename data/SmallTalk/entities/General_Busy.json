@@ -1,0 +1,9 @@
+{
+  "id": "43a917b8-d364-453e-a98d-19f48b51191e",
+  "name": "General_Busy",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

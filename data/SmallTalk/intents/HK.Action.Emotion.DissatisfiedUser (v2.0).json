@@ -1,0 +1,87 @@
+{
+  "id": "3741492a-9e58-4e9c-8e4d-a574048401e4",
+  "name": "HK.Action.Emotion.DissatisfiedUser (v2.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "25b56993-5fa0-4c27-a5dc-991301273b79",
+          "name": "emotion_dissatisfied",
+          "required": false,
+          "dataType": "@Emotion_Dissatisfied",
+          "value": "$emotion_dissatisfied",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3af4d451-ca1c-4151-8a52-bb6d9b41e41f",
+          "name": "smartlab_labot",
+          "required": false,
+          "dataType": "@SmartLAB_LABot",
+          "value": "$smartlab_labot",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If I give you an unsatisfactory experience, I am very sorry. I still have a lot to learn and I will improve. In the meantime, please ask my colleagues to help you! E\u003dfrustrated",
+            "I apologize if my service makes you unsatisfied. I still have a lot to learn and I will improve gradually. In the meantime, please ask my colleagues to help you! E\u003dfrustrated"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "如果我的服务令你不满意，真是很抱歉。我有很多东西还要学习，我会努力改善。请你找我们同事帮你吧！E\u003dfrustrated",
+            "如果我的服务令你不满意，真是很抱歉。我会一步一步慢慢学习和改善。请你找我们同事帮你吧！E\u003dfrustrated"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "如果我嘅服務令你唔滿意，真係唔好意思。我有好多嘢仲學習緊，我會努力改善。請你搵我哋同事幫住你先！E\u003dfrustrated",
+            "如果我嘅服務令你唔滿意，真係唔好意思。我會一步一步慢慢學習同改進。請你搵我哋同事幫住你先！E\u003dfrustrated"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

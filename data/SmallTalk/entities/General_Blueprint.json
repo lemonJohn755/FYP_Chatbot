@@ -1,0 +1,9 @@
+{
+  "id": "2ab8109e-fda8-4974-9d26-8ce29755858f",
+  "name": "General_Blueprint",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

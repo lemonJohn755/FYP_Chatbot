@@ -1,0 +1,9 @@
+{
+  "id": "154fe6fa-4584-47de-ab13-4100cd65540a",
+  "name": "General_dontwanttowork",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

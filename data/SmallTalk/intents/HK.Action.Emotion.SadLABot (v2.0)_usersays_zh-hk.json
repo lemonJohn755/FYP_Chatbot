@@ -1,0 +1,93 @@
+[
+  {
+    "id": "2eaed941-f000-48f4-a7f6-a5519d7daada",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "唔快樂",
+        "meta": "@Emotion_Unhappy",
+        "alias": "emotion_unhappy",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f4463a96-9d2a-451b-a66f-620bca53afeb",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "唔開心",
+        "meta": "@Emotion_Unhappy",
+        "alias": "emotion_unhappy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "12c9c538-31fd-47db-98f5-b2ae9678e369",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "唔高興",
+        "meta": "@Emotion_Unhappy",
+        "alias": "emotion_unhappy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8509b568-1fc9-4a28-ba22-ec31e994607c",
+    "data": [
+      {
+        "text": "唔happy",
+        "meta": "@Emotion_Unhappy",
+        "alias": "emotion_unhappy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6ef79aea-696c-49b4-83d6-25d94a29e3c7",
+    "data": [
+      {
+        "text": "你依家",
+        "userDefined": false
+      },
+      {
+        "text": "唔開心",
+        "meta": "@Emotion_Unhappy",
+        "alias": "emotion_unhappy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

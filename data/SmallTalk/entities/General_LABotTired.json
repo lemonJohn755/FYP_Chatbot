@@ -1,0 +1,9 @@
+{
+  "id": "057e0a02-cdaf-4301-a6ed-8acac2a7ee7d",
+  "name": "General_LABotTired",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

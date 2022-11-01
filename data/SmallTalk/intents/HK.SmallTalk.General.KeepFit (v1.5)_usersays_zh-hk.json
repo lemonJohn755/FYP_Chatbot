@@ -1,0 +1,113 @@
+[
+  {
+    "id": "9c0e832b-d6e5-4317-a61b-9409d4c6e8c5",
+    "data": [
+      {
+        "text": "我又",
+        "userDefined": false
+      },
+      {
+        "text": "重左",
+        "meta": "@General_keepfit",
+        "alias": "General_keepfit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7625ba3d-0f92-40d1-9684-9f7c475ec09f",
+    "data": [
+      {
+        "text": "我想",
+        "userDefined": false
+      },
+      {
+        "text": "fit d",
+        "meta": "@General_keepfit",
+        "alias": "General_keepfit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "55c90057-130d-4b7d-aa61-c923ffe30681",
+    "data": [
+      {
+        "text": "我身材",
+        "userDefined": false
+      },
+      {
+        "text": "走嗮樣",
+        "meta": "@General_keepfit",
+        "alias": "General_keepfit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f27f7d4c-353f-42ab-b7c3-b88b937b5a13",
+    "data": [
+      {
+        "text": "我好肥",
+        "meta": "@General_keepfit",
+        "alias": "General_keepfit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "51883be0-e4ad-4d3b-952c-28d9e978111e",
+    "data": [
+      {
+        "text": "我",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "要",
+        "userDefined": false
+      },
+      {
+        "text": "減肥",
+        "meta": "@General_keepfit",
+        "alias": "General_keepfit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "846fe7ed-c215-43ca-9ba2-4c2ae258c537",
+    "data": [
+      {
+        "text": "減肥",
+        "meta": "@General_keepfit",
+        "alias": "General_keepfit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

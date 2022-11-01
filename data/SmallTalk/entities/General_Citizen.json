@@ -1,0 +1,9 @@
+{
+  "id": "a08df468-6fc3-4baa-b7a2-6731a57e5afb",
+  "name": "General_Citizen",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

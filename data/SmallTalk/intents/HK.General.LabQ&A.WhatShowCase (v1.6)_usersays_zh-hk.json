@@ -1,0 +1,323 @@
+[
+  {
+    "id": "48010805-7a4a-42f8-b91a-e2b1981379ff",
+    "data": [
+      {
+        "text": "產品",
+        "userDefined": false
+      },
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "show",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "66e48195-e581-4e22-8089-79702a43be45",
+    "data": [
+      {
+        "text": "產品",
+        "userDefined": false
+      },
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "展示",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "26071f75-e790-4b52-a527-fa3e6d3c79a6",
+    "data": [
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "展示",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "094b0b93-f10f-4bd7-a6ab-3ac1a3ae0313",
+    "data": [
+      {
+        "text": "SmartLAB",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "有",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "71266577-a8f0-45a0-9cdb-d546259e2394",
+    "data": [
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "展示",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      },
+      {
+        "text": "產品",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "55a2c69e-7823-46d3-b9a8-ba0856bc4218",
+    "data": [
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "產品",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a14b3e3c-cd49-4995-b7f8-c537265368be",
+    "data": [
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "景點",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4dba1d0d-22e3-4c4c-9378-73052b658a14",
+    "data": [
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "參觀",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "1bac57f9-255d-4ccf-ac31-879a0c8688c5",
+    "data": [
+      {
+        "text": "參觀",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "29c2e0ba-85fb-4b29-89f6-907e8112ab62",
+    "data": [
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "睇",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ed943689-351f-4973-9705-088d0baa0e49",
+    "data": [
+      {
+        "text": "睇",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "12d95b6e-1be8-4616-aeb1-f5c9a13ff5f9",
+    "data": [
+      {
+        "text": "介紹下",
+        "userDefined": false
+      },
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "75a30611-0450-4f7f-8a33-0ec55f82c935",
+    "data": [
+      {
+        "text": "介紹下睇",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "82a1d2c0-9759-4312-a1ae-fe294a9eba10",
+    "data": [
+      {
+        "text": "介紹下",
+        "userDefined": false
+      },
+      {
+        "text": "參觀",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "d17063a1-b715-4718-9e8a-715a0e911ed6",
+    "data": [
+      {
+        "text": "介紹下",
+        "userDefined": false
+      },
+      {
+        "text": "展品",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ac392d26-033f-466b-baf5-26a624050f8d",
+    "data": [
+      {
+        "text": "景點",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ca5c88bc-5545-4df7-817f-0e883999406e",
+    "data": [
+      {
+        "text": "展品",
+        "meta": "@General_Showcases",
+        "alias": "general_showcases",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

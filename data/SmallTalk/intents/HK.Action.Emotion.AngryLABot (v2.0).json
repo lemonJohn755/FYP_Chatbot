@@ -1,0 +1,84 @@
+{
+  "id": "4eed5b5c-5a39-4df0-a8ab-2a3367db11f8",
+  "name": "HK.Action.Emotion.AngryLABot (v2.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "55386ba2-f649-4906-9d82-72415695a77a",
+          "name": "emotion_stupid",
+          "required": false,
+          "dataType": "@Emotion_Stupid",
+          "value": "$emotion_stupid",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0ebf0748-fb42-415e-b68f-2d7df2f972a5",
+          "name": "Banned_FoulLanguage",
+          "required": false,
+          "dataType": "@Banned_FoulLanguage",
+          "value": "$Banned_FoulLanguage",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "你这样说我会生气的。E\u003dangry"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I will be mad if you say that. E\u003dangry"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "你咁樣講，小博嬲嫁！E\u003dangry"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

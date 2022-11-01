@@ -1,0 +1,113 @@
+[
+  {
+    "id": "f0ade567-5888-450b-92da-5167fdea0389",
+    "data": [
+      {
+        "text": "白雪公主",
+        "meta": "@General_SnowWhite",
+        "alias": "General_SnowWhite",
+        "userDefined": false
+      },
+      {
+        "text": "靚",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "645cf090-5f51-4f98-898c-8e94671df95b",
+    "data": [
+      {
+        "text": "白雪公主",
+        "meta": "@General_SnowWhite",
+        "alias": "General_SnowWhite",
+        "userDefined": false
+      },
+      {
+        "text": "結局",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "45e2c39a-257a-4ccf-a41d-dd170bceef16",
+    "data": [
+      {
+        "text": "鍾意",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "白雪公主",
+        "meta": "@General_SnowWhite",
+        "alias": "General_SnowWhite",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4263d8d6-d40e-487f-8763-bfa645bf82aa",
+    "data": [
+      {
+        "text": "白雪公主",
+        "meta": "@General_SnowWhite",
+        "alias": "General_SnowWhite",
+        "userDefined": false
+      },
+      {
+        "text": "故仔",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0f586038-b3c6-4b3b-9305-b58e1b26341a",
+    "data": [
+      {
+        "text": "識",
+        "userDefined": false
+      },
+      {
+        "text": "白雪公主",
+        "meta": "@General_SnowWhite",
+        "alias": "General_SnowWhite",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "bf386b73-d288-42fc-b21f-1d002ded53e9",
+    "data": [
+      {
+        "text": "白雪公主",
+        "meta": "@General_SnowWhite",
+        "alias": "General_SnowWhite",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

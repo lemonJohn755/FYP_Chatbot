@@ -1,0 +1,9 @@
+{
+  "id": "165f2bb8-1e76-448c-9adb-de7e3b6b5f79",
+  "name": "theory",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

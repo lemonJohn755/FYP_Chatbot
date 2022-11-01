@@ -1,0 +1,112 @@
+{
+  "id": "d4bb642c-df8e-4c06-a2a4-0e6fd44634c1",
+  "name": "HK.General.Website.ExposeName (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e8f5ce5d-51f5-451a-8c6b-63f503385754",
+          "name": "general_disclose",
+          "required": false,
+          "dataType": "@General_Disclose",
+          "value": "$general_disclose",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "05a12d42-c03b-495d-9f3f-c9a7e6ced61f",
+          "name": "general_url",
+          "required": false,
+          "dataType": "@General_URL",
+          "value": "$general_url",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "356d6d74-30ee-4860-84a0-ffaaac7022f3",
+          "name": "general_showcases",
+          "required": false,
+          "dataType": "@General_Showcases",
+          "value": "$general_showcases",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "769b79a7-e061-43f8-8e62-1527ec7a7df6",
+          "name": "general_department",
+          "required": false,
+          "dataType": "@General_Department",
+          "value": "$general_department",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Unless requested by the department, generally speaking, we will not disclose the name of the department on the SmartLab website. E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "除非部门要求，一般来说我们都不会在SmartLab网站披露部门的名称。 E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "除非部門要求，一般嚟講我地都唔會喺SmartLab網站披露部門嘅名稱。 E\u003dnormal"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

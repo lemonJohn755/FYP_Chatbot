@@ -1,0 +1,126 @@
+{
+  "id": "66cc26c5-b56d-4f16-af71-14b3fe76b577",
+  "name": "HK.General.LabQ\u0026A.Visit (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a4c67d2e-5ff1-4aab-96fe-109390e853b8",
+          "name": "general_visit",
+          "required": false,
+          "dataType": "@General_Visit",
+          "value": "$general_visit",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "20cf77dd-061c-4683-849c-4a848e7797bb",
+          "name": "smartlab_name",
+          "required": false,
+          "dataType": "@SmartLAB_Name",
+          "value": "$smartlab_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d169af4e-37e1-4f49-ba66-ad23cdfb0e3d",
+          "name": "general_showcases",
+          "required": false,
+          "dataType": "@General_Showcases",
+          "value": "$general_showcases",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e043fee7-6a91-471f-a6c6-566b1871df18",
+          "name": "general_visit1",
+          "required": false,
+          "dataType": "@General_Visit",
+          "value": "$general_visit1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4d0ed867-7af7-4534-bddd-c983bf38bc15",
+          "name": "general_datetime",
+          "required": false,
+          "dataType": "@General_DateTime",
+          "value": "$general_datetime",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The main target audience of SmartLAB is government departments. There is currently no plans to open it to the general public. E\u003dblinkingsmileeyes"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "创新实验室的主要对象为政府部门，目前并没有計划安排开放给人或团体参观。 E\u003dblinkingsmileeyes"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "創新實驗室嘅主要對象為政府部門，目前並沒有計劃安排開放畀個人或團體參觀。 E\u003dblinkingsmileeyes"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

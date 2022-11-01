@@ -1,0 +1,130 @@
+[
+  {
+    "id": "ee0a2206-ad75-4a35-8ac1-df30de2a76d8",
+    "data": [
+      {
+        "text": "產品",
+        "userDefined": false
+      },
+      {
+        "text": "試用",
+        "meta": "@General_Promise",
+        "alias": "general_promise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7b470022-3163-4670-b957-49ef2ffc4dc8",
+    "data": [
+      {
+        "text": "產品",
+        "userDefined": false
+      },
+      {
+        "text": "採購承諾",
+        "meta": "@General_Promise",
+        "alias": "general_promise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9815f6af-f438-4c0f-968f-bc9eefd4d9e3",
+    "data": [
+      {
+        "text": "產品",
+        "userDefined": false
+      },
+      {
+        "text": "採用",
+        "meta": "@General_Promise",
+        "alias": "general_promise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "dc99ab3c-e72c-4293-8197-b1453d03e6c4",
+    "data": [
+      {
+        "text": "產品",
+        "userDefined": false
+      },
+      {
+        "text": "採用",
+        "meta": "@General_Promise",
+        "alias": "general_promise",
+        "userDefined": false
+      },
+      {
+        "text": "同",
+        "userDefined": false
+      },
+      {
+        "text": "採購承諾",
+        "meta": "@General_Promise",
+        "alias": "general_promise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9f4e4cc7-4a29-486d-bdee-4a1ed9b81f72",
+    "data": [
+      {
+        "text": "驗證",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      },
+      {
+        "text": "採用",
+        "meta": "@General_Promise",
+        "alias": "general_promise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e43ecc6c-11d7-4443-ada6-e01908a10be3",
+    "data": [
+      {
+        "text": "概念驗證",
+        "meta": "@General_POC",
+        "alias": "general_poc",
+        "userDefined": false
+      },
+      {
+        "text": "採購承諾",
+        "meta": "@General_Promise",
+        "alias": "general_promise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

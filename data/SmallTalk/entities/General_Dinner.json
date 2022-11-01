@@ -1,0 +1,9 @@
+{
+  "id": "e70d74b8-b0d6-4b8a-836c-58b41f004985",
+  "name": "General_Dinner",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

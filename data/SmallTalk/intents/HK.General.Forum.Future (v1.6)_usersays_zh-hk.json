@@ -1,0 +1,183 @@
+[
+  {
+    "id": "ba9e60d5-d1ce-4a72-a519-5da921775a0e",
+    "data": [
+      {
+        "text": "論壇",
+        "meta": "@SmartLAB_Forum",
+        "alias": "smartlab_forum",
+        "userDefined": false
+      },
+      {
+        "text": "下一次",
+        "meta": "@General_Next",
+        "alias": "general_next",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "294bb906-6157-46e6-97a9-6e6aa88bd917",
+    "data": [
+      {
+        "text": "論壇",
+        "meta": "@SmartLAB_Forum",
+        "alias": "smartlab_forum",
+        "userDefined": false
+      },
+      {
+        "text": "幾時有",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b55a936e-dc29-4d46-96b5-63086fc63297",
+    "data": [
+      {
+        "text": "會議",
+        "meta": "@SmartLAB_Forum",
+        "alias": "smartlab_forum",
+        "userDefined": true
+      },
+      {
+        "text": "幾時有",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "456258bf-cb04-42b3-9cc5-a61e4c84018c",
+    "data": [
+      {
+        "text": "下一次",
+        "meta": "@General_Next",
+        "alias": "general_next",
+        "userDefined": true
+      },
+      {
+        "text": "Forum",
+        "meta": "@SmartLAB_Forum",
+        "alias": "smartlab_forum",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7ee34b3d-3495-4da7-b2ff-b73b9e3e259c",
+    "data": [
+      {
+        "text": "下一個",
+        "meta": "@General_Next",
+        "alias": "general_next",
+        "userDefined": true
+      },
+      {
+        "text": "technology forum",
+        "meta": "@SmartLAB_Forum",
+        "alias": "smartlab_forum",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b9a637b8-03bb-4c60-a31c-0f2432d2abe4",
+    "data": [
+      {
+        "text": "下一個",
+        "meta": "@General_Next",
+        "alias": "general_next",
+        "userDefined": false
+      },
+      {
+        "text": "論壇",
+        "meta": "@SmartLAB_Forum",
+        "alias": "smartlab_forum",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "44ac9e69-befe-40d1-bb9e-aa95af8eadb4",
+    "data": [
+      {
+        "text": "下一場",
+        "meta": "@General_Next",
+        "alias": "general_next",
+        "userDefined": true
+      },
+      {
+        "text": "Forum",
+        "meta": "@SmartLAB_Forum",
+        "alias": "smartlab_forum",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2b438ca5-6da8-40fc-8b73-00eecd21c912",
+    "data": [
+      {
+        "text": "論壇",
+        "meta": "@SmartLAB_Forum",
+        "alias": "smartlab_forum",
+        "userDefined": false
+      },
+      {
+        "text": "時間",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "26bdaec7-9454-4e4e-be31-f28fb85c345a",
+    "data": [
+      {
+        "text": "未來",
+        "userDefined": false
+      },
+      {
+        "text": "技術會議",
+        "meta": "@SmartLAB_Forum",
+        "alias": "smartlab_forum",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

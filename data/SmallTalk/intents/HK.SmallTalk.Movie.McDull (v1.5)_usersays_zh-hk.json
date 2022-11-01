@@ -1,0 +1,93 @@
+[
+  {
+    "id": "99f7e6c2-a349-4d86-8050-bf8650b0deda",
+    "data": [
+      {
+        "text": "知唔知",
+        "userDefined": false
+      },
+      {
+        "text": "麥兜",
+        "meta": "@General_McDull",
+        "alias": "General_McDull",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3cc2b367-0ae7-4871-a216-9454a3d94f23",
+    "data": [
+      {
+        "text": "邊個係",
+        "userDefined": false
+      },
+      {
+        "text": "麥兜",
+        "meta": "@General_McDull",
+        "alias": "General_McDull",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0c23c68a-1266-40d7-bd57-2e3944770f22",
+    "data": [
+      {
+        "text": "識",
+        "userDefined": false
+      },
+      {
+        "text": "麥兜",
+        "meta": "@General_McDull",
+        "alias": "General_McDull",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3e5434f8-91cc-48e8-a99e-ac1c484e5597",
+    "data": [
+      {
+        "text": "鍾意",
+        "userDefined": false
+      },
+      {
+        "text": "麥兜",
+        "meta": "@General_McDull",
+        "alias": "General_McDull",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "d72e07be-d3cd-49cb-b2c9-16a53cce94b1",
+    "data": [
+      {
+        "text": "麥兜",
+        "meta": "@General_McDull",
+        "alias": "General_McDull",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

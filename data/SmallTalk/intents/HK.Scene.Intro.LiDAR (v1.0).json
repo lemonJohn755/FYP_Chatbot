@@ -1,0 +1,50 @@
+{
+  "id": "73ad5d74-a227-4dd7-8725-49a53c7944bb",
+  "name": "HK.Scene.Intro.LiDAR (v1.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5c900c71-047f-4a87-b212-441aeecb28ab",
+          "name": "SmartLAB_Lidar",
+          "required": false,
+          "dataType": "@SmartLAB_Lidar",
+          "value": "$SmartLAB_Lidar",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "光學雷達技術通過人工智能分析所收集嘅點雲數據，可用於分辨物件、檢視人流及作人數統計，但又唔會睇到人樣。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,124 @@
+[
+  {
+    "id": "3956b269-159e-4ac5-a282-840e03a7da10",
+    "data": [
+      {
+        "text": "創新實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "網站",
+        "meta": "@General_URL",
+        "alias": "general_url",
+        "userDefined": false
+      },
+      {
+        "text": "資訊",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9cd3ebcb-59d7-4b02-b530-eca608bcda08",
+    "data": [
+      {
+        "text": "創新實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "網站",
+        "meta": "@General_URL",
+        "alias": "general_url",
+        "userDefined": false
+      },
+      {
+        "text": "睇",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "20d859a2-b2ad-4a4f-a14a-a7f064fd72d2",
+    "data": [
+      {
+        "text": "創新實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "網站",
+        "meta": "@General_URL",
+        "alias": "general_url",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "abc6d9b6-5ea4-42d6-80b4-3fa39346c108",
+    "data": [
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "網頁",
+        "meta": "@General_URL",
+        "alias": "general_url",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6fb70bd4-54f8-4b2e-92ce-b06ee00945ec",
+    "data": [
+      {
+        "text": "網頁",
+        "meta": "@General_URL",
+        "alias": "general_url",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c91f229b-62cb-4150-9d24-aff2bcea9da5",
+    "data": [
+      {
+        "text": "網站",
+        "meta": "@General_URL",
+        "alias": "general_url",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

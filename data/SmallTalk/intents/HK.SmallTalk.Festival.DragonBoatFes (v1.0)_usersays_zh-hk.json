@@ -1,0 +1,80 @@
+[
+  {
+    "id": "fd45c9ac-55c4-4ce4-aa85-3bc57e021429",
+    "data": [
+      {
+        "text": "你有無游龍舟水",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "88cef23d-3795-4ac4-a677-6cb25fc1defd",
+    "data": [
+      {
+        "text": "Dragon boat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ab6b0d7b-c8f2-4500-8dca-0b68d04b4e44",
+    "data": [
+      {
+        "text": "Dragon boat festival",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "782f585e-e67f-4d76-bcc9-d80dcb9f31e3",
+    "data": [
+      {
+        "text": "龍舟節",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "02f440a3-ea5f-434a-bb2e-b1eb07028ec8",
+    "data": [
+      {
+        "text": "端午節",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "748d9d77-88ef-4fd8-932c-00e9319d391c",
+    "data": [
+      {
+        "text": "你有冇食糭",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

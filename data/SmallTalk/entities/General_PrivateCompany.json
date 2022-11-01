@@ -1,0 +1,9 @@
+{
+  "id": "4429e757-7828-49b1-9716-2ef460e24499",
+  "name": "General_PrivateCompany",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

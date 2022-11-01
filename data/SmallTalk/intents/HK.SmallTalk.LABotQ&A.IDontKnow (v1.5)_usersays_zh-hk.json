@@ -1,0 +1,70 @@
+[
+  {
+    "id": "dc1f0388-0096-4bdc-9686-43df98eb8c0f",
+    "data": [
+      {
+        "text": "唔知道",
+        "meta": "@Genral_IDontKnow",
+        "alias": "Genral_IDontKnow",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "15361510-83fd-419b-a130-d0e3704d6c6f",
+    "data": [
+      {
+        "text": "唔識",
+        "meta": "@Genral_IDontKnow",
+        "alias": "Genral_IDontKnow",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "afcccec5-af3a-45d6-be56-b0d4e94bbeff",
+    "data": [
+      {
+        "text": "我都",
+        "userDefined": false
+      },
+      {
+        "text": "唔知",
+        "meta": "@Genral_IDontKnow",
+        "alias": "Genral_IDontKnow",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "75f08edb-84a5-4912-b51b-2861d20c3f2c",
+    "data": [
+      {
+        "text": "咩都",
+        "userDefined": false
+      },
+      {
+        "text": "唔知",
+        "meta": "@Genral_IDontKnow",
+        "alias": "Genral_IDontKnow",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

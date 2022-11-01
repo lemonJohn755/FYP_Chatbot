@@ -1,0 +1,74 @@
+[
+  {
+    "id": "676ffcdd-8d01-4ccc-bad6-c1926000b7a0",
+    "data": [
+      {
+        "text": "講故事嚇下我",
+        "meta": "@General_HorrorStory",
+        "alias": "General_HorrorStory",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ce5da22e-7594-4ee6-886e-c67a5dd58987",
+    "data": [
+      {
+        "text": "恐怖床邊故事",
+        "meta": "@General_HorrorStory",
+        "alias": "General_HorrorStory",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "59d7c1aa-2564-488d-a547-9df401acd4e1",
+    "data": [
+      {
+        "text": "最中意",
+        "userDefined": false
+      },
+      {
+        "text": "恐怖故事",
+        "meta": "@General_HorrorStory",
+        "alias": "General_HorrorStory",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "cd260f07-32fb-41dc-a594-056f622c4b04",
+    "data": [
+      {
+        "text": "講個",
+        "userDefined": false
+      },
+      {
+        "text": "鬼故",
+        "meta": "@General_HorrorStory",
+        "alias": "General_HorrorStory",
+        "userDefined": true
+      },
+      {
+        "text": "嚟聽吓？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

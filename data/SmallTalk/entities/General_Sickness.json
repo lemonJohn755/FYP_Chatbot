@@ -1,0 +1,9 @@
+{
+  "id": "a893e1a3-9232-49e7-a4d9-3cc28a649f48",
+  "name": "General_Sickness",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

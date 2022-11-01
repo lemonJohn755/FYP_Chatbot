@@ -1,0 +1,76 @@
+{
+  "id": "2e3da707-1294-4f5f-96aa-5968523418d2",
+  "name": "HK.SmallTalk.Horoscope.Scorpio (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bf16009b-0495-482c-a12e-ee67ef5c4f41",
+          "name": "General_Scorpio",
+          "required": false,
+          "dataType": "@General_Scorpio",
+          "value": "$General_Scorpio",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The birth date of Scorpio is from October 24 to November 22.",
+            "The Scorpio is mysterious, fanatical, and arrogant.",
+            "The lucky color of Scorpio is black and purple, and the lucky color is black crystal."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "天蝎座出生日期是从10月24日至11月22天。",
+            "天蝎座的人神秘，狂热而且高傲。",
+            "天蝎座的幸运色系黑色和紫色，幸运色系黑水晶。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "天蠍座出生日期係由10月24日至11月22日。",
+            "天蠍座嘅人神秘，狂熱而且高傲。",
+            "天蠍座嘅幸運色係黑色同紫色，幸運色係黑水晶。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

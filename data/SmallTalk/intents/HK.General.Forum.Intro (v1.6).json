@@ -1,0 +1,70 @@
+{
+  "id": "fe541169-e26d-4135-b05e-34ec2f2b8fd5",
+  "name": "HK.General.Forum.Intro (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6ff83d8b-3850-4fc1-8dd6-a61ed5cde144",
+          "name": "smartlab_forum",
+          "required": false,
+          "dataType": "@SmartLAB_Forum",
+          "value": "$smartlab_forum",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "創新實驗室聯同數碼港、香港科學園同生產力促進局定期舉辦技術論壇，邀請業界分享佢嘅創新技術方案同成功個案，同埋點樣有效地應用有關技術嚟提升本地公共服務。參與論壇嘅本地初創企業同中小企亦可以更深入了解同認識政府部門嘅需要，就合適嘅範疇向創新實驗室提交建議應對不同嘅城市管理挑戰。 E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Smart Innovation Government Lab together with Cyberport, Hong Kong Science Park and Productivity Council regularly hold technical forums, inviting colleagues to share some innovative technologies, solutions and successful use cases. Also, they will share about how to effectively use related technologies to enhance local public services. Local start-ups and SME participating in the forum can also have a deeper understanding of the needs of government departments, and submit proposals to the Innovation Lab on certain areas to deal with different urban management challenges. E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "创新实验室和数码港、香港科学园和生产力促进局定期举办技术论坛，邀请同行分享一些创新科技和方案和成功的个案，和如何有效地用相关技术来提升本地的公共服务。参与论坛的本地初创企业和中小企亦可更深入了解和认识政府部门的需要，就合适的范畴向创新实验室提交建议应对不同的城市管理挑战。 E\u003dnormal"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

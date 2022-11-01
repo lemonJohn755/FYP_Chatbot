@@ -1,0 +1,76 @@
+{
+  "id": "b202e5b4-99de-4276-99a0-37bfc406da44",
+  "name": "HK.SmallTalk.Tourist.NathanRoad (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d179ec18-db1d-4167-98d4-7385ba94b3a9",
+          "name": "General_NathanRoad",
+          "required": false,
+          "dataType": "@General_NathanRoad",
+          "value": "$General_NathanRoad",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Nathan Road is a song, I think it sounds pretty good.",
+            "Nathan Road is located on the Kowloon Peninsula of Hong Kong. It is one of the most famous streets in Hong Kong. If you have the opportunity, go take a look.",
+            "Nathan Road, I haven\u0027t been there yet, and I will tell you something about it next time."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "弥敦道是一首歌喔，我觉得挺听。",
+            "弥敦道位於香港九龙半岛，是香港最著名的街道之一，有机会可以去看一看。",
+            "弥敦道，我暂时还没去过，等我下次去过再跟你说下点了。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "彌敦道係一首歌喔，我覺得幾好聽呀。",
+            "彌敦道位於香港九龍半島，係香港最出名嘅街道之一，有機會可以去睇一睇。",
+            "彌敦道，我暫時仲未去過啊，等我下次去過再同你講下點啦。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

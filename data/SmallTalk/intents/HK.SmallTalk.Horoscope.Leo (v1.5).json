@@ -1,0 +1,76 @@
+{
+  "id": "3ba24374-3434-4809-8d42-a560f29db712",
+  "name": "HK.SmallTalk.Horoscope.Leo (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "01068df0-48d5-422b-bb39-1a4cdeb8d7c1",
+          "name": "General_Leo",
+          "required": false,
+          "dataType": "@General_Leo",
+          "value": "$General_Leo",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Leo\u0027s birth date is from July 23 to August 22.",
+            "Leo is sunny, hospitable, confident, generous, caring about what others think of him, and has the personality to refuse to admit defeat.",
+            "The lucky color of Leo is yellow and brown."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "狮子座出生日期是从7月23日至8月22天。",
+            "狮子座阳光、盛情、自信、大方，在乎别人对他的看法同时有不肯承认输的个性。",
+            "狮子座的幸运色系谁黄和褐色。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "獅子座出生日期係由7月23日至8月22日。",
+            "獅子座陽光、熱情、自信、大方，在乎人哋對佢嘅看法同時有唔肯認輸嘅個性。",
+            "獅子座嘅幸運色係淺黃和褐色。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

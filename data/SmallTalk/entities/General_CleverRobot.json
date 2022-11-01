@@ -1,0 +1,9 @@
+{
+  "id": "44c142f7-5e33-41fa-b5fb-bc17f2e84dc0",
+  "name": "General_CleverRobot",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

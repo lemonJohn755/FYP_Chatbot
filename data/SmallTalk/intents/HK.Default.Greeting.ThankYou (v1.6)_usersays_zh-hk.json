@@ -1,0 +1,127 @@
+[
+  {
+    "id": "0b4d33eb-e7bf-4c9e-8c87-78d000514347",
+    "data": [
+      {
+        "text": "Thanks",
+        "meta": "@Greeting_ThankYou",
+        "alias": "greeting_thankyou",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "da5058d0-c66e-4627-97d4-339dcbfe153f",
+    "data": [
+      {
+        "text": "Thank you",
+        "meta": "@Greeting_ThankYou",
+        "alias": "greeting_thankyou",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8f44d590-26a7-4917-9df4-943deddcb920",
+    "data": [
+      {
+        "text": "機械人",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      },
+      {
+        "text": "唔該",
+        "meta": "@Greeting_ThankYou",
+        "alias": "greeting_thankyou",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c5403783-5058-4fc6-8cfe-76bfa98ce6a0",
+    "data": [
+      {
+        "text": "唔該",
+        "meta": "@Greeting_ThankYou",
+        "alias": "greeting_thankyou",
+        "userDefined": false
+      },
+      {
+        "text": "機械人",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0f9706b4-92fa-46bd-8478-2bb7ae55234a",
+    "data": [
+      {
+        "text": "唔該",
+        "meta": "@Greeting_ThankYou",
+        "alias": "greeting_thankyou",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ceabfa3f-2656-415c-ac65-849d0240c7ef",
+    "data": [
+      {
+        "text": "唔該",
+        "meta": "@Greeting_ThankYou",
+        "alias": "greeting_thankyou",
+        "userDefined": false
+      },
+      {
+        "text": "晒",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "06846673-99d6-4337-95cd-94475d1a6664",
+    "data": [
+      {
+        "text": "多謝",
+        "meta": "@Greeting_ThankYou",
+        "alias": "greeting_thankyou",
+        "userDefined": false
+      },
+      {
+        "text": "你呀",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

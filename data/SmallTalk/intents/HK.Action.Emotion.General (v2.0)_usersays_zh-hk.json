@@ -1,0 +1,150 @@
+[
+  {
+    "id": "486509e9-52aa-416c-801a-b9b83645dcdc",
+    "data": [
+      {
+        "text": "今日",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "心情",
+        "meta": "@Emotion_Mood",
+        "alias": "emotion_mood",
+        "userDefined": false
+      },
+      {
+        "text": "點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8d2229e0-1b7d-4e6b-bf1b-b1d476e935c5",
+    "data": [
+      {
+        "text": "琴日",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "心情",
+        "meta": "@Emotion_Mood",
+        "alias": "emotion_mood",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c33c62b5-917a-45ef-9874-9dd94ca32170",
+    "data": [
+      {
+        "text": "聽日",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "心情",
+        "meta": "@Emotion_Mood",
+        "alias": "emotion_mood",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "677bfe8a-0f99-4fe5-bcce-6398deadeb9f",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "心情",
+        "meta": "@Emotion_Mood",
+        "alias": "emotion_mood",
+        "userDefined": false
+      },
+      {
+        "text": "點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "67a6b442-8b5d-4787-b73a-bfdad51c9fad",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "情緒",
+        "meta": "@Emotion_Mood",
+        "alias": "emotion_mood",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "fa48900c-c6eb-4a5f-9996-29186fe34fa2",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "感受",
+        "meta": "@Emotion_Mood",
+        "alias": "emotion_mood",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ac3310fd-b1f3-46a0-b76e-377ee1132fcc",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "心情",
+        "meta": "@Emotion_Mood",
+        "alias": "emotion_mood",
+        "userDefined": false
+      },
+      {
+        "text": "如何",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

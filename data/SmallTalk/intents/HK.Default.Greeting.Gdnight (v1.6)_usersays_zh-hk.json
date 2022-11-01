@@ -1,0 +1,120 @@
+[
+  {
+    "id": "7fed8c44-5e92-4d2d-b3b8-bac5949f0fb6",
+    "data": [
+      {
+        "text": "good night",
+        "meta": "@Greeting_GdNight",
+        "alias": "greeting_gdnight",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "小博",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "28ca78c5-fc32-40e3-9c1d-026b71bcb821",
+    "data": [
+      {
+        "text": "小博",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      },
+      {
+        "text": "good night",
+        "meta": "@Greeting_GdNight",
+        "alias": "greeting_gdnight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8ca83fde-0468-4b98-b956-6ac1d3fe90a2",
+    "data": [
+      {
+        "text": "早抖",
+        "meta": "@Greeting_GdNight",
+        "alias": "greeting_gdnight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "35d13fc8-493c-4a30-b98d-9a8632e3fb6c",
+    "data": [
+      {
+        "text": "小博",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      },
+      {
+        "text": "早抖",
+        "meta": "@Greeting_GdNight",
+        "alias": "greeting_gdnight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b4951d0b-30ae-40bd-b233-2e4ba7275b37",
+    "data": [
+      {
+        "text": "小博",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      },
+      {
+        "text": "晚安",
+        "meta": "@Greeting_GdNight",
+        "alias": "greeting_gdnight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "75ac48ab-8f89-4ded-830b-c6fd9eea192c",
+    "data": [
+      {
+        "text": "晚安",
+        "meta": "@Greeting_GdNight",
+        "alias": "greeting_gdnight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

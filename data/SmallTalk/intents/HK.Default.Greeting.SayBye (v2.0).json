@@ -1,0 +1,84 @@
+{
+  "id": "b502807a-045a-4e1d-a70f-c1d933784fdd",
+  "name": "HK.Default.Greeting.SayBye (v2.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6f5fe231-ea1b-4625-9bdb-cc7fb37a91ac",
+          "name": "default_saybye",
+          "required": false,
+          "dataType": "@Default_SayBye",
+          "value": "$default_saybye",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c072f5ee-29c8-4313-b2c0-a1a1df6477fc",
+          "name": "Default_ThankYou",
+          "required": false,
+          "dataType": "@Default_ThankYou",
+          "value": "$Default_ThankYou",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "谢谢大家来临，下次再见，再见！E\u003dthankyou"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for coming, see you next time, see you! E\u003dthankyou"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "多謝大家嘅到來, 下次再見, 拜拜！"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

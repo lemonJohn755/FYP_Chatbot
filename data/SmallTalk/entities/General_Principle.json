@@ -1,0 +1,9 @@
+{
+  "id": "ed03deff-eb12-44e0-b312-1cbf97a39123",
+  "name": "General_Principle",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

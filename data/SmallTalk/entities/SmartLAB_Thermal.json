@@ -1,0 +1,9 @@
+{
+  "id": "3adc9587-d72f-49da-83c3-dfc26a30f6f2",
+  "name": "SmartLAB_Thermal",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

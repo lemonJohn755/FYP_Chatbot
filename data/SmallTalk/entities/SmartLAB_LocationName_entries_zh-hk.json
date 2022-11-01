@@ -1,0 +1,30 @@
+[
+  {
+    "value": "One",
+    "synonyms": [
+      "L\u003d1",
+      "L1"
+    ]
+  },
+  {
+    "value": "Two",
+    "synonyms": [
+      "L\u003d2",
+      "L2"
+    ]
+  },
+  {
+    "value": "Three",
+    "synonyms": [
+      "L\u003d3",
+      "L3"
+    ]
+  },
+  {
+    "value": "Four",
+    "synonyms": [
+      "L\u003d4",
+      "L4"
+    ]
+  }
+]

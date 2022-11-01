@@ -1,0 +1,70 @@
+[
+  {
+    "id": "7808031d-4587-4576-876d-0d5253d385e3",
+    "data": [
+      {
+        "text": "咩係",
+        "userDefined": false
+      },
+      {
+        "text": "美國隊長",
+        "meta": "@General_CaptainAmerica",
+        "alias": "General_CaptainAmerica",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a641e867-4d54-4f5f-b977-a52bfde6a353",
+    "data": [
+      {
+        "text": "睇",
+        "userDefined": false
+      },
+      {
+        "text": "美國隊長",
+        "meta": "@General_CaptainAmerica",
+        "alias": "General_CaptainAmerica",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6d4c45b6-9fa5-4da1-b05f-de3122664291",
+    "data": [
+      {
+        "text": "美國隊長",
+        "meta": "@General_CaptainAmerica",
+        "alias": "General_CaptainAmerica",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "672c2180-0e51-44e6-997a-1bbee52937f9",
+    "data": [
+      {
+        "text": "Captain America",
+        "meta": "@General_CaptainAmerica",
+        "alias": "General_CaptainAmerica",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

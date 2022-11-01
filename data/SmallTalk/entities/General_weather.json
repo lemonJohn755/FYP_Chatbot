@@ -1,0 +1,9 @@
+{
+  "id": "6400212f-4855-4d0f-9b43-3d7cb8b2b62b",
+  "name": "General_weather",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

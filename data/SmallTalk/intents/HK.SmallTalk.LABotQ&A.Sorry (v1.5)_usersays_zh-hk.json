@@ -1,0 +1,175 @@
+[
+  {
+    "id": "40ba940d-5176-47af-9a60-cb0e2c466aaf",
+    "data": [
+      {
+        "text": "我唔岩",
+        "meta": "@General_sorry",
+        "alias": "General_sorry",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0217b3ec-0c57-4672-8f69-cf8dc756e9c5",
+    "data": [
+      {
+        "text": "my mistake",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "eba893f8-0c47-484f-a372-4501b4f23c27",
+    "data": [
+      {
+        "text": "my bad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "bc46f8c5-bee1-4b7a-aa5a-203af1d9356b",
+    "data": [
+      {
+        "text": "係",
+        "userDefined": false
+      },
+      {
+        "text": "我衰",
+        "meta": "@General_sorry",
+        "alias": "General_sorry",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8f4216e5-7d34-4e50-876d-4804203865cf",
+    "data": [
+      {
+        "text": "都係",
+        "userDefined": false
+      },
+      {
+        "text": "我唔好",
+        "meta": "@General_sorry",
+        "alias": "General_sorry",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "23fd5866-1935-44ef-a2cc-ed69f5c661e6",
+    "data": [
+      {
+        "text": "係",
+        "userDefined": false
+      },
+      {
+        "text": "我錯",
+        "meta": "@General_sorry",
+        "alias": "General_sorry",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "1532e665-84cd-47b5-8785-56e22e279d38",
+    "data": [
+      {
+        "text": "對你唔住",
+        "meta": "@General_sorry",
+        "alias": "General_sorry",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7761dffb-d618-4b14-8e97-b4eb02689704",
+    "data": [
+      {
+        "text": "唔好意思",
+        "meta": "@General_sorry",
+        "alias": "General_sorry",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4e8b19f7-0141-4680-98dc-87a57e79f12e",
+    "data": [
+      {
+        "text": "抱歉",
+        "meta": "@General_sorry",
+        "alias": "General_sorry",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "07605c72-f918-4be2-bc99-bb3ad8d2f06d",
+    "data": [
+      {
+        "text": "對唔住",
+        "meta": "@General_sorry",
+        "alias": "General_sorry",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "065d3c07-cdd8-4506-9584-b6b02ed9be7a",
+    "data": [
+      {
+        "text": "Sorry",
+        "meta": "@General_sorry",
+        "alias": "General_sorry",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

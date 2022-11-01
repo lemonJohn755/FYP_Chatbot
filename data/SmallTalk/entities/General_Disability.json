@@ -1,0 +1,9 @@
+{
+  "id": "766c238c-2229-4202-a690-99e37181e8c1",
+  "name": "General_Disability",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

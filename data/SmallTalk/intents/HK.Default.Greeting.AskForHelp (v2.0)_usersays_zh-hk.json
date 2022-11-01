@@ -1,0 +1,141 @@
+[
+  {
+    "id": "81524f32-f86f-44b0-b438-70a67edd65f8",
+    "data": [
+      {
+        "text": "想",
+        "userDefined": false
+      },
+      {
+        "text": "搵",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "幫手",
+        "meta": "@Default_HelpMe",
+        "alias": "default_helpme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8d262d49-7159-4e90-a0cd-8342a6366246",
+    "data": [
+      {
+        "text": "機械人",
+        "meta": "@SmartLAB_LABot",
+        "alias": "smartlab_labot",
+        "userDefined": false
+      },
+      {
+        "text": "想",
+        "userDefined": false
+      },
+      {
+        "text": "搵",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "幫手",
+        "meta": "@Default_HelpMe",
+        "alias": "default_helpme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e2ede7a2-0dd5-4bd9-8169-d8c1ba3bd95f",
+    "data": [
+      {
+        "text": "幫我",
+        "meta": "@Default_HelpMe",
+        "alias": "default_helpme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "fefa305f-09c7-4fed-9314-27ae194c0e08",
+    "data": [
+      {
+        "text": "我",
+        "userDefined": false
+      },
+      {
+        "text": "需要",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "幫手",
+        "meta": "@Default_HelpMe",
+        "alias": "default_helpme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "574f7997-5e65-47ac-962c-e0299e542087",
+    "data": [
+      {
+        "text": "我要人",
+        "userDefined": false
+      },
+      {
+        "text": "幫手",
+        "meta": "@Default_HelpMe",
+        "alias": "default_helpme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "35911efb-de72-442e-965a-def18f5ab550",
+    "data": [
+      {
+        "text": "尋求",
+        "userDefined": false
+      },
+      {
+        "text": "幫忙",
+        "meta": "@Default_HelpMe",
+        "alias": "default_helpme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

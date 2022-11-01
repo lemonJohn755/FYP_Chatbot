@@ -1,0 +1,103 @@
+[
+  {
+    "id": "d6ae4b2a-e637-4a26-a1f2-57be3ac5657c",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "好悶",
+        "meta": "@Emotion_Bored",
+        "alias": "emotion_bored",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0e45460b-fb9f-46d6-9627-69f231aa2eb0",
+    "data": [
+      {
+        "text": "小博",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "悶",
+        "meta": "@Emotion_Bored",
+        "alias": "emotion_bored",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7115bebc-4747-4f47-8c11-435eebaa32e7",
+    "data": [
+      {
+        "text": "小博",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "唔",
+        "userDefined": false
+      },
+      {
+        "text": "悶",
+        "meta": "@Emotion_Bored",
+        "alias": "emotion_bored",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7a67a110-21fe-4b77-9679-838ca7a2323a",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "悶",
+        "meta": "@Emotion_Bored",
+        "alias": "emotion_bored",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "df15516f-5a84-4c72-b214-85017795ab94",
+    "data": [
+      {
+        "text": "你",
+        "userDefined": false
+      },
+      {
+        "text": "無聊",
+        "meta": "@Emotion_Bored",
+        "alias": "emotion_bored",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

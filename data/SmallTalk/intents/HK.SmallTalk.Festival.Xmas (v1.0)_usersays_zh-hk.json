@@ -1,0 +1,106 @@
+[
+  {
+    "id": "5e67226c-04de-4fa7-ad2b-5821add923b6",
+    "data": [
+      {
+        "text": "Santa claus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "76c4cc7f-3d4b-4cda-8eef-a175d19bf716",
+    "data": [
+      {
+        "text": "聖誕快樂",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2c85297d-212f-48e4-8fd1-cb90171a83c7",
+    "data": [
+      {
+        "text": "聖誕禮物",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4063a46b-b070-437a-afdf-8e2bf63770b6",
+    "data": [
+      {
+        "text": "聖誕老人",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6553d756-daf3-4ae2-ab68-4d1de0d03c52",
+    "data": [
+      {
+        "text": "christmas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "03d2513a-af46-4c4b-be08-2891a066e3cb",
+    "data": [
+      {
+        "text": "Merry christmas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2291cfd2-d0bc-46df-bebc-c9c0f8452f55",
+    "data": [
+      {
+        "text": "聖誕",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9dc6b458-da18-4235-a531-00ba4acb299e",
+    "data": [
+      {
+        "text": "聖誕節",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "43ce18e7-37e5-4bc4-9360-fc82e2a2cc15",
+    "data": [
+      {
+        "text": "摩羯",
+        "meta": "@General_Capricorn",
+        "alias": "General_Capricorn",
+        "userDefined": true
+      },
+      {
+        "text": "配咩星座",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "fd881cbb-bc1a-4e6c-ad47-bcbefe268528",
+    "data": [
+      {
+        "text": "摩羯座",
+        "meta": "@General_Capricorn",
+        "alias": "General_Capricorn",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

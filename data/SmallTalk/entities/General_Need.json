@@ -1,0 +1,9 @@
+{
+  "id": "5394fed3-a005-4129-adbe-3decce9e8f87",
+  "name": "General_Need",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,73 @@
+{
+  "id": "66f7bb3d-e845-4c92-b20d-7feabaa422fa",
+  "name": "HK.SmallTalk.LABotQ\u0026A.IDontKnow (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e0ab0673-5932-4a00-b92b-1a4c655a9dbb",
+          "name": "Genral_IDontKnow",
+          "required": false,
+          "dataType": "@Genral_IDontKnow",
+          "value": "$Genral_IDontKnow",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "機械人都唔知道，哈哈。",
+            "既然你都唔知，咁我都唔知，哈哈。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I don\u0027t know that.",
+            "Since you don\u0027t know, I don\u0027t know either, haha."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "机械人都不知道，哈哈。",
+            "既然你都不知道，我也不知道，哈哈。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

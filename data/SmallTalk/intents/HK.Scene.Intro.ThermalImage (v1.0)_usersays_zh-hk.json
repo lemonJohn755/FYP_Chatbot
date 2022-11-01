@@ -1,0 +1,256 @@
+[
+  {
+    "id": "27db7d38-dc7e-46ae-b36d-fa90c89c273f",
+    "data": [
+      {
+        "text": "Thermal",
+        "meta": "@SmartLAB_Thermal",
+        "alias": "SmartLAB_Thermal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5e3f8bea-1cc6-4653-ab07-1ca66cac0a6d",
+    "data": [
+      {
+        "text": "介紹下",
+        "userDefined": false
+      },
+      {
+        "text": "熱成像",
+        "meta": "@SmartLAB_Thermal",
+        "alias": "SmartLAB_Thermal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "fb906b4d-09e5-4ea3-9ace-0518e9f7161d",
+    "data": [
+      {
+        "text": "簡介",
+        "userDefined": false
+      },
+      {
+        "text": "熱成像",
+        "meta": "@SmartLAB_Thermal",
+        "alias": "SmartLAB_Thermal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "bf289fd3-a7ae-46eb-a6f8-39715552540f",
+    "data": [
+      {
+        "text": "推介",
+        "userDefined": false
+      },
+      {
+        "text": "熱成像",
+        "meta": "@SmartLAB_Thermal",
+        "alias": "SmartLAB_Thermal",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f46f9e78-a659-431c-9ceb-f4c3485055ea",
+    "data": [
+      {
+        "text": "熱成像",
+        "meta": "@SmartLAB_Thermal",
+        "alias": "SmartLAB_Thermal",
+        "userDefined": false
+      },
+      {
+        "text": "咩黎嫁",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5da03b43-d043-4d0a-baf3-cc642b1238a7",
+    "data": [
+      {
+        "text": "講下",
+        "userDefined": false
+      },
+      {
+        "text": "熱成像",
+        "meta": "@SmartLAB_Thermal",
+        "alias": "SmartLAB_Thermal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "102f9426-4d9e-4fe0-b496-dc1a963988bc",
+    "data": [
+      {
+        "text": "可唔可以講下",
+        "userDefined": false
+      },
+      {
+        "text": "熱成像",
+        "meta": "@SmartLAB_Thermal",
+        "alias": "SmartLAB_Thermal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "d50a56fe-84f8-402b-96a8-0d983961c1e1",
+    "data": [
+      {
+        "text": "熱成像",
+        "meta": "@SmartLAB_Thermal",
+        "alias": "SmartLAB_Thermal",
+        "userDefined": false
+      },
+      {
+        "text": "咩黎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7c2b9df8-2ad0-497c-a06f-4b66bf402302",
+    "data": [
+      {
+        "text": "咩係",
+        "userDefined": false
+      },
+      {
+        "text": "熱成像",
+        "meta": "@SmartLAB_Thermal",
+        "alias": "SmartLAB_Thermal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8947a916-0594-4d0a-9c06-646065df3b89",
+    "data": [
+      {
+        "text": "熱成像",
+        "meta": "@SmartLAB_Thermal",
+        "alias": "SmartLAB_Thermal",
+        "userDefined": false
+      },
+      {
+        "text": "乜黎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9c265a63-601a-4b6d-a883-6313cfd1626b",
+    "data": [
+      {
+        "text": "熱成像",
+        "meta": "@SmartLAB_Thermal",
+        "alias": "SmartLAB_Thermal",
+        "userDefined": false
+      },
+      {
+        "text": "乜黎嫁",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "50b03414-5e10-4410-bf43-d5a8f7ff03df",
+    "data": [
+      {
+        "text": "乜嘢",
+        "userDefined": false
+      },
+      {
+        "text": "熱成像",
+        "meta": "@SmartLAB_Thermal",
+        "alias": "SmartLAB_Thermal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0dc0800a-48be-40eb-a0e6-085e1a781f3a",
+    "data": [
+      {
+        "text": "熱成像",
+        "meta": "@SmartLAB_Thermal",
+        "alias": "SmartLAB_Thermal",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "796d1ebf-d42e-4927-b97a-33024ec75655",
+    "data": [
+      {
+        "text": "熱成像技術",
+        "meta": "@SmartLAB_Thermal",
+        "alias": "SmartLAB_Thermal",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

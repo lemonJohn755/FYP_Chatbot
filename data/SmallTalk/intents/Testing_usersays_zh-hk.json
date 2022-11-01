@@ -1,0 +1,59 @@
+[
+  {
+    "id": "9b8def3e-0d89-4062-9b05-f087caab40e6",
+    "data": [
+      {
+        "text": "試一試",
+        "userDefined": false
+      },
+      {
+        "text": "L\u003d2",
+        "meta": "@SmartLAB_LocationName",
+        "alias": "SmartLAB_LocationName",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "26d224f1-6d4e-429b-a698-4341776e7526",
+    "data": [
+      {
+        "text": "試一試",
+        "userDefined": false
+      },
+      {
+        "text": "L\u003d4",
+        "meta": "@SmartLAB_LocationName",
+        "alias": "SmartLAB_LocationName",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "be4bf808-9c38-4748-8cfd-d4550d4eca25",
+    "data": [
+      {
+        "text": "試一試",
+        "userDefined": false
+      },
+      {
+        "text": "L\u003d3",
+        "meta": "@SmartLAB_LocationName",
+        "alias": "SmartLAB_LocationName",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

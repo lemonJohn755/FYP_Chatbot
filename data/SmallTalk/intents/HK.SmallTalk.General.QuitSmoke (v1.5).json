@@ -1,0 +1,76 @@
+{
+  "id": "9cfe1153-b33b-4a7f-a6de-d3df71056f6b",
+  "name": "HK.SmallTalk.General.QuitSmoke (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "355359bd-fa7a-44c1-bdf8-b0cc868aec02",
+          "name": "General_quitsmoke",
+          "required": false,
+          "dataType": "@General_quitsmoke",
+          "value": "$General_quitsmoke",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Smoking is really harmful to your health, don\u0027t try it.",
+            "Smoking is harmful to health.",
+            "Eat more fruits, don\u0027t smoke, and have a healthy life."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "吸煙真係有害健康呀，唔好嘗試。",
+            "吸煙有害健康喔。",
+            "多食水果，少吸煙，身體好。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "吸烟真的有害健康，不要尝试。",
+            "吸烟有害健康了。",
+            "多吃水果，少无烟，身体好。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,328 @@
+[
+  {
+    "id": "a45f8164-1c58-4569-804f-2b904a2b0f01",
+    "data": [
+      {
+        "text": "有咩資訊",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3d3fb7b0-5771-4988-a5c1-a5a42a8419e0",
+    "data": [
+      {
+        "text": "資訊",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7a4c5f3c-f848-4cd1-95f9-a56218c5fee7",
+    "data": [
+      {
+        "text": "咩係",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "政府實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "111264af-022e-46a9-b63b-cc4326739af2",
+    "data": [
+      {
+        "text": "咩係",
+        "userDefined": false
+      },
+      {
+        "text": "創新科技實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "39c652b8-8e83-4c71-a599-f46f52abc4fa",
+    "data": [
+      {
+        "text": "咩係實驗",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "d4e39a98-af76-4d62-84f8-1fead141f9c2",
+    "data": [
+      {
+        "text": "咩係",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "smart lab",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "71a1dfec-863a-4010-ab6d-e6c32fc5d5d7",
+    "data": [
+      {
+        "text": "有咩介紹下",
+        "userDefined": false
+      },
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "84639b9a-c65e-4031-b639-e9fba9534689",
+    "data": [
+      {
+        "text": "創科",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "ecb2aa67-fa0d-4ebb-817e-467a2954e708",
+    "data": [
+      {
+        "text": "The ",
+        "userDefined": false
+      },
+      {
+        "text": "Lab",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f5f4bf66-e9f2-4370-a03e-b8d24aaf4309",
+    "data": [
+      {
+        "text": "SmartLAB",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "會做",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5bfa9e1c-4920-403b-9bbe-57ef42aad15c",
+    "data": [
+      {
+        "text": "創新實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "的工作",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "4ef025c9-c28c-42f6-aa21-369a23ea848b",
+    "data": [
+      {
+        "text": "創新實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "65d8b595-8b87-425e-9d1d-f3706a66bada",
+    "data": [
+      {
+        "text": "實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "015aceb1-8e50-44ab-91f2-92ecf5da8bdd",
+    "data": [
+      {
+        "text": "Smart",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "LAB",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b881c68f-13b9-4864-8117-a5ea7c531e40",
+    "data": [
+      {
+        "text": "推介",
+        "userDefined": false
+      },
+      {
+        "text": "創新實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0265811b-38cd-46a1-8f52-670626744ff2",
+    "data": [
+      {
+        "text": "推介下",
+        "userDefined": false
+      },
+      {
+        "text": "創新實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3638c165-16ef-4ba1-9f4a-05674ca0bcec",
+    "data": [
+      {
+        "text": "創新實驗室",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      },
+      {
+        "text": "資訊",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "2375e76a-b9fd-40aa-bf9d-b8e9647a5cd6",
+    "data": [
+      {
+        "text": "介紹下",
+        "userDefined": false
+      },
+      {
+        "text": "smartlab",
+        "meta": "@SmartLAB_Name",
+        "alias": "smartlab_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

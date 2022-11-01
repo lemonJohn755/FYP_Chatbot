@@ -1,0 +1,76 @@
+{
+  "id": "9f0036e4-6ae0-4632-be92-e2c143258709",
+  "name": "HK.SmallTalk.Hobbies.Holiday (v1.0)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "56bd757b-c462-47a7-8235-1c13fc164bc5",
+          "name": "General_holiday",
+          "required": false,
+          "dataType": "@General_holiday",
+          "value": "$General_holiday",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "难得放假，你可以去踩着自行车，爬山也行！",
+            "放假当然去吃东西吧！",
+            "假日活动我觉得爬山不错，香港很多自然环境也很美，不过要留意天气，找个同伴一起去轻松一下吧！"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "It’s a holiday, you can ride a bicycle or climb a mountain!",
+            "Of course go eat some delicious dishes during the holidays!",
+            "I think mountain climbing is good for holiday activities, and there are a lot of natural scenery in Hong Kong which are beautiful, but you must pay attention to the weather and find a companion to go with!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "難得放假，你可以去踩吓單車，行山都得㗎！",
+            "放假梗係去食好嘢啦！",
+            "假日活動我覺得行山都唔錯，香港好多自然環境都好靚，不過記住留意天氣，搵埋同伴一齊去輕鬆下！"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

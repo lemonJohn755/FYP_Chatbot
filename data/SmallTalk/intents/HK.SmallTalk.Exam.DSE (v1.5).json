@@ -1,0 +1,61 @@
+{
+  "id": "64ca072b-96ec-4f3a-ada0-c4a4ff3b48e7",
+  "name": "HK.SmallTalk.Exam.DSE (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The exam is just a process, so don\u0027t be too nervous.",
+            "I believe you can do well.",
+            "Don\u0027t be afraid, I will study with you."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "考試只係一種檢驗方式，唔使過於緊張喔。",
+            "我相信你可以搞得掂嘅。",
+            "唔使驚，我會陪住你一起學習嘅。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "考试只是一种检定方式，不用过於紧张喔。",
+            "我相信你可以做得好的。",
+            "不用怕，我会陪你一起学习的。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

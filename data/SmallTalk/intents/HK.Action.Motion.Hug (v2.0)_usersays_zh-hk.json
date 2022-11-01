@@ -1,0 +1,118 @@
+[
+  {
+    "id": "607c5d04-dff2-46a6-bf70-e3b5642bd514",
+    "data": [
+      {
+        "text": "抱",
+        "meta": "@Motion_Hug",
+        "alias": "motion_hug",
+        "userDefined": false
+      },
+      {
+        "text": "我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "684a2949-9861-42d0-abc2-c149995812a9",
+    "data": [
+      {
+        "text": "Hug",
+        "meta": "@Motion_Hug",
+        "alias": "motion_hug",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "aa72992d-cf52-481d-995a-c927a3da2a84",
+    "data": [
+      {
+        "text": "抱抱",
+        "meta": "@Motion_Hug",
+        "alias": "motion_hug",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "13e9317c-4204-4dc4-a5e9-228fadfad8b7",
+    "data": [
+      {
+        "text": "同我",
+        "userDefined": false
+      },
+      {
+        "text": "抱抱",
+        "meta": "@Motion_Hug",
+        "alias": "motion_hug",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9ecc7b05-418d-4005-b37a-d6166a3fffac",
+    "data": [
+      {
+        "text": "同你",
+        "userDefined": false
+      },
+      {
+        "text": "抱抱",
+        "meta": "@Motion_Hug",
+        "alias": "motion_hug",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "38f1a594-90e5-4fed-b275-e5b1ce8254bb",
+    "data": [
+      {
+        "text": "抱",
+        "meta": "@Motion_Hug",
+        "alias": "motion_hug",
+        "userDefined": false
+      },
+      {
+        "text": "我",
+        "userDefined": false
+      },
+      {
+        "text": "抱",
+        "meta": "@Motion_Hug",
+        "alias": "motion_hug",
+        "userDefined": true
+      },
+      {
+        "text": "我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

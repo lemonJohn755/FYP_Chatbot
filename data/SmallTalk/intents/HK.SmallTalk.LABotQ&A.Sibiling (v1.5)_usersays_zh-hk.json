@@ -1,0 +1,91 @@
+[
+  {
+    "id": "23d9a0e2-4418-46f7-88a7-7e22d8649f24",
+    "data": [
+      {
+        "text": "你有家",
+        "userDefined": false
+      },
+      {
+        "text": "姐",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "3b10dd23-ddfd-435d-89d2-7f266181996c",
+    "data": [
+      {
+        "text": "你有",
+        "userDefined": false
+      },
+      {
+        "text": "啊哥",
+        "meta": "@General_Sibling",
+        "alias": "General_Sibling",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5b2d49fe-1182-42c7-ab05-3d71e1813fcc",
+    "data": [
+      {
+        "text": "你",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "有冇",
+        "userDefined": false
+      },
+      {
+        "text": "兄弟姊妹",
+        "meta": "@General_Sibling",
+        "alias": "General_Sibling",
+        "userDefined": true
+      },
+      {
+        "text": "嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "1b4a3fcf-800a-4aac-bfc9-f4e95ea597b6",
+    "data": [
+      {
+        "text": "兄弟姊妹",
+        "meta": "@General_Sibling",
+        "alias": "General_Sibling",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

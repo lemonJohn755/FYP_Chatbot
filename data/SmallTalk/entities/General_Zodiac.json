@@ -1,0 +1,9 @@
+{
+  "id": "de66f625-3d63-4238-b4e4-5de4991d57d3",
+  "name": "General_Zodiac",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

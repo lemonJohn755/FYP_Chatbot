@@ -1,0 +1,98 @@
+{
+  "id": "c8b7a9b7-478c-48dd-ab95-9fb35af3ce04",
+  "name": "HK.General.LabQ\u0026A.EstablishDate (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2e773e25-add0-49e4-b10e-59bdc93d3ff3",
+          "name": "general_establish",
+          "required": false,
+          "dataType": "@General_Establish",
+          "value": "$general_establish",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4156a9cf-70ac-4ab4-8906-7bcc72539171",
+          "name": "general_datetime",
+          "required": false,
+          "dataType": "@General_DateTime",
+          "value": "$general_datetime",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "28a027cf-a3f5-46cc-9acf-245f553b71b2",
+          "name": "smartlab_name",
+          "required": false,
+          "dataType": "@SmartLAB_Name",
+          "value": "$smartlab_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Smart Government Innovation Laboratory was established in April 2019 to assist government departments in adopting innovative technology solutions to promote the development of smart government. E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "智慧政府创新实验室是二零一九年四月成立，协助政府部门采用创新科技方案，推动智慧政府的发展。 E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "智慧政府創新實驗室係二零一九年四月成立，協助政府部門採用創新科技方案，推動智慧政府嘅發展。 E\u003dnormal"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "id": "872a981f-9e76-4982-b57e-5a5ec0e3c17a",
+    "data": [
+      {
+        "text": "時分秒",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "208902e4-fd2b-413c-8322-a749b771ff37",
+    "data": [
+      {
+        "text": "顯示",
+        "userDefined": false
+      },
+      {
+        "text": "時間",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "30e6d122-1165-4104-9e0e-243a6b0cba78",
+    "data": [
+      {
+        "text": "幾點",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6af0dc3e-5e9f-44fa-b91a-e743d7a162eb",
+    "data": [
+      {
+        "text": "今日",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "日期",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "aa2f7a6b-9a33-4755-92a9-5e297068c99b",
+    "data": [
+      {
+        "text": "今天",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "日期",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f7ba1cb1-67f1-4697-b894-799c9f4f3f7b",
+    "data": [
+      {
+        "text": "日期",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "eabdbb3b-cf5f-4cb5-8780-60f5a477f71d",
+    "data": [
+      {
+        "text": "依家",
+        "userDefined": false
+      },
+      {
+        "text": "幾點",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "24432254-f2db-4c4e-b83a-c234b4d31a70",
+    "data": [
+      {
+        "text": "現在",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "時間",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "235f558b-73cd-457f-9dbc-3e81c20989ba",
+    "data": [
+      {
+        "text": "而家",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "幾多點",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "96679f11-7ee7-45f8-adb9-e9379c7ef5b9",
+    "data": [
+      {
+        "text": "星期幾",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b65d4049-e875-4417-9ad8-ad8044cb40da",
+    "data": [
+      {
+        "text": "日子",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "15c09006-18af-42c6-a54e-8f3d7a6fde20",
+    "data": [
+      {
+        "text": "時間",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "91644768-68d6-484b-b4d1-13bfecaa4b8f",
+    "data": [
+      {
+        "text": "報時",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0a5a3ebd-eb66-4f4b-8644-d52be57a2d92",
+    "data": [
+      {
+        "text": "話我知",
+        "userDefined": false
+      },
+      {
+        "text": "幾點",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "297119c9-a350-4217-8f2c-4770a2f1b2ea",
+    "data": [
+      {
+        "text": "宜家",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "幾點",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "035a7386-f23b-4722-a33b-1354807009d2",
+    "data": [
+      {
+        "text": "幾點鐘",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6ee3fb63-0b96-45b7-b7f9-bd9d7d426643",
+    "data": [
+      {
+        "text": "今日",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "星期幾",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "454eca54-5456-4a6d-921c-92da04ea2f68",
+    "data": [
+      {
+        "text": "今日",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "幾多號",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a846e2ba-87b1-4aba-b0f4-f0c7b845ef28",
+    "data": [
+      {
+        "text": "依家",
+        "userDefined": false
+      },
+      {
+        "text": "時間",
+        "meta": "@Command_Time",
+        "alias": "command_time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

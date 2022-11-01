@@ -1,0 +1,93 @@
+[
+  {
+    "id": "81f11280-b00d-4b5f-b004-c25dda950f3f",
+    "data": [
+      {
+        "text": "天秤座",
+        "meta": "@General_Libra",
+        "alias": "General_Libra",
+        "userDefined": false
+      },
+      {
+        "text": "生日",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a18df05a-09ba-4b3a-bdb6-6907c6b20466",
+    "data": [
+      {
+        "text": "天秤座",
+        "meta": "@General_Libra",
+        "alias": "General_Libra",
+        "userDefined": true
+      },
+      {
+        "text": "份人",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a9b76f46-b463-4fae-ae22-a2dc651d46f8",
+    "data": [
+      {
+        "text": "天秤座",
+        "meta": "@General_Libra",
+        "alias": "General_Libra",
+        "userDefined": true
+      },
+      {
+        "text": "性格",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "13072adf-880a-4d86-a296-930d24320042",
+    "data": [
+      {
+        "text": "天秤座",
+        "meta": "@General_Libra",
+        "alias": "General_Libra",
+        "userDefined": true
+      },
+      {
+        "text": "係點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5a3b86e9-cc2d-4fba-ad0b-34921624cf47",
+    "data": [
+      {
+        "text": "天秤座",
+        "meta": "@General_Libra",
+        "alias": "General_Libra",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

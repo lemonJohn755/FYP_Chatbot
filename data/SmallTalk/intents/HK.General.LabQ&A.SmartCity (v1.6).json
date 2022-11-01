@@ -1,0 +1,112 @@
+{
+  "id": "1b5ef808-5436-4735-a671-317e636098ba",
+  "name": "HK.General.LabQ\u0026A.SmartCity (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a18d9228-c9ca-47e7-a005-c894b0a2ff5e",
+          "name": "smartlab_smartcity",
+          "required": false,
+          "dataType": "@SmartLAB_SmartCity",
+          "value": "$smartlab_smartcity",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "91da69ed-c2e2-489c-b259-d64cbce70c49",
+          "name": "smartlab_name",
+          "required": false,
+          "dataType": "@SmartLAB_Name",
+          "value": "$smartlab_name",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3b0c11d1-e94f-491b-9e5c-edeab372ce64",
+          "name": "general_establish",
+          "required": false,
+          "dataType": "@General_Establish",
+          "value": "$general_establish",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "247de519-cbe2-4ecc-9eac-3d809ec75d4d",
+          "name": "general_department",
+          "required": false,
+          "dataType": "@General_Department",
+          "value": "$general_department",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Innovation Lab is responsible for helping to promote the work of \"smart government\", providing a podium to contact information technology peers, especially local start-ups and small and medium-sized enterprises, to gather their creativity and technology, and work with colleagues from various departments to explore the effective public service quality and efficiency plan. We hope that through communications, more testing, and more cooperation, on the one hand, we can support government departments to use technology to provide better public services, and on the other, we can promote the development of innovation and technology peers. E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "创新实验室肩负协助推动“智慧政府”的工作，提供领奖台联系信息技术同行，特别是本地初创企业和中小企，汇聚他们的创意比技术，与各部门的同事一起来发掘能有效提升公共服务素质和效率的方案。我们期望通过多沟通、多测试、多合作，一方面支持政府部门好吃用科技提供更优质公共服务，另一方可推动创科同行发展。 E\u003dnormal"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "創新實驗室肩負協助推動「智慧政府」嘅工作，提供平台聯繫資訊科技業界，特別係本地初創企業及中小企，匯聚他們的創意及技術，與各部門嘅同事一起發掘能有效提升公共服務質素及效率嘅方案。我們期望透過多溝通、多測試、多合作，一方面支援政府部門利用科技提供更優質公共服務，另一方可推動創科業界發展。 E\u003dnormal"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

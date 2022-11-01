@@ -1,0 +1,112 @@
+[
+  {
+    "id": "af6801c0-1e0f-4153-b425-747e699078fe",
+    "data": [
+      {
+        "text": "再",
+        "userDefined": false
+      },
+      {
+        "text": "返去學過",
+        "meta": "@General_PleaseFurtherStudy",
+        "alias": "General_PleaseFurtherStudy",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7d0ef70c-d5e0-405f-9d63-fd135be3b442",
+    "data": [
+      {
+        "text": "學多d野",
+        "meta": "@General_PleaseFurtherStudy",
+        "alias": "General_PleaseFurtherStudy",
+        "userDefined": true
+      },
+      {
+        "text": "先",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e9ee0427-5fae-4ce1-8fc1-4890d8b76fa8",
+    "data": [
+      {
+        "text": "你唔",
+        "userDefined": false
+      },
+      {
+        "text": "學多d野",
+        "meta": "@General_PleaseFurtherStudy",
+        "alias": "General_PleaseFurtherStudy",
+        "userDefined": true
+      },
+      {
+        "text": "，serve唔到我",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "7c393ded-59a3-443a-96ef-a20aab5b4a60",
+    "data": [
+      {
+        "text": "你好大進步空間",
+        "meta": "@General_PleaseFurtherStudy",
+        "alias": "General_PleaseFurtherStudy",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "1b2880d8-4a2f-4cae-ba6f-f643132baf4f",
+    "data": [
+      {
+        "text": "返屋企讀下書",
+        "meta": "@General_PleaseFurtherStudy",
+        "alias": "General_PleaseFurtherStudy",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "96527b85-80d9-4c20-baa9-e4ebc5f02c20",
+    "data": [
+      {
+        "text": "睇嚟你要進修下，",
+        "userDefined": false
+      },
+      {
+        "text": "乜都話唔識",
+        "meta": "@General_PleaseFurtherStudy",
+        "alias": "General_PleaseFurtherStudy",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "4ce072c2-5c0c-4d63-bfde-bcfec4c3694c",
+  "name": "General_Singing",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

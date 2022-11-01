@@ -1,0 +1,93 @@
+[
+  {
+    "id": "2ba40f03-302e-4c3a-8495-274ce116ff2f",
+    "data": [
+      {
+        "text": "射手座",
+        "meta": "@Sagittarius",
+        "alias": "Sagittarius",
+        "userDefined": false
+      },
+      {
+        "text": "生日",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "860faad2-d933-4d34-bf26-9b247034a28f",
+    "data": [
+      {
+        "text": "射手座",
+        "meta": "@Sagittarius",
+        "alias": "Sagittarius",
+        "userDefined": false
+      },
+      {
+        "text": "性格",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "0ef4cf37-3103-4450-942f-bf004031bad4",
+    "data": [
+      {
+        "text": "射手座",
+        "meta": "@Sagittarius",
+        "alias": "Sagittarius",
+        "userDefined": false
+      },
+      {
+        "text": "係點",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "dc50f8bc-3862-4525-ab99-7759bc1d7b7f",
+    "data": [
+      {
+        "text": "射手座",
+        "meta": "@Sagittarius",
+        "alias": "Sagittarius",
+        "userDefined": true
+      },
+      {
+        "text": "份人",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "92b1d36e-254c-46c0-b081-dfab2406aff7",
+    "data": [
+      {
+        "text": "射手座",
+        "meta": "@Sagittarius",
+        "alias": "Sagittarius",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

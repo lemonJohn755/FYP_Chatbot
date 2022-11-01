@@ -1,0 +1,46 @@
+[
+  {
+    "id": "238df10d-c600-49f2-be24-1389c7e6a843",
+    "data": [
+      {
+        "text": "幫",
+        "userDefined": false
+      },
+      {
+        "text": "來賓開門",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "625a0289-216d-4842-bc32-790faf3f1461",
+    "data": [
+      {
+        "text": "迎賓",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "db7f6a74-d77f-43b1-9ba9-a10c1ab7c543",
+    "data": [
+      {
+        "text": "開門",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

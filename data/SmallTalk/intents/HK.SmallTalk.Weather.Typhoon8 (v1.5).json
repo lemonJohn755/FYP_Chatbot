@@ -1,0 +1,73 @@
+{
+  "id": "0fa60033-92d9-4caa-b0d3-0077b040e15e",
+  "name": "HK.SmallTalk.Weather.Typhoon8 (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "89d764c7-b23e-4c60-9fe3-54c1ed574e8a",
+          "name": "General_Typhoon",
+          "required": false,
+          "dataType": "@General_Typhoon",
+          "value": "$General_Typhoon",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "如果有颱風，就唔好出門口啦。有颱風最好留喺室內。",
+            "咁你要小心啲。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If there is a typhoon, don\u0027t go out. It is best to stay indoors if there is a typhoon.",
+            "Then you have to be careful."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "如果有台风，就不要出门。有台风最好留在室内了。",
+            "那你要小心点。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": -1,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

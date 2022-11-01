@@ -1,0 +1,67 @@
+[
+  {
+    "id": "72f0b652-d9dd-41bc-bddd-c3a30033a648",
+    "data": [
+      {
+        "text": "諗唔到",
+        "userDefined": false
+      },
+      {
+        "text": "放假",
+        "meta": "@General_holiday",
+        "alias": "General_holiday",
+        "userDefined": true
+      },
+      {
+        "text": "有咩做",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "06bb0c48-a912-4070-8d97-7429f107e30d",
+    "data": [
+      {
+        "text": "放假",
+        "meta": "@General_holiday",
+        "alias": "General_holiday",
+        "userDefined": true
+      },
+      {
+        "text": "做咩好",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "38a24926-1fe3-4410-8e97-ead37791e09e",
+    "data": [
+      {
+        "text": "聽日",
+        "userDefined": false
+      },
+      {
+        "text": "放假",
+        "meta": "@General_holiday",
+        "alias": "General_holiday",
+        "userDefined": true
+      },
+      {
+        "text": "做乜好？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

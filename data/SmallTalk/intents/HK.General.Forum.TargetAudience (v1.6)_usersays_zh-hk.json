@@ -1,0 +1,109 @@
+[
+  {
+    "id": "f0c9de3d-5f65-4acb-af26-ceda3f9d7182",
+    "data": [
+      {
+        "text": "技術論壇",
+        "meta": "@SmartLAB_Forum",
+        "alias": "smartlab_forum",
+        "userDefined": false
+      },
+      {
+        "text": "邊個",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "83ca9555-67db-41b8-b5d9-d7bdf22d0b9c",
+    "data": [
+      {
+        "text": "技術論壇",
+        "meta": "@SmartLAB_Forum",
+        "alias": "smartlab_forum",
+        "userDefined": false
+      },
+      {
+        "text": "對象",
+        "meta": "@General_Audience",
+        "alias": "general_audience",
+        "userDefined": false
+      },
+      {
+        "text": "邊個",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b64cdb42-8434-4ae2-a4df-a0e1b96a9dc9",
+    "data": [
+      {
+        "text": "技術論壇",
+        "meta": "@SmartLAB_Forum",
+        "alias": "smartlab_forum",
+        "userDefined": false
+      },
+      {
+        "text": "對象",
+        "meta": "@General_Audience",
+        "alias": "general_audience",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f181d677-d20c-4b34-be50-1ea67d977b89",
+    "data": [
+      {
+        "text": "技術論壇",
+        "meta": "@SmartLAB_Forum",
+        "alias": "smartlab_forum",
+        "userDefined": false
+      },
+      {
+        "text": "觀眾",
+        "meta": "@General_Audience",
+        "alias": "general_audience",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9868e035-7e44-4d12-bd36-cbcc40cc24ca",
+    "data": [
+      {
+        "text": "技術論壇",
+        "meta": "@SmartLAB_Forum",
+        "alias": "smartlab_forum",
+        "userDefined": false
+      },
+      {
+        "text": "參加對象",
+        "meta": "@General_Audience",
+        "alias": "general_audience",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "id": "b4b0c090-2b1e-4a54-a0ec-1e37cfe6b458",
+  "name": "HK.SmallTalk.LABotQ\u0026A.CannotHelpYou (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Oh, I need your help.",
+            "I will be sad.",
+            "It\u0027s okay, maybe next time."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "呜呜，我需要你的帮助。",
+            "机械人会伤心的。",
+            "没事，下次吧，有机会的。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "嗚嗚，我好需要你嘅幫助。",
+            "機械人有啲傷心。",
+            "冇事，下次啦，有機會嘅。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

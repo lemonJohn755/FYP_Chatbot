@@ -1,0 +1,112 @@
+{
+  "id": "869f052d-f589-4e6a-9ea3-a240a25a4390",
+  "name": "HK.General.LabQ\u0026A.WhatShowCase (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1dc4a508-22ce-4659-8a5a-243f9713ac5b",
+          "name": "general_showcases",
+          "required": false,
+          "dataType": "@General_Showcases",
+          "value": "$general_showcases",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "60aba52e-da90-4cf6-8299-d2f0a89d74c4",
+          "name": "smartlab_name",
+          "required": false,
+          "dataType": "@SmartLAB_Name",
+          "value": "$smartlab_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "029da5a0-0aad-4f4c-a2e4-cb00575bd1e7",
+          "name": "general_visit",
+          "required": false,
+          "dataType": "@General_Visit",
+          "value": "$general_visit",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1fa0c018-ce1d-4bee-a364-ed12cf045769",
+          "name": "general_meet1",
+          "required": false,
+          "dataType": "@General_Meet",
+          "value": "$general_meet1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "创新实验室会展示一些已成功或正在验证的技术方案，例如：四维CAVE系统，树木监察控制台和城市仪表板，借此以启发更多政府部门采用。你可以按我的“导游”键，我会提供景点资讯和带你到其中一个景点，也许你也可以直接问一下我有关景点的信息。 E\u003dhappy"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Innovation Lab will showcase some successful or validated technical solutions, such as Immersive 4D Cave System, Tree Monitoring Systems and City Dashboard, to inspire more government department to adopt them. You can click on my \"Guide\" button. I will provide information on the attractions and take you to one of the attractions. You can also directly ask me about the attractions. E\u003dhappy"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "創新實驗室會展示一啲已成功或正在驗證嘅技術方案，例如：四維CAVE系統，樹木監察控制台同城市儀表板，藉以啟發更多政府部門採用。你可以㩒我嘅「導遊」鍵，我會提供景點資訊同帶你到其中一個景點，或者你亦可以直接問下我有關景點嘅資訊。 E\u003dhappy"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

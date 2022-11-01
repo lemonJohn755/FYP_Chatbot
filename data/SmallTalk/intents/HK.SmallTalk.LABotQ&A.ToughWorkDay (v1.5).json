@@ -1,0 +1,70 @@
+{
+  "id": "5f01e9e5-5f2d-43e5-be14-59b7ffca7596",
+  "name": "HK.SmallTalk.LABotQ\u0026A.ToughWorkDay (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e30212e5-267a-4762-9ac8-51d22c0b2575",
+          "name": "General_Busy",
+          "required": false,
+          "dataType": "@General_Busy",
+          "value": "$General_Busy",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "My work is delighted! I can introduce showcases to visitors in the Innovation Lab."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "不辛苦。我可以为访客人介绍创新实验室里的展品。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "唔辛苦。我可為訪客介紹創新實驗室入面嘅展品。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

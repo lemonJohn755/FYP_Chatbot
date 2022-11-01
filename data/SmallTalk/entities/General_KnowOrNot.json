@@ -1,0 +1,9 @@
+{
+  "id": "df777065-f162-4a38-8a3f-97e39ac48113",
+  "name": "General_KnowOrNot",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

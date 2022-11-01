@@ -1,0 +1,76 @@
+{
+  "id": "36c9a310-c61a-4ba4-b72c-f4605ba3f7fa",
+  "name": "HK.SmallTalk.Horoscope.Taurus (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "66c3a07a-bada-4917-a229-37683025dbfc",
+          "name": "General_Taurus",
+          "required": false,
+          "dataType": "@General_Taurus",
+          "value": "$General_Taurus",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The birth date of Taurus is from April 21 to May 20.",
+            "Taurus is a very conservative sign, a realist who likes stability and hates change.",
+            "The lucky colors of Taurus are red and black, and the lucky numbers are 6 and 15."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "金牛座出生日期是从4月21日至5月20日。",
+            "金牛座是个很保守的星座，喜欢稳定，讨厌变动的现实主义者。",
+            "金牛座的幸运色系红色和黑色，幸运数字是6和15"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "金牛座出生日期係由4月21日至5月20日。",
+            "金牛座係個很保守嘅星座，鍾意穩定，討厭變動嘅現實主義者。",
+            "金牛座嘅幸運色係紅色同黑色，幸運數字係6同15"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

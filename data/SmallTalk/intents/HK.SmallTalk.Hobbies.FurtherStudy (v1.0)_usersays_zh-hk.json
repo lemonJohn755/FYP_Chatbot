@@ -1,0 +1,97 @@
+[
+  {
+    "id": "9cb64724-5310-4458-a915-a44316556da3",
+    "data": [
+      {
+        "text": "科技推介",
+        "meta": "@General_furtherstudy",
+        "alias": "General_furtherstudy",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "edb99a01-246c-4d48-9f5d-36b67f2d1218",
+    "data": [
+      {
+        "text": "未來科技",
+        "meta": "@General_furtherstudy",
+        "alias": "General_furtherstudy",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "e0d75d74-c0cd-472a-bd9c-33d1aa2dae7a",
+    "data": [
+      {
+        "text": "科技",
+        "userDefined": false
+      },
+      {
+        "text": "發展趨勢",
+        "meta": "@General_furtherstudy",
+        "alias": "General_furtherstudy",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "f3ad7307-a7ec-4dd9-aa49-38b2a3fbdae4",
+    "data": [
+      {
+        "text": "我想進修下啲",
+        "userDefined": false
+      },
+      {
+        "text": "新科技",
+        "meta": "@General_furtherstudy",
+        "alias": "General_furtherstudy",
+        "userDefined": true
+      },
+      {
+        "text": "，不如你介紹吓？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8b3df0fe-5f8b-4e9b-920f-cabfbf3b4d00",
+    "data": [
+      {
+        "text": "小博，有咩",
+        "userDefined": false
+      },
+      {
+        "text": "新科技",
+        "meta": "@General_furtherstudy",
+        "alias": "General_furtherstudy",
+        "userDefined": true
+      },
+      {
+        "text": "介紹俾我？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

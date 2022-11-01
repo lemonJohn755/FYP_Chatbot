@@ -1,0 +1,124 @@
+[
+  {
+    "id": "ea6016cc-ee9d-49c5-8468-05ead1f88dba",
+    "data": [
+      {
+        "text": "呢度做野辛苦?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "9493882d-8f81-4306-b890-f84c73e3a8cc",
+    "data": [
+      {
+        "text": "打工",
+        "userDefined": false
+      },
+      {
+        "text": "辛唔",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "辛苦?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "c4bed02b-4592-459b-9144-e90180358dff",
+    "data": [
+      {
+        "text": "做",
+        "userDefined": false
+      },
+      {
+        "text": "野好",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "攰?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b2a8dc86-a544-4637-bd8a-d9177f4c88d9",
+    "data": [
+      {
+        "text": "工作辛苦嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5787545c-be0e-42ef-8c2b-399f4767faa6",
+    "data": [
+      {
+        "text": "做嘢辛唔辛苦",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "b5e1667a-0bc7-4993-8577-6079075f9209",
+    "data": [
+      {
+        "text": "你今日辛苦嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "8c650271-9773-4405-9048-2093d29d035e",
+    "data": [
+      {
+        "text": "今日做嘢辛苦嗎",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "44858ddd-d6cc-45e0-9412-b8a520521c08",
+    "data": [
+      {
+        "text": "係咪做嘢辛苦啊",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "be7b2e61-9ad7-4e6d-b557-aebb03a374fb",
+  "name": "General_HorrorStory",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

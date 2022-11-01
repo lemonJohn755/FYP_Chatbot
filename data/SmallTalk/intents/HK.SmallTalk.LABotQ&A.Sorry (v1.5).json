@@ -1,0 +1,76 @@
+{
+  "id": "e4eb6915-91e7-4d4c-a998-107ee985192a",
+  "name": "HK.SmallTalk.LABotQ\u0026A.Sorry (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f6320036-fb56-4a85-b58b-6a25bec40041",
+          "name": "General_sorry",
+          "required": false,
+          "dataType": "@General_sorry",
+          "value": "$General_sorry",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "冇事喔。",
+            "使咩講對唔住，我哋係好朋友嚟嘅。",
+            "唔好咁講啦，好小事啫。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Never mind.",
+            "Needless to say sorry, we are good friends.",
+            "Don\u0027t say that, it\u0027s nothing."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "没事了。",
+            "不用说对不起，我们是好朋友来的。",
+            "不要这么说吧，很小的事而已。"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

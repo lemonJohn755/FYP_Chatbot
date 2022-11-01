@@ -1,0 +1,116 @@
+[
+  {
+    "id": "ca7f604f-5c89-4d34-b6c8-91256250aa74",
+    "data": [
+      {
+        "text": "party",
+        "meta": "@General_Party",
+        "alias": "General_Party",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "259a63b2-e9a2-4039-b4fc-24e40fa1c2f7",
+    "data": [
+      {
+        "text": "開",
+        "userDefined": false
+      },
+      {
+        "text": "party",
+        "meta": "@General_Party",
+        "alias": "General_Party",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5eb4e1a8-51a4-4c6e-9039-ed984eefddd6",
+    "data": [
+      {
+        "text": "Let\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "party",
+        "meta": "@General_Party",
+        "alias": "General_Party",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "a464f943-5e47-4058-9a2c-9e17338b5b65",
+    "data": [
+      {
+        "text": "派對",
+        "meta": "@General_Party",
+        "alias": "General_Party",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "6a9f7a79-8543-4790-891c-e76816b66b0f",
+    "data": [
+      {
+        "text": "不如",
+        "userDefined": false
+      },
+      {
+        "text": "開party",
+        "meta": "@General_Party",
+        "alias": "General_Party",
+        "userDefined": true
+      },
+      {
+        "text": "！",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  },
+  {
+    "id": "5fd47a3a-93c3-4f04-b1d4-3abddae74390",
+    "data": [
+      {
+        "text": "Let\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "party",
+        "meta": "@General_Party",
+        "alias": "General_Party",
+        "userDefined": true
+      },
+      {
+        "text": "!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "zh-hk",
+    "updated": 0
+  }
+]

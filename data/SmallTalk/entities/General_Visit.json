@@ -1,0 +1,9 @@
+{
+  "id": "74c6a67b-9b4b-438c-ae09-27e778460695",
+  "name": "General_Visit",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

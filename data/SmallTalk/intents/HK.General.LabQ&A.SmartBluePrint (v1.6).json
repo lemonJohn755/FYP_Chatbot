@@ -1,0 +1,84 @@
+{
+  "id": "40e3479e-3d65-48c7-8f12-59b1e0e3d289",
+  "name": "HK.General.LabQ\u0026A.SmartBluePrint (v1.6)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6c7ee35e-35ab-4206-91ef-863aeb0039aa",
+          "name": "smartlab_smartcity",
+          "required": false,
+          "dataType": "@SmartLAB_SmartCity",
+          "value": "$smartlab_smartcity",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a57c4fb0-b872-4151-92a6-3947f7155504",
+          "name": "general_blueprint",
+          "required": false,
+          "dataType": "@General_Blueprint",
+          "value": "$general_blueprint",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The \"Hong Kong Smart City Blueprint\" covers a total of more than 70 measures in six areas, one of which is \"Smart Government\". The establishment of the Smart Government Innovation Lab (Innovation Lab) is an important milestone in the development of \"Smart Government\", which will help promote and support the use of innovative information technology by various departments to improve public services and increase operational efficiency.  E\u003dconfident"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "《香港智慧城市蓝图》涵盖六个范畴总共七十多项措施，其中一个范畴正是「智慧政府」。成立智慧政府创新实验室（创新实验室）是发展“智慧政府”的一个重要里程碑，有助推动和支持各部门将用创新资讯科技，改善公共服务和提升运作效率。  E\u003dconfident"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "《香港智慧城市藍圖》涵蓋六個範疇共70多項措施，其中一個範疇正是「智慧政府」。成立智慧政府創新實驗室（創新實驗室）是發展「智慧政府」的一個重要里程碑，有助推動和支援各部門運用創新資訊科技，改善公共服務和提升運作效率。 E\u003dconfident"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

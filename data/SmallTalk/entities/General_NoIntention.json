@@ -1,0 +1,9 @@
+{
+  "id": "848ba584-a76f-4256-8f4e-10ed1c79d47c",
+  "name": "General_NoIntention",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

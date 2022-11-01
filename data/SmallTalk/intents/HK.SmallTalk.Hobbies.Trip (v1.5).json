@@ -1,0 +1,74 @@
+{
+  "id": "b3ac7dd7-0485-4ffb-805b-e41839e0fe49",
+  "name": "HK.SmallTalk.Hobbies.Trip (v1.5)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "af682c54-f0a8-4680-a240-a0620d271b39",
+          "name": "General_Trip",
+          "required": false,
+          "dataType": "@General_Trip",
+          "value": "$General_Trip",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-cn",
+          "speech": [
+            "旅行是一种很好的放松方式，帮自己充电。",
+            "世界上有这么大，我很想去看看，如果你也一起去，那就完美吧。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "zh-hk",
+          "speech": [
+            "旅行係一種好好嘅放鬆方式，幫自己叉叉電。",
+            "世界咁大，我都好想去睇睇，如果你都一起去，咁就perfect啦。",
+            "只要同你一齊去，邊度我都鍾意。"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Traveling is a great way to relax and recharge yourself.",
+            "It is a big world, I would like to go to other places as well."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
