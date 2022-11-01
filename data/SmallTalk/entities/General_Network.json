@@ -1,9 +1,0 @@
-{
-  "id": "28db8ceb-6ab3-4e88-8f90-3d0ac0c0b18e",
-  "name": "General_Network",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

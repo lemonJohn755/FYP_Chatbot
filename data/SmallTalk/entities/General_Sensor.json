@@ -1,9 +1,0 @@
-{
-  "id": "53df800f-fc00-44f8-b51d-5b70884e0225",
-  "name": "General_Sensor",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

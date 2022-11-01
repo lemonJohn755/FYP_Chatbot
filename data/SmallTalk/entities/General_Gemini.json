@@ -1,9 +1,0 @@
-{
-  "id": "6f1224c0-79d4-4bac-a3cc-d91c02a5c94c",
-  "name": "General_Gemini",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

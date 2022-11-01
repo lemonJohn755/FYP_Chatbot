@@ -1,9 +1,0 @@
-{
-  "id": "e7ca8ec2-f72e-424f-a9f8-a3211833cf42",
-  "name": "General_Robot",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

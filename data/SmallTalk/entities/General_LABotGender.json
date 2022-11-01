@@ -1,9 +1,0 @@
-{
-  "id": "102e9d52-84e2-4647-8d92-03b6b262b473",
-  "name": "General_LABotGender",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

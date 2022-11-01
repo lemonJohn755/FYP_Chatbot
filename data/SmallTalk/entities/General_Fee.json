@@ -1,9 +1,0 @@
-{
-  "id": "30a6cb93-a84f-425b-a743-461924c768c3",
-  "name": "General_Fee",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

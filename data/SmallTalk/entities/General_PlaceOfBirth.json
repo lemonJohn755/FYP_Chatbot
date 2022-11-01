@@ -1,9 +1,0 @@
-{
-  "id": "b86a7470-9566-4f71-aa5c-cda451f0cb98",
-  "name": "General_PlaceOfBirth",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

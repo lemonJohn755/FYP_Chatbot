@@ -1,9 +1,0 @@
-{
-  "id": "c5639d2a-9d17-426c-816d-e1b52a333261",
-  "name": "General_usergender",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

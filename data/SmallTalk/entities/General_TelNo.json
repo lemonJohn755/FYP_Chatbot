@@ -1,9 +1,0 @@
-{
-  "id": "90e7748c-df1a-4e1e-8d90-c6050361aa59",
-  "name": "General_TelNo",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

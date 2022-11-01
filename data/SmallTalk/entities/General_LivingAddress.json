@@ -1,9 +1,0 @@
-{
-  "id": "90c8c588-7a2c-4037-a351-ea78f34ebbb0",
-  "name": "General_LivingAddress",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

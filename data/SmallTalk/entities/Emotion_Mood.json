@@ -1,9 +1,0 @@
-{
-  "id": "6c91d074-5764-4d5f-97ff-fb5ecd1f909b",
-  "name": "Emotion_Mood",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

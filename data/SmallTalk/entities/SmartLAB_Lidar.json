@@ -1,9 +1,0 @@
-{
-  "id": "56fff249-d53e-421e-93d5-fed919a24fa1",
-  "name": "SmartLAB_Lidar",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

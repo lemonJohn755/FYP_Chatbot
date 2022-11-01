@@ -1,9 +1,0 @@
-{
-  "id": "d98cbe90-8a6a-49f7-bcff-9b4fc7eef532",
-  "name": "Command_Time",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

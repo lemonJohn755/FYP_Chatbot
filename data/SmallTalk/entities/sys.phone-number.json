@@ -1,9 +1,0 @@
-{
-  "id": "b71110dc-5660-42c6-b8c9-1dd8a8c28e9a",
-  "name": "sys.phone-number",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

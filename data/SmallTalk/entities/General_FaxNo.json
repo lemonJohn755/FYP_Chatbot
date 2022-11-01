@@ -1,9 +1,0 @@
-{
-  "id": "e016c522-0b38-4e85-bfca-79cf119adc5b",
-  "name": "General_FaxNo",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

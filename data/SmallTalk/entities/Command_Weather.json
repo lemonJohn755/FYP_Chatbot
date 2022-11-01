@@ -1,9 +1,0 @@
-{
-  "id": "9a1485a8-1293-4843-9fc6-7f0c7717fab1",
-  "name": "Command_Weather",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

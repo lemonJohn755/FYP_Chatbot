@@ -1,6 +1,6 @@
 version: "3.0"
 
-rules:
+rule:
 - rule: say greeting to start to conversation
   steps:
   - intent: greet

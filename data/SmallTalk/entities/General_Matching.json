@@ -1,9 +1,0 @@
-{
-  "id": "f75ba37a-a631-4dcc-945b-a788bd9141ee",
-  "name": "General_Matching",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

@@ -1,9 +1,0 @@
-{
-  "id": "8560d22d-9d14-4909-8b3e-a38981f2a867",
-  "name": "General_ElectricUsage",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

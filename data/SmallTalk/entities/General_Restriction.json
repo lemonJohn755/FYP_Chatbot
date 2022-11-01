@@ -1,9 +1,0 @@
-{
-  "id": "364d9c11-1ef5-401c-be61-14995c634f9b",
-  "name": "General_Restriction",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}

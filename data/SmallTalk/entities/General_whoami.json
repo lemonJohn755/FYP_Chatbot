@@ -1,9 +1,0 @@
-{
-  "id": "592bf787-ea68-4ae6-9dee-12e2d923b1ed",
-  "name": "General_whoami",
-  "isOverridable": true,
-  "isEnum": false,
-  "isRegexp": false,
-  "automatedExpansion": false,
-  "allowFuzzyExtraction": false
-}
