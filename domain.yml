@@ -1,4 +1,4 @@
-version: "3.0"
+一version: "3.0"
 
 intents:
   - greet
@@ -11,7 +11,7 @@ intents:
 
 responses:
   utter_greet:
-  - text: "你好 請問有咩幫到你?"
+  - text: "你好，我係小山 Hilly，係一個推介行山路線嘅 Chatbot。"
 
   utter_cheer_up:
   - text: "希望呢張圖片氹到你開心:"
@@ -21,16 +21,16 @@ responses:
   - text: "咁樣幫唔幫到你?"
 
   utter_happy:
-  - text: "好 加油!"
+  - text: "好 Have a nice day"
 
   utter_goodbye:
   - text: "再見 謝謝 :)"
 
   utter_iamabot:
-  - text: "我係一個由 Rasa 驅動嘅聊天機械人"
+  - text: "我係一個由 Rasa 驅動嘅聊天機械人 :robot:"
 
   utter_list_functions:
-  - text: "想要啲咩功能?"
+  - text: "我可以推介行山路線，請選擇：\n1) 依照地區推介\n2) 依照難度推介"
 
 session_config:
   session_expiration_time: 60

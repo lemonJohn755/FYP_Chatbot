@@ -32,4 +32,5 @@ stories:
 - story: list function
   steps:
   - intent: greet
+  - action: utter_greet
   - action: utter_list_functions
