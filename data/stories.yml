@@ -2,35 +2,10 @@ version: "3.0"
 
 stories:
 
-- story: happy path
+- story: welcome message
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
-
-- story: list function
-  steps:
-  - intent: greet
-  - action: utter_greet
+  - action: utter_welcome
   - action: utter_list_functions
+  - intent: choose_a_function
+  - action: action_say_function_chosen
+

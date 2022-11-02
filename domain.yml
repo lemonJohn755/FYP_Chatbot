@@ -1,4 +1,4 @@
-一version: "3.0"
+version: "3.0"
 
 intents:
   - greet
@@ -8,9 +8,10 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - choose_a_function
 
 responses:
-  utter_greet:
+  utter_welcome:
   - text: "你好，我係小山 Hilly，係一個推介行山路線嘅 Chatbot。"
 
   utter_cheer_up:
@@ -30,7 +31,26 @@ responses:
   - text: "我係一個由 Rasa 驅動嘅聊天機械人 :robot:"
 
   utter_list_functions:
-  - text: "我可以推介行山路線，請選擇：\n1) 依照地區推介\n2) 依照難度推介"
+  - text: "我可以推介行山路線，請選擇：\n\n1)依照地區推介\n\n2)依照難度推介"
+
+
+# forms:
+#   choose_function_form:
+#     choice:
+#     - type: from_entity
+actions:
+  - action_say_function_chosen
+
+entities:
+  - choice
+
+slots:
+  choice:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: choice
 
 session_config:
   session_expiration_time: 60

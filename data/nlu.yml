@@ -116,3 +116,7 @@ nlu:
     - 你係唔係機械人?
     - 係唔係真人?
 
+- intent: choose_a_function
+  examples: |
+    - [1)依照地區推介](choice)
+    - [2)依照難度推介](choice)
