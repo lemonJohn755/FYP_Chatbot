@@ -3,6 +3,8 @@ Telegram chatbot with Rasa
 
 Flow:
 1. User say hi to initiate the chatbot to list out available function
+2. Select the function
+3 
 
 Prerequisite:
 1. Setup MySQL database to store the sample data of hiking route (download at `sample data` folder)
