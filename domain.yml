@@ -1,48 +1,22 @@
-version: "3.0"
-
+version: '3.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+  
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - choose_a_function
-
-responses:
-  utter_welcome:
-  - text: "你好，我係小山 Hilly，係一個推介行山路線嘅 Chatbot。"
-
-  utter_cheer_up:
-  - text: "希望呢張圖片氹到你開心:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "咁樣幫唔幫到你?"
-
-  utter_happy:
-  - text: "好 Have a nice day"
-
-  utter_goodbye:
-  - text: "再見 謝謝 :)"
-
-  utter_iamabot:
-  - text: "我係一個由 Rasa 驅動嘅聊天機械人 :robot:"
-
-  utter_list_functions:
-  - text: "我可以推介行山路線，請選擇：\n\n1)依照地區推介\n\n2)依照難度推介"
-
-
-# forms:
-#   choose_function_form:
-#     choice:
-#     - type: from_entity
-actions:
-  - action_say_function_chosen
+- greet
+- user_choose_function
+- user_choose_district
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
 
 entities:
-  - choice
+- choice
+- district
 
 slots:
   choice:
@@ -51,7 +25,52 @@ slots:
     mappings:
     - type: from_entity
       entity: choice
+  district:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: district
 
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+responses:
+  utter_welcome:
+  - text: 你好，我係小山 Hilly，係一個推介行山路線嘅 Chatbot。
+  utter_cheer_up:
+  - text: '希望呢張圖片氹到你開心:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: 咁樣幫唔幫到你?
+  utter_happy:
+  - text: 好 Have a nice day
+  utter_goodbye:
+  - text: 再見 謝謝 :)
+  utter_iamabot:
+  - text: '我係一個由 Rasa 驅動嘅聊天機械人 :robot:'
+  utter_list_functions:
+  - text: |-
+      我可以推介行山路線，請選擇：
+
+      1)依照地區推介
+
+      2)依照難度推介
+  utter_ask_districts:
+  - text: |-
+      請選擇地區:
+
+      1)新界北區
+
+      2)港島區
+
+      3)西頁區
+
+      4)新界西區
+
+      5)大嶼山區
+  utter_out_of_scope:
+  - text: 對唔住，我處理唔到你啲要求
+actions:
+- action_say_district_chosen
+- action_say_function_chosen
+- utter_ask_districts
+- utter_list_functions
+- utter_welcome

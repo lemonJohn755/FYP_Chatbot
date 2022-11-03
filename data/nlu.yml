@@ -1,5 +1,4 @@
 version: "3.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -23,7 +22,6 @@ nlu:
     - 你好嗎
     - 哈囉
     - 嗨
-
 - intent: goodbye
   examples: |
     - cu
@@ -39,7 +37,6 @@ nlu:
     - 再見
     - 拜拜
     - 下次見
-
 - intent: affirm
   examples: |
     - yes
@@ -51,7 +48,6 @@ nlu:
     - 是
     - 係
     - 好
-
 - intent: deny
   examples: |
     - no
@@ -65,7 +61,6 @@ nlu:
     - 不，謝謝
     - 不用了
     - 不肯定
-
 - intent: mood_great
   examples: |
     - perfect
@@ -85,7 +80,6 @@ nlu:
     - 太好啦
     - 感覺唔錯
     - 幾好
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -105,7 +99,6 @@ nlu:
     - 唔開心
     - 傷心
     - 喊出嚟
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -115,8 +108,16 @@ nlu:
     - 你係唔係人類?
     - 你係唔係機械人?
     - 係唔係真人?
-
-- intent: choose_a_function
+- intent: user_choose_function
   examples: |
     - [1)依照地區推介](choice)
     - [2)依照難度推介](choice)
+    - [1)依照地區推介](choice)
+- intent: user_choose_district
+  examples: |
+    - [1)新界北區](district)
+    - [2)港島區](district)
+    - [3)西頁區](district)
+    - [4)新界西區](district)
+    - [5)大嶼山區](district)
+    - [1)新界北區](district)

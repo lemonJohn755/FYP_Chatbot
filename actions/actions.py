@@ -41,13 +41,27 @@ class ActionChooseFunction(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         choice = tracker.get_slot("choice")
-        if not choice:
-            dispatcher.utter_message(text="唔好意思 唔清楚你嘅選擇 :(")
-        else:
+        
+        if choice == "1)依照地區推介":
             dispatcher.utter_message(text=f"你選擇了 '{choice}'")
+        elif choice == "2)依照難度推介":
+            dispatcher.utter_message(text=f"你選擇了 '{choice}'")
+        else:
+            dispatcher.utter_message(text="唔好意思 唔清楚你嘅選擇 :pray:")
+                
+        return []
+
+class ActionChooseDistrict(Action):
+    def name(self) -> Text:
+        return "action_say_district_chosen"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        district = tracker.get_slot("district")
+        
+        if district is not None:
+            dispatcher.utter_message(text=f"你選擇了 '{district}'")
             
-            # if choice == "1)依照地區推介":
-                
-            # elif choice=="2)依照難度推介":
-                
         return []

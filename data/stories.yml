@@ -2,10 +2,20 @@ version: "3.0"
 
 stories:
 
-- story: welcome message
+# - story: welcome message
+#   steps:
+#   - action: utter_welcome
+#   - action: utter_list_functions
+#   - intent: user_choose_function
+#   - action: action_selected
+
+- story: 依照地區推介
   steps:
+  - intent: greet
   - action: utter_welcome
   - action: utter_list_functions
-  - intent: choose_a_function
+  - intent: user_choose_function
   - action: action_say_function_chosen
-
+  - action: utter_ask_districts
+  - intent: user_choose_district
+  - action: action_say_district_chosen
