@@ -115,9 +115,9 @@ nlu:
     - [1)依照地區推介](choice)
 - intent: user_choose_district
   examples: |
-    - [1)新界北區](district)
-    - [2)港島區](district)
-    - [3)西頁區](district)
-    - [4)新界西區](district)
-    - [5)大嶼山區](district)
-    - [1)新界北區](district)
+    - [新界北區](district)
+    - [港島區](district)
+    - [西貢區](district)
+    - [新界西區](district)
+    - [大嶼山區](district)
+    - [新界北區](district)
