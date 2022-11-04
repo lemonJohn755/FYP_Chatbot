@@ -85,10 +85,6 @@ class ActionChooseDistrict(Action):
         result = mycursor.fetchall()
         
         result_return = ""
-        # for x in result:
-        #     print("行山徑：",x[0])
-        #     print("難度：",x[3])
-        #     result_return = x[0] + '\n' + result_return
         
         i=0
         total_num = len(result)
