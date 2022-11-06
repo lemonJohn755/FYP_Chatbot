@@ -128,24 +128,25 @@ nlu:
       - 我想去[登山](hike)
       - 我想去[遠足](hike)
       - 我想去[郊遊](hike)
-      - 行山
-      - 登山
-      - 遠足
-      - 郊遊
+      - [行山](hike)
+      - [登山](hike)
+      - [遠足](hike)
+      - [郊遊](hike)
   - intent: recommend_hiking_route
-      - 有咩山好行?
-      - 有咩山推薦?
-      - 有乜野遠足路線推薦?
-      - 推薦郊遊徑?
-      - 推薦行山地方?
-      - 行山好去處?
+      - 有咩[山好行](hiking_route)?
+      - 有咩山[推薦](recommend)?
+      - 有乜野[遠足路線](hiking_route)[推薦](recommend)?
+      - [推薦](recommend)[郊遊徑]?
+      - [推薦](recommend)[行山地方]?
+      - [行山好去處](hiking_route)?
+      - [行山路線](hiking_route)
   - intent: check_weather
-      - 嚟緊天氣點樣呀?
-      - 今日天氣點樣呀?
-      - 甚麼天氣?
-      - 乜野天氣呀?
-      - 咩天氣呀?
-      - 今日天氣預報
-      - 今日天氣如何?
-      - 依家天氣如何?
-      - 想問下今日天氣點樣?
+      - 嚟緊[天氣](weather)點樣呀?
+      - 今日[天氣](weather)點樣呀?
+      - 甚麼[天氣](weather)?
+      - 乜野[天氣](weather)呀?
+      - 咩[天氣]呀?
+      - 今日[天氣](weather)預報(forecast)
+      - 今日[天氣](weather)如何?
+      - 依家[天氣](weather)如何?
+      - 想問下今日[天氣]點樣?
