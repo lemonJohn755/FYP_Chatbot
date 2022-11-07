@@ -22,6 +22,7 @@ nlu:
     - 你好嗎
     - 哈囉
     - 嗨
+
 - intent: goodbye
   examples: |
     - cu
@@ -37,6 +38,7 @@ nlu:
     - 再見
     - 拜拜
     - 下次見
+
 - intent: affirm
   examples: |
     - yes
@@ -48,6 +50,9 @@ nlu:
     - 是
     - 係
     - 好
+    - 好，謝謝
+    - 好啊
+
 - intent: deny
   examples: |
     - no
@@ -58,9 +63,12 @@ nlu:
     - no way
     - not really
     - 不
+    - 不了
     - 不，謝謝
     - 不用了
     - 不肯定
+    - 唔做，唔該晒
+
 - intent: mood_great
   examples: |
     - perfect
@@ -80,6 +88,7 @@ nlu:
     - 太好啦
     - 感覺唔錯
     - 幾好
+
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -99,6 +108,7 @@ nlu:
     - 唔開心
     - 傷心
     - 喊出嚟
+
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -108,16 +118,25 @@ nlu:
     - 你係唔係人類?
     - 你係唔係機械人?
     - 係唔係真人?
-- intent: user_choose_function
+
+- intent: functions_available
   examples: |
-    - [1)依照地區推介](choice)
-    - [2)依照難度推介](choice)
-    - [1)依照地區推介](choice)
-- intent: user_choose_district
+    - [依照地區推介](choice)
+    - [依照難度推介](choice)
+
+- intent: districts_available
   examples: |
     - [新界北區](district)
     - [港島區](district)
     - [西貢區](district)
     - [新界西區](district)
     - [大嶼山區](district)
-    - [新界北區](district)
+    - [新界中區](district)
+
+- intent: difficulties_available
+  examples: |
+    - [1](difficulty)
+    - [2](difficulty)
+    - [3](difficulty)
+    - [4](difficulty)
+    - [5](difficulty)

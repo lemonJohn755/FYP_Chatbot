@@ -1,15 +1,16 @@
 version: "3.0"
 
-rule:
+rules:
 
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
   - action: utter_goodbye
 
-# - rule: Choose a funtion
-#   steps:
-#   - intent: choose_a_function
-#   - action: choose_function_form
-#   - action: utter_your_choice
+- rule: say hi to greet user
+  conversation_start: true
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - action: utter_list_functions
 
