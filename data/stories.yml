@@ -1,14 +1,25 @@
 version: "3.0"
 
 stories:
+  # - story: welcome message
+  #   steps:
+  #   - action: utter_welcome
+  #   - action: utter_list_functions
+  #   - intent: user_choose_function
+  #   - action: action_selected
 
-# - story: welcome message
-#   steps:
-#   - action: utter_welcome
-#   - action: utter_list_functions
-#   - intent: user_choose_function
-#   - action: action_selected
+  - story: 依照地區推介
+    steps:
+      - intent: greet
+      - action: utter_welcome
+      - action: utter_list_functions
+      - intent: user_choose_function
+      - action: action_say_function_chosen
+      - action: utter_ask_districts
+      - intent: user_choose_district
+      - action: action_say_district_chosen
 
+<<<<<<< HEAD
 # - story: greet
 #   steps:
 #   - intent: greet
@@ -52,3 +63,10 @@ stories:
     - difficulty
   - action: action_difficulty_query
   - action: utter_do_you_want_continue
+=======
+  # - story: 天氣
+  #   steps:
+  #     - intent: check_weather
+  #     - action: action_inquire_weather
+  #     - entities: "天氣"
+>>>>>>> 5d08771d2a8b884d30950119f866beab745195d7
