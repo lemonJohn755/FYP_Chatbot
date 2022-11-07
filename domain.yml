@@ -20,14 +20,7 @@ intents:
 entities:
 - choice
 - district
-<<<<<<< HEAD
 - difficulty
-=======
-- weather
-- forecast 
-- recommend
-- hiking_route
->>>>>>> 5d08771d2a8b884d30950119f866beab745195d7
 
 slots:
   choice:

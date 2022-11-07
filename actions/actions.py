@@ -43,22 +43,10 @@ class ActionChooseFunction(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-<<<<<<< HEAD
         dispatcher.utter_message(
             template="utter_say_user_chose",
             choice=tracker.get_slot("choice"))
          
-=======
-        choice = tracker.get_slot("choice")
-
-        if choice == "1)依照地區推介":
-            dispatcher.utter_message(text=f"你選擇了 '{choice}'")
-        elif choice == "2)依照難度推介":
-            dispatcher.utter_message(text=f"你選擇了 '{choice}'")
-        else:
-            dispatcher.utter_message(text="唔好意思 唔清楚你嘅選擇 :pray:")
-
->>>>>>> 5d08771d2a8b884d30950119f866beab745195d7
         return []
 
 
@@ -119,7 +107,6 @@ class ActionChooseDistrict(Action):
 
         return result_return
 
-<<<<<<< HEAD
 class ActionChooseDifficulty(Action):
     def name(self) -> Text:
         return "action_difficulty_query"
@@ -172,29 +159,20 @@ class ActionChooseDifficulty(Action):
             result_return = result_return + heading + route + difficulty + length + score + detail
             
         return result_return
-=======
-    class ActionCheckWeather(Action):
-        def name(self) -> Text:
-            return "action_inquire_weather"
-
-    async def run(
-        self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]
-    ) -> List[Dict[Text, Any]]:
->>>>>>> 5d08771d2a8b884d30950119f866beab745195d7
         
-        weather_entity = next(tracker.get_latest_entity_values("weather"), None)
+    #     weather_entity = next(tracker.get_latest_entity_values("weather"), None)
 
-        if not weather_entity:
-            msg = f"Sorry, 唔係好明你意思"
-            dispatcher.utter_message(text=msg)
+    #     if not weather_entity:
+    #         msg = f"Sorry, 唔係好明你意思"
+    #         dispatcher.utter_message(text=msg)
             
-            return []
+    #         return []
         
-        response = await requests.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc").json()
-        dispatcher.utter_message(text=response)
+    #     response = await requests.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc").json()
+    #     dispatcher.utter_message(text=response)
 
-        return []
-    """ async def getWeatherData():
-        response = await requests.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc").json()
+    #     return []
+    # """ async def getWeatherData():
+    #     response = await requests.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc").json()
 
-        return response """
+    #     return response """
