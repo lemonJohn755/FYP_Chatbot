@@ -1,24 +1,44 @@
 version: "3.1"
 
 stories:
-  # - story: welcome message
-  #   steps:
-  #   - action: utter_welcome
-  #   - action: utter_list_functions
-  #   - intent: user_choose_function
-  #   - action: action_selected
 
-  - story: 依照地區推介
-    steps:
-      - intent: greet
-      - action: utter_welcome
-      - action: utter_list_functions
-      - intent: user_choose_function
-      - action: action_say_function_chosen
-      - action: utter_ask_districts
-      - intent: user_choose_district
-      - action: action_say_district_chosen
+- story: option_1_district
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - action: utter_list_functions
+  - intent: functions_available
+    entities:
+    - choice: 依照地區推介
+  - slot_was_set:
+    - choice: 依照地區推介
+  - action: utter_say_user_chose
+  - intent: districts_available
+    entities:
+    - district
+  - slot_was_set:
+    - district
+  - action: action_district_query
+  - action: utter_do_you_want_continue
 
+- story: option_2_difficulty
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - action: utter_list_functions
+  - intent: functions_available
+    entities:
+    - choice: 依照難度推介
+  - slot_was_set:
+    - choice: 依照難度推介
+  - action: utter_say_user_chose
+  - intent: difficulties_available
+    entities:
+    - difficulty
+  - slot_was_set:
+    - difficulty
+  - action: action_difficulty_query
+  - action: utter_do_you_want_continue
   - story: 天氣
     steps:
       - intent: check_weather

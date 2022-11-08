@@ -3,6 +3,11 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- greet
+- functions_available
+- districts_available
+- difficulties_available
+- goodbye
 - affirm
 - bot_challenge
 - check_weather
@@ -19,59 +24,90 @@ entities:
 - weather
 - choice
 - district
+- difficulty
 - forecast
 - recommend
 - hiking_route
 slots:
   choice:
     type: text
-    influence_conversation: true
+    influence_conversation: True
     mappings:
     - type: from_entity
       entity: choice
+  
   district:
     type: text
-    influence_conversation: true
+    influence_conversation: True
     mappings:
     - type: from_entity
       entity: district
+  difficulty:
+  type: text
+  influence_conversation: true
+  mappings:
+  - type: from_entity
+    entity: difficulty
+
 responses:
   utter_welcome:
   - text: 你好，我係小山 Hilly，係一個推介行山路線嘅 Chatbot。
+
   utter_cheer_up:
   - text: '希望呢張圖片氹到你開心:'
     image: https://i.imgur.com/nGF1K8f.jpg
+
   utter_did_that_help:
   - text: 咁樣幫唔幫到你?
+
   utter_happy:
   - text: 好 Have a nice day
+
   utter_goodbye:
   - text: 再見 謝謝 :)
+
   utter_iamabot:
   - text: '我係一個由 Rasa 驅動嘅聊天機械人 :robot:'
+
   utter_list_functions:
-  - text: |-
-      我可以推介行山路線，請選擇：
+  - text: "我可以推介行山路線，請選擇："
+    buttons:
+      - payload: '/functions_available{{"choice":"依照地區推介"}}'
+      - payload: '/functions_available{{"choice":"依照難度推介"}}'
 
-      1)依照地區推介
+  utter_say_user_chose:
+  - condition:
+    - type: slot
+      name: choice
+      value: "依照地區推介"
+    text: "請選擇地區:\n1)新界北區\n2)港島區\n3)西貢區\n4)新界西區\n5)大嶼山區"
+    buttons:
+      - payload: '/districts_available{{"district":"新界北區"}}'
+      - payload: '/districts_available{{"district":"港島區"}}'
+      - payload: '/districts_available{{"district":"西貢區"}}'
+      - payload: '/districts_available{{"district":"新界西區"}}'
+      - payload: '/districts_available{{"district":"大嶼山區"}}'
+  - condition:
+    - type: slot
+      name: choice
+      value: "依照難度推介"
+    text: 請輸入難度，1 最易，5最難
+    buttons:
+      - payload: '/difficulties_available{{"difficulty":"1"}}'
+      - payload: '/difficulties_available{{"difficulty":"2"}}'
+      - payload: '/difficulties_available{{"difficulty":"3"}}'
+      - payload: '/difficulties_available{{"difficulty":"4"}}'
+      - payload: '/difficulties_available{{"difficulty":"5"}}'
 
-      2)依照難度推介
-  utter_ask_districts:
-  - text: |-
-      請選擇地區:
-
-      1)新界北區
-
-      2)港島區
-
-      3)西貢區
-
-      4)新界西區
-
-      5)大嶼山區
   utter_out_of_scope:
-  - text: 對唔住，我處理唔到你啲要求
+  - text: "對唔住，我處理唔到你啲要求"
+
+  utter_do_you_want_continue:
+  - text: "請問是否繼續？"
+
 actions:
+- action_district_query
+- action_difficulty_query
 - action_inquire_weather
 - action_say_district_chosen
 - action_say_function_chosen

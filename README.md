@@ -4,8 +4,11 @@ Telegram chatbot with Rasa
 Flow:
 1. User say hi to initiate the chatbot to list out available function
 2. Select the function (show routes by district/difficulty)
-    1. If selected "show routes by district"
+    1. If selects "show routes by district"
         1. Ask user which district
+        2. List out the relevant results
+    2. If selects "show routes by difficulty"
+        1. Ask user difficulty from 1-5
         2. List out the relevant results
 
 Prerequisite:
