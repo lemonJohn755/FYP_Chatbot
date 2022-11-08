@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-choice",
+      "2": "I-choice",
+      "3": "L-choice",
+      "4": "U-choice",
+      "5": "B-district",
+      "6": "I-district",
+      "7": "L-district",
+      "8": "U-district",
+      "9": "B-hike",
+      "10": "I-hike",
+      "11": "L-hike",
+      "12": "U-hike",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-choice": 1,
+      "I-choice": 2,
+      "L-choice": 3,
+      "U-choice": 4,
+      "B-district": 5,
+      "I-district": 6,
+      "L-district": 7,
+      "U-district": 8,
+      "B-hike": 9,
+      "I-hike": 10,
+      "L-hike": 11,
+      "U-hike": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]
