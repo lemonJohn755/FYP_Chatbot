@@ -31,7 +31,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk.events import SlotSet
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-import mysql.connector
+#import mysql.connector
 import requests
 
 
@@ -116,23 +116,27 @@ class ActionChooseDistrict(Action):
         def name(self) -> Text:
             return "action_inquire_weather"
 
-    async def run(
-        self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]
-    ) -> List[Dict[Text, Any]]:
-        
-        weather_entity = next(tracker.get_latest_entity_values("weather"), None)
+        def run(
+            self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]
+        ) -> List[Dict[Text, Any]]:
 
-        if not weather_entity:
-            msg = f"Sorry, 唔係好明你意思"
-            dispatcher.utter_message(text=msg)
-            
+            weather_entity = next(
+                tracker.get_latest_entity_values("weather"), None)
+
+            if not weather_entity:
+                msg = f"Sorry, 唔係好明你意思"
+                dispatcher.utter_message(text=msg)
+
+                return []
+            #dispatcher.utter_message(text='ok weather')
+            try:
+                response = requests.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc").json()
+                #print(response)
+                msg = response['generalSituation']
+               # TODO: return full response to frontend
+                dispatcher.utter_message(msg)
+            except Exception as e:
+                print("CheckWeather function error")
+                print(e)
+
             return []
-        
-        response = await requests.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc").json()
-        dispatcher.utter_message(text=response)
-
-        return []
-    """ async def getWeatherData():
-        response = await requests.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc").json()
-
-        return response """

@@ -1,29 +1,27 @@
-version: '3.0'
+version: '3.1'
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-  
 intents:
-- greet
-- user_choose_function
-- user_choose_district
-- goodbye
 - affirm
+- bot_challenge
+- check_weather
 - deny
+- goodbye
+- greet
+- hiking
 - mood_great
 - mood_unhappy
-- bot_challenge
-- hiking
-- check_weather
 - recommend_hiking_route
+- user_choose_district
+- user_choose_function
 entities:
+- weather
 - choice
 - district
-- weather
-- forecast 
+- forecast
 - recommend
 - hiking_route
-
 slots:
   choice:
     type: text
@@ -37,7 +35,6 @@ slots:
     mappings:
     - type: from_entity
       entity: district
-
 responses:
   utter_welcome:
   - text: 你好，我係小山 Hilly，係一個推介行山路線嘅 Chatbot。
@@ -75,6 +72,7 @@ responses:
   utter_out_of_scope:
   - text: 對唔住，我處理唔到你啲要求
 actions:
+- action_inquire_weather
 - action_say_district_chosen
 - action_say_function_chosen
 - utter_ask_districts

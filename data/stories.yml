@@ -1,4 +1,4 @@
-version: "3.0"
+version: "3.1"
 
 stories:
   # - story: welcome message
@@ -19,8 +19,9 @@ stories:
       - intent: user_choose_district
       - action: action_say_district_chosen
 
-  # - story: 天氣
-  #   steps:
-  #     - intent: check_weather
-  #     - action: action_inquire_weather
-  #     - entities: "天氣"
+  - story: 天氣
+    steps:
+      - intent: check_weather
+        entities: 
+          - weather: "天氣"
+      - action: action_inquire_weather
