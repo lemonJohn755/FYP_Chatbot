@@ -128,6 +128,7 @@ nlu:
       - [新界西區](district)
       - [大嶼山區](district)
       - [新界北區](district)
+      
   - intent: difficulties_available
     examples: |
       - [1](difficulty)

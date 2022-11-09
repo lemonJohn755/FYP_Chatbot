@@ -1,12 +1,16 @@
 version: '3.1'
 
 stories:
-
-- story: option_1_district
+- story: greet_flow
   steps:
   - intent: greet
   - action: utter_welcome
   - action: utter_list_functions
+  - checkpoint: greet_user
+
+- story: option_1_district
+  steps:
+  - checkpoint: greet_user
   - intent: functions_available
     entities:
     - choice: 依照地區推介
@@ -23,9 +27,7 @@ stories:
 
 - story: option_2_difficulty
   steps:
-  - intent: greet
-  - action: utter_welcome
-  - action: utter_list_functions
+  - checkpoint: greet_user
   - intent: functions_available
     entities:
     - choice: 依照難度推介

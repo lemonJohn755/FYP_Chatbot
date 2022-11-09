@@ -12,6 +12,7 @@ intents:
   - bot_challenge
   - functions_available
   - districts_available
+  - difficulties_available
   - hiking
   - recommend_hiking_route
   - check_weather
@@ -39,6 +40,7 @@ slots:
     mappings:
     - type: from_entity
       entity: district
+
   difficulty:
     type: text
     influence_conversation: true
@@ -101,6 +103,12 @@ responses:
 
   utter_do_you_want_continue:
   - text: "請問是否繼續？"
+    buttons:
+    - title: "是"
+      payload: '/affirm{{"isContinue":"yes"}}'
+    - title: "不是"
+      payload: '/deny{{"isContinue":"no"}}'
+  
 
 actions:
   - action_district_query

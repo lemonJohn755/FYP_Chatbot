@@ -8,7 +8,7 @@ rules:
   - action: utter_goodbye
 
 - rule: say hi to greet user
-  conversation_start: true
+  # conversation_start: true
   steps:
   - intent: greet
   - action: utter_welcome
