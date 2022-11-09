@@ -3,31 +3,28 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- greet
-- functions_available
-- districts_available
-- difficulties_available
-- goodbye
-- affirm
-- bot_challenge
-- check_weather
-- deny
-- goodbye
-- greet
-- hiking
-- mood_great
-- mood_unhappy
-- recommend_hiking_route
-- user_choose_district
-- user_choose_function
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - functions_available
+  - districts_available
+  - hiking
+  - recommend_hiking_route
+  - check_weather
+
 entities:
-- weather
-- choice
-- district
-- difficulty
-- forecast
-- recommend
-- hiking_route
+  - weather
+  - choice
+  - district
+  - difficulty
+  - forecast
+  - recommend
+  - hiking_route
+
 slots:
   choice:
     type: text
@@ -43,11 +40,11 @@ slots:
     - type: from_entity
       entity: district
   difficulty:
-  type: text
-  influence_conversation: true
-  mappings:
-  - type: from_entity
-    entity: difficulty
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: difficulty
 
 responses:
   utter_welcome:
@@ -106,11 +103,11 @@ responses:
   - text: "請問是否繼續？"
 
 actions:
-- action_district_query
-- action_difficulty_query
-- action_inquire_weather
-- action_say_district_chosen
-- action_say_function_chosen
-- utter_ask_districts
-- utter_list_functions
-- utter_welcome
+  - action_district_query
+  - action_difficulty_query
+  - action_inquire_weather
+  - action_say_district_chosen
+  - action_say_function_chosen
+  - utter_ask_districts
+  - utter_list_functions
+  - utter_welcome

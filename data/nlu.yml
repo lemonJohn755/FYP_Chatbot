@@ -1,4 +1,4 @@
-version: "3.1"
+version: '3.1'
 nlu:
   - intent: greet
     examples: |
@@ -22,6 +22,7 @@ nlu:
       - 你好嗎
       - 哈囉
       - 嗨
+
   - intent: goodbye
     examples: |
       - cu
@@ -37,6 +38,7 @@ nlu:
       - 再見
       - 拜拜
       - 下次見
+
   - intent: affirm
     examples: |
       - yes
@@ -48,6 +50,7 @@ nlu:
       - 是
       - 係
       - 好
+
   - intent: deny
     examples: |
       - no
@@ -61,6 +64,7 @@ nlu:
       - 不，謝謝
       - 不用了
       - 不肯定
+
   - intent: mood_great
     examples: |
       - perfect
@@ -80,6 +84,7 @@ nlu:
       - 太好啦
       - 感覺唔錯
       - 幾好
+
   - intent: mood_unhappy
     examples: |
       - my day was horrible
@@ -99,6 +104,7 @@ nlu:
       - 唔開心
       - 傷心
       - 喊出嚟
+
   - intent: bot_challenge
     examples: |
       - are you a bot?
@@ -108,11 +114,13 @@ nlu:
       - 你係唔係人類?
       - 你係唔係機械人?
       - 係唔係真人?
-  - intent: user_choose_function
+
+  - intent: functions_available
     examples: |
       - [依照地區推介](choice)
       - [依照難度推介](choice)
-  - intent: user_choose_district
+
+  - intent: districts_available
     examples: |
       - [新界北區](district)
       - [港島區](district)
@@ -120,6 +128,14 @@ nlu:
       - [新界西區](district)
       - [大嶼山區](district)
       - [新界北區](district)
+  - intent: difficulties_available
+    examples: |
+      - [1](difficulty)
+      - [2](difficulty)
+      - [3](difficulty)
+      - [4](difficulty)
+      - [5](difficulty)
+    
   - intent: hiking
     examples: |
       - 我想[行山](hike)
@@ -131,21 +147,25 @@ nlu:
       - [登山](hike)
       - [遠足](hike)
       - [郊遊](hike)
+
   - intent: recommend_hiking_route
+    examples: |
       - 有咩[山好行](hiking_route)?
       - 有咩山[推薦](recommend)?
       - 有乜野[遠足路線](hiking_route)[推薦](recommend)?
-      - [推薦](recommend)[郊遊徑]?
-      - [推薦](recommend)[行山地方]?
+      - [推薦](recommend)[郊遊徑](hiking_route)?
+      - [推薦](recommend)[行山地方](hiking_route)?
       - [行山好去處](hiking_route)?
       - [行山路線](hiking_route)
+
   - intent: check_weather
+    examples: |
       - 嚟緊[天氣](weather)點樣呀?
       - 今日[天氣](weather)點樣呀?
       - 甚麼[天氣](weather)?
       - 乜野[天氣](weather)呀?
-      - 咩[天氣]呀?
+      - 咩[天氣](weather)呀?
       - 今日[天氣](weather)預報(forecast)
       - 今日[天氣](weather)如何?
       - 依家[天氣](weather)如何?
-      - 想問下今日[天氣]點樣?
+      - 想問下今日[天氣](weather)點樣?
