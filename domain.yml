@@ -75,9 +75,9 @@ forms:
     required_slots:
       - difficulty
   
-  is_continue_form:
-    required_slots:
-      - isContinue
+  # is_continue_form:
+  #   required_slots:
+  #     - isContinue
 
 responses:
   utter_welcome:

@@ -6,17 +6,12 @@ rules:
   steps:
   - intent: goodbye
   - action: utter_goodbye
-  wait_for_user_input: false
-
-  
 
 - rule: say hi to greet user
   steps:
   - intent: greet
   - action: utter_welcome
   - action: utter_list_functions
-  wait_for_user_input: false
-
 
 - rule: Activate choice_form
   steps:
@@ -35,3 +30,9 @@ rules:
   - intent: difficulties_available
   - action: action_difficulty_query
   - active_loop: difficulty_form
+
+# - rule: loop story
+#   steps:
+#   - action: action_district_query
+#   - action: utter_list_functions
+#   - active_loop: choice_form

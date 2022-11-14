@@ -23,7 +23,7 @@ stories:
   - slot_was_set:
     - district
   - action: action_district_query
-  - checkpoint: complete_of_story
+  - checkpoint: story_complete
 
 - story: option_2_difficulty
   steps:
@@ -40,14 +40,21 @@ stories:
   - slot_was_set:
     - difficulty
   - action: action_difficulty_query
-  - checkpoint: complete_of_story
+  - checkpoint: story_complete
 
 - story: 天氣
   steps:
+  - checkpoint: greet_user
   - intent: check_weather
     entities: 
       - weather: "天氣"
   - action: action_inquire_weather
-  - checkpoint: complete_of_story
+  - checkpoint: story_complete
+
+- story: loop_again
+  steps:
+  - checkpoint: story_complete
+  - action: utter_list_functions
+  - active_loop: choice_form
 
 

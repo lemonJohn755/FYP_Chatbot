@@ -172,3 +172,6 @@ nlu:
       - 今日[天氣](weather)如何?
       - 依家[天氣](weather)如何?
       - 想問下今日[天氣](weather)點樣?
+      - [天氣](weather)
+      - What is the [weather](weather) looks like?
+      - [weather](weather)
