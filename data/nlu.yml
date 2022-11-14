@@ -47,6 +47,7 @@ nlu:
       - of course
       - that sounds good
       - correct
+      - alright
       - 是
       - 係
       - 好
@@ -60,6 +61,7 @@ nlu:
       - don't like that
       - no way
       - not really
+      - nope
       - 不
       - 不，謝謝
       - 不用了

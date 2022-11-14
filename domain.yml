@@ -25,6 +25,7 @@ entities:
   - forecast
   - recommend
   - hiking_route
+  - isContinue
 
 slots:
   choice:
@@ -47,6 +48,36 @@ slots:
     mappings:
     - type: from_entity
       entity: difficulty
+  
+  isContinue:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: isContinue
+
+forms:
+  choice_form:
+    ignored_intents:
+      - difficulty
+      - district
+    required_slots:
+      - choice
+  
+  district_form:
+    ignored_intents:
+      - choice
+    required_slots:
+      - district
+  
+  difficulty_form:
+    ignored_intents:
+      - choice
+    required_slots:
+      - difficulty
+  
+  is_continue_form:
+    required_slots:
+      - isContinue
 
 responses:
   utter_welcome:
@@ -63,7 +94,10 @@ responses:
   - text: 好 Have a nice day
 
   utter_goodbye:
-  - text: 再見 謝謝 :)
+  - text: '多謝使用 Hilly, byebye'
+
+  utter_thankyou:
+    - text: '多謝使用 Hilly'
 
   utter_iamabot:
   - text: '我係一個由 Rasa 驅動嘅聊天機械人 :robot:'
@@ -101,13 +135,14 @@ responses:
   utter_out_of_scope:
   - text: "對唔住，我處理唔到你啲要求"
 
-  utter_do_you_want_continue:
+  utter_ask_user_continue:
   - text: "請問是否繼續？"
     buttons:
     - title: "是"
       payload: '/affirm{{"isContinue":"yes"}}'
     - title: "不是"
       payload: '/deny{{"isContinue":"no"}}'
+
   
 
 actions:
