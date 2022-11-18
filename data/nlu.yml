@@ -1,5 +1,10 @@
 version: '3.1'
 nlu:
+  - intent: start
+    examples: |
+      - /start
+      - start
+
   - intent: greet
     examples: |
       - hey
@@ -87,6 +92,17 @@ nlu:
       - 感覺唔錯
       - 幾好
 
+  - intent: thank_you
+    examples: |
+      - Thanks
+      - Thank you
+      - 謝謝你
+      - 謝謝
+      - 唔該晒
+      - 唔該你
+      - 唔該你啊
+      - Thx
+
   - intent: mood_unhappy
     examples: |
       - my day was horrible
@@ -173,5 +189,3 @@ nlu:
       - 依家[天氣](weather)如何?
       - 想問下今日[天氣](weather)點樣?
       - [天氣](weather)
-      - What is the [weather](weather) looks like?
-      - [weather](weather)

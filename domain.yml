@@ -2,7 +2,9 @@ version: '3.1'
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
 intents:
+  - start
   - greet
   - goodbye
   - affirm
@@ -49,11 +51,11 @@ slots:
     - type: from_entity
       entity: difficulty
   
-  isContinue:
-    type: text
-    mappings:
-    - type: from_entity
-      entity: isContinue
+  # isContinue:
+  #   type: text
+  #   mappings:
+  #   - type: from_entity
+  #     entity: isContinue
 
 forms:
   choice_form:
@@ -74,10 +76,6 @@ forms:
       - choice
     required_slots:
       - difficulty
-  
-  # is_continue_form:
-  #   required_slots:
-  #     - isContinue
 
 responses:
   utter_welcome:
@@ -105,8 +103,10 @@ responses:
   utter_list_functions:
   - text: "我可以推介行山路線，請選擇："
     buttons:
-      - payload: '/functions_available{{"choice":"依照地區推介"}}'
-      - payload: '/functions_available{{"choice":"依照難度推介"}}'
+      - title: "依照地區推介"
+        payload: '/functions_available{{"choice":"依照地區推介"}}'
+      - title: "依照難度推介"
+        payload: '/functions_available{{"choice":"依照難度推介"}}'
 
   utter_say_user_chose:
   - condition:
@@ -115,35 +115,43 @@ responses:
       value: "依照地區推介"
     text: "請選擇地區:\n1)新界北區\n2)港島區\n3)西貢區\n4)新界西區\n5)大嶼山區"
     buttons:
-      - payload: '/districts_available{{"district":"新界北區"}}'
-      - payload: '/districts_available{{"district":"港島區"}}'
-      - payload: '/districts_available{{"district":"西貢區"}}'
-      - payload: '/districts_available{{"district":"新界西區"}}'
-      - payload: '/districts_available{{"district":"大嶼山區"}}'
+      - title: "新界北區"
+        payload: '/districts_available{{"district":"新界北區"}}'
+      - title: "港島區"
+        payload: '/districts_available{{"district":"港島區"}}'
+      - title: "西貢區"
+        payload: '/districts_available{{"district":"西貢區"}}'
+      - title: "新界西區"
+        payload: '/districts_available{{"district":"新界西區"}}'
+      - title: "大嶼山區"
+        payload: '/districts_available{{"district":"大嶼山區"}}'
   - condition:
     - type: slot
       name: choice
       value: "依照難度推介"
     text: 請輸入難度，1 最易，5最難
     buttons:
-      - payload: '/difficulties_available{{"difficulty":"1"}}'
-      - payload: '/difficulties_available{{"difficulty":"2"}}'
-      - payload: '/difficulties_available{{"difficulty":"3"}}'
-      - payload: '/difficulties_available{{"difficulty":"4"}}'
-      - payload: '/difficulties_available{{"difficulty":"5"}}'
+      - title: "1" 
+        payload: '/difficulties_available{{"difficulty":"1"}}'
+      - title: "2"
+        payload: '/difficulties_available{{"difficulty":"2"}}'
+      - title: "3"
+        payload: '/difficulties_available{{"difficulty":"3"}}'
+      - title: "4"
+        payload: '/difficulties_available{{"difficulty":"4"}}'
+      - title: "5"
+        payload: '/difficulties_available{{"difficulty":"5"}}'
 
   utter_out_of_scope:
   - text: "對唔住，我處理唔到你啲要求"
 
-  utter_ask_user_continue:
-  - text: "請問是否繼續？"
-    buttons:
-    - title: "是"
-      payload: '/affirm{{"isContinue":"yes"}}'
-    - title: "不是"
-      payload: '/deny{{"isContinue":"no"}}'
-
-  
+  # utter_ask_user_continue:
+  # - text: "請問是否繼續？"
+  #   buttons:
+  #   - title: "是"
+  #     payload: '/affirm{{"isContinue":"yes"}}'
+  #   - title: "不是"
+  #     payload: '/deny{{"isContinue":"no"}}'
 
 actions:
   - action_district_query
@@ -151,6 +159,3 @@ actions:
   - action_inquire_weather
   - action_say_district_chosen
   - action_say_function_chosen
-  - utter_ask_districts
-  - utter_list_functions
-  - utter_welcome

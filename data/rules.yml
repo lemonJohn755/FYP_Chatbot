@@ -9,9 +9,14 @@ rules:
 
 - rule: say hi to greet user
   steps:
-  - intent: greet
+  - intent: start
   - action: utter_welcome
   - action: utter_list_functions
+
+- rule: say thanks when user say thanks
+  steps:
+  - intent: thank_you
+  - action: utter_thankyou
 
 - rule: Activate choice_form
   steps:
@@ -30,9 +35,3 @@ rules:
   - intent: difficulties_available
   - action: action_difficulty_query
   - active_loop: difficulty_form
-
-# - rule: loop story
-#   steps:
-#   - action: action_district_query
-#   - action: utter_list_functions
-#   - active_loop: choice_form
