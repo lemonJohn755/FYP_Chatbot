@@ -1,4 +1,4 @@
-version: '3.1'
+version: '3.0'
 
 rules:
 
@@ -9,7 +9,9 @@ rules:
 
 - rule: say hi to greet user
   steps:
-  - intent: start
+  - or:
+    - intent: start
+    - intent: greet
   - action: utter_welcome
   - action: utter_list_functions
 
@@ -35,3 +37,9 @@ rules:
   - intent: difficulties_available
   - action: action_difficulty_query
   - active_loop: difficulty_form
+
+- rule: weather query
+  steps:
+  - intent: check_weather
+  - action: action_inquire_weather
+  - active_loop: choice_form

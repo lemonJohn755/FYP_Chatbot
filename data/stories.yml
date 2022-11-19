@@ -1,4 +1,4 @@
-version: '3.1'
+version: '3.0'
 
 stories:
 - story: greet_flow
@@ -44,11 +44,10 @@ stories:
 
 - story: 天氣
   steps:
+  - checkpoint: greet_user
   - intent: check_weather
-    entities: 
-      - weather: "天氣"
   - action: action_inquire_weather
-  - checkpoint: story_complete
+  - active_loop: choice_form
 
 - story: loop_again
   steps:
