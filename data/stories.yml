@@ -3,19 +3,21 @@ version: '3.0'
 stories:
 - story: greet_flow
   steps:
-  - intent: greet
+  - or:
+    - intent: greet
+    - intent: start
   - action: utter_welcome
   - action: utter_list_functions
   - checkpoint: greet_user
 
-- story: option_1_district
+- story: option_1_districts
   steps:
   - checkpoint: greet_user
   - intent: functions_available
     entities:
-    - choice: 依照地區推介
+      - choice: 地區
   - slot_was_set:
-    - choice: 依照地區推介
+    - choice: 地區
   - action: utter_say_user_chose
   - intent: districts_available
     entities:
@@ -30,9 +32,9 @@ stories:
   - checkpoint: greet_user
   - intent: functions_available
     entities:
-    - choice: 依照難度推介
+    - choice: 難度
   - slot_was_set:
-    - choice: 依照難度推介
+    - choice: 難度
   - action: utter_say_user_chose
   - intent: difficulties_available
     entities:
@@ -42,17 +44,36 @@ stories:
   - action: action_difficulty_query
   - checkpoint: story_complete
 
+- story: conversation_query_select_districts
+  steps:
+  - checkpoint: greet_user
+  - intent: hiking
+    entities:
+    - hike
+  - slot_was_set:
+    - hike
+  - action: utter_ask_district
+  - intent: districts_available
+  - action: action_district_query
+  - checkpoint: story_complete
+
+# - story: conversation_where_to_hike
+#   steps:
+#   - checkpoint: greet_user
+
+
 - story: 天氣
   steps:
   - checkpoint: greet_user
-  - intent: check_weather
+  - intent: functions_available
+    entities:
+    - weather: 天氣
   - action: action_inquire_weather
-  - active_loop: choice_form
+  - checkpoint: story_complete
 
 - story: loop_again
   steps:
   - checkpoint: story_complete
   - action: utter_list_functions
   - active_loop: choice_form
-
 

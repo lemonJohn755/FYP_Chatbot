@@ -62,7 +62,7 @@ class ActionChooseDistrict(Action):
         district = tracker.get_slot("district")
 
         if district is not None:
-            dispatcher.utter_message(text=f"你選擇了 '{district}'，以下係相關結果")
+            dispatcher.utter_message(text=f"以下係'{district}'嘅行山徑")
             query = ActionChooseDistrict.district_db_query(district)
 
             dispatcher.utter_message(text=query)
@@ -120,7 +120,7 @@ class ActionChooseDifficulty(Action):
         
         if difficulty is not None:
             query = ActionChooseDifficulty.district_db_query(difficulty)
-            dispatcher.utter_message(text=f"你選擇了：難度{difficulty}/5，以下係相關結果\n"
+            dispatcher.utter_message(text=f"以下係難度 {difficulty}/5 相關結果\n"
                                      +query)
             return []
 

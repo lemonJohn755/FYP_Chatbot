@@ -4,7 +4,11 @@ nlu:
     examples: |
       - /start
       - start
-
+  - intent: restart
+    examples: |
+      - restart
+      - /restart
+      
   - intent: greet
     examples: |
       - hey
@@ -135,8 +139,8 @@ nlu:
 
   - intent: functions_available
     examples: |
-      - [依照地區推介](choice)
-      - [依照難度推介](choice)
+      - 依照[地區](choice)推介
+      - 依照[難度](choice)推介
 
   - intent: districts_available
     examples: |
@@ -149,11 +153,11 @@ nlu:
       
   - intent: difficulties_available
     examples: |
-      - [1](difficulty)
-      - [2](difficulty)
-      - [3](difficulty)
-      - [4](difficulty)
-      - [5](difficulty)
+      - 難度[1](difficulty)
+      - 難度[2](difficulty)
+      - 難度[3](difficulty)
+      - 難度[4](difficulty)
+      - 難度[5](difficulty)
     
   - intent: hiking
     examples: |
@@ -169,13 +173,16 @@ nlu:
 
   - intent: recommend_hiking_route
     examples: |
-      - 有咩[山好行](hiking_route)?
-      - 有咩山[推薦](recommend)?
-      - 有乜野[遠足路線](hiking_route)[推薦](recommend)?
-      - [推薦](recommend)[郊遊徑](hiking_route)?
-      - [推薦](recommend)[行山地方](hiking_route)?
-      - [行山好去處](hiking_route)?
-      - [行山路線](hiking_route)
+      - 有咩[山](hike)[好行](recommend)?
+      - 有咩[行山徑](hike)[好行](recommend)?
+      - 有咩[山](hike)[推薦](recommend)?
+      - 有咩[行山徑](hike)[推薦](recommend)?
+      - 有乜野[遠足路線](hike)[推薦](recommend)?
+      - [推薦](recommend)[郊遊徑](hike)?
+      - [推薦](recommend)[行山地方](hike)?
+      - 我想知有咩[行山](hike)[好去處](recommend)?
+      - 我想知有咩[行山路線](hike)
+      - [行山徑](hike)[推薦](hike)
 
   - intent: check_weather
     examples: |

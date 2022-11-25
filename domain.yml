@@ -27,19 +27,19 @@ entities:
   - forecast
   - recommend
   - hiking_route
-  - isContinue
+  - hike
 
 slots:
   choice:
     type: text
-    influence_conversation: True
+    influence_conversation: true
     mappings:
     - type: from_entity
       entity: choice
   
   district:
     type: text
-    influence_conversation: True
+    influence_conversation: true
     mappings:
     - type: from_entity
       entity: district
@@ -50,12 +50,13 @@ slots:
     mappings:
     - type: from_entity
       entity: difficulty
-  
-  # isContinue:
-  #   type: text
-  #   mappings:
-  #   - type: from_entity
-  #     entity: isContinue
+
+  hike:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: hike
 
 forms:
   choice_form:
@@ -76,6 +77,12 @@ forms:
       - choice
     required_slots:
       - difficulty
+  
+  hiking_form:
+    ignored_intents:
+      - choice
+    required_slots:
+      - hike
 
 responses:
   utter_welcome:
@@ -104,15 +111,29 @@ responses:
   - text: "我可以推介行山路線，請選擇："
     buttons:
       - title: "依照地區推介"
-        payload: '/functions_available{{"choice":"依照地區推介"}}'
+        payload: '/functions_available{{"choice":"地區"}}'
       - title: "依照難度推介"
-        payload: '/functions_available{{"choice":"依照難度推介"}}'
+        payload: '/functions_available{{"choice":"難度"}}'
+  
+  utter_ask_district:
+  - text: "請選擇地區:\n1)新界北區\n2)港島區\n3)西貢區\n4)新界西區\n5)大嶼山區"
+    buttons:
+      - title: "新界北區"
+        payload: '/districts_available{{"district":"新界北區"}}'
+      - title: "港島區"
+        payload: '/districts_available{{"district":"港島區"}}'
+      - title: "西貢區"
+        payload: '/districts_available{{"district":"西貢區"}}'
+      - title: "新界西區"
+        payload: '/districts_available{{"district":"新界西區"}}'
+      - title: "大嶼山區"
+        payload: '/districts_available{{"district":"大嶼山區"}}'
 
   utter_say_user_chose:
   - condition:
     - type: slot
       name: choice
-      value: "依照地區推介"
+      value: "地區"
     text: "請選擇地區:\n1)新界北區\n2)港島區\n3)西貢區\n4)新界西區\n5)大嶼山區"
     buttons:
       - title: "新界北區"
@@ -128,7 +149,7 @@ responses:
   - condition:
     - type: slot
       name: choice
-      value: "依照難度推介"
+      value: "難度"
     text: 請輸入難度，1 最易，5最難
     buttons:
       - title: "1" 
@@ -145,17 +166,11 @@ responses:
   utter_out_of_scope:
   - text: "對唔住，我處理唔到你啲要求"
 
-  # utter_ask_user_continue:
-  # - text: "請問是否繼續？"
-  #   buttons:
-  #   - title: "是"
-  #     payload: '/affirm{{"isContinue":"yes"}}'
-  #   - title: "不是"
-  #     payload: '/deny{{"isContinue":"no"}}'
-
 actions:
   - action_district_query
   - action_difficulty_query
   - action_inquire_weather
   - action_say_district_chosen
   - action_say_function_chosen
+  - utter_say_user_chose
+  - utter_ask_district

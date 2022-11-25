@@ -1,45 +1,21 @@
 version: '3.0'
 
 rules:
+- rule: greet_flow
+  conversation_start: true
+  steps:
+  - or:
+    - intent: greet
+    - intent: start
+  - action: utter_welcome
+  - action: utter_list_functions
 
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: say hi to greet user
-  steps:
-  - or:
-    - intent: start
-    - intent: greet
-  - action: utter_welcome
-  - action: utter_list_functions
-
 - rule: say thanks when user say thanks
   steps:
   - intent: thank_you
   - action: utter_thankyou
-
-- rule: Activate choice_form
-  steps:
-  - intent: functions_available
-  - action: utter_say_user_chose
-  - active_loop: choice_form
-
-- rule: Activate district_form
-  steps:
-  - intent: districts_available
-  - action: action_district_query
-  - active_loop: district_form
-
-- rule: Activate difficulty_form
-  steps:
-  - intent: difficulties_available
-  - action: action_difficulty_query
-  - active_loop: difficulty_form
-
-- rule: weather query
-  steps:
-  - intent: check_weather
-  - action: action_inquire_weather
-  - active_loop: choice_form
