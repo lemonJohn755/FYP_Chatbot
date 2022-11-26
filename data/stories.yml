@@ -57,10 +57,18 @@ stories:
   - action: action_district_query
   - checkpoint: story_complete
 
-# - story: conversation_where_to_hike
-#   steps:
-#   - checkpoint: greet_user
-
+- story: conversation_where_to_hike
+  steps:
+  - checkpoint: greet_user
+  - intent: where_to_hike
+    entities:
+    - hike
+    - district
+  - slot_was_set:
+    - hike
+    - district
+  - action: action_district_query
+  - checkpoint: story_complete
 
 - story: 天氣
   steps:

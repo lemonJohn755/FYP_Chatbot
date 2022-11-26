@@ -183,6 +183,15 @@ nlu:
       - 我想知有咩[行山](hike)[好去處](recommend)?
       - 我想知有咩[行山路線](hike)
       - [行山徑](hike)[推薦](hike)
+  
+  - intent: where_to_hike
+    examples: |
+      - [西貢區](district)有咩[山](hike)好行
+      - [港島區](district)有咩[行山徑](hike)?
+      - [新界北區](district)[遠足路線](hike)
+      - [大嶼山區](district)[行山徑](hike)
+      - 我想知[新界西區](district)有咩[行山路線](hike)
+      - 我想知[西貢區]有咩[行山][行山好去處](hike)
 
   - intent: check_weather
     examples: |
