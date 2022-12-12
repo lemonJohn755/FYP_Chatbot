@@ -1,3 +1,49 @@
+# # Configuration for Rasa NLU.
+# # https://rasa.com/docs/rasa/nlu/components/
+# language: zh
+ 
+# pipeline:
+# # # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
+# # # If you'd like to customize it, uncomment and adjust the pipeline.
+# # # See https://rasa.com/docs/rasa/tuning-your-model for more information.
+# #   - name: WhitespaceTokenizer
+#   - name: MitieNLP
+#     model: data/total_word_feature_extractor_zh.dat
+#   # - name: "MitieTokenizer"  # 分詞器
+#   - name: "JiebaTokenizer"
+#     dictionary_path: data/dict.txt
+#   - name: "MitieEntityExtractor" # 實體提取器
+#   - name: "EntitySynonymMapper" # 同義詞映射
+#   - name: "RegexFeaturizer" # 正則
+#   - name: "MitieFeaturizer" # 特徵化
+#   - name: "SklearnIntentClassifier" # 意圖分類器
+#   - name: LexicalSyntacticFeaturizer
+#   - name: CountVectorsFeaturizer
+#     analyzer: char_wb
+#     min_ngram: 1
+#     max_ngram: 4  
+#   - name: DIETClassifier
+#     epochs: 100
+#     constrain_similarities: true
+#   - name: ResponseSelector
+#     epochs: 100
+#     constrain_similarities: true
+#   - name: EntitySynonymMapper
+
+ 
+# # Configuration for Rasa Core.
+# # https://rasa.com/docs/rasa/core/policies/
+# policies:
+# # # No configuration for policies was provided. The following default policies were used to train your model.
+# # # If you'd like to customize them, uncomment and adjust the policies.
+# # # See https://rasa.com/docs/rasa/policies for more information.
+#   - name: MemoizationPolicy
+#   - name: TEDPolicy
+#     max_history: 5
+#     epochs: 30
+#     constrain_similarities: true
+#   - name: RulePolicy
+
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
 language: zh
@@ -7,24 +53,40 @@ pipeline:
 # # If you'd like to customize it, uncomment and adjust the pipeline.
 # # See https://rasa.com/docs/rasa/tuning-your-model for more information.
 #   - name: WhitespaceTokenizer
-  - name: JiebaTokenizer 
-  - name: RegexFeaturizer
-    use_word_boundaries: False
+  # - name: JiebaTokenizer 
+  #   dictionary_path: data/dict.txt
+  #   "intent_tokenization_flag": False
+  #   # Symbol on which intent should be split
+  #   "intent_split_symbol": "_"
+  #   # Regular expression to detect tokens
+  #   "token_pattern": None
+  - name: SpacyNLP
+  # language model to load
+    model: zh_core_web_sm
+  - name: SpacyTokenizer
+    intent_tokenization_flag: False
+    intent_split_symbol": "_"
+    token_pattern": None
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
     analyzer: char_wb
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 10
+    epochs: 100
     constrain_similarities: true
+    transformers_layers: 4
+  - name: RegexFeaturizer
+    use_lookup_tables: True
+    case_sensitive: false
+    use_word_boundaries: False
+  - name: FallbackClassifier
+    threshold: 0.7
+    ambiguity_threshold: 0.1
   - name: EntitySynonymMapper
   - name: ResponseSelector
-    epochs: 10
+    epochs: 100
     constrain_similarities: true
-  - name: FallbackClassifier
-    threshold: 0.3
-    ambiguity_threshold: 0.1
  
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
@@ -35,7 +97,7 @@ policies:
   - name: MemoizationPolicy
   - name: TEDPolicy
     max_history: 5
-    epochs: 10
+    epochs: 30
     constrain_similarities: true
   - name: RulePolicy
    
