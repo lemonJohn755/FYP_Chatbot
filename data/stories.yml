@@ -1,11 +1,9 @@
-version: '3.0'
+version: '3.1'
 
 stories:
 - story: greet_flow
   steps:
-  - or:
-    - intent: greet
-    - intent: start
+  - intent: greet
   - action: utter_welcome
   - action: utter_list_functions
   - checkpoint: greet_user
@@ -15,7 +13,7 @@ stories:
   - checkpoint: greet_user
   - intent: functions_available
     entities:
-      - choice: 地區
+    - choice: 地區
   - slot_was_set:
     - choice: 地區
   - action: utter_say_user_chose
@@ -47,13 +45,17 @@ stories:
 - story: conversation_query_select_districts
   steps:
   - checkpoint: greet_user
-  - intent: hiking
+  - intent: i_want_to_hike
     entities:
-    - hike
+    - hike: gohike
   - slot_was_set:
-    - hike
+    - hike: gohike
   - action: utter_ask_district
   - intent: districts_available
+    entities:
+    - district
+  - slot_was_set:
+    - district
   - action: action_district_query
   - checkpoint: story_complete
 
@@ -62,10 +64,9 @@ stories:
   - checkpoint: greet_user
   - intent: where_to_hike
     entities:
-    - hike
+    - hike: gohike
     - district
   - slot_was_set:
-    - hike
     - district
   - action: action_district_query
   - checkpoint: story_complete
@@ -73,7 +74,7 @@ stories:
 - story: 天氣
   steps:
   - checkpoint: greet_user
-  - intent: functions_available
+  - intent: check_weather
     entities:
     - weather: 天氣
   - action: action_inquire_weather
@@ -83,5 +84,7 @@ stories:
   steps:
   - checkpoint: story_complete
   - action: utter_list_functions
-  - active_loop: choice_form
-
+  - or:
+    - intent: functions_available
+    - intent: where_to_hike
+  - active_loop: null

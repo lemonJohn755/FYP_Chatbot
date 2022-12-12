@@ -15,7 +15,7 @@ intents:
   - functions_available
   - districts_available
   - difficulties_available
-  - hiking
+  - i_want_to_hike
   - recommend_hiking_route
   - check_weather
   - where_to_hike
@@ -130,7 +130,7 @@ responses:
       - title: "大嶼山區"
         payload: '/districts_available{{"district":"大嶼山區"}}'
 
-  utter_say_user_chose:
+  utter_say_user_chose: 
   - condition:
     - type: slot
       name: choice

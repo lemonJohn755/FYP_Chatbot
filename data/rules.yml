@@ -17,7 +17,7 @@ rules:
 
 - rule: say thanks when user say thanks
   steps:
-  - intent: thank_you
+  - intent: thank_you 
   - action: utter_thankyou
 
 - rule: out-of-scope
