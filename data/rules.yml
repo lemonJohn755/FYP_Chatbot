@@ -1,8 +1,8 @@
-version: '3.0'
+version: '3.1'
 
 rules:
 - rule: greet_flow
-  conversation_start: true
+  # conversation_start: true
   steps:
   - or:
     - intent: greet
@@ -19,3 +19,8 @@ rules:
   steps:
   - intent: thank_you
   - action: utter_thankyou
+
+- rule: out-of-scope
+  steps:
+  - intent: nlu_fallback
+  - action: utter_out_of_scope
