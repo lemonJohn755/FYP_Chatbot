@@ -3,36 +3,59 @@ language: zh
 pipeline:
   - name: SpacyNLP
     model: zh_core_web_sm
-  - name: SpacyTokenizer
-    intent_tokenization_flag: False
-    intent_split_symbol": "_"
-    token_pattern": None
+  - name: "JiebaTokenizer"
+    dictionary_path: "/Users/johnjohn/Documents/FYP_Chatbot/data/dict.txt"
+    # Flag to check whether to split intents
+    "intent_tokenization_flag": False
+    # Symbol on which intent should be split
+    "intent_split_symbol": "_"
+    # Regular expression to detect tokens
+    "token_pattern": None
+  # - name: "SpacyTokenizer"
+  #   # Flag to check whether to split intents
+  #   "intent_tokenization_flag": false
+  #   # Symbol on which intent should be split
+  #   "intent_split_symbol": "_"
+  #   # Regular expression to detect tokens
+  #   "token_pattern": None
+  # - name: "SpacyFeaturizer"
+  # - name: "SpacyEntityExtractor"
+  #   dimensions: ["PERSON", "LOC", "ORG", "PRODUCT"]
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
     analyzer: char_wb
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 500
+    epochs: 300
     constrain_similarities: true
     transformers_layers: 4
+  - name: RegexEntityExtractor
+    # text will be processed with case insensitive as default
+    case_sensitive: False
+    # use lookup tables to extract entities
+    use_lookup_tables: True
+    # use regexes to extract entities
+    use_regexes: True
+    # use match word boundaries for lookup table
+    use_word_boundaries: False
   - name: RegexFeaturizer
     use_lookup_tables: True
-    case_sensitive: false
+    case_sensitive: False
     use_word_boundaries: False
+  - name: ResponseSelector
+    epochs: 200
+    constrain_similarities: true
   - name: FallbackClassifier
     threshold: 0.7
     ambiguity_threshold: 0.1
   - name: EntitySynonymMapper
-  - name: ResponseSelector
-    epochs: 100
-    constrain_similarities: true
  
 policies:
   - name: MemoizationPolicy
   - name: TEDPolicy
     max_history: 5
-    epochs: 30
+    epochs: 100
     constrain_similarities: true
   - name: RulePolicy
    

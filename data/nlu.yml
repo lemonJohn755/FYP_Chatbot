@@ -159,18 +159,31 @@ nlu:
   - intent: where_to_hike
     examples: |
       - 我想去[港島]{"entity":"district", "value":"港島區"}[行山]{"entity":"hike", "value":"gohike"}
+      - 我想去[新界西]{"entity":"district", "value":"新界西區"}[行山]{"entity":"hike", "value":"gohike"}
+      - 我想去[新界北]{"entity":"district", "value":"新界北區"}[郊遊]{"entity":"hike", "value":"gohike"}
       - [港島]{"entity":"district", "value":"港島區"}[行山]{"entity":"hike", "value":"gohike"}
       - [港島]{"entity":"district", "value":"港島區"}[郊游]{"entity":"hike", "value":"gohike"}
       - [西貢]{"entity":"district", "value":"西貢區"}[行山徑]{"entity":"hike", "value":"gohike"}
       - [西貢]{"entity":"district", "value":"西貢區"}[行山]{"entity":"hike", "value":"gohike"}
-      - [北區]{"entity":"district", "value":"新界北區"}有咩[山]{"entity":"hike", "value":"gohike"}[好](recommend)行
-      - [新界北]{"entity":"district", "value":"新界北區"}[行山]{"entity":"hike", "value":"gohike"}[推薦](recommend)
       - [北區]{"entity":"district", "value":"新界北區"}[行山]{"entity":"hike", "value":"gohike"}
-      - [大嶼山]{"entity":"district", "value":"大嶼山區"}[郊遊]{"entity":"hike", "value":"gohike"}[好](recommend)去處
+      - [北區]{"entity":"district", "value":"新界北區"}有咩[山]{"entity":"hike", "value":"gohike"}
+      - [新界北]{"entity":"district", "value":"新界北區"}[行山]{"entity":"hike", "value":"gohike"}
+      - [新界北]{"entity":"district", "value":"新界北區"}有咩[行山徑]{"entity":"hike", "value":"gohike"}
+      - [北區]{"entity":"district", "value":"新界北區"}[行山]{"entity":"hike", "value":"gohike"}
+      - [大嶼山]{"entity":"district", "value":"大嶼山區"}[郊遊]{"entity":"hike", "value":"gohike"}
+      - [大嶼山]{"entity":"district", "value":"大嶼山區"}[行山]{"entity":"hike", "value":"gohike"}
+      - [大嶼山]{"entity":"district", "value":"大嶼山區"}[行山徑]{"entity":"hike", "value":"gohike"}
       - [新界西]{"entity":"district", "value":"新界西區"}[遠足路線]{"entity":"hike", "value":"gohike"}
       - [新界西]{"entity":"district", "value":"新界西區"}[行山路線]{"entity":"hike", "value":"gohike"}
+      - [新界西]{"entity":"district", "value":"新界西區"}[行山]{"entity":"hike", "value":"gohike"}
       - [新界西]{"entity":"district", "value":"新界西區"}有咩[山]{"entity":"hike", "value":"gohike"}行
-      - [大西北]{"entity":"district", "value":"新界西區"}有咩[郊游]{"entity":"hike", "value":"gohike"}[好](recommend)地方
+      - [大西北]{"entity":"district", "value":"新界西區"}有咩[郊游]{"entity":"hike", "value":"gohike"}
+
+  - intent: easy_hard_hike
+    examples: |
+      - 我想行[容易]{"entity":"easyhard"}[行山徑]{"entity":"hike", "value":"gohike"}
+      - 有[挑戰性]{"entity":"easyhard"}嘅[行山路線]{"entity":"hike", "value":"gohike"}
+      - [輕鬆]{"entity":"easyhard"}[行山]{"entity":"hike", "value":"gohike"}好去處
 
   - lookup: district
     examples: |
@@ -208,24 +221,22 @@ nlu:
     examples: |
       - 新界北
       - 北區
-      - 新界北區
 
   - synonym: 新界西區
     examples: |
       - 新界西
-      - 新界西區
       - 大西北
+      - 西北
+      - 屯天元
 
   - synonym: 西貢區
     examples: |
       - 西貢
-      - 西貢區
       - 新界東
 
   - synonym: 港島區
     examples: |
       - 港島
-      - 港島區
       - 香港島
 
   - intent: difficulties_available

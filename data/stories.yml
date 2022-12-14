@@ -68,7 +68,25 @@ stories:
     - district
   - slot_was_set:
     - district
+  - slot_was_set:
+    - hike: gohike
   - action: action_district_query
+  - checkpoint: story_complete
+
+- story: conversation_easyHard_to_hike
+  steps:
+  - checkpoint: greet_user
+  - intent: easy_hard_hike
+    entities:
+    - hike: gohike
+    - easyhard
+  - action: utter_ask_difficulties
+  - intent: difficulties_available
+    entities:
+    - difficulty
+  - slot_was_set:
+    - difficulty
+  - action: action_difficulty_query
   - checkpoint: story_complete
 
 - story: 天氣
@@ -83,8 +101,7 @@ stories:
 - story: loop_again
   steps:
   - checkpoint: story_complete
+  - action: action_reset_all_slots
   - action: utter_list_functions
-  - or:
-    - intent: functions_available
-    - intent: where_to_hike
-  - active_loop: null
+  - intent: functions_available
+  - active_loop: choice_form

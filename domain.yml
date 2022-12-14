@@ -19,6 +19,7 @@ intents:
   - recommend_hiking_route
   - check_weather
   - where_to_hike
+  - easy_hard_hike
 
 entities:
   - weather
@@ -29,6 +30,7 @@ entities:
   - recommend
   - hiking_route
   - hike
+  - easyhard
 
 slots:
   choice:
@@ -130,6 +132,20 @@ responses:
       - title: "大嶼山區"
         payload: '/districts_available{{"district":"大嶼山區"}}'
 
+  utter_ask_difficulties:
+  - text: 請輸入難度，1 最易，5最難
+    buttons:
+      - title: "1" 
+        payload: '/difficulties_available{{"difficulty":"1"}}'
+      - title: "2"
+        payload: '/difficulties_available{{"difficulty":"2"}}'
+      - title: "3"
+        payload: '/difficulties_available{{"difficulty":"3"}}'
+      - title: "4"
+        payload: '/difficulties_available{{"difficulty":"4"}}'
+      - title: "5"
+        payload: '/difficulties_available{{"difficulty":"5"}}'
+
   utter_say_user_chose: 
   - condition:
     - type: slot
@@ -173,5 +189,6 @@ actions:
   - action_inquire_weather
   - action_say_district_chosen
   - action_say_function_chosen
+  - action_reset_all_slots
   - utter_say_user_chose
   - utter_ask_district
