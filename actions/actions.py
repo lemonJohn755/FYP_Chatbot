@@ -71,7 +71,7 @@ class ActionChooseDistrict(Action):
 
     def district_db_query(district):
         mydb = mysql.connector.connect(
-            host="0.0.0.0",
+            host="localhost",
             user="root",
             password="root",
             database="FYP_Chatbot"
@@ -116,19 +116,21 @@ class ActionChooseDifficulty(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
-        difficulty = tracker.get_slot("difficulty")
+        msg = tracker.get_slot("difficulty")
+        difficulty = msg[-1]
+        print(difficulty)
         
-        if difficulty is not None:
+        if (difficulty is not None) and ("難度" in msg) and (int(difficulty) <= 7):
             query = ActionChooseDifficulty.district_db_query(difficulty)
             dispatcher.utter_message(text=f"幫你搵到難度 {difficulty}/5 相關結果\n"
                                      +query)
             return []
         else:
-            dispatcher.utter_message(text=f"唔好意思，我手頭上冇難度 {difficulty}/5 相關結果")
+            dispatcher.utter_message(text=f"唔好意思，我手頭上冇難度 {msg} 相關結果")
 
     def district_db_query(difficulty):
         mydb = mysql.connector.connect(
-            host="0.0.0.0",
+            host="localhost",
             user="root",
             password="root",
             database="FYP_Chatbot"

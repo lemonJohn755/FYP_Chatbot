@@ -170,15 +170,15 @@ responses:
     text: 請輸入難度，1 最易，5最難
     buttons:
       - title: "1" 
-        payload: '/difficulties_available{{"difficulty":"1"}}'
+        payload: '/difficulties_available{{"difficulty":"難度1"}}'
       - title: "2"
-        payload: '/difficulties_available{{"difficulty":"2"}}'
+        payload: '/difficulties_available{{"difficulty":"難度2"}}'
       - title: "3"
-        payload: '/difficulties_available{{"difficulty":"3"}}'
+        payload: '/difficulties_available{{"difficulty":"難度3"}}'
       - title: "4"
-        payload: '/difficulties_available{{"difficulty":"4"}}'
+        payload: '/difficulties_available{{"difficulty":"難度4"}}'
       - title: "5"
-        payload: '/difficulties_available{{"difficulty":"5"}}'
+        payload: '/difficulties_available{{"difficulty":"難度5"}}'
 
   utter_out_of_scope:
   - text: "對唔住，我處理唔到你啲要求"

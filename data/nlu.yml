@@ -241,11 +241,11 @@ nlu:
 
   - intent: difficulties_available
     examples: |
-      - 難度[1](difficulty)
-      - 難度[2](difficulty)
-      - 難度[3](difficulty)
-      - 難度[4](difficulty)
-      - 難度[5](difficulty)
+      - [難度1](difficulty)
+      - [難度2](difficulty)
+      - [難度3](difficulty)
+      - [難度4](difficulty)
+      - [難度5](difficulty)
     
   - intent: i_want_to_hike
     examples: |
