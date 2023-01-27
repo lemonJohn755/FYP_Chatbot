@@ -120,13 +120,13 @@ class ActionChooseDifficulty(Action):
         difficulty = msg[-1]
         print(difficulty)
         
-        if (difficulty is not None) and ("難度" in msg) and (int(difficulty) <= 7):
+        if (difficulty is not None) and (int(difficulty) <= 5):
             query = ActionChooseDifficulty.district_db_query(difficulty)
             dispatcher.utter_message(text=f"幫你搵到難度 {difficulty}/5 相關結果\n"
                                      +query)
             return []
         else:
-            dispatcher.utter_message(text=f"唔好意思，我手頭上冇難度 {msg} 相關結果")
+            dispatcher.utter_message(text=f"唔好意思，我手頭上冇難度 {msg} 相關結果。可以問難度（1-5）")
 
     def district_db_query(difficulty):
         mydb = mysql.connector.connect(
