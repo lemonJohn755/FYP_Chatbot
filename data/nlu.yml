@@ -35,7 +35,7 @@ nlu:
   - intent: goodbye
     examples: |
       - cu
-      - good by
+      - good bye
       - cee you later
       - good night
       - bye
@@ -181,9 +181,10 @@ nlu:
 
   - intent: easy_hard_hike
     examples: |
-      - 我想行[容易]{"entity":"easyhard"}[行山徑]{"entity":"hike", "value":"gohike"}
+      - 我想行[容易]{"entity":"difficulty", "value":"1"}[行山徑]{"entity":"hike", "value":"gohike"}
+      - [輕鬆]{"entity":"difficulty", "value":"1"}[行山]{"entity":"hike", "value":"gohike"}好去處
       - 有[挑戰性]{"entity":"easyhard"}嘅[行山路線]{"entity":"hike", "value":"gohike"}
-      - [輕鬆]{"entity":"easyhard"}[行山]{"entity":"hike", "value":"gohike"}好去處
+      - 有[難度]{"entity":"easyhard"}嘅[遠足路線]{"entity":"hike", "value":"gohike"}
 
   - lookup: district
     examples: |

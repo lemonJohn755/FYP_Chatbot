@@ -73,7 +73,17 @@ stories:
   - action: action_district_query
   - checkpoint: story_complete
 
-- story: conversation_easyHard_to_hike
+- story: conversation_easyHard_to_hike (easiest)
+  steps:
+  - checkpoint: greet_user
+  - intent: easy_hard_hike
+    entities:
+    - hike: gohike
+    - difficulty: 1
+  - action: action_difficulty_query
+  - checkpoint: story_complete
+
+- story: conversation_easyHard_to_hike (ask difficulty lev)
   steps:
   - checkpoint: greet_user
   - intent: easy_hard_hike
@@ -83,8 +93,6 @@ stories:
   - action: utter_ask_difficulties
   - intent: difficulties_available
     entities:
-    - difficulty
-  - slot_was_set:
     - difficulty
   - action: action_difficulty_query
   - checkpoint: story_complete
