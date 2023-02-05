@@ -34,7 +34,36 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import AllSlotsReset
 import requests
 import mysql.connector
+from mysql.connector import Error
 
+try:
+    # 連接 MySQL/MariaDB 資料庫
+    db = mysql.connector.connect(
+        host="localhost",
+        user="root",
+        password="123456", #change yours password in your local
+        database="FYP_Chatbot"
+    )
+
+    if db.is_connected():
+        # 顯示資料庫版本
+        db_Info = db.get_server_info()
+        print("資料庫版本：", db_Info)
+
+        # 顯示目前使用的資料庫
+        cursor = db.cursor()
+        cursor.execute("SELECT DATABASE();")
+        record = cursor.fetchone()
+        print("目前使用的資料庫：", record)
+
+except Error as e:
+    print("資料庫連接失敗：", e)
+
+# finally:
+#     if (db.is_connected()):
+#         cursor.close()
+#         db.close()
+#         print("資料庫連線已關閉")
 
 class ActionChooseFunction(Action):
     def name(self) -> Text:
@@ -70,43 +99,52 @@ class ActionChooseDistrict(Action):
         return []
 
     def district_db_query(district):
-        mydb = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="root",
-            database="FYP_Chatbot"
-        )
+        # mydb = mysql.connector.connect(
+        #     host="localhost",
+        #     user="root",
+        #     password="123456",
+        #     database="FYP_Chatbot"
+        # )
 
-        mycursor = mydb.cursor()
-        sql = "SELECT Route, Difficulty, Length, Score, Link FROM sample_data WHERE District='{}'".format(
-            district)
-        mycursor.execute(sql)
-        result = mycursor.fetchall()
+        # mycursor = db.cursor()
+        try:
+            sql = "SELECT Route, Difficulty, Length, Score, Link FROM sample_data WHERE District='{}'".format(
+                district)
+            cursor.execute(sql)
+            result = cursor.fetchall()
 
-        result_return = ""
+            result_return = ""
 
-        i = 0
-        total_num = len(result)
-        for x in result:
-            i = i+1
-            print("")
-            print("第 {}/{} 個結果".format(i, total_num))
-            print('行山徑:', x[0])
-            print('難度:', x[1])
-            print('長度:', x[2])
-            print('評分:', x[3])
-            print('詳情:', x[4])
+            i = 0
+            total_num = len(result)
+            for x in result:
+                i = i+1
+                print("")
+                print("第 {}/{} 個結果".format(i, total_num))
+                print('行山徑:', x[0])
+                print('難度:', x[1])
+                print('長度:', x[2])
+                print('評分:', x[3])
+                print('詳情:', x[4])
 
-            heading = "\n第 {}/{} 個結果".format(i, total_num) + '\n'
-            route = '行山徑: ' + x[0] + '\n'
-            difficulty = '難度: ' + str(x[1]) + '\n'
-            length = '長度: ' + str(x[2]) + 'km\n'
-            score = '評分: ' + str(x[3]) + '/5\n'
-            detail = '詳情: ' + x[4] + '\n\n'
-            result_return = result_return + heading + \
-                route + difficulty + length + score + detail
+                heading = "\n第 {}/{} 個結果".format(i, total_num) + '\n'
+                route = '行山徑: ' + x[0] + '\n'
+                difficulty = '難度: ' + str(x[1]) + '\n'
+                length = '長度: ' + str(x[2]) + 'km\n'
+                score = '評分: ' + str(x[3]) + '/5\n'
+                detail = '詳情: ' + x[4] + '\n\n'
+                result_return = result_return + heading + \
+                    route + difficulty + length + score + detail
 
-        return result_return
+            return result_return
+        
+        except Error as e:
+            print(e)
+        finally:
+            if (db.is_connected()):
+                cursor.close()
+                db.close()
+                print('database closed')
 
 class ActionChooseDifficulty(Action):
     def name(self) -> Text:
@@ -129,42 +167,50 @@ class ActionChooseDifficulty(Action):
             dispatcher.utter_message(text=f"唔好意思，我手頭上冇難度 {msg} 相關結果。可以問難度（1-5）")
 
     def district_db_query(difficulty):
-        mydb = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="root",
-            database="FYP_Chatbot"
-        )
+        # mydb = mysql.connector.connect(
+        #     host="localhost",
+        #     user="root",
+        #     password="root",
+        #     database="FYP_Chatbot"
+        # )
         
-        mycursor = mydb.cursor()
-        sql = "SELECT Route, Difficulty, Length, Score, Link FROM sample_data WHERE Difficulty='{}'".format(difficulty)
-        mycursor.execute(sql)
-        result = mycursor.fetchall()
-        
-        result_return = ""
-        
-        i=0
-        total_num = len(result)
-        for x in result:
-            i=i+1
-            print("")
-            print("第 {}/{} 個結果".format(i, total_num))
-            print('行山徑:',x[0])
-            print('難度:',x[1])
-            print('長度:',x[2])
-            print('評分:',x[3])
-            print('詳情:',x[4])
+        # cursor = db.cursor()
+        try:
+            sql = "SELECT Route, Difficulty, Length, Score, Link FROM sample_data WHERE Difficulty='{}'".format(difficulty)
+            cursor.execute(sql)
+            result = cursor.fetchall()
             
-            heading = "\n第 {}/{} 個結果".format(i, total_num)+ '\n'
-            route = '行山徑: '+ x[0] + '\n'
-            difficulty = '難度: ' + str(x[1]) + '\n'
-            length = '長度: ' + str(x[2]) + 'km\n'
-            score = '評分: ' + str(x[3]) + '/5\n'
-            detail = '詳情: ' + x[4] + '\n\n'
-            result_return = result_return + heading + route + difficulty + length + score + detail
+            result_return = ""
             
-        return result_return
-        
+            i=0
+            total_num = len(result)
+            for x in result:
+                i=i+1
+                print("")
+                print("第 {}/{} 個結果".format(i, total_num))
+                print('行山徑:',x[0])
+                print('難度:',x[1])
+                print('長度:',x[2])
+                print('評分:',x[3])
+                print('詳情:',x[4])
+                
+                heading = "\n第 {}/{} 個結果".format(i, total_num)+ '\n'
+                route = '行山徑: '+ x[0] + '\n'
+                difficulty = '難度: ' + str(x[1]) + '\n'
+                length = '長度: ' + str(x[2]) + 'km\n'
+                score = '評分: ' + str(x[3]) + '/5\n'
+                detail = '詳情: ' + x[4] + '\n\n'
+                result_return = result_return + heading + route + difficulty + length + score + detail
+                
+            return result_return
+        except Error as e:
+            print(e)
+        finally:
+            if (db.is_connected()):
+                cursor.close()
+                db.close()
+                print('database closed')
+                
     #     weather_entity = next(tracker.get_latest_entity_values("weather"), None)
 
     #     if not weather_entity:
