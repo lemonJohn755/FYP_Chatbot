@@ -60,10 +60,6 @@ nlu:
       - 是
       - 係
       - 好
-      - 好啊
-      - 好阿
-      - 要
-      - 我要
 
   - intent: deny
     examples: |
@@ -78,8 +74,7 @@ nlu:
       - 不
       - 不，謝謝
       - 不用了
-      - 唔使
-      - 唔使啦
+      - 不肯定
 
   - intent: mood_great
     examples: |
@@ -190,8 +185,6 @@ nlu:
       - [輕鬆]{"entity":"difficulty", "value":"1"}[行山]{"entity":"hike", "value":"gohike"}好去處
       - 有[挑戰性]{"entity":"easyhard"}嘅[行山路線]{"entity":"hike", "value":"gohike"}
       - 有[難度]{"entity":"easyhard"}嘅[遠足路線]{"entity":"hike", "value":"gohike"}
-      - 有[挑戰性]{"entity":"easyhard"}[行山徑]{"entity":"hike", "value":"gohike"}
-      - 有[難度]{"entity":"easyhard"}[遠足路線]{"entity":"hike", "value":"gohike"}
 
   - lookup: district
     examples: |

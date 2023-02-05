@@ -105,7 +105,7 @@ responses:
   - text: '多謝使用 Hilly, byebye'
 
   utter_thankyou:
-  - text: '多謝使用 Hilly'
+    - text: '多謝使用 Hilly'
 
   utter_iamabot:
   - text: '我係一個由 Rasa 驅動嘅聊天機械人 :robot:'
@@ -131,14 +131,6 @@ responses:
         payload: '/districts_available{{"district":"新界西區"}}'
       - title: "大嶼山區"
         payload: '/districts_available{{"district":"大嶼山區"}}'
-
-  utter_do_you_want_to_see_other_difficulties:
-  - text: 睇唔睇埋其他難度行山徑?
-    buttons: 
-      - title: "好"
-        payload: '/affirm'
-      - title: "唔使"
-        payload: '/deny'
 
   utter_ask_difficulties:
   - text: 請輸入難度，1 最易，5最難
