@@ -292,3 +292,16 @@ nlu:
       - 依家[天氣](weather)如何?
       - 想問下今日[天氣](weather)點樣?
       - [天氣](weather)
+  
+  - intent: hiking_caution
+    examples: |
+      - [行山]{"entity": "hike", "value": "gohike"}有咩[安全事項](安全事項)
+      - [遠足]{"entity": "hike", "value": "gohike"}要[注意事項](安全事項)
+      - [郊遊]{"entity": "hike", "value": "gohike"}有乜嘢要[注意](安全事項)
+
+  - synonyms: 安全事項
+    examples: |
+      - 安全事項
+      - 注意事項
+      - 安全守則
+      - 安全指引
