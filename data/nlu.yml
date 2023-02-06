@@ -142,10 +142,27 @@ nlu:
       - 你係唔係機械人?
       - 係唔係真人?
 
-  - intent: functions_available
+  # - intent: functions_available
+  #   examples: |
+  #     # - 依照[地區](choice)推介
+  #     # - 依照[難度](choice)推介
+  #     - 行山[路線查詢](choice)
+  #     - 行山[相關資訊](choice)
+  - intent: hiking_trails
     examples: |
-      - 依照[地區](choice)推介
-      - 依照[難度](choice)推介
+      - 行山[路線查詢](choice)
+      - 行山徑
+      - 行山好去處
+      - 遠足路線
+      - 郊野公園
+      - 郊遊路線
+  
+  - intent: hiking_info
+    examples: |
+      - 行山資訊
+      - 行山需知
+      - 行山貼士
+      - 行山小貼士
 
   - intent: districts_available
     examples: |
@@ -295,13 +312,15 @@ nlu:
   
   - intent: hiking_caution
     examples: |
-      - [行山]{"entity": "hike", "value": "gohike"}有咩[安全事項](安全事項)
-      - [遠足]{"entity": "hike", "value": "gohike"}要[注意事項](安全事項)
-      - [郊遊]{"entity": "hike", "value": "gohike"}有乜嘢要[注意](安全事項)
+      - [行山]{"entity": "hike", "value": "gohike"}有咩[安全事項](safety_caution)
+      - [遠足]{"entity": "hike", "value": "gohike"}要[注意事項](safety_caution)
+      - [郊遊]{"entity": "hike", "value": "gohike"}有乜嘢要[注意](safety_caution)
 
-  - synonyms: 安全事項
+  - synonyms: safety_caution
     examples: |
+      - 安全
       - 安全事項
-      - 注意事項
       - 安全守則
       - 安全指引
+      - 注意
+      - 注意事項
