@@ -1,1 +1,4 @@
 ﻿models
+mysql-docker-data/auto.cnf
+mysql-docker-data/binlog.index
+mysql-docker-data/mysql.sock

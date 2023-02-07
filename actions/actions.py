@@ -59,7 +59,7 @@ class ActionChooseDistrict(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        district = tracker.get_slot("district")
+        district = tracker.get_slot("selected_district")
 
         if district is not None:
             dispatcher.utter_message(text=f"幫你搵到'{district}'嘅行山徑")

@@ -148,67 +148,83 @@ nlu:
   #     # - 依照[難度](choice)推介
   #     - 行山[路線查詢](choice)
   #     - 行山[相關資訊](choice)
-  - intent: hiking_trails
+
+  - intent: hiking_trails_search
     examples: |
-      - 行山[路線查詢](choice)
-      - 行山徑
-      - 行山好去處
-      - 遠足路線
-      - 郊野公園
-      - 郊遊路線
+      - [行山]{"entity": "hike", "value": "行山"}[路線查詢]{"entity":"choice", "value":"行山徑"}
+      - 我想搵吓[行山]{"entity": "hike", "value": "行山"}[徑]{"entity":"choice", "value":"行山徑"}
+      - [行山]{"entity": "hike", "value": "行山"}有咩[好去處]{"entity":"choice", "value":"行山徑"}
+      - 有咩[遠足]{"entity": "hike", "value": "行山"}[路線]{"entity":"choice", "value":"行山徑"}
+      - [郊野公園]{"entity":"choice", "value":"trails"}[行山]{"entity": "hike", "value": "行山"}
+      - [郊遊]{"entity": "hike", "value": "行山"}[路線]{"entity":"choice", "value":"行山徑"}
   
+  - intent: trails_search_by_districts
+    examples: |
+      - 依照[地區]{"entity":"districts", "value":"地區"}推介
+      - 我想睇[香港]唔同[地區]{"entity":"districts", "value":"地區"}有咩[行山徑]{"entity":"hike", "value":"行山徑"}
+      - [香港](HK)[各區]{"entity":"districts", "value":"地區"}有咩[行山徑]{"entity":"hike", "value":"行山徑"}
+      - 推介[行山路線]{"entity":"hike", "value":"行山徑"}
+      - [香港](HK)[行山好去處]{"entity":"hike", "value":"行山徑"}
+      - 唔同[地區]{"entity":"districts", "value":"地區"}[行山徑]{"entity":"hike", "value":"行山徑"}
+  
+  - intent: trails_search_by_lev
+    examples: |
+      - 依照[難度]推介
+      - 唔同[難度][行山徑]
+      - 唔同[程度]嘅[行山路線]
+
   - intent: hiking_info
     examples: |
-      - 行山資訊
-      - 行山需知
-      - 行山貼士
-      - 行山小貼士
+      - [行山]{"entity": "hike", "value": "行山"}[資訊]{"entity":"choice", "value":"資訊"}
+      - [遠足]{"entity": "hike", "value": "行山"}[需知]{"entity":"choice", "value":"資訊"}
+      - [郊遊]{"entity": "hike", "value": "行山"}[貼士]{"entity":"choice", "value":"資訊"}
+      - [行山]{"entity": "hike", "value": "行山"}[小貼士]{"entity":"choice", "value":"資訊"}
 
   - intent: districts_available
     examples: |
-      - [港島區](district)
-      - [港島]{"entity":"district", "value":"港島區"}
-      - [新界北區](district)
-      - [新界北]{"entity":"district", "value":"新界北區"}
-      - [北區]{"entity":"district", "value":"新界北區"}
-      - [西貢區](district)
-      - [西貢]{"entity":"district", "value":"西貢區"}
-      - [新界西區](district)
-      - [新界西]{"entity":"district", "value":"新界西區"}
-      - [大嶼山區](district)
-      - [大嶼山]{"entity":"district", "value":"大嶼山區"}
+      - [港島區](selected_district)
+      - [港島]{"entity":"selected_district", "value":"港島區"}
+      - [新界北區](selected_district)
+      - [新界北]{"entity":"selected_district", "value":"新界北區"}
+      - [北區]{"entity":"selected_district", "value":"新界北區"}
+      - [西貢區](selected_district)
+      - [西貢]{"entity":"selected_district", "value":"西貢區"}
+      - [新界西區](selected_district)
+      - [新界西]{"entity":"selected_district", "value":"新界西區"}
+      - [大嶼山區](selected_district)
+      - [大嶼山]{"entity":"selected_district", "value":"大嶼山區"}
 
   - intent: where_to_hike
     examples: |
-      - 我想去[港島]{"entity":"district", "value":"港島區"}[行山]{"entity":"hike", "value":"gohike"}
-      - 我想去[新界西]{"entity":"district", "value":"新界西區"}[行山]{"entity":"hike", "value":"gohike"}
-      - 我想去[新界北]{"entity":"district", "value":"新界北區"}[郊遊]{"entity":"hike", "value":"gohike"}
-      - [港島]{"entity":"district", "value":"港島區"}[行山]{"entity":"hike", "value":"gohike"}
-      - [港島]{"entity":"district", "value":"港島區"}[郊游]{"entity":"hike", "value":"gohike"}
-      - [西貢]{"entity":"district", "value":"西貢區"}[行山徑]{"entity":"hike", "value":"gohike"}
-      - [西貢]{"entity":"district", "value":"西貢區"}[行山]{"entity":"hike", "value":"gohike"}
-      - [北區]{"entity":"district", "value":"新界北區"}[行山]{"entity":"hike", "value":"gohike"}
-      - [北區]{"entity":"district", "value":"新界北區"}有咩[山]{"entity":"hike", "value":"gohike"}
-      - [新界北]{"entity":"district", "value":"新界北區"}[行山]{"entity":"hike", "value":"gohike"}
-      - [新界北]{"entity":"district", "value":"新界北區"}有咩[行山徑]{"entity":"hike", "value":"gohike"}
-      - [北區]{"entity":"district", "value":"新界北區"}[行山]{"entity":"hike", "value":"gohike"}
-      - [大嶼山]{"entity":"district", "value":"大嶼山區"}[郊遊]{"entity":"hike", "value":"gohike"}
-      - [大嶼山]{"entity":"district", "value":"大嶼山區"}[行山]{"entity":"hike", "value":"gohike"}
-      - [大嶼山]{"entity":"district", "value":"大嶼山區"}[行山徑]{"entity":"hike", "value":"gohike"}
-      - [新界西]{"entity":"district", "value":"新界西區"}[遠足路線]{"entity":"hike", "value":"gohike"}
-      - [新界西]{"entity":"district", "value":"新界西區"}[行山路線]{"entity":"hike", "value":"gohike"}
-      - [新界西]{"entity":"district", "value":"新界西區"}[行山]{"entity":"hike", "value":"gohike"}
-      - [新界西]{"entity":"district", "value":"新界西區"}有咩[山]{"entity":"hike", "value":"gohike"}行
-      - [大西北]{"entity":"district", "value":"新界西區"}有咩[郊游]{"entity":"hike", "value":"gohike"}
+      - 我想去[港島]{"entity":"selected_district", "value":"港島區"}[行山]{"entity":"hike", "value":"行山"}
+      - 我想去[新界西]{"entity":"selected_district", "value":"新界西區"}[行山]{"entity":"hike", "value":"行山"}
+      - 我想去[新界北]{"entity":"selected_district", "value":"新界北區"}[郊遊]{"entity":"hike", "value":"行山"}
+      - [港島]{"entity":"selected_district", "value":"港島區"}[行山]{"entity":"hike", "value":"行山"}
+      - [港島]{"entity":"selected_district", "value":"港島區"}[郊游]{"entity":"hike", "value":"行山"}
+      - [西貢]{"entity":"selected_district", "value":"西貢區"}[行山徑]{"entity":"hike", "value":"gohike"}
+      - [西貢]{"entity":"selected_district", "value":"西貢區"}[行山]{"entity":"hike", "value":"行山"}
+      - [北區]{"entity":"selected_district", "value":"新界北區"}[行山]{"entity":"hike", "value":"行山"}
+      - [北區]{"entity":"selected_district", "value":"新界北區"}有咩[山]{"entity":"hike", "value":"行山徑"}
+      - [新界北]{"entity":"selected_district", "value":"新界北區"}[行山]{"entity":"hike", "value":"行山"}
+      - [新界北]{"entity":"selected_district", "value":"新界北區"}有咩[行山徑]{"entity":"hike", "value":"行山徑"}
+      - [北區]{"entity":"selected_district", "value":"新界北區"}[行山]{"entity":"hike", "value":"行山"}
+      - [大嶼山]{"entity":"selected_district", "value":"大嶼山區"}[郊遊]{"entity":"hike", "value":"行山"}
+      - [大嶼山]{"entity":"selected_district", "value":"大嶼山區"}[行山]{"entity":"hike", "value":"行山"}
+      - [大嶼山]{"entity":"selected_district", "value":"大嶼山區"}[行山徑]{"entity":"hike", "value":"行山徑"}
+      - [新界西]{"entity":"selected_district", "value":"新界西區"}[遠足路線]{"entity":"hike", "value":"行山徑"}
+      - [新界西]{"entity":"selected_district", "value":"新界西區"}[行山路線]{"entity":"hike", "value":"行山徑"}
+      - [新界西]{"entity":"selected_district", "value":"新界西區"}[行山]{"entity":"hike", "value":"行山"}
+      - [新界西]{"entity":"selected_district", "value":"新界西區"}有咩[山]{"entity":"hike", "value":"行山徑"}行
+      - [大西北]{"entity":"selected_district", "value":"新界西區"}有咩[郊游]{"entity":"hike", "value":"行山"}
 
   - intent: easy_hard_hike
     examples: |
-      - 我想行[容易]{"entity":"difficulty", "value":"1"}[行山徑]{"entity":"hike", "value":"gohike"}
-      - [輕鬆]{"entity":"difficulty", "value":"1"}[行山]{"entity":"hike", "value":"gohike"}好去處
-      - 有[挑戰性]{"entity":"easyhard"}嘅[行山路線]{"entity":"hike", "value":"gohike"}
-      - 有[難度]{"entity":"easyhard"}嘅[遠足路線]{"entity":"hike", "value":"gohike"}
-      - 有[挑戰性]{"entity":"easyhard"}[行山徑]{"entity":"hike", "value":"gohike"}
-      - 有[難度]{"entity":"easyhard"}[遠足路線]{"entity":"hike", "value":"gohike"}
+      - 我想行[容易]{"entity":"difficulty", "value":"1"}[行山徑]{"entity":"hike", "value":"行山徑"}
+      - [輕鬆]{"entity":"difficulty"sss, "value":"1"}[行山好去處]{"entity":"hike", "value":"行山徑"}
+      - 有[挑戰性]{"entity":"easyhard"}嘅[行山路線]{"entity":"hike", "value":"行山徑"}
+      - 有[難度]{"entity":"easyhard"}嘅[遠足路線]{"entity":"hike", "value":"行山徑"}
+      - 有[挑戰性]{"entity":"easyhard"}[行山徑]{"entity":"hike", "value":"行山徑"}
+      - 有[難度]{"entity":"easyhard"}[遠足路線]{"entity":"hike", "value":"行山徑"}
 
   - lookup: district
     examples: |
@@ -219,13 +235,17 @@ nlu:
       - 大嶼山區
       - 新界北區
 
-  - synonym: gohike
+  - synonym: 行山
     examples: |
       - 行山
       - 遠足
       - 登山
       - 郊遊
       - 郊游
+  
+  - synonym: 行山徑
+    examples: |
+      - 山
       - 郊遊徑
       - 郊野公園
       - 行山徑
@@ -274,15 +294,15 @@ nlu:
     
   - intent: i_want_to_hike
     examples: |
-      - 我想[行山]{"entity": "hike", "value": "gohike"}
-      - 我想去[行山]{"entity": "hike", "value": "gohike"}
-      - 我想去[登山]{"entity": "hike", "value": "gohike"}
-      - 我想去[遠足]{"entity": "hike", "value": "gohike"}
-      - 我想去[郊遊]{"entity": "hike", "value": "gohike"}
-      - [行山]{"entity": "hike", "value": "gohike"}
-      - [登山]{"entity": "hike", "value": "gohike"}
-      - [遠足]{"entity": "hike", "value": "gohike"}
-      - [郊遊]{"entity": "hike", "value": "gohike"}
+      - 我想[行山]{"entity": "hike", "value": "行山"}
+      - 我想去[行山]{"entity": "hike", "value": "行山"}
+      - 我想去[登山]{"entity": "hike", "value": "行山"}
+      - 我想去[遠足]{"entity": "hike", "value": "行山"}
+      - 我想去[郊遊]{"entity": "hike", "value": "行山"}
+      - [行山]{"entity": "hike", "value": "行山"}
+      - [登山]{"entity": "hike", "value": "行山"}
+      - [遠足]{"entity": "hike", "value": "行山"}
+      - [郊遊]{"entity": "hike", "value": "行山"}
 
   - intent: recommend_hiking_route
     examples: |

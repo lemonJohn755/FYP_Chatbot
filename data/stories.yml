@@ -5,42 +5,79 @@ stories:
   steps:
   - intent: greet
   - action: utter_welcome
-  - action: utter_list_functions
+  - action: utter_top_menu
   - checkpoint: greet_user
 
-- story: option_1_districts
+- story: hiking_trails_search
   steps:
-  - checkpoint: greet_user
-  - intent: functions_available
-    entities:
-    - choice: 地區
-  - slot_was_set:
-    - choice: 地區
-  - action: utter_say_user_chose
-  - intent: districts_available
-    entities:
-    - district
-  - slot_was_set:
-    - district
+    - checkpoint: greet_user
+    - intent: hiking_trails_search
+      entities: 
+      - choice: 行山徑
+    - slot_was_set:
+      - choice: 行山徑
+    - checkpoint: trails_search
+
+- story: hiking_info
+  steps:
+    - checkpoint: greet_user
+    - intent: hiking_info
+      entities:
+      - choice: 資訊
+    - slot_was_set:
+      - choice: 資訊
+    - checkpoint: hiking_info
+
+- story: trails_search_by_districts
+  steps:
+    - checkpoint: trails_search
+    - action: utter_trails_search_menu
+    - intent: trails_search_by_districts
+    - action: utter_ask_district
+    - intent: districts_available
+      entities:
+      - selected_district
+    - slot_was_set:
+      - selected_district
   - action: action_district_query
-  - checkpoint: story_complete
+  - checkpoint: story_complete      
 
-- story: option_2_difficulty
-  steps:
-  - checkpoint: greet_user
-  - intent: functions_available
-    entities:
-    - choice: 難度
-  - slot_was_set:
-    - choice: 難度
-  - action: utter_say_user_chose
-  - intent: difficulties_available
-    entities:
-    - difficulty
-  - slot_was_set:
-    - difficulty
-  - action: action_difficulty_query
-  - checkpoint: story_complete
+# - story: trails_search_by_lev
+
+
+# - story: option_1_districts
+#   steps:
+#   - checkpoint: greet_user
+#   - intent: functions_available
+#     entities:
+#     - choice: 地區
+#   - slot_was_set:
+#     - choice: 地區
+#   - action: utter_say_user_chose
+#   - intent: districts_available
+#     entities:
+#     - district
+#   - slot_was_set:
+#     - district
+#   - action: action_district_query
+#   - checkpoint: story_complete
+
+# - story: option_2_difficulty
+#   steps:
+#   - checkpoint: greet_user
+#   - intent: functions_available
+#     entities:
+#     - choice: 難度
+#   - slot_was_set:
+#     - choice: 難度
+#   - action: utter_say_user_chose
+#   - intent: difficulties_available
+#     entities:
+#     - difficulty
+#   - slot_was_set:
+#     - difficulty
+#   - action: action_difficulty_query
+#   - checkpoint: story_complete
 
 - story: conversation_query_select_districts
   steps:

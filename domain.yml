@@ -24,7 +24,7 @@ intents:
 entities:
   - weather
   - choice
-  - district
+  - selected_district
   - difficulty
   - forecast
   - recommend
@@ -32,6 +32,8 @@ entities:
   - hike
   - easyhard
   - safety_caution
+  - HK
+  - districts
 
 slots:
   choice:
@@ -41,12 +43,12 @@ slots:
     - type: from_entity
       entity: choice
   
-  district:
+  selected_district:
     type: text
     influence_conversation: true
     mappings:
     - type: from_entity
-      entity: district
+      entity: selected_district
 
   difficulty:
     type: text
@@ -64,9 +66,9 @@ slots:
 
 forms:
   choice_form:
-    ignored_intents:
-      - difficulty
-      - district
+    # ignored_intents:
+    #   - difficulty
+    #   - district
     required_slots:
       - choice
   
@@ -111,17 +113,21 @@ responses:
   utter_iamabot:
   - text: '我係一個由 Rasa 驅動嘅聊天機械人 :robot:'
 
-  utter_list_functions:
+  utter_top_menu:
   - text: "我可以推供行山資訊，請選擇："
     buttons:
       - title: "行山徑查詢"
-        payload: ''
+        payload: '/hiking_trails_search{{"choice":"trails"}}'
       - title: "行山相開資訊"
-        payload: ''
-      #- title: "依照地區推介"
-      #  payload: '/functions_available{{"choice":"地區"}}'
-      #- title: "依照難度推介"
-      #  payload: '/functions_available{{"choice":"難度"}}'a
+        payload: '/hiking_info{{"choice":"info"}}'
+
+  utter_trails_search_menu:
+  - text: "查詢行山徑可以："
+    buttons:
+      - title: "依照地區推介"
+        payload: '/trails_search_by_districts{{"choice":"地區"}}'
+      - title: "依照難度推介"
+        payload: '/trails_search_by_lev{{"choice":"難度"}}'
 
   
   utter_ask_district:
