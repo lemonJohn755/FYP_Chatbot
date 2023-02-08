@@ -12,20 +12,20 @@ stories:
   steps:
     - checkpoint: greet_user
     - intent: hiking_trails_search
-      entities: 
-      - choice: 行山徑
-    - slot_was_set:
-      - choice: 行山徑
+    #   entities: 
+    #   - choice: 行山徑
+    # - slot_was_set:
+    #   - choice: 行山徑
     - checkpoint: trails_search
 
 - story: hiking_info
   steps:
     - checkpoint: greet_user
     - intent: hiking_info
-      entities:
-      - choice: 資訊
-    - slot_was_set:
-      - choice: 資訊
+    #   entities:
+    #   - choice: 資訊
+    # - slot_was_set:
+    #   - choice: 資訊
     - checkpoint: hiking_info
 
 - story: trails_search_by_districts
@@ -39,8 +39,8 @@ stories:
       - selected_district
     - slot_was_set:
       - selected_district
-  - action: action_district_query
-  - checkpoint: story_complete      
+    - action: action_district_query
+    - checkpoint: story_complete
 
 # - story: trails_search_by_lev
 
@@ -79,93 +79,93 @@ stories:
 #   - action: action_difficulty_query
 #   - checkpoint: story_complete
 
-- story: conversation_query_select_districts
-  steps:
-  - checkpoint: greet_user
-  - intent: i_want_to_hike
-    entities:
-    - hike: gohike
-  - slot_was_set:
-    - hike: gohike
-  - action: utter_ask_district
-  - intent: districts_available
-    entities:
-    - district
-  - slot_was_set:
-    - district
-  - action: action_district_query
-  - checkpoint: story_complete
+### change later
+# - story: conversation_query_select_districts
+#   steps:
+#   - checkpoint: greet_user
+#   - intent: i_want_to_hike
+#     entities:
+#     - hike: gohike
+#   - slot_was_set:
+#     - hike: gohike
+#   - action: utter_ask_district
+#   - intent: districts_available
+#     entities:
+#     - district
+#   - slot_was_set:
+#     - district
+#   - action: action_district_query
+#   - checkpoint: story_complete
 
-- story: conversation_where_to_hike
-  steps:
-  - checkpoint: greet_user
-  - intent: where_to_hike
-    entities:
-    - hike: gohike
-    - district
-  - slot_was_set:
-    - district
-  - slot_was_set:
-    - hike: gohike
-  - action: action_district_query
-  - checkpoint: story_complete
+# - story: conversation_where_to_hike
+#   steps:
+#   - checkpoint: greet_user
+#   - intent: where_to_hike
+#     entities:
+#     - hike
+#     - district
+#   - slot_was_set:
+#     - selected_district
+#   - slot_was_set:
+#     - hike
+#   - action: action_district_query
+#   - checkpoint: story_complete
 
-- story: conversation_easyHard_to_hike (easiest)
-  steps:
-  - checkpoint: greet_user
-  - intent: easy_hard_hike
-    entities:
-    - hike: gohike
-    - difficulty: 1
-  - action: action_difficulty_query
-  - checkpoint: query_done
+# - story: conversation_easyHard_to_hike (easiest)
+#   steps:
+#   - checkpoint: greet_user
+#   - intent: easy_hard_hike
+#     entities:
+#     - hike
+#     - difficulty: 1
+#   - action: action_difficulty_query
+#   - checkpoint: query_done
 
-- story: want_to_see_other_difficulty
-  steps:
-  - checkpoint: query_done
-  - action: utter_do_you_want_to_see_other_difficulties
-  - intent: affirm
-  - action: utter_ask_difficulties
-  - intent: difficulties_available
-    entities:
-    - difficulty
-  - action: action_difficulty_query
-  - checkpoint: story_complete
+# - story: want_to_see_other_difficulty
+#   steps:
+#   - checkpoint: query_done
+#   - action: utter_do_you_want_to_see_other_difficulties
+#   - intent: affirm
+#   - action: utter_ask_difficulties
+#   - intent: difficulties_available
+#     entities:
+#     - difficulty
+#   - action: action_difficulty_query
+#   - checkpoint: story_complete
 
-- story: DON'T_want_to_see_other_difficulty
-  steps:
-  - checkpoint: query_done
-  - action: utter_do_you_want_to_see_other_difficulties
-  - intent: deny
-  - checkpoint: story_complete
+# - story: DON'T_want_to_see_other_difficulty
+#   steps:
+#   - checkpoint: query_done
+#   - action: utter_do_you_want_to_see_other_difficulties
+#   - intent: deny
+#   - checkpoint: story_complete
 
-- story: conversation_easyHard_to_hike (ask difficulty lev)
-  steps:
-  - checkpoint: greet_user
-  - intent: easy_hard_hike
-    entities:
-    - hike: gohike
-    - easyhard
-  - action: utter_ask_difficulties
-  - intent: difficulties_available
-    entities:
-    - difficulty
-  - action: action_difficulty_query
-  - checkpoint: story_complete
+# - story: conversation_easyHard_to_hike (ask difficulty lev)
+#   steps:
+#   - checkpoint: greet_user
+#   - intent: easy_hard_hike
+#     entities:
+#     - hike: gohike
+#     - easyhard
+#   - action: utter_ask_difficulties
+#   - intent: difficulties_available
+#     entities:
+#     - difficulty
+#   - action: action_difficulty_query
+#   - checkpoint: story_complete
 
-- story: 天氣
-  steps:
-  - checkpoint: greet_user
-  - intent: check_weather
-    entities:
-    - weather: 天氣
-  - action: action_inquire_weather
-  - checkpoint: story_complete
+# - story: 天氣
+#   steps:
+#   - checkpoint: greet_user
+#   - intent: check_weather
+#     entities:
+#     - weather: 天氣
+#   - action: action_inquire_weather
+#   - checkpoint: story_complete
 
 - story: loop_again
   steps:
   - checkpoint: story_complete
-  - action: action_reset_all_slots
-  - action: utter_list_functions
+  - action: utter_top_menu
   - intent: functions_available
-  - active_loop: choice_form
+  # - active_loop: choice_form

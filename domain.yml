@@ -1,4 +1,4 @@
-version: '3.0'
+version: '3.1'
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -20,6 +20,10 @@ intents:
   - check_weather
   - where_to_hike
   - easy_hard_hike
+  - hiking_trails_search
+  - thank_you
+  - hiking_info
+  - trails_search_by_districts
 
 entities:
   - weather
@@ -125,24 +129,24 @@ responses:
   - text: "查詢行山徑可以："
     buttons:
       - title: "依照地區推介"
-        payload: '/trails_search_by_districts{{"choice":"地區"}}'
+        payload: '/trails_search_by_districts'
       - title: "依照難度推介"
-        payload: '/trails_search_by_lev{{"choice":"難度"}}'
+        payload: '/trails_search_by_lev'
 
   
   utter_ask_district:
   - text: "請選擇地區:\n1)新界北區\n2)港島區\n3)西貢區\n4)新界西區\n5)大嶼山區"
     buttons:
       - title: "新界北區"
-        payload: '/districts_available{{"district":"新界北區"}}'
+        payload: '/districts_available{{"selected_district":"新界北區"}}'
       - title: "港島區"
-        payload: '/districts_available{{"district":"港島區"}}'
+        payload: '/districts_available{{"selected_district":"港島區"}}'
       - title: "西貢區"
-        payload: '/districts_available{{"district":"西貢區"}}'
+        payload: '/districts_available{{"selected_district":"西貢區"}}'
       - title: "新界西區"
-        payload: '/districts_available{{"district":"新界西區"}}'
+        payload: '/districts_available{{"selected_district":"新界西區"}}'
       - title: "大嶼山區"
-        payload: '/districts_available{{"district":"大嶼山區"}}'
+        payload: '/districts_available{{"selected_district":"大嶼山區"}}'
 
   utter_do_you_want_to_see_other_difficulties:
   - text: 睇唔睇埋其他難度行山徑?

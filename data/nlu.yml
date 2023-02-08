@@ -155,7 +155,7 @@ nlu:
       - 我想搵吓[行山]{"entity": "hike", "value": "行山"}[徑]{"entity":"choice", "value":"行山徑"}
       - [行山]{"entity": "hike", "value": "行山"}有咩[好去處]{"entity":"choice", "value":"行山徑"}
       - 有咩[遠足]{"entity": "hike", "value": "行山"}[路線]{"entity":"choice", "value":"行山徑"}
-      - [郊野公園]{"entity":"choice", "value":"trails"}[行山]{"entity": "hike", "value": "行山"}
+      - [郊野公園]{"entity":"choice", "value":"行山徑"}[行山]{"entity": "hike", "value": "行山"}
       - [郊遊]{"entity": "hike", "value": "行山"}[路線]{"entity":"choice", "value":"行山徑"}
   
   - intent: trails_search_by_districts
@@ -201,7 +201,7 @@ nlu:
       - 我想去[新界北]{"entity":"selected_district", "value":"新界北區"}[郊遊]{"entity":"hike", "value":"行山"}
       - [港島]{"entity":"selected_district", "value":"港島區"}[行山]{"entity":"hike", "value":"行山"}
       - [港島]{"entity":"selected_district", "value":"港島區"}[郊游]{"entity":"hike", "value":"行山"}
-      - [西貢]{"entity":"selected_district", "value":"西貢區"}[行山徑]{"entity":"hike", "value":"gohike"}
+      - [西貢]{"entity":"selected_district", "value":"西貢區"}[行山徑]{"entity":"hike", "value":"行山徑"}
       - [西貢]{"entity":"selected_district", "value":"西貢區"}[行山]{"entity":"hike", "value":"行山"}
       - [北區]{"entity":"selected_district", "value":"新界北區"}[行山]{"entity":"hike", "value":"行山"}
       - [北區]{"entity":"selected_district", "value":"新界北區"}有咩[山]{"entity":"hike", "value":"行山徑"}
@@ -220,13 +220,13 @@ nlu:
   - intent: easy_hard_hike
     examples: |
       - 我想行[容易]{"entity":"difficulty", "value":"1"}[行山徑]{"entity":"hike", "value":"行山徑"}
-      - [輕鬆]{"entity":"difficulty"sss, "value":"1"}[行山好去處]{"entity":"hike", "value":"行山徑"}
+      - [輕鬆]{"entity":"difficulty", "value":"1"}[行山好去處]{"entity":"hike", "value":"行山徑"}
       - 有[挑戰性]{"entity":"easyhard"}嘅[行山路線]{"entity":"hike", "value":"行山徑"}
       - 有[難度]{"entity":"easyhard"}嘅[遠足路線]{"entity":"hike", "value":"行山徑"}
       - 有[挑戰性]{"entity":"easyhard"}[行山徑]{"entity":"hike", "value":"行山徑"}
       - 有[難度]{"entity":"easyhard"}[遠足路線]{"entity":"hike", "value":"行山徑"}
 
-  - lookup: district
+  - lookup: selected_district
     examples: |
       - 新界北區
       - 港島區
@@ -306,16 +306,16 @@ nlu:
 
   - intent: recommend_hiking_route
     examples: |
-      - 有咩[山]{"entity": "hike", "value": "gohike"}[好行](recommend)?
-      - 有咩[行山徑]{"entity": "hike", "value": "gohike"}[好行](recommend)?
-      - 有咩[山]{"entity": "hike", "value": "gohike"}[推薦(recommend)?
-      - 有咩[行山徑]{"entity": "hike", "value": "gohike"}[推薦](recommend)?
-      - 有乜野[遠足路線]{"entity": "hike", "value": "gohike"}[推薦](recommend)?
-      - [推薦](recommend)[郊遊徑]{"entity": "hike", "value": "gohike"}?
-      - [推薦](recommend)[行山地方]{"entity": "hike", "value": "gohike"}?
-      - 我想知有咩[行山]{"entity": "hike", "value": "gohike"}[好去處](recommend)?
-      - 我想知有咩[行山路線]{"entity": "hike", "value": "gohike"}
-      - [行山徑]{"entity": "hike", "value": "gohike"}[推薦](recommend)
+      - 有咩[山]{"entity": "hike", "value": "行山徑"}[好行](recommend)?
+      - 有咩[行山徑]{"entity": "hike", "value": "行山徑"}[好行](recommend)?
+      - 有咩[山]{"entity": "hike", "value": "行山徑"}[推薦(recommend)?
+      - 有咩[行山徑]{"entity": "hike", "value": "行山徑"}[推薦](recommend)?
+      - 有乜野[遠足路線]{"entity": "hike", "value": "行山徑"}[推薦](recommend)?
+      - [推薦](recommend)[郊遊徑]{"entity": "hike", "value": "行山徑"}?
+      - [推薦](recommend)[行山地方]{"entity": "hike", "value": "行山徑"}?
+      - 我想知有咩[行山好去處]{"entity": "hike", "value": "行山徑"}?
+      - 我想知有咩[行山路線]{"entity": "hike", "行山徑": "行山徑"}
+      - [行山徑]{"entity": "hike", "value": "行山徑"}[推薦](recommend)
 
   - intent: check_weather
     examples: |
@@ -332,11 +332,11 @@ nlu:
   
   - intent: hiking_caution
     examples: |
-      - [行山]{"entity": "hike", "value": "gohike"}有咩[安全事項](safety_caution)
-      - [遠足]{"entity": "hike", "value": "gohike"}要[注意事項](safety_caution)
-      - [郊遊]{"entity": "hike", "value": "gohike"}有乜嘢要[注意](safety_caution)
+      - [行山]{"entity": "hike", "value": "行山"}有咩[安全事項](safety_caution)
+      - [遠足]{"entity": "hike", "value": "行山"}要[注意事項](safety_caution)
+      - [郊遊]{"entity": "hike", "value": "行山"}有乜嘢要[注意](safety_caution)
 
-  - synonyms: safety_caution
+  - synonym: safety_caution
     examples: |
       - 安全
       - 安全事項

@@ -8,7 +8,7 @@ rules:
     - intent: greet
     - intent: start
   - action: utter_welcome
-  - action: utter_list_functions
+  - action: utter_top_menu
 
 - rule: Say goodbye anytime the user says goodbye
   steps:
