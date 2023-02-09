@@ -24,6 +24,7 @@ intents:
   - thank_you
   - hiking_info
   - trails_search_by_districts
+  - trails_search_by_lev
 
 entities:
   - weather
@@ -38,6 +39,7 @@ entities:
   - safety_caution
   - HK
   - districts
+  - lev
 
 slots:
   choice:
@@ -121,7 +123,7 @@ responses:
   - text: "我可以推供行山資訊，請選擇："
     buttons:
       - title: "行山徑查詢"
-        payload: '/hiking_trails_search{{"choice":"trails"}}'
+        payload: '/hiking_trails_search{{"choice":"行山徑"}}'
       - title: "行山相開資訊"
         payload: '/hiking_info{{"choice":"info"}}'
 

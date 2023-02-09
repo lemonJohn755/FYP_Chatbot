@@ -1,0 +1,27 @@
+digraph  {
+0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
+"-1" [class=end, fillcolor=red, fontsize=12, label=END, style=filled];
+1 [class=active, fontsize=12, label=action_session_start];
+2 [class=active, fontsize=12, label=utter_welcome];
+3 [class=active, fontsize=12, label=utter_top_menu];
+4 [class=active, fontsize=12, label=utter_trails_search_menu];
+5 [class=active, fontsize=12, label=utter_ask_difficulties];
+6 [class=active, fontsize=12, label=action_difficulty_query];
+7 [class="intent dashed active", label="  ?  ", shape=rect];
+8 [class="intent active", fillcolor=lightblue, label="/greet", shape=rect, style=filled];
+9 [class="intent active", fillcolor=lightblue, label="/hiking_trails_search", shape=rect, style=filled];
+10 [class="intent active", fillcolor=lightblue, label="/trails_search_by_lev", shape=rect, style=filled];
+11 [class="intent active", fillcolor=lightblue, label="/difficulties_available", shape=rect, style=filled];
+0 -> "-1"  [class="", key=NONE, label=""];
+0 -> 1  [class=active, key=NONE, label=""];
+1 -> 8  [class=active, key=0];
+2 -> 3  [class=active, key=NONE, label=""];
+3 -> 9  [class=active, key=0];
+4 -> 10  [class=active, key=0];
+5 -> 11  [class=active, key=0];
+6 -> 7  [class=active, key=NONE, label=""];
+8 -> 2  [class=active, key=0];
+9 -> 4  [class=active, key=0];
+10 -> 5  [class=active, key=0];
+11 -> 6  [class=active, key=0];
+}

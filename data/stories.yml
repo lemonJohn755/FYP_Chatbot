@@ -12,20 +12,16 @@ stories:
   steps:
     - checkpoint: greet_user
     - intent: hiking_trails_search
-    #   entities: 
-    #   - choice: 行山徑
-    # - slot_was_set:
-    #   - choice: 行山徑
+      entities:
+      - choice: 行山徑
     - checkpoint: trails_search
 
 - story: hiking_info
   steps:
     - checkpoint: greet_user
     - intent: hiking_info
-    #   entities:
-    #   - choice: 資訊
-    # - slot_was_set:
-    #   - choice: 資訊
+      entities:
+      - choice: 資訊
     - checkpoint: hiking_info
 
 - story: trails_search_by_districts
@@ -42,7 +38,20 @@ stories:
     - action: action_district_query
     - checkpoint: story_complete
 
-# - story: trails_search_by_lev
+- story: trails_search_by_lev
+  steps:
+    - checkpoint: trails_search
+    - action: utter_trails_search_menu
+    - intent: trails_search_by_lev
+      entities:
+      - lev
+    - action: utter_ask_difficulties
+    - intent: difficulties_available
+      entities:
+      - difficulty
+    - slot_was_set:
+      - difficulty
+    - action: action_difficulty_query
 
 
 # - story: option_1_districts
