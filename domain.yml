@@ -40,6 +40,7 @@ entities:
   - HK
   - districts
   - lev
+  - prepare
 
 slots:
   choice:
@@ -135,6 +136,15 @@ responses:
       - title: "依照難度推介"
         payload: '/trails_search_by_lev'
 
+  utter_hiking_info_menu:
+  - text: "我可以提供以下行山資訊"
+    buttons:
+      - title: "行山安全需知"
+        payload: '/hiking_caution'
+      - title: "行山前準備"
+        payload: '/hiking_caution'
+      - title: "常見意外"
+        payload: '/common_accidents'
   
   utter_ask_district:
   - text: "請選擇地區:\n1)新界北區\n2)港島區\n3)西貢區\n4)新界西區\n5)大嶼山區"
@@ -205,6 +215,9 @@ responses:
         payload: '/difficulties_available{{"difficulty":"難度4"}}'
       - title: "5"
         payload: '/difficulties_available{{"difficulty":"難度5"}}'
+
+  utter_hiking_caution:
+  - text: "請參考「郊野公園遠足安全指引」 https://bit.ly/3YDBZ3x"
 
   utter_out_of_scope:
   - text: "對唔住，我處理唔到你啲要求"

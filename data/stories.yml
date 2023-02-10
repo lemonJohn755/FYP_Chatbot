@@ -52,6 +52,13 @@ stories:
     - action: action_difficulty_query
     - checkpoint: story_complete
 
+- story: hiking_caution
+    - checkpoint: hiking_info
+    - action: utter_hiking_info_menu
+    - intent: hiking_caution
+    - action: utter_hiking_caution
+    - checkpoint: story_complete
+
 # - story: option_1_districts
 #   steps:
 #   - checkpoint: greet_user

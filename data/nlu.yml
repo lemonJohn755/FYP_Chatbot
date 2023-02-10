@@ -332,11 +332,11 @@ nlu:
   
   - intent: hiking_caution
     examples: |
-      - [行山]{"entity": "hike", "value": "行山"}有咩[安全事項](safety_caution)
-      - [遠足]{"entity": "hike", "value": "行山"}要[注意事項](safety_caution)
-      - [郊遊]{"entity": "hike", "value": "行山"}有乜嘢要[注意](safety_caution)
+      - [行山]{"entity": "hike", "value": "行山"}有咩[安全事項](安全注意)
+      - [遠足]{"entity": "hike", "value": "行山"}要[注意事項](安全注意)
+      - [郊遊]{"entity": "hike", "value": "行山"}有乜嘢要[注意](安全注意)
 
-  - synonym: safety_caution
+  - synonym: 安全注意
     examples: |
       - 安全
       - 安全事項
@@ -344,3 +344,19 @@ nlu:
       - 安全指引
       - 注意
       - 注意事項
+  
+  - intent: before_hiking_preparation
+    examples: |
+      - [行山]{"entity": "hike", "value": "行山"}有咩[準備]{"entity":"prepare", "value":"準備"}
+      - [遠足]{"entity": "hike", "value": "行山"}前[預備]{"entity":"prepare", "value":"準備"}
+      - [事前預備]{"entity":"prepare", "value":"準備"}
+  
+  - synonym: 準備
+    examples: |
+      - 準備
+      - 預備
+      - 事前預備
+  
+  - intent: common_accidents
+    examples: |
+      - 常見意外
