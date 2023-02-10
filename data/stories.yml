@@ -43,8 +43,6 @@ stories:
     - checkpoint: trails_search
     - action: utter_trails_search_menu
     - intent: trails_search_by_lev
-      entities:
-      - lev
     - action: utter_ask_difficulties
     - intent: difficulties_available
       entities:
@@ -52,7 +50,7 @@ stories:
     - slot_was_set:
       - difficulty
     - action: action_difficulty_query
-
+    - checkpoint: story_complete
 
 # - story: option_1_districts
 #   steps:
