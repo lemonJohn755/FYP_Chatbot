@@ -53,6 +53,7 @@ stories:
     - checkpoint: story_complete
 
 - story: hiking_caution
+  steps:
     - checkpoint: hiking_info
     - action: utter_hiking_info_menu
     - intent: hiking_caution
@@ -180,6 +181,7 @@ stories:
 - story: loop_again
   steps:
   - checkpoint: story_complete
+  - action: action_reset_all_slots
   - action: utter_top_menu
   - intent: functions_available
-  # - active_loop: choice_form
+  - active_loop: choice_form

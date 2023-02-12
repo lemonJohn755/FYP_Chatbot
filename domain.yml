@@ -25,6 +25,7 @@ intents:
   - hiking_info
   - trails_search_by_districts
   - trails_search_by_lev
+  - hiking_caution
 
 entities:
   - weather
@@ -126,7 +127,7 @@ responses:
       - title: "行山徑查詢"
         payload: '/hiking_trails_search{{"choice":"行山徑"}}'
       - title: "行山相開資訊"
-        payload: '/hiking_info{{"choice":"info"}}'
+        payload: '/hiking_info{{"choice":"資訊"}}'
 
   utter_trails_search_menu:
   - text: "查詢行山徑可以："
@@ -217,7 +218,20 @@ responses:
         payload: '/difficulties_available{{"difficulty":"難度5"}}'
 
   utter_hiking_caution:
-  - text: "請參考「郊野公園遠足安全指引」 https://bit.ly/3YDBZ3x"
+  - text: "遠足安全守則\n
+      1. 出發前應注意天氣情況，尤其要留意是否會有雷暴、風雨或氣溫驟降等情況；\n
+      2. 應清楚了解將行經的地區，留意警署，郊野公園管理站及求救電話的位置；\n
+      3. 留意火災危險警告訊號，如果當日天氣乾燥，切勿隨便生火；\n
+      4. 必須穿著適當的衣物及行山鞋，並帶備太陽帽及行山手杖；\n
+      5. 應攜帶以下物品：地圖、指南針、急救藥品、電筒、哨子、紙筆、禦寒衣物、雨具、後備食糧、充足的食水，以及通訊器材如流動電話；\n
+      6. 為方便行走和攀山，請將第5項所述的物品妥善地放在背囊內；\n
+      7. 應結伴同行，確保同行者中有具備遠足經驗及急救知識的人士；\n
+      8. 如在山野間迷途，應選擇原路折返，切勿強行前進；\n
+      9. 旅程中如遇上意外，應盡快尋求協助。\n
+      來源：香港攀山協會 遠足及露營活動安全指引 http://www.hkma.net/mountain_safety.html\n
+      其他相關網頁:\n
+      1. 漁護署 郊野公園遠足安全指引 https://www.afcd.gov.hk/tc_chi/country/cou_vis/cou_vis_gac/cou_wha_whe_sat.html\n
+      2. 民安隊 遠足活動安全須知 https://www.cas.gov.hk/chi/safe/hikingsafety.html\n"
 
   utter_out_of_scope:
   - text: "對唔住，我處理唔到你啲要求"
