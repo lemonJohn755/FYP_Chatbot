@@ -2,6 +2,7 @@ digraph  {
 0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
 "-1" [class=end, fillcolor=red, fontsize=12, label=END, style=filled];
 1 [class=active, fontsize=12, label=action_session_start];
+<<<<<<< Updated upstream
 2 [class=active, fontsize=12, label=utter_welcome];
 3 [class=active, fontsize=12, label=utter_top_menu];
 4 [class=active, fontsize=12, label=utter_trails_search_menu];
@@ -24,4 +25,16 @@ digraph  {
 9 -> 4  [class=active, key=0];
 10 -> 5  [class=active, key=0];
 11 -> 6  [class=active, key=0];
+=======
+2 [class=active, fontsize=12, label=utter_ask_district];
+3 [class="dashed active", fontsize=12, label=action_district_query];
+4 [class="intent active", fillcolor=lightblue, label="/i_want_to_hike", shape=rect, style=filled];
+5 [class="intent active", fillcolor=lightblue, label="/districts_available", shape=rect, style=filled];
+0 -> "-1"  [class="", key=NONE, label=""];
+0 -> 1  [class=active, key=NONE, label=""];
+1 -> 4  [class=active, key=0];
+2 -> 5  [class=active, key=0];
+4 -> 2  [class=active, key=0];
+5 -> 3  [class=active, key=0];
+>>>>>>> Stashed changes
 }

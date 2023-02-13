@@ -180,19 +180,19 @@ nlu:
       - [郊遊]{"entity": "hike", "value": "行山"}[貼士]{"entity":"choice", "value":"資訊"}
       - [行山]{"entity": "hike", "value": "行山"}[小貼士]{"entity":"choice", "value":"資訊"}
 
-  - intent: districts_available
-    examples: |
-      - [港島區](selected_district)
-      - [港島]{"entity":"selected_district", "value":"港島區"}
-      - [新界北區](selected_district)
-      - [新界北]{"entity":"selected_district", "value":"新界北區"}
-      - [北區]{"entity":"selected_district", "value":"新界北區"}
-      - [西貢區](selected_district)
-      - [西貢]{"entity":"selected_district", "value":"西貢區"}
-      - [新界西區](selected_district)
-      - [新界西]{"entity":"selected_district", "value":"新界西區"}
-      - [大嶼山區](selected_district)
-      - [大嶼山]{"entity":"selected_district", "value":"大嶼山區"}
+  # - intent: districts_available
+  #   examples: |
+  #     - [港島區](district)
+  #     - [港島]{"entity":"district", "value":"港島區"}
+  #     - [新界北區](district)
+  #     - [新界北]{"entity":"district", "value":"新界北區"}
+  #     - [北區]{"entity":"district", "value":"新界北區"}
+  #     - [西貢區](district)
+  #     - [西貢]{"entity":"district", "value":"西貢區"}
+  #     - [新界西區](district)
+  #     - [新界西]{"entity":"district", "value":"新界西區"}
+  #     - [大嶼山區](district)
+  #     - [大嶼山]{"entity":"district", "value":"大嶼山區"}
 
   - intent: where_to_hike
     examples: |
