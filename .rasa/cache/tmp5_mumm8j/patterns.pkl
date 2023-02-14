@@ -1,0 +1,10 @@
+[
+  {
+    "name": "selected_district",
+    "pattern": "(新界北區|港島區|西貢區|新界西區|大嶼山區|新界北區)"
+  },
+  {
+    "name": "difficulties_available",
+    "pattern": "(\\[難度1\\]\\(difficulty\\)|\\[難度2\\]\\(difficulty\\)|\\[難度3\\]\\(difficulty\\)|\\[難度4\\]\\(difficulty\\)|\\[難度5\\]\\(difficulty\\))"
+  }
+]
