@@ -74,27 +74,24 @@ slots:
 
 forms:
   choice_form:
-    # ignored_intents:
-    #   - difficulty
-    #   - district
     required_slots:
       - choice
   
   district_form:
-    ignored_intents:
-      - choice
+    # ignored_intents:
+    #   - choice
     required_slots:
       - district
   
   difficulty_form:
-    ignored_intents:
-      - choice
+    # ignored_intents:
+    #   - choice
     required_slots:
       - difficulty
   
   hiking_form:
-    ignored_intents:
-      - choice
+    # ignored_intents:
+    #   - choice
     required_slots:
       - hike
 
@@ -133,9 +130,9 @@ responses:
   - text: "查詢行山徑可以："
     buttons:
       - title: "依照地區推介"
-        payload: '/trails_search_by_districts'
+        payload: '/trails_search_by_districts{{"districts":"地區"}}'
       - title: "依照難度推介"
-        payload: '/trails_search_by_lev'
+        payload: '/trails_search_by_lev{{"lev":"程度"}}'
 
   utter_hiking_info_menu:
   - text: "我可以提供以下行山資訊"

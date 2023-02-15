@@ -1,91 +1,69 @@
-#### This file contains tests to evaluate that your bot behaves as expected.
-#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
-
 stories:
-- story: happy path 1
-  steps:
-  - user: |
-      hello there!
-    intent: greet
-  - action: utter_greet
-  - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
-
-- story: happy path 2
-  steps:
-  - user: |
-      hello there!
-    intent: greet
-  - action: utter_greet
-  - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
-  - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
-
-- story: sad path 1
-  steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      yes
-    intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      not really
-    intent: deny
-  - action: utter_goodbye
-
-- story: sad path 3
+- story: search_trails_by_districts
   steps:
   - user: |
       hi
-    intent: greet
-  - action: utter_greet
+  - intent: greet
+  - action: utter_welcome
+  - action: utter_top_menu
   - user: |
-      very terrible
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
+      [行山]{"entity": "hike", "value": "行山"}[路線查詢]{"entity":"choice", "value":"行山徑"}
+  - intent: hiking_trails_search
+    entities:
+    - choice: 行山徑
+  - slot_was_set:
+    - choice: 行山徑
+  - action: utter_trails_search_menu  # predicted: action_default_fallback
   - user: |
-      no
-    intent: deny
-  - action: utter_goodbye
+      依照[地區]{"entity":"districts", "value":"地區"}推介
+  - intent: trails_search_by_districts
+    entities:
+    - districts: 地區
+  - action: utter_ask_district
+  - user: |
+      [港島]{"entity":"selected_district", "value":"港島區"}
+  - intent: districts_available
+    entities:
+    - selected_district: 
+  - slot_was_set:
+    - selected_district: 
+  - action: action_district_query
 
-- story: say goodbye
+- story: search_trails_by_lev
   steps:
-  - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
+  - intent: greet
+  - action: utter_welcome
+  - action: utter_top_menu
+  - intent: hiking_trails_search
+    entities:
+    - choice: 行山徑
+  - slot_was_set:
+    - choice: 行山徑
+  - action: utter_trails_search_menu 
+  - intent: trails_search_by_lev
+  - action: utter_trails_search_menu 
+  - intent: trails_search_by_lev
+  - action: utter_ask_difficulties 
+  - intent: difficulties_available
+    entities:
+    - difficulty
+  - slot_was_set:
+    - difficulty
+  - action: action_difficulty_query
 
-- story: bot challenge
+- story: interactive_story_3 (.\tests\test_stories.yml)
   steps:
-  - user: |
-      are you a bot?
-    intent: bot_challenge
-  - action: utter_iamabot
+  - intent: greet
+  - action: utter_welcome
+  - action: utter_top_menu
+  - intent: hiking_info
+    entities:
+    - choice: 資訊
+  - slot_was_set:
+    - choice: 資訊
+  - slot_was_set:
+    - choice: 資訊
+  - action: utter_hiking_info_menu
+  - intent: hiking_caution
+  - action: utter_hiking_caution
+  - action: action_listen  # predicted: utter_top_menu
