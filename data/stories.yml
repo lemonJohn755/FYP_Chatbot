@@ -1,7 +1,7 @@
 version: '3.1'
 
 stories:
-- story: trails_by_districts
+- story: btn_trails_by_districts
   steps:
   - intent: greet
   - action: utter_welcome
@@ -24,7 +24,7 @@ stories:
   - action: action_district_query
   - action: action_reset_all_slots
 
-- story: trails_by_lev
+- story: btn_trails_by_lev
   steps:
   - intent: greet
   - action: utter_welcome
@@ -47,7 +47,7 @@ stories:
   - action: action_difficulty_query
   - action: action_reset_all_slots
 
-- story: safety_caution
+- story: btn_safety_caution
   steps:
   - intent: greet
   - action: utter_welcome
@@ -62,7 +62,7 @@ stories:
   - action: utter_hiking_caution
   - action: action_reset_all_slots
 
-- story: checklist
+- story: btn_checklist
   steps:
   - intent: greet
   - action: utter_welcome
@@ -76,7 +76,7 @@ stories:
   - intent: checklist
   - action: utter_checklist
 
-- story: common_accidents
+- story: btn_common_accidents
   steps:
   - intent: greet
   - action: utter_welcome
