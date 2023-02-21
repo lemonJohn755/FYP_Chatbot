@@ -26,7 +26,10 @@
 #
 #         return []
 
+import json
+import os
 from typing import Any, Text, Dict, List
+from dotenv import dotenv_values
 
 from rasa_sdk.events import SlotSet
 from rasa_sdk import Action, Tracker
@@ -35,6 +38,9 @@ from rasa_sdk.events import AllSlotsReset
 import requests
 import mysql.connector
 
+# Open and read the JSON file
+with open('/Users/johnjohn/Documents/FYP_Chatbot/actions/env.json', 'r') as f:
+    env_vars = json.load(f)
 
 class ActionChooseFunction(Action):
     def name(self) -> Text:
@@ -71,10 +77,10 @@ class ActionChooseDistrict(Action):
 
     def district_db_query(district):
         mydb = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="root",
-            database="FYP_Chatbot"
+            host = env_vars['DB_HOST'],
+            user = env_vars['DB_USER'],
+            password = env_vars['DB_PASSWORD'],
+            database = env_vars['DB_NAME']
         )
 
         mycursor = mydb.cursor()
@@ -130,10 +136,10 @@ class ActionChooseDifficulty(Action):
 
     def district_db_query(difficulty):
         mydb = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="root",
-            database="FYP_Chatbot"
+            host = env_vars['DB_HOST'],
+            user = env_vars['DB_USER'],
+            password = env_vars['DB_PASSWORD'],
+            database = env_vars['DB_NAME']
         )
         
         mycursor = mydb.cursor()
@@ -181,6 +187,55 @@ class ActionChooseDifficulty(Action):
     #     response = await requests.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc").json()
 
     #     return response """
+
+class ActionAccidentQuery(Action):
+    def name(self) -> Text:
+        return "action_accident_query"
+    
+    def run(self, dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        return []
+    
+    def district_db_query(difficulty):
+        dotenv_values(".env")
+        mydb = mysql.connector.connect(
+            host = env_vars['DB_HOST'],
+            user = env_vars['DB_USER'],
+            password = env_vars['DB_PASSWORD'],
+            database = env_vars['DB_NAME']
+        )
+        
+        mycursor = mydb.cursor()
+        sql = "SELECT Route, Difficulty, Length, Score, Link FROM sample_data WHERE Difficulty='{}'".format(difficulty)
+        mycursor.execute(sql)
+        result = mycursor.fetchall()
+        
+        result_return = ""
+        
+        # i=0
+        # total_num = len(result)
+        # for x in result:
+        #     i=i+1
+        #     print("")
+        #     print("第 {}/{} 個結果".format(i, total_num))
+        #     print('行山徑:',x[0])
+        #     print('難度:',x[1])
+        #     print('長度:',x[2])
+        #     print('評分:',x[3])
+        #     print('詳情:',x[4])
+            
+        #     heading = "\n第 {}/{} 個結果".format(i, total_num)+ '\n'
+        #     route = '行山徑: '+ x[0] + '\n'
+        #     difficulty = '難度: ' + str(x[1]) + '\n'
+        #     length = '長度: ' + str(x[2]) + 'km\n'
+        #     score = '評分: ' + str(x[3]) + '/5\n'
+        #     detail = '詳情: ' + x[4] + '\n\n'
+        #     result_return = result_return + heading + route + difficulty + length + score + detail
+            
+        return result_return
+    
 class ActionCheckWeather(Action):
     def name(self) -> Text:
         return "action_inquire_weather"
