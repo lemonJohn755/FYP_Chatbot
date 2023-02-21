@@ -1,69 +1,19 @@
 stories:
-- story: search_trails_by_districts
+- story: common_accidents
   steps:
   - user: |
       hi
-  - intent: greet
+    intent: greet
   - action: utter_welcome
   - action: utter_top_menu
-  - user: |
-      [行山]{"entity": "hike", "value": "行山"}[路線查詢]{"entity":"choice", "value":"行山徑"}
-  - intent: hiking_trails_search
-    entities:
-    - choice: 行山徑
-  - slot_was_set:
-    - choice: 行山徑
-  - action: utter_trails_search_menu  # predicted: action_default_fallback
-  - user: |
-      依照[地區]{"entity":"districts", "value":"地區"}推介
-  - intent: trails_search_by_districts
-    entities:
-    - districts: 地區
-  - action: utter_ask_district
-  - user: |
-      [港島]{"entity":"selected_district", "value":"港島區"}
-  - intent: districts_available
-    entities:
-    - selected_district: 
-  - slot_was_set:
-    - selected_district: 
-  - action: action_district_query
-
-- story: search_trails_by_lev
-  steps:
-  - intent: greet
-  - action: utter_welcome
-  - action: utter_top_menu
-  - intent: hiking_trails_search
-    entities:
-    - choice: 行山徑
-  - slot_was_set:
-    - choice: 行山徑
-  - action: utter_trails_search_menu 
-  - intent: trails_search_by_lev
-  - action: utter_trails_search_menu 
-  - intent: trails_search_by_lev
-  - action: utter_ask_difficulties 
-  - intent: difficulties_available
-    entities:
-    - difficulty
-  - slot_was_set:
-    - difficulty
-  - action: action_difficulty_query
-
-- story: interactive_story_3 (.\tests\test_stories.yml)
-  steps:
-  - intent: greet
-  - action: utter_welcome
-  - action: utter_top_menu
-  - intent: hiking_info
-    entities:
-    - choice: 資訊
-  - slot_was_set:
-    - choice: 資訊
-  - slot_was_set:
-    - choice: 資訊
+  - user: /hiking_info{{"choice":"資訊"}}
+    intent: hiking_info
   - action: utter_hiking_info_menu
-  - intent: hiking_caution
-  - action: utter_hiking_caution
-  - action: action_listen  # predicted: utter_top_menu
+  - user: /ask_accidents
+    intent: ask_accidents
+  - action: utter_accident_list
+  - user: /accidents{{"accident":"斜滑山徑"}}
+    intent: accident_list
+    entities:
+      - accident
+  - action: action_accident_query

@@ -345,7 +345,7 @@ nlu:
       - 注意
       - 注意事項
   
-  - intent: before_hiking_preparation
+  - intent: checklist
     examples: |
       - [行山]{"entity": "hike", "value": "行山"}有咩[準備]{"entity":"prepare", "value":"準備"}
       - [遠足]{"entity": "hike", "value": "行山"}前[預備]{"entity":"prepare", "value":"準備"}
@@ -357,6 +357,41 @@ nlu:
       - 預備
       - 事前預備
   
-  - intent: common_accidents
+  - intent: ask_accidents
     examples: |
-      - 常見意外
+      - 行山常見意外有咩
+      - 遠足常發生意外
+      - 郊遊事故
+
+  - intent: accidents
+    examples: |
+      - [斜滑山徑](accident)
+      - [山洪暴發](accident)
+      - [山泥傾瀉](accident)
+      - [山火](accident)
+      - [雷擊](accident)
+      - [迷途](accident)
+      - [中暑](accident)
+      - [暴寒](accident)
+      - [蛇咬](accident)
+      - [蜂螫](accident)
+      - [蚊叮](accident)
+      - [蟎及蜱](accident)
+      - [危險植物](accident)
+      
+  
+  - lookup: accident
+    examples: |
+      - 斜滑山徑
+      - 山洪暴發
+      - 山泥傾瀉
+      - 山火
+      - 雷擊
+      - 迷途
+      - 中暑
+      - 暴寒
+      - 蛇咬
+      - 蜂螫
+      - 蚊叮
+      - 蟎及蜱
+      - 危險植物

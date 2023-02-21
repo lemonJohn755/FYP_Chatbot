@@ -195,10 +195,14 @@ class ActionAccidentQuery(Action):
     def run(self, dispatcher: CollectingDispatcher,
         tracker: Tracker,
         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
+        accident = tracker.get_slot("accident")
+        
+        result = ActionAccidentQuery.accidt_db_query(accident)
+        dispatcher.utter_message(text=result)
+        
         return []
     
-    def district_db_query(difficulty):
+    def accidt_db_query(accident):
         dotenv_values(".env")
         mydb = mysql.connector.connect(
             host = env_vars['DB_HOST'],
@@ -207,33 +211,30 @@ class ActionAccidentQuery(Action):
             database = env_vars['DB_NAME']
         )
         
-        mycursor = mydb.cursor()
-        sql = "SELECT Route, Difficulty, Length, Score, Link FROM sample_data WHERE Difficulty='{}'".format(difficulty)
-        mycursor.execute(sql)
-        result = mycursor.fetchall()
+        cursor = mydb.cursor()
         
-        result_return = ""
+        # execute a query to retrieve data from a table
+        query = "SELECT * FROM `hiking_common_accidents` WHERE `Accident`='{}';".format(accident)
+        cursor.execute(query)
+
+        # fetch all the rows returned by the query
+        rows = cursor.fetchall()
+
+        # print out the data
+        accidt = "意外: {}\n".format(rows[0][0])
+        des = "描述:\n{}\n".format(rows[0][1])
+        caution = "如何避免?\n{}\n".format(rows[0][2])
+        measure = "應變措拖:\n{}".format(rows[0][3])
+        print(accidt)
+        print(des)
+        print(caution)
+        print(measure)
+        result_return = accidt + des + caution + measure
         
-        # i=0
-        # total_num = len(result)
-        # for x in result:
-        #     i=i+1
-        #     print("")
-        #     print("第 {}/{} 個結果".format(i, total_num))
-        #     print('行山徑:',x[0])
-        #     print('難度:',x[1])
-        #     print('長度:',x[2])
-        #     print('評分:',x[3])
-        #     print('詳情:',x[4])
-            
-        #     heading = "\n第 {}/{} 個結果".format(i, total_num)+ '\n'
-        #     route = '行山徑: '+ x[0] + '\n'
-        #     difficulty = '難度: ' + str(x[1]) + '\n'
-        #     length = '長度: ' + str(x[2]) + 'km\n'
-        #     score = '評分: ' + str(x[3]) + '/5\n'
-        #     detail = '詳情: ' + x[4] + '\n\n'
-        #     result_return = result_return + heading + route + difficulty + length + score + detail
-            
+        # close the cursor and database connection
+        cursor.close()
+        mydb.close()
+        
         return result_return
     
 class ActionCheckWeather(Action):

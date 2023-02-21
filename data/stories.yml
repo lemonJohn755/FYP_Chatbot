@@ -62,6 +62,39 @@ stories:
   - action: utter_hiking_caution
   - action: action_reset_all_slots
 
+- story: checklist
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - action: utter_top_menu
+  - intent: hiking_info
+    entities:
+    - choice: 資訊
+  - slot_was_set:
+    - choice: 資訊
+  - action: utter_hiking_info_menu
+  - intent: checklist
+  - action: utter_checklist
+
+- story: common_accidents
+  steps:
+  - intent: greet
+  - action: utter_welcome
+  - action: utter_top_menu
+  - intent: hiking_info
+    entities:
+    - choice: 資訊
+  - slot_was_set:
+    - choice: 資訊
+  - action: utter_hiking_info_menu
+  - intent: ask_accidents
+  - action: utter_accident_list
+  - intent: accidents
+    entities:
+      - accident
+  - slot_was_set:
+    - accident
+  - action: action_accident_query
 
 #   steps:
 #   - intent: greet
