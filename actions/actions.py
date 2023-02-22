@@ -39,7 +39,7 @@ import requests
 import mysql.connector
 
 # Open and read the JSON file
-with open('/Users/johnjohn/Documents/FYP_Chatbot/actions/env.json', 'r') as f:
+with open('./actions/env.json', 'r') as f:
     env_vars = json.load(f)
 
 class ActionChooseFunction(Action):
