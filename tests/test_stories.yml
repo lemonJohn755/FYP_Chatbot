@@ -1,3 +1,7 @@
+#######################
+# This file is used to test trained model with given user's input
+# https://rasa.com/docs/rasa/testing-your-assistant/#writing-test-stories
+#######################
 stories:
 - story: common_accidents
   steps:
