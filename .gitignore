@@ -1295,3 +1295,5 @@ actions/__pycache__/actions.cpython-39.pyc
 .rasa/cache/tmpzztazfob/rule_policy.json
 actions/__pycache__
 tests/test_stories.yml
+results
+credentials.yml

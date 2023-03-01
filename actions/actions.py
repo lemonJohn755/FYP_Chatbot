@@ -26,7 +26,10 @@
 #
 #         return []
 
+import json
+import os
 from typing import Any, Text, Dict, List
+from dotenv import dotenv_values
 
 from rasa_sdk.events import SlotSet
 from rasa_sdk import Action, Tracker
@@ -35,38 +38,10 @@ from rasa_sdk.events import AllSlotsReset
 import requests
 # from database import Database
 import mysql.connector
-from mysql.connector import Error
 
-class Database:
-    
-    try:
-        # 連接 MySQL/MariaDB 資料庫
-        db = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="123456", #change yours password in your local
-            database="FYP_Chatbot"
-        )
-
-        if db.is_connected():
-            # 顯示資料庫版本
-            db_Info = db.get_server_info()
-            print("資料庫版本：", db_Info)
-
-            # 顯示目前使用的資料庫
-            cursor = db.cursor()
-            cursor.execute("SELECT DATABASE();")
-            record = cursor.fetchone()
-            print("目前使用的資料庫：", record)
-
-    except Error as e:
-        print("資料庫連接失敗：", e)
-
-    # finally:
-    #     if (db.is_connected()):
-    #         cursor.close()
-    #         db.close()
-    #         print("資料庫連線已關閉")
+# Open and read the JSON file
+with open('./actions/env.json', 'r') as f:
+    env_vars = json.load(f)
 
 class ActionChooseFunction(Action):
     def name(self) -> Text:
@@ -102,17 +77,12 @@ class ActionChooseDistrict(Action):
         return []
 
     def district_db_query(district):
-        # mydb = mysql.connector.connect(
-        #     host="localhost",
-        #     user="root",
-        #     password="123456",
-        #     database="FYP_Chatbot"
-        # )
-
-        # mycursor = db.cursor()
-        try:
-            if(not db):
-                Database().connectDB()
+        mydb = mysql.connector.connect(
+            host = env_vars['DB_HOST'],
+            user = env_vars['DB_USER'],
+            password = env_vars['DB_PASSWORD'],
+            database = env_vars['DB_NAME']
+        )
 
             sql = "SELECT Route, Difficulty, Length, Score, Link FROM sample_data WHERE District='{}'".format(
                 district)
@@ -174,10 +144,10 @@ class ActionChooseDifficulty(Action):
 
     def district_db_query(difficulty):
         mydb = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="root",
-            database="FYP_Chatbot"
+            host = env_vars['DB_HOST'],
+            user = env_vars['DB_USER'],
+            password = env_vars['DB_PASSWORD'],
+            database = env_vars['DB_NAME']
         )
         
         # cursor = db.cursor()
@@ -242,6 +212,56 @@ class ActionChooseDifficulty(Action):
     #     response = await requests.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc").json()
 
     #     return response """
+
+class ActionAccidentQuery(Action):
+    def name(self) -> Text:
+        return "action_accident_query"
+    
+    def run(self, dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        accident = tracker.get_slot("accident")
+        
+        result = ActionAccidentQuery.accidt_db_query(accident)
+        dispatcher.utter_message(text=result)
+        
+        return []
+    
+    def accidt_db_query(accident):
+        dotenv_values(".env")
+        mydb = mysql.connector.connect(
+            host = env_vars['DB_HOST'],
+            user = env_vars['DB_USER'],
+            password = env_vars['DB_PASSWORD'],
+            database = env_vars['DB_NAME']
+        )
+        
+        cursor = mydb.cursor()
+        
+        # execute a query to retrieve data from a table
+        query = "SELECT * FROM `hiking_common_accidents` WHERE `Accident`='{}';".format(accident)
+        cursor.execute(query)
+
+        # fetch all the rows returned by the query
+        rows = cursor.fetchall()
+
+        # print out the data
+        accidt = "意外: {}\n".format(rows[0][0])
+        des = "描述:\n{}\n".format(rows[0][1])
+        caution = "如何避免?\n{}\n".format(rows[0][2])
+        measure = "應變措拖:\n{}".format(rows[0][3])
+        print(accidt)
+        print(des)
+        print(caution)
+        print(measure)
+        result_return = accidt + des + caution + measure
+        
+        # close the cursor and database connection
+        cursor.close()
+        mydb.close()
+        
+        return result_return
+    
 class ActionCheckWeather(Action):
     def name(self) -> Text:
         return "action_inquire_weather"

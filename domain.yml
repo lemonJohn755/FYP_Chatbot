@@ -26,6 +26,9 @@ intents:
   - trails_search_by_districts
   - trails_search_by_lev
   - hiking_caution
+  - checklist
+  - accidents
+  - ask_accidents
 
 entities:
   - weather
@@ -42,6 +45,7 @@ entities:
   - districts
   - lev
   - prepare
+  - accident
 
 slots:
   choice:
@@ -71,6 +75,12 @@ slots:
     mappings:
     - type: from_entity
       entity: hike
+  
+  accident:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: accident
 
 forms:
   choice_form:
@@ -139,10 +149,10 @@ responses:
     buttons:
       - title: "行山安全需知"
         payload: '/hiking_caution'
-      - title: "行山前準備"
-        payload: '/hiking_caution'
+      - title: "行山裝備清單"
+        payload: '/checklist'
       - title: "常見意外"
-        payload: '/common_accidents'
+        payload: '/ask_accidents'
   
   utter_ask_district:
   - text: "請選擇地區:\n1)新界北區\n2)港島區\n3)西貢區\n4)新界西區\n5)大嶼山區"
@@ -225,13 +235,85 @@ responses:
       7. 應結伴同行，確保同行者中有具備遠足經驗及急救知識的人士；\n
       8. 如在山野間迷途，應選擇原路折返，切勿強行前進；\n
       9. 旅程中如遇上意外，應盡快尋求協助。\n
-      來源：香港攀山協會 遠足及露營活動安全指引 http://www.hkma.net/mountain_safety.html\n
+      來源：香港攀山協會 遠足及露營活動安全指引 http://www.hkma.net/mountain_safety.html \n
       其他相關網頁:\n
-      1. 漁護署 郊野公園遠足安全指引 https://www.afcd.gov.hk/tc_chi/country/cou_vis/cou_vis_gac/cou_wha_whe_sat.html\n
-      2. 民安隊 遠足活動安全須知 https://www.cas.gov.hk/chi/safe/hikingsafety.html\n"
+      1. 漁護署 郊野公園遠足安全指引 https://www.afcd.gov.hk/tc_chi/country/cou_vis/cou_vis_gac/cou_wha_whe_sat.html \n
+      2. 民安隊 遠足活動安全須知 https://www.cas.gov.hk/chi/safe/hikingsafety.html \n"
+
+  utter_checklist:
+  - text: "良好的裝備對遠足很重要，遠足前可因應個人需要及活動性質，攜帶以下裝備：\n
+      1. 背囊\n
+      — 最輕的物品放下面，較重的中間，最重的放上面，後用先放，隨時用的放兩側，左右兩邊重量要相稱\n
+      — 背囊的重量不要超過個人體重之三分一，最重則不可超過四十磅\n
+      2. 登山鞋 — 鞋頭要較闊，鞋底要有較深的坑紋\n
+      3. 襪子\n
+      4. 上衣 — 穿長袖和有領的防曬/速乾/透氣衫，可避免雙臂和頸後被陽光灼傷\n
+      5. 褲 — 鬆身防曬/速乾/透氣長褲為佳\n
+      6. 毛巾/冰巾/手臂套管\n
+      7. 外衣及防風衣/雨衣\n
+      8. 帽、太陽眼鏡、雨傘、手套\n
+      9. 後備衣物\n
+      10. 行山杖\n
+      11. 地圖[地政總署出版的郊區地圖]({https://www.landsd.gov.hk/tc/survey-mapping/mapping/thematic-mapping.html#2})及指南針\n
+      12. 照明工具\n
+      13. 哨子\n
+      14. 食糧及緊急食糧 — 高熱量、輕便、易進食為主，如葡萄糖、提子乾、能量食物\n
+      15. 水樽及水[郊野公園加水站]({https://www.afcd.gov.hk/tc_chi/country/cou_vis/cou_vis_rec/cou_vis_wfs.html})\n
+      16. 個人藥品及急救用品\n
+      17. 防曬及防蚊用品\n
+      18. 無線電話及後備電池/充電器及充電線([認識暢遊郊遊公園的通訊方法]({https://www.ofca.gov.hk/tc/consumer_focus/guide/safety/country_parks/index.html)})\n
+      19. 手錶\n
+      20. [香港遠足路徑天氣服務]({https://www.hko.gov.hk/tc/103461/%E9%A6%99%E6%B8%AF%E9%81%A0%E8%B6%B3%E8%B7%AF%E5%BE%91%E5%A4%A9%E6%B0%A3%E6%9C%8D%E5%8B%99})\n
+      來源：https://www.youth.gov.hk/tc/cultural-and-leisure/stories/detail.htm?content-id=2393022&section=CLA"
+
+  utter_accident_list:
+  - text: "行山常見意外有：\n
+      1. 斜滑山徑\n
+      2. 山洪暴發\n
+      3. 山泥傾瀉\n
+      4. 山火\n
+      5. 雷擊\n
+      6. 迷途\n
+      7. 中暑\n
+      8. 暴寒\n
+      9. 蛇咬\n
+      10. 蜂螫\n
+      11. 蚊叮\n
+      12. 蟎及蜱\n
+      13. 危險植物\n
+      來源: https://www.afcd.gov.hk/tc_chi/country/cou_vis/cou_vis_gac/cou_wha_whe_sat.html"
+    buttons:
+    - title: "斜滑山徑"
+      payload: '/accidents{{"accident":"斜滑山徑"}}'
+    - title: "山洪暴發"
+      payload: '/accidents{{"accident":"山洪暴發"}}'
+    - title: "山泥傾瀉"
+      payload: '/accidents{{"accident":"山泥傾瀉"}}'
+    - title: "山火"
+      payload: '/accidents{{"accident":"山火"}}'
+    - title: "雷擊"
+      payload: '/accidents{{"accident":"雷擊"}}'
+    - title: "迷途"
+      payload: '/accidents{{"accident":"迷途"}}'
+    - title: "中暑"
+      payload: '/accidents{{"accident":"中暑"}}'
+    - title: "暴寒"
+      payload: '/accidents{{"accident":"暴寒"}}'
+    - title: "蛇咬"
+      payload: '/accidents{{"accident":"蛇咬"}}'
+    - title: "蜂螫"
+      payload: '/accidents{{"accident":"蜂螫"}}'
+    - title: "蚊叮"
+      payload: '/accidents{{"accident":"蚊叮"}}'
+    - title: "蟎及蜱"
+      payload: '/accidents{{"accident":"蟎及蜱"}}'
+    - title: "危險植物"
+      payload: '/accidents{{"accident":"危險植物"}}'
+
 
   utter_out_of_scope:
   - text: "對唔住，我處理唔到你啲要求"
+
 
 actions:
   - action_district_query
@@ -242,3 +324,4 @@ actions:
   - action_reset_all_slots
   - utter_say_user_chose
   - utter_ask_district
+  - action_accident_query
