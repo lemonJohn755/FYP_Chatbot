@@ -17,7 +17,7 @@ intents:
   - difficulties_available
   - i_want_to_hike
   - recommend_hiking_route
-  - check_weather
+  - check_today_weather
   - where_to_hike
   - easy_hard_hike
   - hiking_trails_search
@@ -27,8 +27,12 @@ intents:
   - trails_search_by_lev
   - hiking_caution
   - checklist
-  - accidents
+  - accidents_list
   - ask_accidents
+  - location_available
+  - ask_weather_in_week
+  - ask_current_weather
+  - ask_upcoming_weather
 
 entities:
   - weather
@@ -46,6 +50,11 @@ entities:
   - lev
   - prepare
   - accident
+  - accident_name
+  - location
+  - time
+  - today
+  - week
 
 slots:
   choice:
@@ -76,11 +85,18 @@ slots:
     - type: from_entity
       entity: hike
   
-  accident:
+  accident_name:
     type: text
     mappings:
     - type: from_entity
-      entity: accident
+      entity: accident_name
+  
+  time:
+    type: any
+    mappings:
+    - type: from_entity
+      entity: time
+
 
 forms:
   choice_form:
@@ -91,7 +107,7 @@ forms:
     # ignored_intents:
     #   - choice
     required_slots:
-      - district
+      - selected_district
   
   difficulty_form:
     # ignored_intents:
@@ -148,11 +164,11 @@ responses:
   - text: "我可以提供以下行山資訊"
     buttons:
       - title: "行山安全需知"
-        payload: '/hiking_caution'
+        payload: '/hiking_caution{{"safety_caution":"安全注意"}}'
       - title: "行山裝備清單"
-        payload: '/checklist'
+        payload: '/checklist{{"prepare":"準備"}}'
       - title: "常見意外"
-        payload: '/ask_accidents'
+        payload: '/ask_accidents{{"accident":"意外"}}'
   
   utter_ask_district:
   - text: "請選擇地區:\n1)新界北區\n2)港島區\n3)西貢區\n4)新界西區\n5)大嶼山區"
@@ -180,15 +196,15 @@ responses:
   - text: 請輸入難度，1 最易，5最難
     buttons:
       - title: "1" 
-        payload: '/difficulties_available{{"difficulty":"1"}}'
+        payload: '/difficulties_available{{"difficulty":"難度1"}}'
       - title: "2"
-        payload: '/difficulties_available{{"difficulty":"2"}}'
+        payload: '/difficulties_available{{"difficulty":"難度2"}}'
       - title: "3"
-        payload: '/difficulties_available{{"difficulty":"3"}}'
+        payload: '/difficulties_available{{"difficulty":"難度3"}}'
       - title: "4"
-        payload: '/difficulties_available{{"difficulty":"4"}}'
+        payload: '/difficulties_available{{"difficulty":"難度4"}}'
       - title: "5"
-        payload: '/difficulties_available{{"difficulty":"5"}}'
+        payload: '/difficulties_available{{"difficulty":"難度5"}}'
 
   utter_say_user_chose: 
   - condition:
@@ -284,32 +300,34 @@ responses:
       來源: https://www.afcd.gov.hk/tc_chi/country/cou_vis/cou_vis_gac/cou_wha_whe_sat.html"
     buttons:
     - title: "斜滑山徑"
-      payload: '/accidents{{"accident":"斜滑山徑"}}'
+      payload: '/accidents_list{{"accident_name":"斜滑山徑"}}'
     - title: "山洪暴發"
-      payload: '/accidents{{"accident":"山洪暴發"}}'
+      payload: '/accidents_list{{"accident_name":"山洪暴發"}}'
     - title: "山泥傾瀉"
-      payload: '/accidents{{"accident":"山泥傾瀉"}}'
+      payload: '/accidents_list{{"accident_name":"山泥傾瀉"}}'
     - title: "山火"
-      payload: '/accidents{{"accident":"山火"}}'
+      payload: '/accidents_list{{"accident_name":"山火"}}'
     - title: "雷擊"
-      payload: '/accidents{{"accident":"雷擊"}}'
+      payload: '/accidents_list{{"accident_name":"雷擊"}}'
     - title: "迷途"
-      payload: '/accidents{{"accident":"迷途"}}'
+      payload: '/accidents_list{{"accident_name":"迷途"}}'
     - title: "中暑"
-      payload: '/accidents{{"accident":"中暑"}}'
+      payload: '/accidents_list{{"accident_name":"中暑"}}'
     - title: "暴寒"
-      payload: '/accidents{{"accident":"暴寒"}}'
+      payload: '/accidents_list{{"accident_name":"暴寒"}}'
     - title: "蛇咬"
-      payload: '/accidents{{"accident":"蛇咬"}}'
+      payload: '/accidents_list{{"accident_name":"蛇咬"}}'
     - title: "蜂螫"
-      payload: '/accidents{{"accident":"蜂螫"}}'
+      payload: '/accidents_list{{"accident_name":"蜂螫"}}'
     - title: "蚊叮"
-      payload: '/accidents{{"accident":"蚊叮"}}'
+      payload: '/accidents_list{{"accident_name":"蚊叮"}}'
     - title: "蟎及蜱"
-      payload: '/accidents{{"accident":"蟎及蜱"}}'
+      payload: '/accidents_list{{"accident_name":"蟎及蜱"}}'
     - title: "危險植物"
-      payload: '/accidents{{"accident":"危險植物"}}'
+      payload: '/accidents_list{{"accident_name":"危險植物"}}'
 
+  utter_time:
+  - text: "{time} 嘅天氣如下:"
 
   utter_out_of_scope:
   - text: "對唔住，我處理唔到你啲要求"
@@ -325,3 +343,4 @@ actions:
   - utter_say_user_chose
   - utter_ask_district
   - action_accident_query
+  - action_inquire_weather_forecast
