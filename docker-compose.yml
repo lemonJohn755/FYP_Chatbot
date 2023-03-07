@@ -1,22 +1,26 @@
 version: '3.1'
 services:
-  db:
-    image: mysql
-    restart: always
-    volumes:
-      - ./mysql-docker-data:/var/lib/mysql
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: test_db
-    ports:
-      - "3306:3306"
+  # db:
+  #   image: mysql
+  #   restart: always
+  #   volumes:
+  #     - ./mysql-docker-data:/var/lib/mysql
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: root
+  #     MYSQL_DATABASE: test_db
+  #   ports:
+  #     - "3306:3306"
 
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin:latest
-    restart: always
-    environment:
-      PMA_HOST: db
-      PMA_USER: root
-      PMA_PASSWORD: root
+  # phpmyadmin:
+  #   image: phpmyadmin/phpmyadmin:latest
+  #   restart: always
+  #   environment:
+  #     PMA_HOST: db
+  #     PMA_USER: root
+  #     PMA_PASSWORD: root
+  #   ports:
+  #     - "8080:80"
+  duckling:
+    image: rasa/duckling:latest
     ports:
-      - "8080:80"
+      - 8000:8000

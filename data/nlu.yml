@@ -169,9 +169,11 @@ nlu:
   
   - intent: trails_search_by_lev
     examples: |
+      - 介紹唔同[程度]{"entity":"lev", "value":"程度"}[遠足路線]{"entity":"hike", "value":"行山徑"}
       - 依照[難度]{"entity":"lev", "value":"程度"}推介
       - 唔同[難度]{"entity":"lev", "value":"程度"}[行山徑]{"entity":"hike", "value":"行山徑"}
       - 唔同[程度]{"entity":"lev", "value":"程度"}嘅[行山路線]{"entity":"hike", "value":"行山徑"}
+      - 香港唔同[程度]{"entity":"lev", "value":"程度"}[郊遊徑]{"entity":"hike", "value":"行山徑"}
 
   - intent: hiking_info
     examples: |
@@ -179,20 +181,21 @@ nlu:
       - [遠足]{"entity": "hike", "value": "行山"}[需知]{"entity":"choice", "value":"資訊"}
       - [郊遊]{"entity": "hike", "value": "行山"}[貼士]{"entity":"choice", "value":"資訊"}
       - [行山]{"entity": "hike", "value": "行山"}[小貼士]{"entity":"choice", "value":"資訊"}
-
-  # - intent: districts_available
-  #   examples: |
-  #     - [港島區](district)
-  #     - [港島]{"entity":"district", "value":"港島區"}
-  #     - [新界北區](district)
-  #     - [新界北]{"entity":"district", "value":"新界北區"}
-  #     - [北區]{"entity":"district", "value":"新界北區"}
-  #     - [西貢區](district)
-  #     - [西貢]{"entity":"district", "value":"西貢區"}
-  #     - [新界西區](district)
-  #     - [新界西]{"entity":"district", "value":"新界西區"}
-  #     - [大嶼山區](district)
-  #     - [大嶼山]{"entity":"district", "value":"大嶼山區"}
+      - 有咩[行山]{"entity": "hike", "value": "行山"}[小貼士]{"entity":"choice", "value":"資訊"}
+      
+  - intent: districts_available
+    examples: |
+      - [港島區](selected_district)
+      - [港島]{"entity":"selected_district", "value":"港島區"}
+      - [新界北區](selected_district)
+      - [新界北]{"entity":"selected_district", "value":"新界北區"}
+      - [北區]{"entity":"selected_district", "value":"新界北區"}
+      - [西貢區](selected_district)
+      - [西貢]{"entity":"selected_district", "value":"西貢區"}
+      - [新界西區](selected_district)
+      - [新界西]{"entity":"selected_district", "value":"新界西區"}
+      - [大嶼山區](selected_district)
+      - [大嶼山]{"entity":"selected_district", "value":"大嶼山區"}
 
   - intent: where_to_hike
     examples: |
@@ -317,7 +320,7 @@ nlu:
       - 我想知有咩[行山路線]{"entity": "hike", "行山徑": "行山徑"}
       - [行山徑]{"entity": "hike", "value": "行山徑"}[推薦](recommend)
 
-  - intent: check_weather
+  - intent: check_today_weather
     examples: |
       - 嚟緊[天氣](weather)點樣呀?
       - 今日[天氣](weather)點樣呀?
@@ -330,11 +333,92 @@ nlu:
       - 想問下今日[天氣](weather)點樣?
       - [天氣](weather)
   
+  - intent: ask_weather_in_week
+    examples: |
+      - [星期一]{"entity":"week","value":"星期一"}[天氣](weather)點呀？
+      - [星期二]{"entity":"week","value":"星期二"}[天氣](weather)點樣？
+      - [星期三]{"entity":"week","value":"星期三"}[天氣](weather)如何?
+      - [星期四]{"entity":"week","value":"星期四"}[天氣](weather)點樣呀？
+      - [星期五]{"entity":"week","value":"星期五"}[天氣](weather)預報？
+      - 想知[星期六]{"entity":"week","value":"星期六"}[天氣](weather)？
+      - [星期日]{"entity":"week","value":"星期日"}[天氣](weather)點呀？
+      - [星期天]{"entity":"week","value":"星期日"}[天氣](weather)點呀？
+      - [禮拜一]{"entity":"week","value":"星期一"}[天氣](weather)點呀？
+      - [禮拜二]{"entity":"week","value":"星期二"}[天氣](weather)點呀？
+      - [禮拜三]{"entity":"week","value":"星期三"}[天氣](weather)點呀？
+      - [禮拜四]{"entity":"week","value":"星期四"}[天氣](weather)點呀？
+      - [禮拜五]{"entity":"week","value":"星期五"}[天氣](weather)點呀？
+      - [禮拜六]{"entity":"week","value":"星期六"}[天氣](weather)點呀？
+      - [禮拜日]{"entity":"week","value":"星期日"}[天氣](weather)點呀？
+      - [週末]{"entity":"week","value":"週末"}[天氣](weather)點呀？
+  
+  - synonym: 星期一
+    examples: |
+      - 星期一
+      - 禮拜一
+      - 周一
+  
+  - synonym: 星期二
+    examples: |
+      - 星期二
+      - 禮拜二
+      - 周二
+  
+  - synonym: 星期三
+    examples: |
+      - 星期三
+      - 禮拜三
+      - 周三
+  
+  - synonym: 星期四
+    examples: |
+      - 星期四
+      - 禮拜四
+      - 周四
+
+  - synonym: 星期五
+    examples: |
+      - 星期五
+      - 禮拜五
+      - 周五
+  
+  - synonym: 星期六
+    examples: |
+      - 星期六
+      - 禮拜六
+      - 周六
+  
+  - synonym: 星期日
+    examples: |
+      - 星期日
+      - 禮拜日
+      - 周日
+      - 星期天
+      
+  # - intent: ask_current_weather
+  #   examples: |
+  #     - 嚟緊[天氣](weather)點樣呀?
+  #     - [今日](today)[天氣](weather)點樣呀?
+  #     - 甚麼[天氣](weather)?
+  #     - 乜野[天氣](weather)呀?
+  #     - 咩[天氣](weather)呀?
+  #     - [今日](today)[天氣](weather)預報
+  #     - [今日](today)[天氣](weather)如何?
+  #     - 依家[天氣](weather)如何?
+  #     - 想問下[今日](today)[天氣](weather)點樣?
+  #     - [天氣](weather)
+
+  # - intent: ask_upcoming_weather
+  #   examples: |
+  #     - [星期一]{"entity": "每週各天", "value": "week"}[天氣](weather)點呀？
+  #     - [星期二]{"entity": "每週各天", "value": "week"}[天氣](weather)點呀？
+  #     - [週末]{"entity": "每週各天", "value": "week"}[天氣](weather)點呀？
+
   - intent: hiking_caution
     examples: |
-      - [行山]{"entity": "hike", "value": "行山"}有咩[安全事項](安全注意)
-      - [遠足]{"entity": "hike", "value": "行山"}要[注意事項](安全注意)
-      - [郊遊]{"entity": "hike", "value": "行山"}有乜嘢要[注意](安全注意)
+      - [行山]{"entity": "hike", "value": "行山"}有咩[安全事項]{"entity":"safety_caution", "value":"安全注意"}
+      - [遠足]{"entity": "hike", "value": "行山"}要[注意事項]{"entity":"safety_caution", "value":"安全注意"}
+      - [郊遊]{"entity": "hike", "value": "行山"}有乜嘢要[注意]{"entity":"safety_caution", "value":"安全注意"}
 
   - synonym: 安全注意
     examples: |
@@ -347,40 +431,54 @@ nlu:
   
   - intent: checklist
     examples: |
-      - [行山]{"entity": "hike", "value": "行山"}有咩[準備]{"entity":"prepare", "value":"準備"}
+      - [行山]{"entity": "hike", "value": "行山"}有咩[裝備]{"entity":"prepare", "value":"準備"}帶
+      - [行山]{"entity": "hike", "value": "行山"}要帶[物品]{"entity":"prepare", "value":"準備"}
       - [遠足]{"entity": "hike", "value": "行山"}前[預備]{"entity":"prepare", "value":"準備"}
+      - [郊遊]{"entity": "hike", "value": "行山"}[準備]{"entity":"prepare", "value":"準備"}
+      - [行山]{"entity": "hike", "value": "行山"}[必備清單]{"entity":"prepare", "value":"準備"}
       - [事前預備]{"entity":"prepare", "value":"準備"}
   
   - synonym: 準備
     examples: |
       - 準備
       - 預備
+      - 裝備
       - 事前預備
+      - 必備清單
+      - 裝備清單
+      - 必帶
+      - 物品
   
   - intent: ask_accidents
     examples: |
-      - 行山常見意外有咩
-      - 遠足常發生意外
-      - 郊遊事故
-
-  - intent: accidents
-    examples: |
-      - [斜滑山徑](accident)
-      - [山洪暴發](accident)
-      - [山泥傾瀉](accident)
-      - [山火](accident)
-      - [雷擊](accident)
-      - [迷途](accident)
-      - [中暑](accident)
-      - [暴寒](accident)
-      - [蛇咬](accident)
-      - [蜂螫](accident)
-      - [蚊叮](accident)
-      - [蟎及蜱](accident)
-      - [危險植物](accident)
-      
+      - [行山]{"entity": "hike", "value": "行山"}常見[意外](accident)有咩
+      - [行山]{"entity": "hike", "value": "行山"}有咩[意外](accident)
+      - [遠足]{"entity": "hike", "value": "行山"}常發生[意外](accident)
+      - [郊遊]{"entity": "hike", "value": "行山"}[事故](accident)
   
-  - lookup: accident
+  - synonym: accident
+    examples: |
+      - 意外
+      - 事故
+      - 危險
+
+  - intent: accidents_list
+    examples: |
+      - [斜滑山徑](accident_name)
+      - [山洪暴發](accident_name)
+      - [山泥傾瀉](accident_name)
+      - [山火](accident_name)
+      - [雷擊](accident_name)
+      - [迷途](accident_name)
+      - [中暑](accident_name)
+      - [暴寒](accident_name)
+      - [蛇咬](accident_name)
+      - [蜂螫](accident_name)
+      - [蚊叮](accident_name)
+      - [蟎及蜱](accident_name)
+      - [危險植物](accident_name)
+      
+  - lookup: accident_name
     examples: |
       - 斜滑山徑
       - 山洪暴發
@@ -395,3 +493,51 @@ nlu:
       - 蚊叮
       - 蟎及蜱
       - 危險植物
+  
+  - intent: location_available
+    examples: |
+      - [新娘潭](location)
+      - [流水響](location)
+      - [大美督](location)
+      - [香港仔]{"entity":"location", "value":"香港仔上水塘"}
+      - [香港仔上水塘](location)
+      - [山頂](location)
+      - [薄扶林]{"entity":"location", "value":"薄扶林水塘"}
+      - [薄扶林水塘](location)
+      - [灣仔峽](location)
+      - [黃泥涌峽](location)
+      - [紅梅谷](location)
+      - [金山](location)
+      - [城門]{"entity":"location", "value":"城門郊野公園"}
+      - [城門郊野公園](location)
+      - [萬宜]{"entity":"location", "value":"萬宜水庫"}
+      - [萬宜水庫](location)
+      - [釣魚翁](location)
+      - [大浪灣](location)
+      - [川龍](location)
+      - [虎地](location)
+      - [河背水塘](location)
+      - [芝麻灣](location)
+      - [分流](location)
+      - [羗山](location)
+
+  - lookup: trails_list
+    examples: |
+      - 新娘潭自然教育徑
+      - 流水響郊遊徑
+      - 大美督家樂徑
+      - 香港仔郊野公園(香港仔上水塘)無障礙路線
+      - 港島徑(第一段)山頂至薄扶林水塘
+      - 港島徑(第四段)灣仔峽至黃泥涌峽
+      - 紅梅谷自然教育徑
+      - 金山家樂徑
+      - 城門郊野公園(白千層林)無障礙路線
+      - 萬宜地質步道
+      - 釣魚翁郊遊徑
+      - 大浪灣遠足徑
+      - 川龍家樂徑
+      - 虎地郊遊徑
+      - 河背水塘家樂徑
+      - 芝麻灣郊遊徑
+      - 分流郊遊徑
+      - 羗山郊遊徑

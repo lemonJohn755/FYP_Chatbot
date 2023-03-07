@@ -220,7 +220,7 @@ class ActionAccidentQuery(Action):
     def run(self, dispatcher: CollectingDispatcher,
         tracker: Tracker,
         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        accident = tracker.get_slot("accident")
+        accident = tracker.get_slot("accident_name")
         
         result = ActionAccidentQuery.accidt_db_query(accident)
         dispatcher.utter_message(text=result)
@@ -291,6 +291,35 @@ class ActionCheckWeather(Action):
 
         return []
 
+class ActionCheckWeatherForecast(Action):
+    def name(self) -> Text:
+        return "action_inquire_weather_forecast"
+
+    def run(
+        self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]
+    ) -> List[Dict[Text, Any]]:
+
+        weather_entity = next(tracker.get_latest_entity_values("weather"), "天氣")
+        week_entity = next(tracker.get_latest_entity_values("每週各天"), "每週各天")
+
+        if not weather_entity or week_entity:
+            msg = f"Sorry, 唔係好明你意思"
+            dispatcher.utter_message(text=msg)
+
+            return []
+        #dispatcher.utter_message(text='ok weather')
+        try:
+            # response = requests.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc").json()
+            #print(response)
+            # msg = response['weatherForecast'][0]['week']
+            # TODO: return full response to frontend
+            dispatcher.utter_message(text= 'forecast')
+        except Exception as e:
+            print("CheckWeather function error")
+            print(e)
+
+        return []
+
 class ActionResetAllSlots(Action):
     
     def name(self):
@@ -300,3 +329,4 @@ class ActionResetAllSlots(Action):
              tracker: Tracker,
              domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         return [AllSlotsReset()]
+    
