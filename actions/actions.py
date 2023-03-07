@@ -36,13 +36,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import AllSlotsReset
 import requests
-# from database import Database
-import mysql.connector
-
-# Open and read the JSON file
-with open('./actions/env.json', 'r') as f:
-    env_vars = json.load(f)
-
+from .db import MySQLConnection
 class ActionChooseFunction(Action):
     def name(self) -> Text:
         return "utter_say_user_chose"
@@ -77,17 +71,12 @@ class ActionChooseDistrict(Action):
         return []
 
     def district_db_query(district):
-        mydb = mysql.connector.connect(
-            host = env_vars['DB_HOST'],
-            user = env_vars['DB_USER'],
-            password = env_vars['DB_PASSWORD'],
-            database = env_vars['DB_NAME']
-        )
-
+        db = MySQLConnection.getInstance().getConnection()
+        cursor = db.cursor()
         sql = "SELECT Route, Difficulty, Length, Score, Link FROM sample_data WHERE District='{}'".format(
                 district)
-        mysql.cursor.execute(sql)
-        result = mysql.cursor.fetchall()
+        cursor.execute(sql)
+        result = cursor.fetchall()
 
         result_return = ""
 
@@ -111,16 +100,11 @@ class ActionChooseDistrict(Action):
             detail = '詳情: ' + x[4] + '\n\n'
             result_return = result_return + heading + \
                 route + difficulty + length + score + detail
-
+        
+        cursor.close()
+        db.close()
         return result_return
         
-        # except Exception as e:
-        #     print(e)
-        # finally:
-        #     if (mysql.db):
-        #         mysql.cursor.close()
-        #         mysql.db.close()
-        #         print('database closed')
 
 class ActionChooseDifficulty(Action):
     def name(self) -> Text:
@@ -143,21 +127,32 @@ class ActionChooseDifficulty(Action):
             dispatcher.utter_message(text=f"唔好意思，我手頭上冇難度 {msg} 相關結果。可以問難度（1-5）")
 
     def district_db_query(difficulty):
-        mydb = mysql.connector.connect(
-            host = env_vars['DB_HOST'],
-            user = env_vars['DB_USER'],
-            password = env_vars['DB_PASSWORD'],
-            database = env_vars['DB_NAME']
-        )
-        
-        # cursor = db.cursor()
-        try:
-            if(not db) :
-                Database().connectDB()
+        db = MySQLConnection.getInstance().getConnection()
+        cursor = db.cursor()
 
-            sql = "SELECT Route, Difficulty, Length, Score, Link FROM sample_data WHERE Difficulty='{}'".format(difficulty)
-            cursor.execute(sql)
-            result = cursor.fetchall()
+        sql = "SELECT Route, Difficulty, Length, Score, Link FROM sample_data WHERE Difficulty='{}'".format(difficulty)
+        cursor.execute(sql)
+        result = cursor.fetchall()
+        
+        heading = "\n第 {}/{} 個結果".format(i, total_num)+ '\n'
+        route = '行山徑: '+ x[0] + '\n'
+        difficulty = '難度: ' + str(x[1]) + '\n'
+        length = '長度: ' + str(x[2]) + 'km\n'
+        score = '評分: ' + str(x[3]) + '/5\n'
+        detail = '詳情: ' + x[4] + '\n\n'
+        result_return = result_return + heading + route + difficulty + length + score + detail
+        
+        i=0
+        total_num = len(result)
+        for x in result:
+            i=i+1
+            print("")
+            print("第 {}/{} 個結果".format(i, total_num))
+            print('行山徑:',x[0])
+            print('難度:',x[1])
+            print('長度:',x[2])
+            print('評分:',x[3])
+            print('詳情:',x[4])
             
             heading = "\n第 {}/{} 個結果".format(i, total_num)+ '\n'
             route = '行山徑: '+ x[0] + '\n'
@@ -166,35 +161,10 @@ class ActionChooseDifficulty(Action):
             score = '評分: ' + str(x[3]) + '/5\n'
             detail = '詳情: ' + x[4] + '\n\n'
             result_return = result_return + heading + route + difficulty + length + score + detail
-            
-            i=0
-            total_num = len(result)
-            for x in result:
-                i=i+1
-                print("")
-                print("第 {}/{} 個結果".format(i, total_num))
-                print('行山徑:',x[0])
-                print('難度:',x[1])
-                print('長度:',x[2])
-                print('評分:',x[3])
-                print('詳情:',x[4])
-                
-                heading = "\n第 {}/{} 個結果".format(i, total_num)+ '\n'
-                route = '行山徑: '+ x[0] + '\n'
-                difficulty = '難度: ' + str(x[1]) + '\n'
-                length = '長度: ' + str(x[2]) + 'km\n'
-                score = '評分: ' + str(x[3]) + '/5\n'
-                detail = '詳情: ' + x[4] + '\n\n'
-                result_return = result_return + heading + route + difficulty + length + score + detail
-                
-            return result_return
-        except Exception as e:
-            print(e)
-        finally:
-            if (db):
-                cursor.close()
-                db.close()
-                print('database closed')
+
+        cursor.close()
+        db.close()
+        return result_return
                 
     #     weather_entity = next(tracker.get_latest_entity_values("weather"), None)
 
@@ -229,14 +199,8 @@ class ActionAccidentQuery(Action):
     
     def accidt_db_query(accident):
         dotenv_values(".env")
-        mydb = mysql.connector.connect(
-            host = env_vars['DB_HOST'],
-            user = env_vars['DB_USER'],
-            password = env_vars['DB_PASSWORD'],
-            database = env_vars['DB_NAME']
-        )
-        
-        cursor = mydb.cursor()
+        db = MySQLConnection.getInstance().getConnection()
+        cursor = db.cursor()
         
         # execute a query to retrieve data from a table
         query = "SELECT * FROM `hiking_common_accidents` WHERE `Accident`='{}';".format(accident)
@@ -258,7 +222,7 @@ class ActionAccidentQuery(Action):
         
         # close the cursor and database connection
         cursor.close()
-        mydb.close()
+        db.close()
         
         return result_return
     
