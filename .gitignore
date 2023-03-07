@@ -5,6 +5,7 @@ mysql-docker-data/mysql.sock
 .DS_Store
 actions/__pycache__/__init__.cpython-39.pyc
 actions/__pycache__/actions.cpython-39.pyc
+.rasa/cache
 .rasa/cache/cache.db
 .rasa/cache/tmp00_7ef9i/featurizer.json
 .rasa/cache/tmp00_7ef9i/memorized_turns.json
