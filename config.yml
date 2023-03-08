@@ -2,33 +2,33 @@ language: zh
  
 pipeline:
   - name: SpacyNLP
-    #model: "zh_core_web_trf"    # accuracy model but train slow
+    # model: "zh_core_web_trf"    # accuracy model but train slow
     model: "zh_core_web_sm"   # efficient model train fast but less accurate
-  - name: "JiebaTokenizer"
-    dictionary_path: "/data/dict.txt"
-    # Flag to check whether to split intents
-    "intent_tokenization_flag": False
-    # Symbol on which intent should be split
-    "intent_split_symbol": "_"
-    # Regular expression to detect tokens
-    "token_pattern": None
-  # - name: "SpacyTokenizer"
+  # - name: "JiebaTokenizer"
+  #   dictionary_path: "/data/dict.txt"
   #   # Flag to check whether to split intents
-  #   "intent_tokenization_flag": false
+  #   "intent_tokenization_flag": False
   #   # Symbol on which intent should be split
   #   "intent_split_symbol": "_"
   #   # Regular expression to detect tokens
   #   "token_pattern": None
+  - name: "SpacyTokenizer"
+    # Flag to check whether to split intents
+    "intent_tokenization_flag": false
+    # Symbol on which intent should be split
+    "intent_split_symbol": "_"
+    # Regular expression to detect tokens
+    "token_pattern": None
   # - name: "SpacyFeaturizer"
   # - name: "SpacyEntityExtractor"
-  #   dimensions: ["PERSON", "LOC", "ORG", "PRODUCT"]
+  #   dimensions: ["LOC"]
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
     analyzer: char_wb
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 150
+    epochs: 100
     constrain_similarities: true
     transformers_layers: 4
   - name: RegexEntityExtractor
@@ -48,12 +48,13 @@ pipeline:
     epochs: 200
     constrain_similarities: true
   - name: FallbackClassifier
-    threshold: 0.7
+    threshold: 0.6
     ambiguity_threshold: 0.1
   - name: EntitySynonymMapper
   - name: "DucklingEntityExtractor"
     url: "http://localhost:8000/"
-    dimensions: ['time']
+    dimensions: ["time", "Distance","Numeral"]  
+    #For list of dimensions: https://github.com/facebook/duckling
     locale: "zh_HK"
     timezone: "Asia/Hong_Kong"
     timeout : 3

@@ -155,16 +155,18 @@ nlu:
       - 我想搵吓[行山]{"entity": "hike", "value": "行山"}[徑]{"entity":"choice", "value":"行山徑"}
       - [行山]{"entity": "hike", "value": "行山"}有咩[好去處]{"entity":"choice", "value":"行山徑"}
       - 有咩[遠足]{"entity": "hike", "value": "行山"}[路線]{"entity":"choice", "value":"行山徑"}
-      - [郊野公園]{"entity":"choice", "value":"行山徑"}[行山]{"entity": "hike", "value": "行山"}
+      - 有咩[行山]{"entity": "hike", "value": "行山"}[徑]{"entity":"choice", "value":"行山徑"}
+      - 搵吓[遠足]{"entity": "hike", "value": "行山"}[路線]{"entity":"choice", "value":"行山徑"}
+      - [郊野公園]{"entity":"choice", "value":"行山徑"}[行山]{"entity": "hike", "value": "行山徑"}
       - [郊遊]{"entity": "hike", "value": "行山"}[路線]{"entity":"choice", "value":"行山徑"}
   
   - intent: trails_search_by_districts
     examples: |
       - 依照[地區]{"entity":"districts", "value":"地區"}推介
-      - 我想睇[香港]唔同[地區]{"entity":"districts", "value":"地區"}有咩[行山徑]{"entity":"hike", "value":"行山徑"}
-      - [香港](HK)[各區]{"entity":"districts", "value":"地區"}有咩[行山徑]{"entity":"hike", "value":"行山徑"}
+      - 我想睇香港唔同[地區]{"entity":"districts", "value":"地區"}有咩[行山徑]{"entity":"hike", "value":"行山徑"}
+      - 香港[各區]{"entity":"districts", "value":"地區"}有咩[行山徑]{"entity":"hike", "value":"行山徑"}
       - 推介[行山路線]{"entity":"hike", "value":"行山徑"}
-      - [香港](HK)[行山好去處]{"entity":"hike", "value":"行山徑"}
+      - 香港[行山好去處]{"entity":"hike", "value":"行山徑"}
       - 唔同[地區]{"entity":"districts", "value":"地區"}[行山徑]{"entity":"hike", "value":"行山徑"}
   
   - intent: trails_search_by_lev
@@ -199,26 +201,27 @@ nlu:
 
   - intent: where_to_hike
     examples: |
-      - 我想去[港島]{"entity":"selected_district", "value":"港島區"}[行山]{"entity":"hike", "value":"行山"}
-      - 我想去[新界西]{"entity":"selected_district", "value":"新界西區"}[行山]{"entity":"hike", "value":"行山"}
-      - 我想去[新界北]{"entity":"selected_district", "value":"新界北區"}[郊遊]{"entity":"hike", "value":"行山"}
-      - [港島]{"entity":"selected_district", "value":"港島區"}[行山]{"entity":"hike", "value":"行山"}
-      - [港島]{"entity":"selected_district", "value":"港島區"}[郊游]{"entity":"hike", "value":"行山"}
+      - 我想去[港島]{"entity":"selected_district", "value":"港島區"}[行山]{"entity":"hike", "value":"行山徑"}
+      - 我想去[新界西]{"entity":"selected_district", "value":"新界西區"}[行山]{"entity":"hike", "value":"行山徑"}
+      - 我想去[新界北]{"entity":"selected_district", "value":"新界北區"}[郊遊]{"entity":"hike", "value":"行山徑"}
+      - [港島]{"entity":"selected_district", "value":"港島區"}[行山]{"entity":"hike", "value":"行山徑"}
+      - [港島]{"entity":"selected_district", "value":"港島區"}[郊游]{"entity":"hike", "value":"行山徑"}
       - [西貢]{"entity":"selected_district", "value":"西貢區"}[行山徑]{"entity":"hike", "value":"行山徑"}
-      - [西貢]{"entity":"selected_district", "value":"西貢區"}[行山]{"entity":"hike", "value":"行山"}
-      - [北區]{"entity":"selected_district", "value":"新界北區"}[行山]{"entity":"hike", "value":"行山"}
+      - [西貢]{"entity":"selected_district", "value":"西貢區"}[行山]{"entity":"hike", "value":"行山徑"}
+      - 我想去[北區]{"entity":"selected_district", "value":"新界北區"}[行山]{"entity":"hike", "value":"行山徑"}
       - [北區]{"entity":"selected_district", "value":"新界北區"}有咩[山]{"entity":"hike", "value":"行山徑"}
-      - [新界北]{"entity":"selected_district", "value":"新界北區"}[行山]{"entity":"hike", "value":"行山"}
+      - [新界北]{"entity":"selected_district", "value":"新界北區"}[行山]{"entity":"hike", "value":"行山徑"}
       - [新界北]{"entity":"selected_district", "value":"新界北區"}有咩[行山徑]{"entity":"hike", "value":"行山徑"}
-      - [北區]{"entity":"selected_district", "value":"新界北區"}[行山]{"entity":"hike", "value":"行山"}
-      - [大嶼山]{"entity":"selected_district", "value":"大嶼山區"}[郊遊]{"entity":"hike", "value":"行山"}
-      - [大嶼山]{"entity":"selected_district", "value":"大嶼山區"}[行山]{"entity":"hike", "value":"行山"}
+      - [北區]{"entity":"selected_district", "value":"新界北區"}[行山]{"entity":"hike", "value":"行山徑"}
+      - 我想去[大嶼山]{"entity":"selected_district", "value":"大嶼山區"}[郊遊]{"entity":"hike", "value":"行山徑"}
+      - [大嶼山]{"entity":"selected_district", "value":"大嶼山區"}[行山]{"entity":"hike", "value":"行山徑"}
       - [大嶼山]{"entity":"selected_district", "value":"大嶼山區"}[行山徑]{"entity":"hike", "value":"行山徑"}
       - [新界西]{"entity":"selected_district", "value":"新界西區"}[遠足路線]{"entity":"hike", "value":"行山徑"}
       - [新界西]{"entity":"selected_district", "value":"新界西區"}[行山路線]{"entity":"hike", "value":"行山徑"}
-      - [新界西]{"entity":"selected_district", "value":"新界西區"}[行山]{"entity":"hike", "value":"行山"}
-      - [新界西]{"entity":"selected_district", "value":"新界西區"}有咩[山]{"entity":"hike", "value":"行山徑"}行
-      - [大西北]{"entity":"selected_district", "value":"新界西區"}有咩[郊游]{"entity":"hike", "value":"行山"}
+      - 我想去[新界西]{"entity":"selected_district", "value":"新界西區"}[行山]{"entity":"hike", "value":"行山徑"}
+      - [新界西]{"entity":"selected_district", "value":"新界西區"}有咩[山行]{"entity":"hike", "value":"行山徑"}
+      - [大西北]{"entity":"selected_district", "value":"新界西區"}有咩[郊游]{"entity":"hike", "value":"行山徑"}
+      - [西北區]{"entity":"selected_district", "value":"新界西區"}有咩[郊游]{"entity":"hike", "value":"行山徑"}
 
   - intent: easy_hard_hike
     examples: |
@@ -248,6 +251,11 @@ nlu:
   
   - synonym: 行山徑
     examples: |
+      - 行山
+      - 遠足
+      - 登山
+      - 郊遊
+      - 郊游
       - 山
       - 郊遊徑
       - 郊野公園
@@ -297,15 +305,15 @@ nlu:
     
   - intent: i_want_to_hike
     examples: |
-      - 我想[行山]{"entity": "hike", "value": "行山"}
-      - 我想去[行山]{"entity": "hike", "value": "行山"}
-      - 我想去[登山]{"entity": "hike", "value": "行山"}
-      - 我想去[遠足]{"entity": "hike", "value": "行山"}
-      - 我想去[郊遊]{"entity": "hike", "value": "行山"}
-      - [行山]{"entity": "hike", "value": "行山"}
-      - [登山]{"entity": "hike", "value": "行山"}
-      - [遠足]{"entity": "hike", "value": "行山"}
-      - [郊遊]{"entity": "hike", "value": "行山"}
+      - 我想[行山]{"entity": "hike", "value": "行山徑"}
+      - 我想去[行山]{"entity": "hike", "value": "行山徑"}
+      - 我想去[登山]{"entity": "hike", "value": "行山徑"}
+      - 我想去[遠足]{"entity": "hike", "value": "行山徑"}
+      - 我想去[郊遊]{"entity": "hike", "value": "行山徑"}
+      - [行山]{"entity": "hike", "value": "行山徑"}
+      - [登山]{"entity": "hike", "value": "行山徑"}
+      - [遠足]{"entity": "hike", "value": "行山徑"}
+      - [郊遊]{"entity": "hike", "value": "行山徑"}
 
   - intent: recommend_hiking_route
     examples: |
@@ -394,31 +402,12 @@ nlu:
       - 禮拜日
       - 周日
       - 星期天
-      
-  # - intent: ask_current_weather
-  #   examples: |
-  #     - 嚟緊[天氣](weather)點樣呀?
-  #     - [今日](today)[天氣](weather)點樣呀?
-  #     - 甚麼[天氣](weather)?
-  #     - 乜野[天氣](weather)呀?
-  #     - 咩[天氣](weather)呀?
-  #     - [今日](today)[天氣](weather)預報
-  #     - [今日](today)[天氣](weather)如何?
-  #     - 依家[天氣](weather)如何?
-  #     - 想問下[今日](today)[天氣](weather)點樣?
-  #     - [天氣](weather)
-
-  # - intent: ask_upcoming_weather
-  #   examples: |
-  #     - [星期一]{"entity": "每週各天", "value": "week"}[天氣](weather)點呀？
-  #     - [星期二]{"entity": "每週各天", "value": "week"}[天氣](weather)點呀？
-  #     - [週末]{"entity": "每週各天", "value": "week"}[天氣](weather)點呀？
 
   - intent: hiking_caution
     examples: |
-      - [行山]{"entity": "hike", "value": "行山"}有咩[安全事項]{"entity":"safety_caution", "value":"安全注意"}
-      - [遠足]{"entity": "hike", "value": "行山"}要[注意事項]{"entity":"safety_caution", "value":"安全注意"}
-      - [郊遊]{"entity": "hike", "value": "行山"}有乜嘢要[注意]{"entity":"safety_caution", "value":"安全注意"}
+      - [行山]{"entity": "gohike", "value": "行山"}有咩[安全事項]{"entity":"safety_caution", "value":"安全注意"}
+      - [遠足]{"entity": "gohike", "value": "行山"}要[注意事項]{"entity":"safety_caution", "value":"安全注意"}
+      - [郊遊]{"entity": "gohike", "value": "行山"}有乜嘢要[注意]{"entity":"safety_caution", "value":"安全注意"}
 
   - synonym: 安全注意
     examples: |
@@ -431,12 +420,12 @@ nlu:
   
   - intent: checklist
     examples: |
-      - [行山]{"entity": "hike", "value": "行山"}有咩[裝備]{"entity":"prepare", "value":"準備"}帶
-      - [行山]{"entity": "hike", "value": "行山"}要帶[物品]{"entity":"prepare", "value":"準備"}
-      - [遠足]{"entity": "hike", "value": "行山"}前[預備]{"entity":"prepare", "value":"準備"}
-      - [郊遊]{"entity": "hike", "value": "行山"}[準備]{"entity":"prepare", "value":"準備"}
-      - [行山]{"entity": "hike", "value": "行山"}[必備清單]{"entity":"prepare", "value":"準備"}
-      - [事前預備]{"entity":"prepare", "value":"準備"}
+      - [行山]{"entity": "gohike", "value": "行山"}有咩[裝備]{"entity":"prepare", "value":"準備"}帶
+      - [行山]{"entity": "gohike", "value": "行山"}要帶[物品]{"entity":"prepare", "value":"準備"}
+      - [遠足]{"entity": "gohike", "value": "行山"}前[預備]{"entity":"prepare", "value":"準備"}
+      - [郊遊]{"entity": "gohike", "value": "行山"}[準備]{"entity":"prepare", "value":"準備"}
+      - [行山]{"entity": "gohike", "value": "行山"}[必備清單]{"entity":"prepare", "value":"準備"}
+      - [郊遊]{"entity": "gohike", "value": "行山"}[事前預備]{"entity":"prepare", "value":"準備"}
   
   - synonym: 準備
     examples: |
@@ -451,10 +440,10 @@ nlu:
   
   - intent: ask_accidents
     examples: |
-      - [行山]{"entity": "hike", "value": "行山"}常見[意外](accident)有咩
-      - [行山]{"entity": "hike", "value": "行山"}有咩[意外](accident)
-      - [遠足]{"entity": "hike", "value": "行山"}常發生[意外](accident)
-      - [郊遊]{"entity": "hike", "value": "行山"}[事故](accident)
+      - [行山]{"entity": "gohike", "value": "行山"}常見[意外](accident)有咩
+      - [行山]{"entity": "gohike", "value": "行山"}有咩[意外](accident)
+      - [遠足]{"entity": "gohike", "value": "行山"}常發生[意外](accident)
+      - [郊遊]{"entity": "gohike", "value": "行山"}[事故](accident)
   
   - synonym: accident
     examples: |

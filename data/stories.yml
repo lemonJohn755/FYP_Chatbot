@@ -5,11 +5,11 @@ stories:
   - intent: greet
   - action: utter_welcome
   - action: utter_top_menu
-  - checkpoint: greet_user
+  # - checkpoint: greet_user
 
 - story: btn_trails_by_districts
   steps:
-  - checkpoint: greet_user
+# - checkpoint: greet_user
   - intent: hiking_trails_search
     entities:
     - choice: 行山徑
@@ -30,7 +30,7 @@ stories:
 
 - story: btn_trails_by_lev
   steps:
-  - checkpoint: greet_user
+# - checkpoint: greet_user
   - intent: hiking_trails_search
     entities:
     - choice: 行山徑
@@ -51,7 +51,7 @@ stories:
 
 - story: btn_safety_caution
   steps:
-  - checkpoint: greet_user
+# - checkpoint: greet_user
   - intent: hiking_info
     entities:
     - choice: 資訊
@@ -59,12 +59,14 @@ stories:
     - choice: 資訊
   - action: utter_hiking_info_menu
   - intent: hiking_caution
+    entities:
+    - safety_caution: 安全注意
   - action: utter_hiking_caution
   - action: action_reset_all_slots
 
 - story: btn_checklist
   steps:
-  - checkpoint: greet_user
+# - checkpoint: greet_user
   - intent: hiking_info
     entities:
     - choice: 資訊
@@ -76,7 +78,7 @@ stories:
 
 - story: btn_common_accidents
   steps:
-  - checkpoint: greet_user
+# - checkpoint: greet_user
   - intent: hiking_info
     entities:
     - choice: 資訊
@@ -96,7 +98,7 @@ stories:
 
 - story: trails_search_by_districts
   steps:
-  - checkpoint: greet_user
+# - checkpoint: greet_user
   - intent: trails_search_by_districts
     entities:
     - districts: 地區
@@ -110,7 +112,7 @@ stories:
 
 - story: trails_search_by_lev
   steps:
-  - checkpoint: greet_user
+# - checkpoint: greet_user
   - intent: trails_search_by_lev
     entities:
     - lev: 程度
@@ -124,27 +126,27 @@ stories:
 
 - story: hiking_caution_long
   steps:
-    - checkpoint: greet_user
+  # - checkpoint: greet_user
     - intent: hiking_info
       entities:
       - choice: 資訊
     - action: utter_hiking_info_menu
     - intent: hiking_caution
       entities:
-      - safety_caution
+      - safety_caution: 安全注意
     - action: utter_hiking_caution
 
 - story: hiking_caution_short
   steps:
-    - checkpoint: greet_user
+  # - checkpoint: greet_user
     - intent: hiking_caution
       entities:
-      - safety_caution
+      - safety_caution: 安全注意
     - action: utter_hiking_caution
 
 - story: checklist_long
   steps:
-    - checkpoint: greet_user
+  # - checkpoint: greet_user
     - intent: hiking_info
       entities:
       - choice: 資訊
@@ -156,15 +158,16 @@ stories:
 
 - story: checklist_short
   steps:
-    - checkpoint: greet_user
+  # - checkpoint: greet_user
     - intent: checklist
       entities:
-      - prepare
+      - prepare: 準備
+      - gohike: 行山
     - action: utter_checklist
 
 - story: accident_long
   steps:
-    - checkpoint: greet_user
+  # - checkpoint: greet_user
     - intent: hiking_info
       entities:
       - choice: 資訊
@@ -184,7 +187,7 @@ stories:
 
 - story: accident_short
   steps:
-    - checkpoint: greet_user
+  # - checkpoint: greet_user
     - intent: ask_accidents
       entities:
       - accident
@@ -198,7 +201,7 @@ stories:
 
 - story: convo_query_select_districts
   steps:
-  - checkpoint: greet_user
+# - checkpoint: greet_user
   - intent: i_want_to_hike
     entities:
     - hike
@@ -210,20 +213,20 @@ stories:
     - selected_district
   - action: action_district_query
 
-- story: conversation_where_to_hike
+- story: convo_where_to_hike
   steps:
-  - checkpoint: greet_user
+  # - checkpoint: greet_user
   - intent: where_to_hike
     entities:
-    - hike
-    - district
+    - hike: 行山徑
+    - selected_district
   - slot_was_set:
     - selected_district
   - action: action_district_query
 
-- story: conversation_easyHard_to_hike (ask difficulty lev)
+- story: convo_easyHard_to_hike (ask difficulty lev)
   steps:
-  - checkpoint: greet_user
+# - checkpoint: greet_user
   - intent: easy_hard_hike
     entities:
     - hike
@@ -236,11 +239,42 @@ stories:
     - difficulty
   - action: action_difficulty_query
 
+- story: convo_see_trails
+  steps:
+# - checkpoint: greet_user
+  - intent: hiking_trails_search
+    entities:
+    - choice: 行山徑
+    - hike: 行山徑
+  - action: utter_ask_district
+  - or:
+    - intent: districts_available
+      entities:
+      - selected_district
+    - intent: where_to_hike
+      entities:
+      - selected_district
+  - slot_was_set:
+    - selected_district
+  - action: action_district_query
+
+- story: convo_trail_search_by_location
+  steps:
+  - intent: location_available
+    entities:
+    - location
+
 - story: check_weather
   steps:
+# - checkpoint: greet_user
   - or:
     - intent: check_today_weather
+      entities:
+        - weather
     - intent: ask_weather_in_week
+      entities:
+        - weather
+        - week
   - action: utter_time
 
 # - story: hiking_trails_search

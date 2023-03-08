@@ -55,6 +55,7 @@ entities:
   - time
   - today
   - week
+  - gohike
 
 slots:
   choice:
