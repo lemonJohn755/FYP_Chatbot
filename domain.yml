@@ -97,7 +97,12 @@ slots:
     mappings:
     - type: from_entity
       entity: time
-
+  
+  location:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: location
 
 forms:
   choice_form:
