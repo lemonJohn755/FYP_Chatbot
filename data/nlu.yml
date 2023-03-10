@@ -322,7 +322,6 @@ nlu:
 
   - intent: ask_today_weather
     examples: |
-      - 嚟緊[天氣](weather)點樣呀?
       - 今日[天氣](weather)點樣呀?
       - 甚麼[天氣](weather)?
       - 乜野[天氣](weather)呀?
@@ -333,6 +332,15 @@ nlu:
       - 想問下今日[天氣](weather)點樣?
       - [天氣](weather)
   
+  # - intent: ask_weather_forecast
+  #   examples: |
+  #     - 嚟緊[天氣](weather)點樣呀?
+  #     - 嚟緊[天氣](weather)如何呀?
+  #     - 今個禮拜[天氣](weather)預報
+  #     - 今個星期[天氣](weather)預報
+  #     - 這個星期[天氣](weather)預報
+  #     - 這週[天氣](weather)預報
+
   - intent: ask_weather_of_day
     examples: |
       - [星期一]{"entity":"week","value":"星期一"}[天氣](weather)點呀？
