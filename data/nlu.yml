@@ -333,7 +333,7 @@ nlu:
       - 想問下今日[天氣](weather)點樣?
       - [天氣](weather)
   
-  - intent: ask_weather_in_week
+  - intent: ask_weather_of_day
     examples: |
       - [星期一]{"entity":"week","value":"星期一"}[天氣](weather)點呀？
       - [星期二]{"entity":"week","value":"星期二"}[天氣](weather)點樣？
