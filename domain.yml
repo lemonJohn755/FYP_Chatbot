@@ -31,8 +31,6 @@ intents:
   - ask_accidents
   - location_available
   - ask_weather_in_week
-  - ask_current_weather
-  - ask_upcoming_weather
 
 entities:
   - weather
