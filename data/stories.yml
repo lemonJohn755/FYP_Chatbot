@@ -238,8 +238,17 @@ stories:
 
 - story: check_weather
   steps:
-    - intent: check_today_weather
+    - intent: ask_today_weather
+      entities:
+      - time
     - action: action_inquire_weather
+
+# - story: ask_weather_of_day
+#   steps:
+#     - intent: ask_weather_of_day
+#       entities:
+#       - time
+#     - action: action_inquire_weather_forecast
 
 # - story: hiking_trails_search
 #   steps:

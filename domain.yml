@@ -17,7 +17,7 @@ intents:
   - difficulties_available
   - i_want_to_hike
   - recommend_hiking_route
-  - check_today_weather
+  - ask_today_weather
   - where_to_hike
   - easy_hard_hike
   - hiking_trails_search
@@ -30,7 +30,7 @@ intents:
   - accidents_list
   - ask_accidents
   - location_available
-  - ask_weather_in_week
+  - ask_weather_of_day
 
 entities:
   - weather
