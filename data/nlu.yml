@@ -320,7 +320,7 @@ nlu:
       - 我想知有咩[行山路線]{"entity": "hike", "行山徑": "行山徑"}
       - [行山徑]{"entity": "hike", "value": "行山徑"}[推薦](recommend)
 
-  - intent: check_today_weather
+  - intent: ask_today_weather
     examples: |
       - 嚟緊[天氣](weather)點樣呀?
       - 今日[天氣](weather)點樣呀?
