@@ -328,9 +328,8 @@ nlu:
       - 我想知有咩[行山路線]{"entity": "hike", "行山徑": "行山徑"}
       - [行山徑]{"entity": "hike", "value": "行山徑"}[推薦](recommend)
 
-  - intent: check_today_weather
+  - intent: ask_today_weather
     examples: |
-      - 嚟緊[天氣](weather)點樣呀?
       - 今日[天氣](weather)點樣呀?
       - 甚麼[天氣](weather)?
       - 乜野[天氣](weather)呀?
@@ -340,61 +339,79 @@ nlu:
       - 依家[天氣](weather)如何?
       - 想問下今日[天氣](weather)點樣?
       - [天氣](weather)
+      - 今日好唔好天呀？
+      - 依家幾多度呀
   
-  - intent: ask_weather_in_week
+  # - intent: ask_weather_forecast
+  #   examples: |
+  #     - 嚟緊[天氣](weather)點樣呀?
+  #     - 嚟緊[天氣](weather)如何呀?
+  #     - 今個禮拜[天氣](weather)預報
+  #     - 今個星期[天氣](weather)預報
+  #     - 這個星期[天氣](weather)預報
+  #     - 這週[天氣](weather)預報
+
+  - intent: ask_weather_of_day
     examples: |
       - [星期一]{"entity":"week","value":"星期一"}[天氣](weather)點呀？
-      - [星期二]{"entity":"week","value":"星期二"}[天氣](weather)點樣？
+      - 有冇[星期二]{"entity":"week","value":"星期二"}[天氣](weather)預報？
       - [星期三]{"entity":"week","value":"星期三"}[天氣](weather)如何?
-      - [星期四]{"entity":"week","value":"星期四"}[天氣](weather)點樣呀？
-      - [星期五]{"entity":"week","value":"星期五"}[天氣](weather)預報？
+      - 想問下[星期五]{"entity":"week","value":"星期五"}[天氣](weather)預報？
       - 想知[星期六]{"entity":"week","value":"星期六"}[天氣](weather)？
-      - [星期日]{"entity":"week","value":"星期日"}[天氣](weather)點呀？
+      - [下個星期日]{"entity":"week","value":"星期日"}[天氣](weather)會有咩變化呀？
       - [星期天]{"entity":"week","value":"星期日"}[天氣](weather)點呀？
-      - [禮拜一]{"entity":"week","value":"星期一"}[天氣](weather)點呀？
+      - 嚟緊[禮拜一]{"entity":"week","value":"星期一"}[天氣](weather)點呀？
       - [禮拜二]{"entity":"week","value":"星期二"}[天氣](weather)點呀？
-      - [禮拜三]{"entity":"week","value":"星期三"}[天氣](weather)點呀？
+      - [下星期四]{"entity":"week","value":"星期四"}[天氣](weather)點樣呀？
+      - [下禮拜三]{"entity":"week","value":"星期三"}[天氣](weather)點呀？
+      - [下禮拜五]{"entity":"week","value":"星期五"}[天氣](weather)點呀？
       - [禮拜四]{"entity":"week","value":"星期四"}[天氣](weather)點呀？
-      - [禮拜五]{"entity":"week","value":"星期五"}[天氣](weather)點呀？
-      - [禮拜六]{"entity":"week","value":"星期六"}[天氣](weather)點呀？
+      - [禮拜六]{"entity":"week","value":"星期六"}好唔好天呀？
+      - [禮拜四]{"entity":"week","value":"星期六"}好唔好天呀？
       - [禮拜日]{"entity":"week","value":"星期日"}[天氣](weather)點呀？
-      - [週末]{"entity":"week","value":"週末"}[天氣](weather)點呀？
+      - [週末]{"entity":"week","value":"週末"}[天氣](weather)點呀？
   
   - synonym: 星期一
     examples: |
       - 星期一
       - 禮拜一
       - 周一
+      - 週一
   
   - synonym: 星期二
     examples: |
       - 星期二
       - 禮拜二
       - 周二
+      - 週二
   
   - synonym: 星期三
     examples: |
       - 星期三
       - 禮拜三
       - 周三
+      - 週三
   
   - synonym: 星期四
     examples: |
       - 星期四
       - 禮拜四
       - 周四
+      - 週四
 
   - synonym: 星期五
     examples: |
       - 星期五
       - 禮拜五
       - 周五
+      - 週五
   
   - synonym: 星期六
     examples: |
       - 星期六
       - 禮拜六
       - 周六
+      - 週六
   
   - synonym: 星期日
     examples: |
@@ -402,6 +419,26 @@ nlu:
       - 禮拜日
       - 周日
       - 星期天
+      - 週日
+      
+  # - intent: ask_current_weather
+  #   examples: |
+  #     - 嚟緊[天氣](weather)點樣呀?
+  #     - [今日](today)[天氣](weather)點樣呀?
+  #     - 甚麼[天氣](weather)?
+  #     - 乜野[天氣](weather)呀?
+  #     - 咩[天氣](weather)呀?
+  #     - [今日](today)[天氣](weather)預報
+  #     - [今日](today)[天氣](weather)如何?
+  #     - 依家[天氣](weather)如何?
+  #     - 想問下[今日](today)[天氣](weather)點樣?
+  #     - [天氣](weather)
+
+  # - intent: ask_upcoming_weather
+  #   examples: |
+  #     - [星期一]{"entity": "每週各天", "value": "week"}[天氣](weather)點呀？
+  #     - [星期二]{"entity": "每週各天", "value": "week"}[天氣](weather)點呀？
+  #     - [週末]{"entity": "每週各天", "value": "week"}[天氣](weather)點呀？
 
   - intent: hiking_caution
     examples: |

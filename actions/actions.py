@@ -30,7 +30,7 @@ import json
 import os
 from typing import Any, Text, Dict, List
 from dotenv import dotenv_values
-
+import aiohttp
 from rasa_sdk.events import SlotSet
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
@@ -230,22 +230,26 @@ class ActionCheckWeather(Action):
     def name(self) -> Text:
         return "action_inquire_weather"
 
-    def run(
+    async def run(
         self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]
     ) -> List[Dict[Text, Any]]:
 
-        weather_entity = next(
-            tracker.get_latest_entity_values("weather"), None)
+        # weather_entity = next(
+        #     tracker.get_latest_entity_values("weather"), None)
 
-        if not weather_entity:
-            msg = f"Sorry, 唔係好明你意思"
-            dispatcher.utter_message(text=msg)
+        # if not weather_entity:
+        #     msg = f"Sorry, 唔係好明你意思"
+        #     dispatcher.utter_message(text=msg)
 
-            return []
-        #dispatcher.utter_message(text='ok weather')
+        #     return []
+
         try:
-            response = requests.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc").json()
-            msg = f"{response['forecastPeriod']}\n{response['forecastDesc']}\n{response['outlook']}\n{response['generalSituation']}\n{response['tcInfo']}\n{response['fireDangerWarning']}"
+            weather_data = None
+            async with aiohttp.ClientSession() as session:
+                async with session.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc") as response:
+                    weather_data = await response.json()
+            
+            msg = f"{weather_data['forecastPeriod']}\n{weather_data['forecastDesc']}\n{weather_data['outlook']}\n{weather_data['generalSituation']}\n{weather_data['tcInfo']}\n{weather_data['fireDangerWarning']}"
             dispatcher.utter_message(msg)
         except Exception as e:
             print("CheckWeather function error")
@@ -257,28 +261,36 @@ class ActionCheckWeatherForecast(Action):
     def name(self) -> Text:
         return "action_inquire_weather_forecast"
 
-    def run(
+    async def run(
         self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]
     ) -> List[Dict[Text, Any]]:
 
         weather_entity = next(tracker.get_latest_entity_values("weather"), "天氣")
-        week_entity = next(tracker.get_latest_entity_values("每週各天"), "每週各天")
-
-        if not weather_entity or week_entity:
+        duckling_time = tracker.get_slot("time")
+        if not weather_entity or not duckling_time:
             msg = f"Sorry, 唔係好明你意思"
             dispatcher.utter_message(text=msg)
-
             return []
-        #dispatcher.utter_message(text='ok weather')
+        
+        day_of_week = duckling_time[0:10].replace("-","")
+  
         try:
-            # response = requests.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc").json()
-            #print(response)
-            # msg = response['weatherForecast'][0]['week']
+            forecast_data = None
+            weather_data = None
+            async with aiohttp.ClientSession() as session:
+                async with session.get("https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc") as response:
+                    weather_data = await response.json()
+            
+            for data in weather_data["weatherForecast"]:
+                if data["forecastDate"] == day_of_week:
+                    forecast_data = data
+                    break
+
             # TODO: return full response to frontend
-            dispatcher.utter_message(text= 'forecast')
+            weather_data = f"{forecast_data['week']}{forecast_data['forecastWeather']}{forecast_data['forecastWind']}氣溫介乎{forecast_data['forecastMintemp']['value']}至{forecast_data['forecastMaxtemp']['value']}度。濕度介乎百份之{forecast_data['forecastMinrh']['value']}至{forecast_data['forecastMaxrh']['value']}。"
+            dispatcher.utter_message(text=weather_data)
         except Exception as e:
-            print("CheckWeather function error")
-            print(e)
+            print(f"CheckWeather function error\n{e}")
 
         return []
 
