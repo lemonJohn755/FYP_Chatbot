@@ -260,9 +260,12 @@ stories:
 
 - story: convo_trail_search_by_location
   steps:
-  - intent: location_available
-    entities:
-    - location
+    - intent: location_available
+      entities:
+      - location
+    - slot_was_set:
+      - location
+    - action: action_trailname_query  # NOT finished
 
 - story: check_weather
   steps:
