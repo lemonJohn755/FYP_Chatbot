@@ -348,3 +348,4 @@ actions:
   - utter_ask_district
   - action_accident_query
   - action_inquire_weather_forecast
+  - action_trailname_query
