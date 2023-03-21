@@ -100,9 +100,10 @@ class ActionChooseDistrict(Action):
             detail = '詳情: ' + x[4] + '\n\n'
             result_return = result_return + heading + \
                 route + difficulty + length + score + detail
-        
+                
         cursor.close()
-        db.close()
+        db.reconnect()
+        # db.close()
         return result_return
         
 
@@ -134,13 +135,14 @@ class ActionChooseDifficulty(Action):
         cursor.execute(sql)
         result = cursor.fetchall()
         
-        heading = "\n第 {}/{} 個結果".format(i, total_num)+ '\n'
-        route = '行山徑: '+ x[0] + '\n'
-        difficulty = '難度: ' + str(x[1]) + '\n'
-        length = '長度: ' + str(x[2]) + 'km\n'
-        score = '評分: ' + str(x[3]) + '/5\n'
-        detail = '詳情: ' + x[4] + '\n\n'
-        result_return = result_return + heading + route + difficulty + length + score + detail
+        # heading = "\n第 {}/{} 個結果".format(i, total_num)+ '\n'
+        # route = '行山徑: '+ x[0] + '\n'
+        # difficulty = '難度: ' + str(x[1]) + '\n'
+        # length = '長度: ' + str(x[2]) + 'km\n'
+        # score = '評分: ' + str(x[3]) + '/5\n'
+        # detail = '詳情: ' + x[4] + '\n\n'
+        # result_return = result_return + heading + route + difficulty + length + score + detail
+        result_return = ''
         
         i=0
         total_num = len(result)
@@ -163,7 +165,8 @@ class ActionChooseDifficulty(Action):
             result_return = result_return + heading + route + difficulty + length + score + detail
 
         cursor.close()
-        db.close()
+        db.reconnect()
+        # db.close()
         return result_return
                 
     #     weather_entity = next(tracker.get_latest_entity_values("weather"), None)
@@ -222,7 +225,8 @@ class ActionAccidentQuery(Action):
         
         # close the cursor and database connection
         cursor.close()
-        db.close()
+        # db.close()
+        db.reconnect()
         
         return result_return
     
@@ -303,4 +307,3 @@ class ActionResetAllSlots(Action):
              tracker: Tracker,
              domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         return [AllSlotsReset()]
-    
