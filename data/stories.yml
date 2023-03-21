@@ -265,7 +265,7 @@ stories:
       - location
     - slot_was_set:
       - location
-    - action: action_trailname_query  # NOT finished
+    - action: action_trailname_query
 
 - story: check_weather
   steps:
