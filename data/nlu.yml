@@ -225,8 +225,8 @@ nlu:
 
   - intent: easy_hard_hike
     examples: |
-      - 我想行[容易]{"entity":"difficulty", "value":"1"}[行山徑]{"entity":"hike", "value":"行山徑"}
-      - [輕鬆]{"entity":"difficulty", "value":"1"}[行山好去處]{"entity":"hike", "value":"行山徑"}
+      - 我想行[容易]{"entity":"difficulty", "value":"難度一星"}[行山徑]{"entity":"hike", "value":"行山徑"}
+      - [輕鬆]{"entity":"difficulty", "value":"難度一星"}[行山好去處]{"entity":"hike", "value":"行山徑"}
       - 有[挑戰性]{"entity":"easyhard"}嘅[行山路線]{"entity":"hike", "value":"行山徑"}
       - 有[難度]{"entity":"easyhard"}嘅[遠足路線]{"entity":"hike", "value":"行山徑"}
       - 有[挑戰性]{"entity":"easyhard"}[行山徑]{"entity":"hike", "value":"行山徑"}
@@ -297,12 +297,22 @@ nlu:
 
   - intent: difficulties_available
     examples: |
-      - [難度1](difficulty)
-      - [難度2](difficulty)
-      - [難度3](difficulty)
-      - [難度4](difficulty)
-      - [難度5](difficulty)
-    
+      # - [難度1](difficulty)
+      # - [難度2](difficulty)
+      # - [難度3](difficulty)
+      # - [難度4](difficulty)
+      # - [難度5](difficulty)
+      - [難度一星](difficulty)
+      - [難度二星](difficulty)
+      - [難度三星](difficulty)
+      - [難度四星](difficulty)
+      - [難度五星](difficulty)
+      - [一星]{"entity":"difficulty", "value":"難度一星"}
+      - [二星]{"entity":"difficulty", "value":"難度二星"}
+      - [三星]{"entity":"difficulty", "value":"難度三星"}
+      - [四星]{"entity":"difficulty", "value":"難度四星"}
+      - [五星]{"entity":"difficulty", "value":"難度五星"}
+
   - intent: i_want_to_hike
     examples: |
       - 我想[行山]{"entity": "hike", "value": "行山徑"}

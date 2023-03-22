@@ -200,15 +200,15 @@ responses:
   - text: 請輸入難度，1 最易，5最難
     buttons:
       - title: "1" 
-        payload: '/difficulties_available{{"difficulty":"難度1"}}'
+        payload: '/difficulties_available{{"difficulty":"難度一星"}}'
       - title: "2"
-        payload: '/difficulties_available{{"difficulty":"難度2"}}'
+        payload: '/difficulties_available{{"difficulty":"難度二星"}}'
       - title: "3"
-        payload: '/difficulties_available{{"difficulty":"難度3"}}'
+        payload: '/difficulties_available{{"difficulty":"難度三星"}}'
       - title: "4"
-        payload: '/difficulties_available{{"difficulty":"難度4"}}'
+        payload: '/difficulties_available{{"difficulty":"難度四星"}}'
       - title: "5"
-        payload: '/difficulties_available{{"difficulty":"難度5"}}'
+        payload: '/difficulties_available{{"difficulty":"難度五星"}}'
 
   utter_say_user_chose: 
   - condition:
@@ -234,15 +234,15 @@ responses:
     text: 請輸入難度，1 最易，5最難
     buttons:
       - title: "1" 
-        payload: '/difficulties_available{{"difficulty":"難度1"}}'
+        payload: '/difficulties_available{{"difficulty":"難度一星"}}'
       - title: "2"
-        payload: '/difficulties_available{{"difficulty":"難度2"}}'
+        payload: '/difficulties_available{{"difficulty":"難度二星"}}'
       - title: "3"
-        payload: '/difficulties_available{{"difficulty":"難度3"}}'
+        payload: '/difficulties_available{{"difficulty":"難度三星"}}'
       - title: "4"
-        payload: '/difficulties_available{{"difficulty":"難度4"}}'
+        payload: '/difficulties_available{{"difficulty":"難度四星"}}'
       - title: "5"
-        payload: '/difficulties_available{{"difficulty":"難度5"}}'
+        payload: '/difficulties_available{{"difficulty":"難度五星"}}'
 
   utter_hiking_caution:
   - text: "遠足安全守則\n
@@ -336,6 +336,9 @@ responses:
   utter_out_of_scope:
   - text: "對唔住，我處理唔到你啲要求"
 
+  utter_img_demo:
+  - text: "Here is a demo img:"
+    image: ""
 
 actions:
   - action_district_query

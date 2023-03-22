@@ -116,17 +116,29 @@ class ActionChooseDifficulty(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
         msg = tracker.get_slot("difficulty")
-        difficulty = msg[-1]
-        print(difficulty)
+        # difficulty = msg[-1]
+        # print(difficulty)
         
+        if (msg == "難度一星"):
+            difficulty = 1
+        elif (msg == "難度二星"):
+            difficulty = 2
+        elif (msg == "難度三星"):
+            difficulty = 3
+        elif (msg == "難度四星"):
+            difficulty = 4
+        elif (msg == "難度五星"):
+            difficulty = 5
+            
         if (difficulty is not None) and (int(difficulty) <= 5):
             query = ActionChooseDifficulty.district_db_query(difficulty)
             dispatcher.utter_message(text=f"幫你搵到難度 {difficulty}/5 相關結果\n"
                                      +query)
-            return []
         else:
-            dispatcher.utter_message(text=f"唔好意思，我手頭上冇難度 {msg} 相關結果。可以問難度（1-5）")
+            dispatcher.utter_message(text=f"唔好意思，我手頭上冇難度 {msg} 相關結果。可以問難度一星至五星")
 
+        return []
+        
     def district_db_query(difficulty):
         db = MySQLConnection.getInstance().getConnection()
         cursor = db.cursor()
