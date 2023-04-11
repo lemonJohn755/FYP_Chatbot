@@ -363,6 +363,11 @@ nlu:
 
   - intent: ask_weather_of_day
     examples: |
+      - [明天](week)[天氣](weather)
+      - [明日](week)[天氣](weather)
+      - [聽日](week)[天氣](weather)
+      - [後日](week)[天氣](weather)
+      - [後天](week)[天氣](weather)
       - [星期一]{"entity":"week","value":"星期一"}[天氣](weather)點呀？
       - 有冇[星期二]{"entity":"week","value":"星期二"}[天氣](weather)預報？
       - [星期三]{"entity":"week","value":"星期三"}[天氣](weather)如何?
@@ -546,8 +551,8 @@ nlu:
       - [金山](location)
       - [城門]{"entity":"location", "value":"城門郊野公園"}
       - [城門郊野公園](location)
-      - [萬宜]{"entity":"location", "value":"萬宜水庫"}
-      - [萬宜水庫](location)
+      - [萬宜](location)
+      - [萬宜水庫]{"entity":"location", "value":"萬宜地質步道"}
       - [釣魚翁](location)
       - [大浪灣](location)
       - [川龍](location)
@@ -556,6 +561,7 @@ nlu:
       - [芝麻灣](location)
       - [分流](location)
       - [羗山](location)
+      - [港島徑](location)
 
   - lookup: trails_list
     examples: |

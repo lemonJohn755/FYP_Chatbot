@@ -267,25 +267,28 @@ class ActionTrailnameQuery(Action):
         
         result_return = ''
         
-        i=0
-        total_num = len(result)
-        for x in result:
-            i=i+1
-            print("")
-            print("第 {}/{} 個結果".format(i, total_num))
-            print('行山徑:',x[0])
-            print('難度:',x[1])
-            print('長度:',x[2])
-            print('評分:',x[3])
-            print('詳情:',x[4])
-            
-            heading = "\n第 {}/{} 個結果".format(i, total_num)+ '\n'
-            route = '行山徑: '+ x[0] + '\n'
-            difficulty = '難度: ' + str(x[1]) + '\n'
-            length = '長度: ' + str(x[2]) + 'km\n'
-            score = '評分: ' + str(x[3]) + '/5\n'
-            detail = '詳情: ' + x[4] + '\n\n'
-            result_return = result_return + heading + route + difficulty + length + score + detail
+        if not result:  # When the DB returns null result
+            result_return = "有關{}行山徑未收錄".format(location)
+        else:
+            i=0
+            total_num = len(result)
+            for x in result:
+                i=i+1
+                print("")
+                print("第 {}/{} 個結果".format(i, total_num))
+                print('行山徑:',x[0])
+                print('難度:',x[1])
+                print('長度:',x[2])
+                print('評分:',x[3])
+                print('詳情:',x[4])
+                
+                heading = "\n第 {}/{} 個結果".format(i, total_num)+ '\n'
+                route = '行山徑: '+ x[0] + '\n'
+                difficulty = '難度: ' + str(x[1]) + '\n'
+                length = '長度: ' + str(x[2]) + 'km\n'
+                score = '評分: ' + str(x[3]) + '/5\n'
+                detail = '詳情: ' + x[4] + '\n\n'
+                result_return = result_return + heading + route + difficulty + length + score + detail
 
         cursor.close()
         db.reconnect()
