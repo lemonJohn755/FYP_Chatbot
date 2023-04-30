@@ -147,6 +147,8 @@ responses:
 
   utter_iamabot:
   - text: '我係一個由 Rasa 驅動嘅聊天機械人 :robot:'
+  - text: '我唔係真人回覆，而係基於 Rasa 嘅聊天機械人 :robot:'
+  - text: '我唔係人類啊，而係Rasa 聊天機械人 :robot:'
 
   utter_top_menu:
   - text: "我可以推供行山資訊，請選擇："

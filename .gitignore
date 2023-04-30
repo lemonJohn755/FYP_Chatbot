@@ -1299,3 +1299,4 @@ tests/test_stories.yml
 results
 credentials.yml
 .rasa
+.DS_Store
