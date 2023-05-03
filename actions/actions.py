@@ -158,6 +158,10 @@ class ActionChooseDifficulty(Action):
         
         i=0
         total_num = len(result)
+        
+        if (total_num==0):
+            return f"唔好意思，我手頭上冇難度 {difficulty} 相關結果。可以問難度一星至五星"
+        
         for x in result:
             i=i+1
             print("")

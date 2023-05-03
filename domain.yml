@@ -247,20 +247,22 @@ responses:
         payload: '/difficulties_available{{"difficulty":"難度五星"}}'
 
   utter_hiking_caution:
-  - text: "遠足安全守則\n
-      1. 出發前應注意天氣情況，尤其要留意是否會有雷暴、風雨或氣溫驟降等情況；\n
-      2. 應清楚了解將行經的地區，留意警署，郊野公園管理站及求救電話的位置；\n
-      3. 留意火災危險警告訊號，如果當日天氣乾燥，切勿隨便生火；\n
-      4. 必須穿著適當的衣物及行山鞋，並帶備太陽帽及行山手杖；\n
-      5. 應攜帶以下物品：地圖、指南針、急救藥品、電筒、哨子、紙筆、禦寒衣物、雨具、後備食糧、充足的食水，以及通訊器材如流動電話；\n
-      6. 為方便行走和攀山，請將第5項所述的物品妥善地放在背囊內；\n
-      7. 應結伴同行，確保同行者中有具備遠足經驗及急救知識的人士；\n
-      8. 如在山野間迷途，應選擇原路折返，切勿強行前進；\n
-      9. 旅程中如遇上意外，應盡快尋求協助。\n
-      來源：香港攀山協會 遠足及露營活動安全指引 http://www.hkma.net/mountain_safety.html \n
-      其他相關網頁:\n
-      1. 漁護署 郊野公園遠足安全指引 https://www.afcd.gov.hk/tc_chi/country/cou_vis/cou_vis_gac/cou_wha_whe_sat.html \n
-      2. 民安隊 遠足活動安全須知 https://www.cas.gov.hk/chi/safe/hikingsafety.html \n"
+  - custom: 
+      text: "遠足安全守則\n
+          1. 出發前應注意天氣情況，尤其要留意是否會有雷暴、風雨或氣溫驟降等情況；\n
+          2. 應清楚了解將行經的地區，留意警署，郊野公園管理站及求救電話的位置；\n
+          3. 留意火災危險警告訊號，如果當日天氣乾燥，切勿隨便生火；\n
+          4. 必須穿著適當的衣物及行山鞋，並帶備太陽帽及行山手杖；\n
+          5. 應攜帶以下物品：地圖、指南針、急救藥品、電筒、哨子、紙筆、禦寒衣物、雨具、後備食糧、充足的食水，以及通訊器材如流動電話；\n
+          6. 為方便行走和攀山，請將第5項所述的物品妥善地放在背囊內；\n
+          7. 應結伴同行，確保同行者中有具備遠足經驗及急救知識的人士；\n
+          8. 如在山野間迷途，應選擇原路折返，切勿強行前進；\n
+          9. 旅程中如遇上意外，應盡快尋求協助。\n
+          來源：[香港攀山協會 遠足及露營活動安全指引](http://www.hkma.net/mountain_safety.html)\n
+          其他相關網頁:
+          1. [漁護署 郊野公園遠足安全指引](https://www.afcd.gov.hk/tc_chi/country/cou_vis/cou_vis_gac/cou_wha_whe_sat.html)\n
+          2. [民安隊 遠足活動安全須知](https://www.cas.gov.hk/chi/safe/hikingsafety.html)\n"
+      parse_mode: markdown
 
   utter_checklist:
   - custom:
@@ -277,7 +279,7 @@ responses:
         8. 帽、太陽眼鏡、雨傘、手套\n
         9. 後備衣物\n
         10. 行山杖\n
-        11. 地圖[地政總署出版的郊區地圖](https://www.landsd.gov.hk/tc/survey-mapping/mapping/thematic-mapping.html#2)及指南針\n
+        11. 地圖([地政總署出版的郊區地圖](https://www.landsd.gov.hk/tc/survey-mapping/mapping/thematic-mapping.html#2))及指南針\n
         12. 照明工具\n
         13. 哨子\n
         14. 食糧及緊急食糧 — 高熱量、輕便、易進食為主，如葡萄糖、提子乾、能量食物\n
@@ -287,53 +289,53 @@ responses:
         18. 無線電話及後備電池/充電器及充電線([認識暢遊郊遊公園的通訊方法](https://www.ofca.gov.hk/tc/consumer_focus/guide/safety/country_parks/index.html))\n
         19. 手錶\n
         20. [香港遠足路徑天氣服務](https://www.hko.gov.hk/tc/103461/%E9%A6%99%E6%B8%AF%E9%81%A0%E8%B6%B3%E8%B7%AF%E5%BE%91%E5%A4%A9%E6%B0%A3%E6%9C%8D%E5%8B%99)\n
-        來源：https://www.youth.gov.hk/tc/cultural-and-leisure/stories/detail.htm?content-id=2393022&section=CLA"
+        [來源](https://www.youth.gov.hk/tc/cultural-and-leisure/stories/detail.htm?content-id=2393022&section=CLA)"
       parse_mode: markdown
 
 
   utter_accident_list:
-  - text: "行山常見意外有：\n
-      1. 斜滑山徑\n
-      2. 山洪暴發\n
-      3. 山泥傾瀉\n
-      4. 山火\n
-      5. 雷擊\n
-      6. 迷途\n
-      7. 中暑\n
-      8. 暴寒\n
-      9. 蛇咬\n
-      10. 蜂螫\n
-      11. 蚊叮\n
-      12. 蟎及蜱\n
-      13. 危險植物\n
-      來源: https://www.afcd.gov.hk/tc_chi/country/cou_vis/cou_vis_gac/cou_wha_whe_sat.html"
-    buttons:
-    - title: "斜滑山徑"
-      payload: '/accidents_list{{"accident_name":"斜滑山徑"}}'
-    - title: "山洪暴發"
-      payload: '/accidents_list{{"accident_name":"山洪暴發"}}'
-    - title: "山泥傾瀉"
-      payload: '/accidents_list{{"accident_name":"山泥傾瀉"}}'
-    - title: "山火"
-      payload: '/accidents_list{{"accident_name":"山火"}}'
-    - title: "雷擊"
-      payload: '/accidents_list{{"accident_name":"雷擊"}}'
-    - title: "迷途"
-      payload: '/accidents_list{{"accident_name":"迷途"}}'
-    - title: "中暑"
-      payload: '/accidents_list{{"accident_name":"中暑"}}'
-    - title: "暴寒"
-      payload: '/accidents_list{{"accident_name":"暴寒"}}'
-    - title: "蛇咬"
-      payload: '/accidents_list{{"accident_name":"蛇咬"}}'
-    - title: "蜂螫"
-      payload: '/accidents_list{{"accident_name":"蜂螫"}}'
-    - title: "蚊叮"
-      payload: '/accidents_list{{"accident_name":"蚊叮"}}'
-    - title: "蟎及蜱"
-      payload: '/accidents_list{{"accident_name":"蟎及蜱"}}'
-    - title: "危險植物"
-      payload: '/accidents_list{{"accident_name":"危險植物"}}'
+    - text: "行山常見意外有：\n
+          1. 斜滑山徑\n
+          2. 山洪暴發\n
+          3. 山泥傾瀉\n
+          4. 山火\n
+          5. 雷擊\n
+          6. 迷途\n
+          7. 中暑\n
+          8. 暴寒\n
+          9. 蛇咬\n
+          10. 蜂螫\n
+          11. 蚊叮\n
+          12. 蟎及蜱\n
+          13. 危險植物\n
+          來源: shttps://www.afcd.gov.hk/tc_chi/country/cou_vis/cou_vis_gac/cou_wha_whe_sat.html"
+      buttons:
+        - title: "斜滑山徑"
+          payload: '/accidents_list{{"accident_name":"斜滑山徑"}}'
+        - title: "山洪暴發"
+          payload: '/accidents_list{{"accident_name":"山洪暴發"}}'
+        - title: "山泥傾瀉"
+          payload: '/accidents_list{{"accident_name":"山泥傾瀉"}}'
+        - title: "山火"
+          payload: '/accidents_list{{"accident_name":"山火"}}'
+        - title: "雷擊"
+          payload: '/accidents_list{{"accident_name":"雷擊"}}'
+        - title: "迷途"
+          payload: '/accidents_list{{"accident_name":"迷途"}}'
+        - title: "中暑"
+          payload: '/accidents_list{{"accident_name":"中暑"}}'
+        - title: "暴寒"
+          payload: '/accidents_list{{"accident_name":"暴寒"}}'
+        - title: "蛇咬"
+          payload: '/accidents_list{{"accident_name":"蛇咬"}}'
+        - title: "蜂螫"
+          payload: '/accidents_list{{"accident_name":"蜂螫"}}'
+        - title: "蚊叮"
+          payload: '/accidents_list{{"accident_name":"蚊叮"}}'
+        - title: "蟎及蜱"
+          payload: '/accidents_list{{"accident_name":"蟎及蜱"}}'
+        - title: "危險植物"
+          payload: '/accidents_list{{"accident_name":"危險植物"}}'
 
   utter_time:
   - text: "{time} 嘅天氣如下:"
