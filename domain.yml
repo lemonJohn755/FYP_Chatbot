@@ -31,6 +31,7 @@ intents:
   - ask_accidents
   - location_available
   - ask_weather_of_day
+  - ask_weather
 
 entities:
   - weather
@@ -132,6 +133,8 @@ responses:
   utter_cheer_up:
   - text: '希望呢張圖片氹到你開心:'
     image: https://i.imgur.com/nGF1K8f.jpg
+  - text: '希望呢張圖片氹到你開心:'
+    image: https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80
 
   utter_did_that_help:
   - text: 咁樣幫唔幫到你?
@@ -157,6 +160,8 @@ responses:
         payload: '/hiking_trails_search{{"choice":"行山徑"}}'
       - title: "行山相開資訊"
         payload: '/hiking_info{{"choice":"資訊"}}'
+      - title: "今日天氣查詢"
+        payload: '/ask_today_weather'
 
   utter_trails_search_menu:
   - text: "查詢行山徑可以："
@@ -346,6 +351,9 @@ responses:
   utter_img_demo:
   - text: "Here is a demo img:"
     image: ""
+
+  utter_ask_weather_when:
+  - text: "你想睇幾時嘅天氣? 可以查詢由今日到未來九天天氣預報"
 
 actions:
   - action_district_query

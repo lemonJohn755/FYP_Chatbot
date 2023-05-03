@@ -272,6 +272,7 @@ stories:
     - intent: ask_today_weather
       entities:
       - time
+    # - action: utter_time
     - action: action_inquire_weather
 
 - story: ask_weather_of_day
@@ -279,7 +280,31 @@ stories:
     - intent: ask_weather_of_day
       entities:
       - time
+    # - action: utter_time
     - action: action_inquire_weather_forecast
+
+# - story: btn_check_weather_today
+#   steps:ss
+#     - intent: ask_weather
+#       entities:
+#       - weather
+#     - action: utter_ask_weather_when
+#     - intent: ask_today_weather
+#       entities:
+#       - time
+#     - action: action_inquire_weather_forecast
+
+# - story: btn_check_weather_
+#   steps:
+#     - intent: ask_weather
+#       entities:
+#       - weather
+#     - action: utter_ask_weather_when
+#     - intent: ask_weather_of_day
+#       entities:
+#       - time
+#     - action: action_inquire_weather_forecast
+
 
 # - story: hiking_trails_search
 #   steps:

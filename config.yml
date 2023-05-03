@@ -64,8 +64,8 @@ pipeline:
     dimensions: ["time", "Distance","Numeral"]  
     #For list of dimensions: https://github.com/facebook/duckling
     locale: "zh_HK"
-    #timezone: "Asia/Hong_Kong"
-    timezone: "HKT"
+    timezone: "Asia/Hong_Kong"
+    # timezone: "HKT"
     timeout : 3
  
  
