@@ -263,30 +263,33 @@ responses:
       2. 民安隊 遠足活動安全須知 https://www.cas.gov.hk/chi/safe/hikingsafety.html \n"
 
   utter_checklist:
-  - text: "良好的裝備對遠足很重要，遠足前可因應個人需要及活動性質，攜帶以下裝備：\n
-      1. 背囊\n
-      — 最輕的物品放下面，較重的中間，最重的放上面，後用先放，隨時用的放兩側，左右兩邊重量要相稱\n
-      — 背囊的重量不要超過個人體重之三分一，最重則不可超過四十磅\n
-      2. 登山鞋 — 鞋頭要較闊，鞋底要有較深的坑紋\n
-      3. 襪子\n
-      4. 上衣 — 穿長袖和有領的防曬/速乾/透氣衫，可避免雙臂和頸後被陽光灼傷\n
-      5. 褲 — 鬆身防曬/速乾/透氣長褲為佳\n
-      6. 毛巾/冰巾/手臂套管\n
-      7. 外衣及防風衣/雨衣\n
-      8. 帽、太陽眼鏡、雨傘、手套\n
-      9. 後備衣物\n
-      10. 行山杖\n
-      11. 地圖[地政總署出版的郊區地圖]({https://www.landsd.gov.hk/tc/survey-mapping/mapping/thematic-mapping.html#2})及指南針\n
-      12. 照明工具\n
-      13. 哨子\n
-      14. 食糧及緊急食糧 — 高熱量、輕便、易進食為主，如葡萄糖、提子乾、能量食物\n
-      15. 水樽及水[郊野公園加水站]({https://www.afcd.gov.hk/tc_chi/country/cou_vis/cou_vis_rec/cou_vis_wfs.html})\n
-      16. 個人藥品及急救用品\n
-      17. 防曬及防蚊用品\n
-      18. 無線電話及後備電池/充電器及充電線([認識暢遊郊遊公園的通訊方法]({https://www.ofca.gov.hk/tc/consumer_focus/guide/safety/country_parks/index.html)})\n
-      19. 手錶\n
-      20. [香港遠足路徑天氣服務]({https://www.hko.gov.hk/tc/103461/%E9%A6%99%E6%B8%AF%E9%81%A0%E8%B6%B3%E8%B7%AF%E5%BE%91%E5%A4%A9%E6%B0%A3%E6%9C%8D%E5%8B%99})\n
-      來源：https://www.youth.gov.hk/tc/cultural-and-leisure/stories/detail.htm?content-id=2393022&section=CLA"
+  - custom:
+      text: "良好的裝備對遠足很重要，遠足前可因應個人需要及活動性質，攜帶以下裝備：\n
+        1. 背囊\n
+        — 最輕的物品放下面，較重的中間，最重的放上面，後用先放，隨時用的放兩側，左右兩邊重量要相稱\n
+        — 背囊的重量不要超過個人體重之三分一，最重則不可超過四十磅\n
+        2. 登山鞋 — 鞋頭要較闊，鞋底要有較深的坑紋\n
+        3. 襪子\n
+        4. 上衣 — 穿長袖和有領的防曬/速乾/透氣衫，可避免雙臂和頸後被陽光灼傷\n
+        5. 褲 — 鬆身防曬/速乾/透氣長褲為佳\n
+        6. 毛巾/冰巾/手臂套管\n
+        7. 外衣及防風衣/雨衣\n
+        8. 帽、太陽眼鏡、雨傘、手套\n
+        9. 後備衣物\n
+        10. 行山杖\n
+        11. 地圖[地政總署出版的郊區地圖](https://www.landsd.gov.hk/tc/survey-mapping/mapping/thematic-mapping.html#2)及指南針\n
+        12. 照明工具\n
+        13. 哨子\n
+        14. 食糧及緊急食糧 — 高熱量、輕便、易進食為主，如葡萄糖、提子乾、能量食物\n
+        15. 水樽及水：[郊野公園加水站](https://www.afcd.gov.hk/tc_chi/country/cou_vis/cou_vis_rec/cou_vis_wfs.html)\n
+        16. 個人藥品及急救用品\n
+        17. 防曬及防蚊用品\n
+        18. 無線電話及後備電池/充電器及充電線([認識暢遊郊遊公園的通訊方法](https://www.ofca.gov.hk/tc/consumer_focus/guide/safety/country_parks/index.html))\n
+        19. 手錶\n
+        20. [香港遠足路徑天氣服務](https://www.hko.gov.hk/tc/103461/%E9%A6%99%E6%B8%AF%E9%81%A0%E8%B6%B3%E8%B7%AF%E5%BE%91%E5%A4%A9%E6%B0%A3%E6%9C%8D%E5%8B%99)\n
+        來源：https://www.youth.gov.hk/tc/cultural-and-leisure/stories/detail.htm?content-id=2393022&section=CLA"
+      parse_mode: markdown
+
 
   utter_accident_list:
   - text: "行山常見意外有：\n
