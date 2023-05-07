@@ -26,7 +26,8 @@ stories:
   - slot_was_set:
     - selected_district 
   - action: action_district_query
-  - action: action_reset_all_slots
+  # - action: action_reset_all_slots
+  - checkpoint: check_finish
 
 - story: btn_trails_by_lev
   steps:
@@ -47,7 +48,8 @@ stories:
   - slot_was_set:
     - difficulty
   - action: action_difficulty_query
-  - action: action_reset_all_slots
+  # - action: action_reset_all_slots
+  - checkpoint: check_finish
 
 - story: btn_safety_caution
   steps:
@@ -62,7 +64,8 @@ stories:
     entities:
     - safety_caution: 安全注意
   - action: utter_hiking_caution
-  - action: action_reset_all_slots
+  # - action: action_reset_all_slots
+  - checkpoint: check_finish
 
 - story: btn_checklist
   steps:
@@ -75,6 +78,9 @@ stories:
   - action: utter_hiking_info_menu
   - intent: checklist
   - action: utter_checklist
+  - action: action_reset_all_slots
+  - checkpoint: check_finish
+
 
 - story: btn_common_accidents
   steps:
@@ -95,6 +101,7 @@ stories:
   - slot_was_set:
     - accident_name
   - action: action_accident_query
+  - checkpoint: check_finish
 
 - story: trails_search_by_districts
   steps:
@@ -109,6 +116,7 @@ stories:
   - slot_was_set:
     - selected_district
   - action: action_district_query
+  - checkpoint: check_finish
 
 - story: trails_search_by_lev
   steps:
@@ -123,6 +131,7 @@ stories:
   - slot_was_set:
     - difficulty
   - action: action_difficulty_query
+  - checkpoint: check_finish
 
 - story: hiking_caution_long
   steps:
@@ -135,6 +144,7 @@ stories:
       entities:
       - safety_caution: 安全注意
     - action: utter_hiking_caution
+    - checkpoint: check_finish
 
 - story: hiking_caution_short
   steps:
@@ -143,6 +153,7 @@ stories:
       entities:
       - safety_caution: 安全注意
     - action: utter_hiking_caution
+    - checkpoint: check_finish
 
 - story: checklist_long
   steps:
@@ -155,6 +166,7 @@ stories:
       entities:
       - prepare
     - action: utter_checklist
+    - checkpoint: check_finish
 
 - story: checklist_short
   steps:
@@ -164,6 +176,7 @@ stories:
       - prepare: 準備
       - gohike: 行山
     - action: utter_checklist
+    - checkpoint: check_finish
 
 - story: accident_long
   steps:
@@ -184,6 +197,7 @@ stories:
     - slot_was_set:
       - accident_name
     - action: action_accident_query
+    - checkpoint: check_finish
 
 - story: accident_short
   steps:
@@ -198,6 +212,7 @@ stories:
     - slot_was_set:
       - accident_name
     - action: action_accident_query
+    - checkpoint: check_finish
 
 - story: convo_query_select_districts
   steps:
@@ -212,6 +227,7 @@ stories:
   - slot_was_set:
     - selected_district
   - action: action_district_query
+  - checkpoint: check_finish
 
 - story: convo_where_to_hike
   steps:
@@ -223,6 +239,7 @@ stories:
   - slot_was_set:
     - selected_district
   - action: action_district_query
+  - checkpoint: check_finish
 
 - story: convo_easyHard_to_hike (ask difficulty lev)
   steps:
@@ -238,10 +255,10 @@ stories:
   - slot_was_set:
     - difficulty
   - action: action_difficulty_query
+  - checkpoint: check_finish
 
 - story: convo_see_trails
   steps:
-# - checkpoint: greet_user
   - intent: hiking_trails_search
     entities:
     - choice: 行山徑
@@ -257,6 +274,7 @@ stories:
   - slot_was_set:
     - selected_district
   - action: action_district_query
+  - checkpoint: check_finish
 
 - story: convo_trail_search_by_location
   steps:
@@ -266,6 +284,7 @@ stories:
     - slot_was_set:
       - location
     - action: action_trailname_query
+    - checkpoint: check_finish
 
 - story: check_weather
   steps:
@@ -274,6 +293,7 @@ stories:
       - time
     # - action: utter_time
     - action: action_inquire_weather
+    - checkpoint: check_finish
 
 - story: ask_weather_of_day
   steps:
@@ -282,206 +302,21 @@ stories:
       - time
     # - action: utter_time
     - action: action_inquire_weather_forecast
+    - checkpoint: check_finish
 
-# - story: btn_check_weather_today
-#   steps:ss
-#     - intent: ask_weather
-#       entities:
-#       - weather
-#     - action: utter_ask_weather_when
-#     - intent: ask_today_weather
-#       entities:
-#       - time
-#     - action: action_inquire_weather_forecast
+- story: finish_flow
+  steps:
+    - checkpoint: check_finish
+    - action: utter_top_menu
 
-# - story: btn_check_weather_
-#   steps:
-#     - intent: ask_weather
-#       entities:
-#       - weather
-#     - action: utter_ask_weather_when
-#     - intent: ask_weather_of_day
-#       entities:
-#       - time
-#     - action: action_inquire_weather_forecast
-
-
-# - story: hiking_trails_search
-#   steps:
-#     - checkpoint: greet_user
-#     - intent: hiking_trails_search
-#       entities:
-#       - choice: 行山徑
-#     - checkpoint: trails_search
-
-# - story: hiking_info
-#   steps:
-#     - checkpoint: greet_user
-#     - intent: hiking_info
-#       entities:
-#       - choice: 資訊
-#     - checkpoint: hiking_info
-
-# - story: trails_search_by_districts
-#   steps:
-#     - checkpoint: trails_search
-#     - intent: trails_search_by_districts
-#       entities:
-#       - districts: 地區
-#     - action: utter_ask_district
-#     - intent: districts_available
-#       entities:
-#       - selected_district
-#     - slot_was_set:
-#       - selected_district
-#     - action: action_district_query
-#     - checkpoint: story_complete
-
-# - story: trails_search_by_lev
-#   steps:
-#     - checkpoint: trails_search
-#     - action: utter_trails_search_menu
-#     - intent: trails_search_by_lev
-#       entities:
-#       - lev: 程度
-#     - action: utter_ask_difficulties
-#     - intent: difficulties_available
-#       entities:
-#       - difficulty
-#     - slot_was_set:
-#       - difficulty
-#     - action: action_difficulty_query
-#     - checkpoint: story_complete
-
-# - story: hiking_caution
-#   steps:
-#     - checkpoint: hiking_info
-#     - action: utter_hiking_info_menu
-#     - intent: hiking_caution
-#     - action: utter_hiking_caution
-#     - checkpoint: story_complete
-
-# - story: option_1_districts
-#   steps:
-#   - checkpoint: greet_user
-#   - intent: functions_available
-#     entities:
-#     - choice: 地區
-#   - slot_was_set:
-#     - choice: 地區
-#   - action: utter_say_user_chose
-#   - intent: districts_available
-#     entities:
-#     - district
-#   - slot_was_set:
-#     - district
-#   - action: action_district_query
-#   - checkpoint: story_complete
-
-# - story: option_2_difficulty
-#   steps:
-#   - checkpoint: greet_user
-#   - intent: functions_available
-#     entities:
-#     - choice: 難度
-#   - slot_was_set:
-#     - choice: 難度
-#   - action: utter_say_user_chose
-#   - intent: difficulties_available
-#     entities:
-#     - difficulty
-#   - slot_was_set:
-#     - difficulty
-#   - action: action_difficulty_query
-#   - checkpoint: story_complete
-
-### change later
-# - story: convo_query_select_districts
-#   steps:
-#   - checkpoint: greet_user
-#   - intent: i_want_to_hike
-#     entities:
-#     - hike: gohike
-#   - slot_was_set:
-#     - hike: gohike
-#   - action: utter_ask_district
-#   - intent: districts_available
-#     entities:
-#     - district
-#   - slot_was_set:
-#     - district
-#   - action: action_district_query
-  # - checkpoint: story_complete
-
-# - story: conversation_where_to_hike
-#   steps:
-#   - checkpoint: greet_user
-#   - intent: where_to_hike
-#     entities:
-#     - hike
-#     - district
-#   - slot_was_set:
-#     - selected_district
-#   - slot_was_set:
-#     - hike
-#   - action: action_district_query
-  # - checkpoint: story_complete
-
-# - story: conversation_easyHard_to_hike (easiest)
-#   steps:
-#   - checkpoint: greet_user
-#   - intent: easy_hard_hike
-#     entities:
-#     - hike
-#     - difficulty: 1
-#   - action: action_difficulty_query
-#   - checkpoint: query_done
-
-# - story: want_to_see_other_difficulty
-#   steps:
-#   - checkpoint: query_done
-#   - action: utter_do_you_want_to_see_other_difficulties
-#   - intent: affirm
-#   - action: utter_ask_difficulties
-#   - intent: difficulties_available
-#     entities:
-#     - difficulty
-#   - action: action_difficulty_query
-  # - checkpoint: story_complete
-
-# - story: DON'T_want_to_see_other_difficulty
-#   steps:
-#   - checkpoint: query_done
-#   - action: utter_do_you_want_to_see_other_difficulties
-#   - intent: deny
-  # - checkpoint: story_complete
-
-# - story: conversation_easyHard_to_hike (ask difficulty lev)
-#   steps:
-#   - checkpoint: greet_user
-#   - intent: easy_hard_hike
-#     entities:
-#     - hike: gohike
-#     - easyhard
-#   - action: utter_ask_difficulties
-#   - intent: difficulties_available
-#     entities:
-#     - difficulty
-#   - action: action_difficulty_query
-  # - checkpoint: story_complete
-
-# - story: 天氣
-#   steps:
-#   - checkpoint: greet_user
-#   - intent: check_weather
-#     entities:
-#     - weather: 天氣
-#   - action: action_inquire_weather
-  # - checkpoint: story_complete
-
-# - story: loop_again
-#   steps:
-#   - checkpoint: story_complete
-#   - action: utter_top_menu
-#   - intent: functions_available
-#   - active_loop: choice_form
+- story: hiking_and_weather_forecast
+  steps:
+    - intent: hiking_and_weather_forecast
+      entities:
+      - time
+      - location
+    - slot_was_set:
+      - location
+    - action: action_trailname_query
+    - action: action_inquire_weather_forecast
+    - checkpoint: check_finish

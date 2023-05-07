@@ -176,6 +176,8 @@ nlu:
       - 唔同[難度]{"entity":"lev", "value":"程度"}[行山徑]{"entity":"hike", "value":"行山徑"}
       - 唔同[程度]{"entity":"lev", "value":"程度"}嘅[行山路線]{"entity":"hike", "value":"行山徑"}
       - 香港唔同[程度]{"entity":"lev", "value":"程度"}[郊遊徑]{"entity":"hike", "value":"行山徑"}
+      - 其他[難度]{"entity":"lev", "value":"程度"}[行山徑]{"entity":"hike", "value":"行山徑"}
+      - 其他[程度]{"entity":"lev", "value":"程度"}[行山徑]{"entity":"hike", "value":"行山徑"}
 
   - intent: hiking_info
     examples: |
@@ -551,24 +553,25 @@ nlu:
   
   - intent: location_available
     examples: |
-      - [新娘潭](location)
-      - [流水響](location)
-      - [大美督](location)
-      - [香港仔]{"entity":"location", "value":"香港仔上水塘"}
-      - [香港仔上水塘](location)
-      - [山頂](location)
-      - [薄扶林]{"entity":"location", "value":"薄扶林水塘"}
-      - [薄扶林水塘](location)
-      - [灣仔峽](location)
-      - [黃泥涌峽](location)
-      - [紅梅谷](location)
-      - [金山](location)
-      - [城門]{"entity":"location", "value":"城門郊野公園"}
-      - [城門郊野公園](location)
+      - 我想去[新娘潭](location)[行山](hike)
+      - [流水響](location)[行山](hike)
+      - [大美督](location)[遠足](hike)
+      - [香港仔]{"entity":"location", "value":"香港仔上水塘"}[郊遊](hike)
+      - [香港仔上水塘](location)[行山徑](hike)
+      - [山頂](location)[行山好去處]{"entity":"hike", "value":"行山徑"}
+      - [薄扶林]{"entity":"location", "value":"薄扶林水塘"}有咩[山行](hike)
+      - [薄扶林水塘](location)[遠足路線](hike)
+      - 想睇下[灣仔峽](location)[行山徑](hike)
+      - 想睇吓[黃泥涌峽](location)[行山徑](hike)
+      - 想睇吓[黃泥涌](location)[行山路線](hike)
+      - 我想[行](hike)[紅梅谷](location)
+      - 想[行](hike)[金山](location)
+      - 想去[城門]{"entity":"location", "value":"城門郊野公園"}
+      - 想去[城門郊野公園](location)
       - [萬宜](location)
-      - [萬宜水庫]{"entity":"location", "value":"萬宜地質步道"}
-      - [釣魚翁](location)
-      - [大浪灣](location)
+      - 我想[行](hike)[萬宜水庫]{"entity":"location", "value":"萬宜地質步道"}
+      - 我想[行](hike)[釣魚翁](location)
+      - 想[行](hike)[大浪灣](location)
       - [川龍](location)
       - [虎地](location)
       - [河背水塘](location)
@@ -597,3 +600,16 @@ nlu:
       - 芝麻灣郊遊徑
       - 分流郊遊徑
       - 羗山郊遊徑
+  
+  - intent: hiking_and_weather_forecast
+    examples: |
+     - [今日](week)去[新娘潭](location)[行山](hike)
+     - 我想[聽日](week)去[流水響](location)[遠足](hike)
+     - 想[後日](week)去[大美督](location)[郊遊](hike)
+     - [星期一](week)去[香港仔]{"entity":"location", "value":"香港仔上水塘"}[郊遊](hike)
+     - [星期二](week)去[山頂](location)[行山](hike)
+     - [星期三](week)喺[薄扶林](location)[行山](hike)
+     - [星期四](week)去[黃泥涌峽](location)[行山](hike)
+     - [星期五](week)去[紅梅谷](location)
+     - [星期六](week)去[大浪灣](location)
+     - [星期日](week)去[芝麻灣](location)

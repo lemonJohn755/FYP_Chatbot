@@ -32,6 +32,7 @@ intents:
   - location_available
   - ask_weather_of_day
   - ask_weather
+  - hiking_and_weather_forecast
 
 entities:
   - weather
@@ -313,7 +314,7 @@ responses:
           11. 蚊叮\n
           12. 蟎及蜱\n
           13. 危險植物\n
-          來源: shttps://www.afcd.gov.hk/tc_chi/country/cou_vis/cou_vis_gac/cou_wha_whe_sat.html"
+          來源: https://www.afcd.gov.hk/tc_chi/country/cou_vis/cou_vis_gac/cou_wha_whe_sat.html"
       buttons:
         - title: "斜滑山徑"
           payload: '/accidents_list{{"accident_name":"斜滑山徑"}}'
