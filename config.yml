@@ -20,16 +20,6 @@ pipeline:
   #   "intent_split_symbol": "_"
   #   # Regular expression to detect tokens
   #   "token_pattern": None
-  # - name: "SpacyTokenizer"
-  #   # Flag to check whether to split intents
-  #   "intent_tokenization_flag": false
-  #   # Symbol on which intent should be split
-  #   "intent_split_symbol": "_"
-  #   # Regular expression to detect tokens
-  #   "token_pattern": None
-  # - name: "SpacyFeaturizer"
-  # - name: "SpacyEntityExtractor"
-  #   dimensions: ["LOC"]
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
     analyzer: char_wb
