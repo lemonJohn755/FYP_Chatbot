@@ -208,7 +208,7 @@ nlu:
       - 我想去[新界北]{"entity":"selected_district", "value":"新界北區"}[郊遊]{"entity":"hike", "value":"行山徑"}
       - [港島]{"entity":"selected_district", "value":"港島區"}[行山]{"entity":"hike", "value":"行山徑"}
       - [港島]{"entity":"selected_district", "value":"港島區"}[郊游]{"entity":"hike", "value":"行山徑"}
-      - [西貢]{"entity":"selected_district", "value":"西貢區"}[行山徑]{"entity":"hike", "value":"行山徑"}
+      - [西貢]{"entity":"selected_district", "value":"西貢區"}有咩[行山徑]{"entity":"hike", "value":"行山徑"}
       - [西貢]{"entity":"selected_district", "value":"西貢區"}[行山]{"entity":"hike", "value":"行山徑"}
       - 我想去[北區]{"entity":"selected_district", "value":"新界北區"}[行山]{"entity":"hike", "value":"行山徑"}
       - [北區]{"entity":"selected_district", "value":"新界北區"}有咩[山]{"entity":"hike", "value":"行山徑"}
@@ -219,11 +219,17 @@ nlu:
       - [大嶼山]{"entity":"selected_district", "value":"大嶼山區"}[行山]{"entity":"hike", "value":"行山徑"}
       - [大嶼山]{"entity":"selected_district", "value":"大嶼山區"}[行山徑]{"entity":"hike", "value":"行山徑"}
       - [新界西]{"entity":"selected_district", "value":"新界西區"}[遠足路線]{"entity":"hike", "value":"行山徑"}
-      - [新界西]{"entity":"selected_district", "value":"新界西區"}[行山路線]{"entity":"hike", "value":"行山徑"}
+      - [新界西]{"entity":"selected_district", "value":"新界西區"}有咩[行山路線]{"entity":"hike", "value":"行山徑"}
       - 我想去[新界西]{"entity":"selected_district", "value":"新界西區"}[行山]{"entity":"hike", "value":"行山徑"}
       - [新界西]{"entity":"selected_district", "value":"新界西區"}有咩[山行]{"entity":"hike", "value":"行山徑"}
       - [大西北]{"entity":"selected_district", "value":"新界西區"}有咩[郊游]{"entity":"hike", "value":"行山徑"}
       - [西北區]{"entity":"selected_district", "value":"新界西區"}有咩[郊游]{"entity":"hike", "value":"行山徑"}
+      - 我想揾吓[港島][行山徑]{"entity":"hike", "value":"行山徑"}
+      - 我想揾吓[西貢][行山徑]{"entity":"hike", "value":"行山徑"}
+      - 我想睇吓[大嶼山]有咩[行山徑]{"entity":"hike", "value":"行山徑"}
+      - 我想睇吓[新界西]有咩[行山徑]{"entity":"hike", "value":"行山徑"}
+      - 我想睇吓[北區]有咩[行山徑]{"entity":"hike", "value":"行山徑"}
+
 
   - intent: easy_hard_hike
     examples: |
@@ -360,6 +366,10 @@ nlu:
       - [天氣](weather)
       - 今日好唔好天呀？
       - 依家幾多度呀
+      - 今日會唔會[落雨](weather)?
+      - 會唔會[落雨](weather)?
+      - 會唔會好[熱](weather)?
+      - 會唔會好[凍](weather)?
   
   # - intent: ask_weather_forecast
   #   examples: |
@@ -377,7 +387,14 @@ nlu:
       - [聽日](week)[天氣](weather)
       - [後日](week)[天氣](weather)
       - [後天](week)[天氣](weather)
-      - [星期一]{"entity":"week","value":"星期一"}[天氣](weather)點呀？
+      - [星期一](week)[熱唔熱](weather)?
+      - [星期一](week)[凍唔凍](weather)?
+      - [星期一](week)會唔會[落雨](weather)?
+      - [星期二](week)會唔會[好熱](weather)?
+      - [星期三](week)會唔會[好凍](weather)?    
+      - [星期四](week)會唔會[好凍](weather)?        
+      - [星期五](week)會唔會[好天](weather)？
+      - [星期一](week)會唔會[落大雨](weather)?
       - 有冇[星期二]{"entity":"week","value":"星期二"}[天氣](weather)預報？
       - [星期三]{"entity":"week","value":"星期三"}[天氣](weather)如何?
       - 想問下[星期五]{"entity":"week","value":"星期五"}[天氣](weather)預報？
@@ -394,6 +411,24 @@ nlu:
       - [禮拜四]{"entity":"week","value":"星期六"}好唔好天呀？
       - [禮拜日]{"entity":"week","value":"星期日"}[天氣](weather)點呀？
       - [週末]{"entity":"week","value":"週末"}[天氣](weather)點呀？
+
+  - synonym: 天氣
+    examples: |
+      - 熱
+      - 熱唔熱
+      - 凍
+      - 好熱
+      - 好凍
+      - 凍唔凍
+      - 大風
+      - 落雨
+      - 落大雨
+      - 大雨
+      - 行雷
+      - 閃電
+      - 打風
+      - 颱風
+      - 度
   
   - synonym: 星期一
     examples: |
@@ -517,23 +552,25 @@ nlu:
       - [斜滑山徑](accident_name)
       - [山洪暴發](accident_name)
       - [山泥傾瀉](accident_name)
-      - [山火](accident_name)
+      - 遇到[山火](accident_name)點做
       - [雷擊](accident_name)
       - [雷擊]{"entity": "accident_name", "value": "雷擊"}
       - [雷劈]{"entity": "accident_name", "value": "雷擊"}
+      - 附近[行雷]{"entity": "accident_name", "value": "雷擊"}
       - [打雷]{"entity": "accident_name", "value": "雷擊"}
       - [迷途](accident_name)
       - [迷路]{"entity": "accident_name", "value": "迷途"}
-      - [盪失路]{"entity": "accident_name", "value": "迷途"}
-      - [中暑](accident_name)
+      - [盪失路]{"entity": "accident_name", "value": "迷途"}點算
+      - [中暑](accident_name)應對方法
       - [暴寒](accident_name)
       - [失温]{"entity": "accident_name", "value": "暴寒"}
-      - [蛇咬](accident_name)
-      - [蜂螫](accident_name)
-      - [蚊叮](accident_name)
+      - 俾[蛇咬](accident_name)點做好
+      - [蜂螫](accident_name)應對
+      - 俾[蚊叮](accident_name)
       - [蚊針]{"entity": "accident_name", "value": "蚊叮"}
       - [蟎及蜱](accident_name)
       - [危險植物](accident_name)
+      - [有毒植物]{"entity": "accident_name", "value": "危險植物"}
       
   - lookup: accident_name
     examples: |
