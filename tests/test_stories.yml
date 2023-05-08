@@ -21,3 +21,25 @@ stories:
     entities:
       - accident
   - action: action_accident_query
+
+- story: test weather asking
+  steps:
+    - user: |
+        今天的天氣如何？
+        現在的天氣怎麼樣？
+        外面會下雨嗎？
+    - intent: ask_today_weather
+      entities:
+      - time
+    - action: action_inquire_weather
+
+- story: test weather of day
+  steps:
+    -user: |
+        聽日嘅天氣點樣呢？
+        後日天氣會落雨？
+        下週二天氣如何？
+    - intent: ask_weather_of_day
+      entities:
+      - time
+    - action: action_inquire_weather_forecast
