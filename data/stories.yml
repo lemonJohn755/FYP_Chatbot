@@ -319,4 +319,5 @@ stories:
       - location
     - action: action_trailname_query
     - action: action_inquire_weather_forecast
+    - action: utter_check_weather_reminder
     - checkpoint: check_finish

@@ -129,7 +129,7 @@ forms:
 
 responses:
   utter_welcome:
-  - text: 你好，我係小山 Hilly，係一個推介行山路線嘅 Chatbot。
+  - text: 你好👋，我係小山 Hilly，係一個推介行山路線嘅 Chatbot⛰️🤖。
 
   utter_cheer_up:
   - text: '希望呢張圖片氹到你開心:'
@@ -144,10 +144,10 @@ responses:
   - text: 好 Have a nice day
 
   utter_goodbye:
-  - text: '多謝使用 Hilly, byebye'
+  - text: '多謝使用 Hilly, byebye👋'
 
   utter_thankyou:
-  - text: '多謝使用 Hilly'
+  - text: '多謝使用 Hilly😊'
 
   utter_iamabot:
   - text: '我係一個由 Rasa 驅動嘅聊天機械人 🤖'
@@ -155,7 +155,7 @@ responses:
   - text: '我唔係人類啊，而係Rasa 聊天機械人 🤖'
 
   utter_top_menu:
-  - text: "我可以推供行山資訊，請選擇："
+  - text: "我可以推供行山資訊，請選擇：💁‍♂️"
     buttons:
       - title: "行山徑查詢"
         payload: '/hiking_trails_search{{"choice":"行山徑"}}'
@@ -165,7 +165,7 @@ responses:
         payload: '/ask_today_weather'
 
   utter_trails_search_menu:
-  - text: "查詢行山徑可以："
+  - text: "查詢行山徑可以：💁‍♂️"
     buttons:
       - title: "依照地區推介"
         payload: '/trails_search_by_districts{{"districts":"地區"}}'
@@ -173,7 +173,7 @@ responses:
         payload: '/trails_search_by_lev{{"lev":"程度"}}'
 
   utter_hiking_info_menu:
-  - text: "我可以提供以下行山資訊"
+  - text: "我可以提供以下行山資訊💁‍♂️"
     buttons:
       - title: "行山安全需知"
         payload: '/hiking_caution{{"safety_caution":"安全注意"}}'
@@ -183,7 +183,7 @@ responses:
         payload: '/ask_accidents{{"accident":"意外"}}'
   
   utter_ask_district:
-  - text: "請選擇地區:\n1)新界北區\n2)港島區\n3)西貢區\n4)新界西區\n5)大嶼山區"
+  - text: "請選擇地區:\n1)新界北區\n2)港島區\n3)西貢區\n4)新界西區\n5)大嶼山區💁‍♂️"
     buttons:
       - title: "新界北區"
         payload: '/districts_available{{"selected_district":"新界北區"}}'
@@ -197,7 +197,7 @@ responses:
         payload: '/districts_available{{"selected_district":"大嶼山區"}}'
 
   utter_do_you_want_to_see_other_difficulties:
-  - text: 睇唔睇埋其他難度行山徑?
+  - text: 睇唔睇埋其他難度行山徑?💁‍♂️
     buttons: 
       - title: "好"
         payload: '/affirm'
@@ -205,7 +205,7 @@ responses:
         payload: '/deny'
 
   utter_ask_difficulties:
-  - text: 請輸入難度，1 最易，5最難
+  - text: 請輸入難度，1 最易，5最難💁‍♂️
     buttons:
       - title: "1" 
         payload: '/difficulties_available{{"difficulty":"難度一星"}}'
@@ -223,7 +223,7 @@ responses:
     - type: slot
       name: choice
       value: "地區"
-    text: "請選擇地區:\n1)新界北區\n2)港島區\n3)西貢區\n4)新界西區\n5)大嶼山區"
+    text: "請選擇地區:\n1)新界北區\n2)港島區\n3)西貢區\n4)新界西區\n5)大嶼山區💁‍♂️"
     buttons:
       - title: "新界北區"
         payload: '/districts_available{{"district":"新界北區"}}'
@@ -239,7 +239,7 @@ responses:
     - type: slot
       name: choice
       value: "難度"
-    text: 請輸入難度，1 最易，5最難
+    text: 請輸入難度，1 最易，5最難💁‍♂️
     buttons:
       - title: "1" 
         payload: '/difficulties_available{{"difficulty":"難度一星"}}'
@@ -254,7 +254,7 @@ responses:
 
   utter_hiking_caution:
   - custom: 
-      text: "遠足安全守則\n
+      text: "遠足安全守則💁‍♂️\n
           1. 出發前應注意天氣情況，尤其要留意是否會有雷暴、風雨或氣溫驟降等情況；\n
           2. 應清楚了解將行經的地區，留意警署，郊野公園管理站及求救電話的位置；\n
           3. 留意火災危險警告訊號，如果當日天氣乾燥，切勿隨便生火；\n
@@ -272,7 +272,7 @@ responses:
 
   utter_checklist:
   - custom:
-      text: "良好的裝備對遠足很重要，遠足前可因應個人需要及活動性質，攜帶以下裝備：\n
+      text: "良好的裝備對遠足很重要，遠足前可因應個人需要及活動性質，攜帶以下裝備：💁‍♂️\n
         1. 背囊\n
         — 最輕的物品放下面，較重的中間，最重的放上面，後用先放，隨時用的放兩側，左右兩邊重量要相稱\n
         — 背囊的重量不要超過個人體重之三分一，最重則不可超過四十磅\n
@@ -300,7 +300,7 @@ responses:
 
 
   utter_accident_list:
-    - text: "行山常見意外有：\n
+    - text: "行山常見意外有：💁‍♂️\n
           1. 斜滑山徑\n
           2. 山洪暴發\n
           3. 山泥傾瀉\n
@@ -347,7 +347,7 @@ responses:
   - text: "{time} 嘅天氣如下:"
 
   utter_out_of_scope:
-  - text: "對唔住，我處理唔到你啲要求"
+  - text: "對唔住，我處理唔到你啲要求🙇🏻"
 
   utter_img_demo:
   - text: "Here is a demo img:"
@@ -355,6 +355,9 @@ responses:
 
   utter_ask_weather_when:
   - text: "你想睇幾時嘅天氣? 可以查詢由今日到未來九天天氣預報"
+
+  utter_check_weather_reminder:
+  - text: "出發前宜留意最新天氣情況規劃行程☀️"
 
 actions:
   - action_district_query
