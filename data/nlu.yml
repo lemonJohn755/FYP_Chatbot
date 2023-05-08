@@ -550,8 +550,8 @@ nlu:
   - intent: accidents_list
     examples: |
       - [斜滑山徑](accident_name)
-      - [山洪暴發](accident_name)
-      - [山泥傾瀉](accident_name)
+      - [山洪暴發](accident_name)應對
+      - 遇到[山泥傾瀉](accident_name)應對
       - 遇到[山火](accident_name)點做
       - [雷擊](accident_name)
       - [雷擊]{"entity": "accident_name", "value": "雷擊"}
@@ -563,14 +563,16 @@ nlu:
       - [盪失路]{"entity": "accident_name", "value": "迷途"}點算
       - [中暑](accident_name)應對方法
       - [暴寒](accident_name)
-      - [失温]{"entity": "accident_name", "value": "暴寒"}
+      - [失温]{"entity": "accident_name", "value": "暴寒"}應對
       - 俾[蛇咬](accident_name)點做好
       - [蜂螫](accident_name)應對
       - 俾[蚊叮](accident_name)
-      - [蚊針]{"entity": "accident_name", "value": "蚊叮"}
+      - [蚊針]{"entity": "accident_name", "value": "蚊叮"}應對
       - [蟎及蜱](accident_name)
-      - [危險植物](accident_name)
-      - [有毒植物]{"entity": "accident_name", "value": "危險植物"}
+      - [危險植物](accident_name)應對方法
+      - [有毒植物]{"entity": "accident_name", "value": "危險植物"}應對方法
+      - 俾[植物]{"entity": "accident_name", "value": "危險植物"}整傷
+      - 俾[植物]{"entity": "accident_name", "value": "危險植物"}整親
       
   - lookup: accident_name
     examples: |
