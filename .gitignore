@@ -1,4 +1,4 @@
-﻿models
+models
 mysql-docker-data/auto.cnf
 mysql-docker-data/binlog.index
 mysql-docker-data/mysql.sock
@@ -1297,6 +1297,5 @@ actions/__pycache__/actions.cpython-39.pyc
 actions/__pycache__
 tests/test_stories.yml
 results
-credentials.yml
 .rasa
 .DS_Store
