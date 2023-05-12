@@ -2,9 +2,7 @@ language: zh
  
 pipeline:
   - name: SpacyNLP
-    #model: "zh_core_web_trf"    # accuracy model but train slow
     model: "zh_core_web_sm"   # efficient model train fast but less accurate
-    # model: "zh_core_web_md"
   - name: "JiebaTokenizer"
     dictionary_path: "/data/dict.txt"
     # Flag to check whether to split intents
@@ -48,7 +46,6 @@ pipeline:
     #For list of dimensions: https://github.com/facebook/duckling
     locale: "zh_HK"
     timezone: "Asia/Hong_Kong"
-    # timezone: "HKT"
     timeout : 3
  
  
